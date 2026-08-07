@@ -1,0 +1,14 @@
+{
+  "soja": {
+    "valor": "--",
+    "unidade": "R$/saca",
+    "variacao": null,
+    "atualizado_em": null
+  },
+  "boi_gordo": {
+    "valor": "--",
+    "unidade": "R$/@",
+    "variacao": null,
+    "atualizado_em": null
+  }
+}

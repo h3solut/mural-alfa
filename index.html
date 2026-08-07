@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mural ALFA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <img src="assets/logo.png" alt="ALFA Assessoria Contábil" class="logo">
+
+    <div class="indicators" id="indicators">
+      <div class="indicator" id="ind-usd">
+        <span class="label">Dólar</span>
+        <span class="value">--</span>
+      </div>
+      <div class="indicator" id="ind-eur">
+        <span class="label">Euro</span>
+        <span class="value">--</span>
+      </div>
+      <div class="indicator" id="ind-soja">
+        <span class="label">Soja</span>
+        <span class="value">--</span>
+      </div>
+      <div class="indicator" id="ind-boi">
+        <span class="label">Boi Gordo</span>
+        <span class="value">--</span>
+      </div>
+      <div class="indicator" id="ind-clima">
+        <span class="label">Jataí-GO</span>
+        <span class="value">--</span>
+      </div>
+    </div>
+
+    <div class="clock" id="clock">--:--</div>
+  </header>
+
+  <main class="video-wrap">
+    <div id="yt-player"></div>
+    <button id="cc-toggle" class="cc-btn" title="Ligar/desligar legenda" aria-label="Ligar/desligar legenda">CC</button>
+  </main>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>

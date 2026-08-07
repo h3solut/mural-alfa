@@ -1,0 +1,134 @@
+:root {
+  --azul-alfa: #2E4BA6;
+  --cinza-alfa: #979593;
+  --bg-video: #0B0D10;
+  --topbar-h: 9.5vh;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--bg-video);
+  font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.topbar {
+  height: var(--topbar-h);
+  min-height: 64px;
+  width: 100%;
+  background: #FFFFFF;
+  border-bottom: 4px solid var(--azul-alfa);
+  display: flex;
+  align-items: center;
+  padding: 0 2vw;
+  gap: 2vw;
+}
+
+.logo {
+  height: 60%;
+  max-height: 56px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.indicators {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1vw;
+  overflow: hidden;
+}
+
+.indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.15;
+  min-width: 0;
+}
+
+.indicator .label {
+  font-size: clamp(11px, 1vw, 15px);
+  color: var(--cinza-alfa);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.indicator .value {
+  font-size: clamp(16px, 1.6vw, 26px);
+  color: var(--azul-alfa);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.indicator .value.up::after { content: " ▲"; color: #1E8E3E; font-size: 0.7em; }
+.indicator .value.down::after { content: " ▼"; color: #C5221F; font-size: 0.7em; }
+
+.clock {
+  font-size: clamp(16px, 1.6vw, 26px);
+  font-weight: 700;
+  color: var(--azul-alfa);
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.video-wrap {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - var(--topbar-h));
+  min-height: calc(100vh - 64px);
+  background: var(--bg-video);
+}
+
+#yt-player {
+  width: 100%;
+  height: 100%;
+}
+
+#yt-player iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Botão discreto de legenda: baixo contraste em repouso, some quase por completo,
+   fica bem visível ao passar o mouse (a box tem mouse ligado) */
+.cc-btn {
+  position: absolute;
+  bottom: 18px;
+  right: 18px;
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: rgba(0,0,0,0.35);
+  color: rgba(255,255,255,0.55);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  backdrop-filter: blur(2px);
+  transition: all 0.15s ease;
+  z-index: 10;
+}
+
+.cc-btn:hover {
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  border-color: rgba(255,255,255,0.6);
+}
+
+.cc-btn.active {
+  background: var(--azul-alfa);
+  color: #fff;
+  border-color: var(--azul-alfa);
+  opacity: 0.9;
+}
