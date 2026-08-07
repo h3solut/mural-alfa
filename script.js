@@ -4,8 +4,12 @@
    =================================================================== */
 
 const CONFIG = {
-  // Canal do YouTube que vai passar 24h no mural (ID do canal, não o @handle)
-  youtubeChannelId: "UCP391YRAjSOdM_bwievgaZA", // Jovem Pan News
+  // ID do VÍDEO específico que está ao vivo agora (não é o ID do canal).
+  // Pra pegar um novo: abra youtube.com/@jovempannews/live, clique em
+  // "Compartilhar" embaixo do vídeo, e copie os 11 caracteres depois de
+  // youtu.be/ no link gerado. Troque só o valor abaixo quando a
+  // transmissão atual expirar.
+  youtubeVideoId: "1GelCtns9Pg", // Jovem Pan News — atualizado em 07/08/2026
 
   // Coordenadas usadas na previsão do tempo (Jataí-GO)
   weather: { lat: -17.8825, lon: -51.7139, nome: "Jataí-GO" },
@@ -92,12 +96,12 @@ function preencherIndicador(id, texto, variacao) {
   }
 }
 
-/* ---------- Player do YouTube (live do canal) + toggle de legenda ----------
-   Usamos o endpoint "live_stream" com o ID do canal: ele sempre toca a
-   transmissão ao vivo atual, sem precisar atualizar o ID do vídeo manualmente.
-   O controle de legenda é feito via postMessage para a Player API do YouTube
-   (funciona mesmo sem usar o wrapper oficial YT.Player, desde que o iframe
-   tenha enablejsapi=1). */
+/* ---------- Player do YouTube (vídeo ao vivo específico) + toggle de legenda ----------
+   Apontamos direto pro ID do vídeo em CONFIG.youtubeVideoId (mais confiável
+   pra embed do que o atalho de canal "live_stream", que deu erro 153 nesse
+   canal). O controle de legenda é feito via postMessage para a Player API
+   do YouTube (funciona mesmo sem usar o wrapper oficial YT.Player, desde
+   que o iframe tenha enablejsapi=1). */
 let legendaLigada = false;
 
 function montarPlayer() {
@@ -105,8 +109,8 @@ function montarPlayer() {
   const iframe = document.createElement("iframe");
   iframe.id = "yt-iframe";
   iframe.src =
-    `https://www.youtube.com/embed/live_stream?channel=${CONFIG.youtubeChannelId}` +
-    `&autoplay=1&mute=0&controls=0&modestbranding=1&rel=0&playsinline=1` +
+    `https://www.youtube.com/embed/${CONFIG.youtubeVideoId}` +
+    `?autoplay=1&mute=0&controls=0&modestbranding=1&rel=0&playsinline=1` +
     `&enablejsapi=1&cc_load_policy=0&origin=${encodeURIComponent(location.origin)}`;
   iframe.allow = "autoplay; encrypted-media";
   iframe.frameBorder = "0";
