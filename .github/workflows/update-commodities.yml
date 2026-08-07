@@ -1,0 +1,35 @@
+name: Atualizar cotações CEPEA
+
+on:
+  schedule:
+    - cron: "15 11-23 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: pip install requests beautifulsoup4
+
+      - name: Rodar o scraper
+        run: python3 scripts/scrape_cepea.py
+
+      - name: Commitar alterações (se houver)
+        run: |
+          git config user.name "mural-alfa-bot"
+          git config user.email "actions@github.com"
+          git add data/commodities.json
+          git diff --cached --quiet || git commit -m "Atualiza cotações CEPEA"
+          git push
