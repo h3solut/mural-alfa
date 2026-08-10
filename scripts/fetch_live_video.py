@@ -39,15 +39,24 @@ def extrair_video_id(html: str, final_url: str):
     if m:
         return m.group(1)
 
-    # 2) Tag <link rel="canonical" href="https://www.youtube.com/watch?v=ID">
+    # 2) "videoDetails":{"videoId":"ID" — é o campo que identifica o vídeo
+    #    PRINCIPAL que está carregado na página (não recomendações/sugestões)
+    m = re.search(r'"videoDetails":\{"videoId":"([A-Za-z0-9_-]{11})"', html)
+    if m:
+        return m.group(1)
+
+    # 3) Tag <link rel="canonical" href="...watch?v=ID">, aceitando qualquer
+    #    ordem de atributos dentro da tag
     m = re.search(
-        r'<link rel="canonical" href="https://www\.youtube\.com/watch\?v=([A-Za-z0-9_-]{11})"',
+        r'<link[^>]+rel="canonical"[^>]+href="[^"]*watch\?v=([A-Za-z0-9_-]{11})',
         html,
     )
     if m:
         return m.group(1)
 
-    # 3) Fallback: primeiro "videoId":"ID" no JSON embutido na página
+    # 4) Último recurso: primeiro "videoId":"ID" solto no HTML. Menos
+    #    confiável (pode pegar vídeo de recomendação), só usado se nada
+    #    acima funcionou.
     m = re.search(r'"videoId":"([A-Za-z0-9_-]{11})"', html)
     if m:
         return m.group(1)
