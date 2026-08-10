@@ -34,6 +34,14 @@ VIDEO_ID_RE = re.compile(r"[A-Za-z0-9_-]{11}")
 
 
 def extrair_video_id(html: str, final_url: str):
+    # Verificação crítica: só aceitamos o vídeo se ele estiver REALMENTE ao
+    # vivo agora. Quando não há transmissão ativa no momento, a página do
+    # canal às vezes destaca uma pré-estreia agendada ("Ao vivo em X
+    # minutos") em vez de uma live de verdade — sem essa checagem, o mural
+    # ficaria preso numa contagem regressiva.
+    if '"isLiveNow":true' not in html:
+        return None
+
     # 1) Se o redirecionamento já levou pra uma URL /watch?v=..., usa ela
     m = re.search(r"[?&]v=([A-Za-z0-9_-]{11})", final_url)
     if m:
