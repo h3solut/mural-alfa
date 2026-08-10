@@ -33,13 +33,13 @@ tickClock();
 async function atualizarBitcoin() {
   try {
     const res = await fetch(
-      "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=brl&include_24hr_change=true"
+      "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true"
     );
     const data = await res.json();
-    const preco = data.bitcoin.brl;
-    const variacao = data.bitcoin.brl_24h_change;
-    const precoFormatado = preco.toLocaleString("pt-BR", { maximumFractionDigits: 0 });
-    preencherIndicador("ind-btc", `R$ ${precoFormatado}`, variacao);
+    const preco = data.bitcoin.usd;
+    const variacao = data.bitcoin.usd_24h_change;
+    const precoFormatado = preco.toLocaleString("en-US", { maximumFractionDigits: 0 });
+    preencherIndicador("ind-btc", `$ ${precoFormatado}`, variacao);
   } catch (e) {
     console.error("Erro ao buscar Bitcoin:", e);
   }
