@@ -4,12 +4,9 @@
    =================================================================== */
 
 const CONFIG = {
-  // ID do VÍDEO específico que está ao vivo agora (não é o ID do canal).
-  // Pra pegar um novo: abra youtube.com/@jovempannews/live, clique em
-  // "Compartilhar" embaixo do vídeo, e copie os 11 caracteres depois de
-  // youtu.be/ no link gerado. Troque só o valor abaixo quando a
-  // transmissão atual expirar.
-  youtubeVideoId: "1GelCtns9Pg", // Jovem Pan News — atualizado em 07/08/2026
+  // Fallback caso o robô ainda não tenha rodado ou dê erro pontual.
+  // O ID de verdade é buscado dinamicamente em data/youtube-live.json.
+  youtubeVideoIdFallback: "1GelCtns9Pg",
 
   // Coordenadas usadas na previsão do tempo (Jataí-GO)
   weather: { lat: -17.8825, lon: -51.7139, nome: "Jataí-GO" },
@@ -18,7 +15,8 @@ const CONFIG = {
   refresh: {
     cambio: 60 * 1000,          // 1 min
     clima: 15 * 60 * 1000,      // 15 min
-    commodities: 30 * 60 * 1000 // 30 min (o arquivo em si só muda a cada hora)
+    commodities: 30 * 60 * 1000,// 30 min (o arquivo em si só muda a cada hora)
+    youtubeLive: 5 * 60 * 1000  // 5 min (o arquivo em si só muda a cada 15 min)
   }
 };
 
@@ -96,25 +94,49 @@ function preencherIndicador(id, texto, variacao) {
   }
 }
 
-/* ---------- Player do YouTube (vídeo ao vivo específico) + toggle de legenda ----------
-   Apontamos direto pro ID do vídeo em CONFIG.youtubeVideoId (mais confiável
-   pra embed do que o atalho de canal "live_stream", que deu erro 153 nesse
-   canal). O controle de legenda é feito via postMessage para a Player API
-   do YouTube (funciona mesmo sem usar o wrapper oficial YT.Player, desde
-   que o iframe tenha enablejsapi=1). */
+/* ---------- Player do YouTube (vídeo ao vivo, atualizado automaticamente) + legenda ----------
+   O ID do vídeo vem de data/youtube-live.json, atualizado a cada 15 min por
+   um GitHub Action que descobre qual é a transmissão ao vivo atual do canal.
+   Isso evita ter que trocar o ID manualmente sempre que o canal encerra um
+   vídeo e começa outro (o que acontece diariamente). O controle de legenda
+   é feito via postMessage pra Player API do YouTube (funciona mesmo sem o
+   wrapper oficial YT.Player, desde que o iframe tenha enablejsapi=1). */
 let legendaLigada = false;
+let videoIdAtual = null;
 
-function montarPlayer() {
+async function obterVideoIdAoVivo() {
+  try {
+    const res = await fetch(`data/youtube-live.json?t=${Date.now()}`);
+    const data = await res.json();
+    if (data.videoId) return data.videoId;
+  } catch (e) {
+    console.error("Erro ao buscar video ao vivo:", e);
+  }
+  return CONFIG.youtubeVideoIdFallback;
+}
+
+function montarPlayer(videoId) {
+  videoIdAtual = videoId;
   const wrap = document.getElementById("yt-player");
+  wrap.innerHTML = ""; // remove iframe anterior, se houver
   const iframe = document.createElement("iframe");
   iframe.id = "yt-iframe";
   iframe.src =
-    `https://www.youtube.com/embed/${CONFIG.youtubeVideoId}` +
+    `https://www.youtube.com/embed/${videoId}` +
     `?autoplay=1&mute=0&controls=0&modestbranding=1&rel=0&playsinline=1` +
     `&enablejsapi=1&cc_load_policy=0&origin=${encodeURIComponent(location.origin)}`;
   iframe.allow = "autoplay; encrypted-media";
   iframe.frameBorder = "0";
   wrap.appendChild(iframe);
+  legendaLigada = false;
+  document.getElementById("cc-toggle").classList.remove("active");
+}
+
+async function checarTrocaDeVideo() {
+  const novoId = await obterVideoIdAoVivo();
+  if (novoId && novoId !== videoIdAtual) {
+    montarPlayer(novoId);
+  }
 }
 
 function enviarComandoYT(func, args = []) {
@@ -138,7 +160,7 @@ function toggleLegenda() {
 document.getElementById("cc-toggle").addEventListener("click", toggleLegenda);
 
 /* ---------- Inicialização ---------- */
-montarPlayer();
+obterVideoIdAoVivo().then(montarPlayer);
 atualizarCambio();
 atualizarClima();
 atualizarCommodities();
@@ -146,6 +168,7 @@ atualizarCommodities();
 setInterval(atualizarCambio, CONFIG.refresh.cambio);
 setInterval(atualizarClima, CONFIG.refresh.clima);
 setInterval(atualizarCommodities, CONFIG.refresh.commodities);
+setInterval(checarTrocaDeVideo, CONFIG.refresh.youtubeLive);
 
 /* Recarrega a página inteira uma vez por dia (às 5h) pra evitar
    qualquer vazamento de memória do navegador em execução 24/7 */
