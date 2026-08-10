@@ -49,29 +49,51 @@ def extrair_yt_initial_data(html: str):
         return None
 
 
-def achar_primeiro_video_ao_vivo(node):
+def achar_primeiro_video_ao_vivo(node, debug_info=None):
     """
     Percorre recursivamente o JSON da página procurando o primeiro
-    'videoRenderer' que tenha o selo de 'AO VIVO' (thumbnailOverlayTimeStatusRenderer
-    com style LIVE). Retorna o videoId ou None.
+    'videoRenderer' que tenha o selo de 'AO VIVO'. Aceita tanto o selo em
+    thumbnailOverlays (style LIVE) quanto o badge separado
+    (BADGE_STYLE_TYPE_LIVE_NOW), já que o YouTube usa formatos diferentes
+    dependendo da versão da página.
+
+    Se debug_info (uma lista) for passada, cada videoRenderer encontrado é
+    registrado nela pra diagnóstico, mesmo que não seja ao vivo.
     """
     if isinstance(node, dict):
         if "videoRenderer" in node:
             vr = node["videoRenderer"]
-            overlays = vr.get("thumbnailOverlays", [])
-            for overlay in overlays:
+            titulo = ""
+            try:
+                titulo = vr["title"]["runs"][0]["text"]
+            except (KeyError, IndexError, TypeError):
+                pass
+
+            eh_live = False
+
+            for overlay in vr.get("thumbnailOverlays", []):
                 status = overlay.get("thumbnailOverlayTimeStatusRenderer")
                 if status and status.get("style") == "LIVE":
-                    video_id = vr.get("videoId")
-                    if video_id:
-                        return video_id
+                    eh_live = True
+
+            for badge in vr.get("badges", []):
+                estilo = badge.get("metadataBadgeRenderer", {}).get("style", "")
+                if "LIVE" in estilo:
+                    eh_live = True
+
+            if debug_info is not None:
+                debug_info.append({"titulo": titulo, "videoId": vr.get("videoId"), "eh_live": eh_live})
+
+            if eh_live and vr.get("videoId"):
+                return vr["videoId"]
+
         for value in node.values():
-            achado = achar_primeiro_video_ao_vivo(value)
+            achado = achar_primeiro_video_ao_vivo(value, debug_info)
             if achado:
                 return achado
     elif isinstance(node, list):
         for item in node:
-            achado = achar_primeiro_video_ao_vivo(item)
+            achado = achar_primeiro_video_ao_vivo(item, debug_info)
             if achado:
                 return achado
     return None
@@ -82,7 +104,17 @@ def main():
     resp.raise_for_status()
 
     dados = extrair_yt_initial_data(resp.text)
-    video_id = achar_primeiro_video_ao_vivo(dados) if dados else None
+
+    if dados is None:
+        print("[debug] não consegui extrair o bloco ytInitialData do HTML da página.")
+        video_id = None
+    else:
+        debug_info = []
+        video_id = achar_primeiro_video_ao_vivo(dados, debug_info)
+        if not video_id:
+            print(f"[debug] ytInitialData extraído OK. {len(debug_info)} vídeo(s) encontrados na página:")
+            for item in debug_info[:10]:
+                print(f"  - videoId={item['videoId']} eh_live={item['eh_live']} titulo={item['titulo']!r}")
 
     if DATA_PATH.exists():
         atual = json.loads(DATA_PATH.read_text(encoding="utf-8"))
