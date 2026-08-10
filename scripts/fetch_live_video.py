@@ -4,10 +4,13 @@ Descobre o ID do vídeo que está ao vivo AGORA no canal configurado e
 atualiza data/youtube-live.json. Rodado automaticamente pelo GitHub Action
 em .github/workflows/update-youtube-live.yml (a cada 15 min).
 
-Como funciona: a página https://www.youtube.com/@handle/live redireciona
-(ou já entrega no HTML) uma tag <link rel="canonical" href="...watch?v=ID">
-apontando pro vídeo ao vivo atual — não precisamos executar JavaScript
-pra pegar isso, só ler o HTML puro.
+Como funciona: usamos a aba "Streams" do canal
+(youtube.com/@handle/streams), que é onde o YouTube separa transmissões
+ao vivo de vídeos normais e de pré-estreias agendadas — diferente da
+página /live, que às vezes mistura os dois e nos fez pegar uma
+pré-estreia por engano. Extraímos o bloco de dados "ytInitialData" que
+vem embutido no HTML da página (sem precisar executar JavaScript) e
+procuramos o primeiro vídeo com o selo "AO VIVO".
 
 Rodar manualmente:
     python3 scripts/fetch_live_video.py
@@ -15,68 +18,71 @@ Rodar manualmente:
 
 import json
 import re
-import sys
 from pathlib import Path
+from datetime import datetime, timezone
 
 import requests
 
 CANAL_HANDLE = "jovempannews"  # sem o @
-LIVE_URL = f"https://www.youtube.com/@{CANAL_HANDLE}/live"
+STREAMS_URL = f"https://www.youtube.com/@{CANAL_HANDLE}/streams"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
+                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
+    "Accept-Language": "pt-BR,pt;q=0.9",
 }
 
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "youtube-live.json"
 
-VIDEO_ID_RE = re.compile(r"[A-Za-z0-9_-]{11}")
 
-
-def extrair_video_id(html: str, final_url: str):
-    # Verificação crítica: só aceitamos o vídeo se ele estiver REALMENTE ao
-    # vivo agora. Quando não há transmissão ativa no momento, a página do
-    # canal às vezes destaca uma pré-estreia agendada ("Ao vivo em X
-    # minutos") em vez de uma live de verdade — sem essa checagem, o mural
-    # ficaria preso numa contagem regressiva.
-    if '"isLiveNow":true' not in html:
+def extrair_yt_initial_data(html: str):
+    """Pega o bloco JSON 'ytInitialData' embutido no HTML da página."""
+    m = re.search(r"var ytInitialData\s*=\s*(\{.*?\});</script>", html, re.DOTALL)
+    if not m:
+        # Formato alternativo, usado em algumas versões da página
+        m = re.search(r'ytInitialData"\]\s*=\s*(\{.*?\});', html, re.DOTALL)
+    if not m:
+        return None
+    try:
+        return json.loads(m.group(1))
+    except json.JSONDecodeError:
         return None
 
-    # 1) Se o redirecionamento já levou pra uma URL /watch?v=..., usa ela
-    m = re.search(r"[?&]v=([A-Za-z0-9_-]{11})", final_url)
-    if m:
-        return m.group(1)
 
-    # 2) "videoDetails":{"videoId":"ID" — é o campo que identifica o vídeo
-    #    PRINCIPAL que está carregado na página (não recomendações/sugestões)
-    m = re.search(r'"videoDetails":\{"videoId":"([A-Za-z0-9_-]{11})"', html)
-    if m:
-        return m.group(1)
-
-    # 3) Tag <link rel="canonical" href="...watch?v=ID">, aceitando qualquer
-    #    ordem de atributos dentro da tag
-    m = re.search(
-        r'<link[^>]+rel="canonical"[^>]+href="[^"]*watch\?v=([A-Za-z0-9_-]{11})',
-        html,
-    )
-    if m:
-        return m.group(1)
-
-    # 4) Último recurso: primeiro "videoId":"ID" solto no HTML. Menos
-    #    confiável (pode pegar vídeo de recomendação), só usado se nada
-    #    acima funcionou.
-    m = re.search(r'"videoId":"([A-Za-z0-9_-]{11})"', html)
-    if m:
-        return m.group(1)
-
+def achar_primeiro_video_ao_vivo(node):
+    """
+    Percorre recursivamente o JSON da página procurando o primeiro
+    'videoRenderer' que tenha o selo de 'AO VIVO' (thumbnailOverlayTimeStatusRenderer
+    com style LIVE). Retorna o videoId ou None.
+    """
+    if isinstance(node, dict):
+        if "videoRenderer" in node:
+            vr = node["videoRenderer"]
+            overlays = vr.get("thumbnailOverlays", [])
+            for overlay in overlays:
+                status = overlay.get("thumbnailOverlayTimeStatusRenderer")
+                if status and status.get("style") == "LIVE":
+                    video_id = vr.get("videoId")
+                    if video_id:
+                        return video_id
+        for value in node.values():
+            achado = achar_primeiro_video_ao_vivo(value)
+            if achado:
+                return achado
+    elif isinstance(node, list):
+        for item in node:
+            achado = achar_primeiro_video_ao_vivo(item)
+            if achado:
+                return achado
     return None
 
 
 def main():
-    resp = requests.get(LIVE_URL, headers=HEADERS, timeout=20, allow_redirects=True)
+    resp = requests.get(STREAMS_URL, headers=HEADERS, timeout=20)
     resp.raise_for_status()
 
-    video_id = extrair_video_id(resp.text, resp.url)
+    dados = extrair_yt_initial_data(resp.text)
+    video_id = achar_primeiro_video_ao_vivo(dados) if dados else None
 
     if DATA_PATH.exists():
         atual = json.loads(DATA_PATH.read_text(encoding="utf-8"))
@@ -84,17 +90,15 @@ def main():
         atual = {}
 
     if video_id:
-        from datetime import datetime, timezone
         atual["videoId"] = video_id
         atual["atualizado_em"] = datetime.now(timezone.utc).isoformat()
         DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
         DATA_PATH.write_text(json.dumps(atual, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"[ok] video ao vivo: {video_id}")
     else:
-        # Não sobrescreve o ID anterior se não achou nada agora
-        # (evita derrubar o mural por uma falha pontual do canal estar offline)
-        print("[erro] não encontrei um videoId na página. Mantendo o valor anterior.", file=sys.stderr)
-        sys.exit(1)
+        # Não sobrescreve o ID anterior se não achou nada agora. Situação
+        # normal quando o canal está momentaneamente sem transmissão ativa.
+        print("[info] nenhuma transmissão com selo AO VIVO encontrada agora. Mantendo o valor anterior.")
 
 
 if __name__ == "__main__":
