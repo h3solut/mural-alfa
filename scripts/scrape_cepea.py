@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Atualiza data/commodities.json com os indicadores mais recentes de
-Soja (CEPEA/ESALQ - Paraná) e Boi Gordo (CEPEA/ESALQ) da CEPEA/ESALQ.
+Soja (CEPEA/ESALQ - Paraná), Milho (CEPEA/ESALQ) e Boi Gordo (CEPEA/ESALQ).
 
 Rodado automaticamente pelo GitHub Action em
 .github/workflows/update-commodities.yml (uma vez por hora).
@@ -25,11 +25,13 @@ import requests
 
 URLS = {
     "soja": "https://www.noticiasagricolas.com.br/cotacoes/soja/indicador-cepea-esalq-soja-parana",
+    "milho": "https://www.noticiasagricolas.com.br/cotacoes/milho/indicador-cepea-esalq-milho",
     "boi_gordo": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-indicador-esalq-bmf",
 }
 
 UNIDADES = {
     "soja": "R$/saca",
+    "milho": "R$/saca",
     "boi_gordo": "R$/@",
 }
 
