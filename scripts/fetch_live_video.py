@@ -4,117 +4,64 @@ Descobre o ID do vídeo que está ao vivo AGORA no canal configurado e
 atualiza data/youtube-live.json. Rodado automaticamente pelo GitHub Action
 em .github/workflows/update-youtube-live.yml (a cada 15 min).
 
-Como funciona: usamos a aba "Streams" do canal
-(youtube.com/@handle/streams), que é onde o YouTube separa transmissões
-ao vivo de vídeos normais e de pré-estreias agendadas — diferente da
-página /live, que às vezes mistura os dois e nos fez pegar uma
-pré-estreia por engano. Extraímos o bloco de dados "ytInitialData" que
-vem embutido no HTML da página (sem precisar executar JavaScript) e
-procuramos o primeiro vídeo com o selo "AO VIVO".
+Como funciona: usa a biblioteca yt-dlp (mantida ativamente pela
+comunidade, especializada em lidar com as mudanças constantes da
+estrutura interna do YouTube) pra listar a aba "Streams" do canal e
+identificar qual vídeo está com status "ao vivo" agora. Isso é bem mais
+confiável do que tentar interpretar o HTML/JSON da página na mão — essa
+abordagem manual já falhou algumas vezes porque o YouTube muda esses
+detalhes sem aviso.
 
 Rodar manualmente:
     python3 scripts/fetch_live_video.py
 """
 
 import json
-import re
 from pathlib import Path
 from datetime import datetime, timezone
 
-import requests
+import yt_dlp
 
 CANAL_HANDLE = "jovempannews"  # sem o @
 STREAMS_URL = f"https://www.youtube.com/@{CANAL_HANDLE}/streams"
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
-    "Accept-Language": "pt-BR,pt;q=0.9",
-}
-
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "youtube-live.json"
 
 
-def extrair_yt_initial_data(html: str):
-    """Pega o bloco JSON 'ytInitialData' embutido no HTML da página."""
-    m = re.search(r"var ytInitialData\s*=\s*(\{.*?\});</script>", html, re.DOTALL)
-    if not m:
-        # Formato alternativo, usado em algumas versões da página
-        m = re.search(r'ytInitialData"\]\s*=\s*(\{.*?\});', html, re.DOTALL)
-    if not m:
-        return None
-    try:
-        return json.loads(m.group(1))
-    except json.JSONDecodeError:
-        return None
-
-
-def achar_primeiro_video_ao_vivo(node, debug_info=None):
+def achar_video_ao_vivo():
     """
-    Percorre recursivamente o JSON da página procurando o primeiro
-    'videoRenderer' que tenha o selo de 'AO VIVO'. Aceita tanto o selo em
-    thumbnailOverlays (style LIVE) quanto o badge separado
-    (BADGE_STYLE_TYPE_LIVE_NOW), já que o YouTube usa formatos diferentes
-    dependendo da versão da página.
-
-    Se debug_info (uma lista) for passada, cada videoRenderer encontrado é
-    registrado nela pra diagnóstico, mesmo que não seja ao vivo.
+    Usa extract_flat pra listar rapidamente os vídeos da aba Streams
+    (sem baixar cada um por completo) e retorna o ID do primeiro que
+    estiver com live_status == 'is_live'.
     """
-    if isinstance(node, dict):
-        if "videoRenderer" in node:
-            vr = node["videoRenderer"]
-            titulo = ""
-            try:
-                titulo = vr["title"]["runs"][0]["text"]
-            except (KeyError, IndexError, TypeError):
-                pass
+    opcoes = {
+        "extract_flat": True,
+        "quiet": True,
+        "no_warnings": True,
+        "playlistend": 15,  # não precisa varrer o canal inteiro
+    }
+    with yt_dlp.YoutubeDL(opcoes) as ydl:
+        info = ydl.extract_info(STREAMS_URL, download=False)
 
-            eh_live = False
+    entradas = info.get("entries", []) if info else []
+    debug_info = []
+    for entrada in entradas:
+        if not entrada:
+            continue
+        status = entrada.get("live_status")
+        debug_info.append({
+            "videoId": entrada.get("id"),
+            "titulo": entrada.get("title"),
+            "live_status": status,
+        })
+        if status == "is_live":
+            return entrada.get("id"), debug_info
 
-            for overlay in vr.get("thumbnailOverlays", []):
-                status = overlay.get("thumbnailOverlayTimeStatusRenderer")
-                if status and status.get("style") == "LIVE":
-                    eh_live = True
-
-            for badge in vr.get("badges", []):
-                estilo = badge.get("metadataBadgeRenderer", {}).get("style", "")
-                if "LIVE" in estilo:
-                    eh_live = True
-
-            if debug_info is not None:
-                debug_info.append({"titulo": titulo, "videoId": vr.get("videoId"), "eh_live": eh_live})
-
-            if eh_live and vr.get("videoId"):
-                return vr["videoId"]
-
-        for value in node.values():
-            achado = achar_primeiro_video_ao_vivo(value, debug_info)
-            if achado:
-                return achado
-    elif isinstance(node, list):
-        for item in node:
-            achado = achar_primeiro_video_ao_vivo(item, debug_info)
-            if achado:
-                return achado
-    return None
+    return None, debug_info
 
 
 def main():
-    resp = requests.get(STREAMS_URL, headers=HEADERS, timeout=20)
-    resp.raise_for_status()
-
-    dados = extrair_yt_initial_data(resp.text)
-
-    if dados is None:
-        print("[debug] não consegui extrair o bloco ytInitialData do HTML da página.")
-        video_id = None
-    else:
-        debug_info = []
-        video_id = achar_primeiro_video_ao_vivo(dados, debug_info)
-        if not video_id:
-            print(f"[debug] ytInitialData extraído OK. {len(debug_info)} vídeo(s) encontrados na página:")
-            for item in debug_info[:10]:
-                print(f"  - videoId={item['videoId']} eh_live={item['eh_live']} titulo={item['titulo']!r}")
+    video_id, debug_info = achar_video_ao_vivo()
 
     if DATA_PATH.exists():
         atual = json.loads(DATA_PATH.read_text(encoding="utf-8"))
@@ -128,9 +75,12 @@ def main():
         DATA_PATH.write_text(json.dumps(atual, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"[ok] video ao vivo: {video_id}")
     else:
+        print(f"[debug] {len(debug_info)} vídeo(s) verificados, nenhum com live_status == 'is_live':")
+        for item in debug_info[:10]:
+            print(f"  - videoId={item['videoId']} live_status={item['live_status']} titulo={item['titulo']!r}")
         # Não sobrescreve o ID anterior se não achou nada agora. Situação
         # normal quando o canal está momentaneamente sem transmissão ativa.
-        print("[info] nenhuma transmissão com selo AO VIVO encontrada agora. Mantendo o valor anterior.")
+        print("[info] mantendo o valor anterior.")
 
 
 if __name__ == "__main__":
