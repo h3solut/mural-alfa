@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 """
 Atualiza data/commodities.json com os indicadores mais recentes de
-Soja (Paranaguá) e Boi Gordo da CEPEA/ESALQ.
+Soja (CEPEA/ESALQ - Paraná) e Boi Gordo (CEPEA/ESALQ) da CEPEA/ESALQ.
 
-Rodado automaticamente pelo GitHub Action em .github/workflows/update-commodities.yml
-(uma vez por hora). Pode também ser rodado manualmente:
+Rodado automaticamente pelo GitHub Action em
+.github/workflows/update-commodities.yml (uma vez por hora).
 
+Importante: o site oficial da CEPEA (cepea.org.br) bloqueia requisições
+vindas de servidores de nuvem como o GitHub Actions (erro 403). Por isso
+buscamos os mesmos dados numa fonte que os republica: o Notícias
+Agrícolas, portal de notícias do agronegócio que cita a CEPEA/ESALQ como
+fonte em suas páginas de cotação.
+
+Rodar manualmente:
     python3 scripts/scrape_cepea.py
-
-Importante: a CEPEA não tem API oficial pública, então isto é um scraper
-de HTML. Se a CEPEA mudar o layout do site, este script pode parar de
-achar a tabela certa — ver a função `extrair_indicador` abaixo, que é o
-único ponto que provavelmente vai precisar de ajuste no futuro.
 """
 
 import json
@@ -20,11 +22,10 @@ import sys
 from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup
 
 URLS = {
-    "soja": "https://cepea.org.br/br/indicador/soja.aspx",
-    "boi_gordo": "https://cepea.org.br/br/indicador/boi-gordo.aspx",
+    "soja": "https://www.noticiasagricolas.com.br/cotacoes/soja/indicador-cepea-esalq-soja-parana",
+    "boi_gordo": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-gordo-indicador-esalq-bmf",
 }
 
 UNIDADES = {
@@ -35,53 +36,41 @@ UNIDADES = {
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                   "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-    "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Referer": "https://cepea.org.br/br/",
-    "Connection": "keep-alive",
-    "Upgrade-Insecure-Requests": "1",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "pt-BR,pt;q=0.9",
 }
 
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "commodities.json"
 
+# Ex: <td>07/08/2026</td> ... <td>137,33</td> ... <td>-0,12</td>
+# A tabela mais recente é sempre a primeira que aparece na página, então
+# procuramos a primeira linha cuja primeira célula seja uma data.
+LINHA_RE = re.compile(
+    r"(\d{2}/\d{2}/\d{4})\s*</t[dh]>\s*"
+    r"<t[dh][^>]*>\s*([\d.,]+)\s*</t[dh]>\s*"
+    r"<t[dh][^>]*>\s*([+\-]?[\d.,]+)\s*</t[dh]>",
+    re.IGNORECASE,
+)
+
 
 def extrair_indicador(html: str):
-    """
-    Acha a primeira tabela da página cujo cabeçalho contenha 'Valor R$'
-    (é assim que a CEPEA nomeia a coluna de preço em todos os indicadores)
-    e retorna a linha mais recente (primeira linha de dados).
-    """
-    soup = BeautifulSoup(html, "html.parser")
-
-    for table in soup.find_all("table"):
-        header_text = table.get_text(" ", strip=True).lower()
-        if "valor r$" not in header_text:
-            continue
-
-        rows = table.find_all("tr")
-        for row in rows:
-            cols = [c.get_text(strip=True) for c in row.find_all(["td", "th"])]
-            if len(cols) < 2:
-                continue
-            # A primeira linha de dados começa com uma data dd/mm/aaaa
-            if re.match(r"^\d{2}/\d{2}/\d{4}$", cols[0]):
-                data, valor = cols[0], cols[1]
-                var_dia = cols[2] if len(cols) > 2 else None
-                return {
-                    "data_referencia": data,
-                    "valor": valor,
-                    "variacao_dia_texto": var_dia,
-                }
-    return None
+    m = LINHA_RE.search(html)
+    if not m:
+        return None
+    data_ref, valor, variacao = m.groups()
+    return {
+        "data_referencia": data_ref,
+        "valor": valor,
+        "variacao_texto": variacao,
+    }
 
 
 def variacao_para_numero(texto):
-    """'-0,47%' -> -0.47  |  '0,05%' -> 0.05  |  None se não der pra converter"""
+    """'-0,47' -> -0.47  |  '0,05' -> 0.05  |  None se não der pra converter"""
     if not texto:
         return None
     try:
-        limpo = texto.replace("%", "").replace(",", ".").strip()
-        return float(limpo)
+        return float(texto.replace(",", "."))
     except ValueError:
         return None
 
@@ -93,12 +82,12 @@ def buscar(produto: str):
     if not achado:
         raise RuntimeError(
             f"Não encontrei a tabela de indicador para '{produto}'. "
-            "O layout da CEPEA pode ter mudado — ver extrair_indicador()."
+            "O layout do Notícias Agrícolas pode ter mudado — ver extrair_indicador()."
         )
     return {
         "valor": f"R$ {achado['valor']}",
         "unidade": UNIDADES[produto],
-        "variacao": variacao_para_numero(achado["variacao_dia_texto"]),
+        "variacao": variacao_para_numero(achado["variacao_texto"]),
         "data_referencia": achado["data_referencia"],
     }
 
@@ -123,8 +112,6 @@ def main():
     DATA_PATH.write_text(json.dumps(atual, ensure_ascii=False, indent=2), encoding="utf-8")
 
     if erros:
-        # Não derruba o workflow por um produto só ter falhado,
-        # mas deixa registrado no log do GitHub Action.
         print("Concluído com erros parciais:", "; ".join(erros), file=sys.stderr)
 
 
