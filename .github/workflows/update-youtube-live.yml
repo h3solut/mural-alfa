@@ -21,7 +21,7 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependências
-        run: pip install requests
+        run: pip install yt-dlp
 
       - name: Rodar o script
         run: python3 scripts/fetch_live_video.py
