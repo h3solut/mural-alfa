@@ -188,11 +188,18 @@ function enviarComandoYT(func, args = []) {
 function toggleLegenda() {
   legendaLigada = !legendaLigada;
   if (legendaLigada) {
-    // liga a legenda em português; se o canal não tiver PT disponível,
-    // o YouTube cai automaticamente na legenda padrão da transmissão
-    enviarComandoYT("setOption", ["captions", "track", { languageCode: "pt" }]);
+    // O player precisa carregar o módulo de legendas antes de conseguir
+    // ativá-las — sem isso, o comando setOption é ignorado silenciosamente.
+    enviarComandoYT("loadModule", ["captions"]);
+    // pequena espera pro player processar o loadModule antes do setOption
+    setTimeout(() => {
+      // liga a legenda em português; se o canal não tiver PT disponível,
+      // o YouTube cai automaticamente na legenda padrão da transmissão
+      enviarComandoYT("setOption", ["captions", "track", { languageCode: "pt" }]);
+    }, 300);
   } else {
     enviarComandoYT("setOption", ["captions", "track", {}]);
+    enviarComandoYT("unloadModule", ["captions"]);
   }
   document.getElementById("cc-toggle").classList.toggle("active", legendaLigada);
 }
