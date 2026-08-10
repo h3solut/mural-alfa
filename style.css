@@ -54,19 +54,24 @@ html, body {
 }
 
 .indicator .label {
-  font-size: clamp(11px, 1vw, 15px);
+  font-size: clamp(9px, 0.85vw, 13px);
   color: var(--cinza-alfa);
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   white-space: nowrap;
 }
 
 .indicator .value {
-  font-size: clamp(16px, 1.6vw, 26px);
+  font-size: clamp(13px, 1.3vw, 22px);
   color: var(--azul-alfa);
   font-weight: 700;
   white-space: nowrap;
+}
+
+.weather-icon {
+  font-size: 1.1em;
+  margin-right: 2px;
 }
 
 .indicator .value.up::after { content: " ▲"; color: #1E8E3E; font-size: 0.7em; }
