@@ -29,6 +29,22 @@ function tickClock() {
 setInterval(tickClock, 1000);
 tickClock();
 
+/* ---------- Bitcoin (CoinGecko, sem chave de API) ---------- */
+async function atualizarBitcoin() {
+  try {
+    const res = await fetch(
+      "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=brl&include_24hr_change=true"
+    );
+    const data = await res.json();
+    const preco = data.bitcoin.brl;
+    const variacao = data.bitcoin.brl_24h_change;
+    const precoFormatado = preco.toLocaleString("pt-BR", { maximumFractionDigits: 0 });
+    preencherIndicador("ind-btc", `R$ ${precoFormatado}`, variacao);
+  } catch (e) {
+    console.error("Erro ao buscar Bitcoin:", e);
+  }
+}
+
 /* ---------- Dólar / Euro (AwesomeAPI) ---------- */
 async function atualizarCambio() {
   try {
@@ -45,22 +61,43 @@ async function atualizarCambio() {
 const WMO_DESCRICOES = {
   0: "Céu limpo", 1: "Poucas nuvens", 2: "Parc. nublado", 3: "Nublado",
   45: "Neblina", 48: "Neblina", 51: "Garoa", 53: "Garoa", 55: "Garoa",
-  61: "Chuva fraca", 63: "Chuva", 65: "Chuva forte", 80: "Pancadas",
-  81: "Pancadas", 82: "Pancadas fortes", 95: "Tempestade"
+  61: "Chuva fraca", 63: "Chuva", 65: "Chuva forte", 71: "Neve fraca",
+  73: "Neve", 75: "Neve forte", 80: "Pancadas", 81: "Pancadas",
+  82: "Pancadas fortes", 95: "Tempestade", 96: "Tempestade c/ granizo",
+  99: "Tempestade c/ granizo"
+};
+
+const WMO_ICONES = {
+  0: "☀️", 1: "🌤️", 2: "⛅", 3: "☁️",
+  45: "🌫️", 48: "🌫️", 51: "🌦️", 53: "🌦️", 55: "🌦️",
+  61: "🌧️", 63: "🌧️", 65: "🌧️", 71: "🌨️", 73: "🌨️", 75: "🌨️",
+  80: "🌦️", 81: "🌧️", 82: "🌧️", 95: "⛈️", 96: "⛈️", 99: "⛈️"
 };
 
 async function atualizarClima() {
   try {
     const { lat, lon, nome } = CONFIG.weather;
-    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true`;
+    const url =
+      `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}` +
+      `&current=temperature_2m,relative_humidity_2m,weather_code` +
+      `&daily=uv_index_max&timezone=auto`;
     const res = await fetch(url);
     const data = await res.json();
-    const t = Math.round(data.current_weather.temperature);
-    const desc = WMO_DESCRICOES[data.current_weather.weathercode] || "";
-    const el = document.querySelector("#ind-clima .value");
-    el.textContent = `${t}°C`;
-    el.title = desc;
+
+    const t = Math.round(data.current.temperature_2m);
+    const codigo = data.current.weather_code;
+    const desc = WMO_DESCRICOES[codigo] || "";
+    const icone = WMO_ICONES[codigo] || "🌡️";
+
+    const valorEl = document.querySelector("#ind-clima .value");
+    valorEl.innerHTML = `<span class="weather-icon">${icone}</span> ${t}°C`;
+    valorEl.title = desc;
     document.querySelector("#ind-clima .label").textContent = nome;
+
+    const umidade = Math.round(data.current.relative_humidity_2m);
+    const uv = data.daily?.uv_index_max?.[0];
+    const uvTexto = typeof uv === "number" ? uv.toFixed(1) : "--";
+    document.querySelector("#ind-umidade .value").textContent = `${umidade}% / UV ${uvTexto}`;
   } catch (e) {
     console.error("Erro ao buscar clima:", e);
   }
@@ -75,6 +112,9 @@ async function atualizarCommodities() {
 
     if (data.soja && data.soja.valor !== "--") {
       preencherIndicador("ind-soja", `${data.soja.valor}`, data.soja.variacao);
+    }
+    if (data.milho && data.milho.valor !== "--") {
+      preencherIndicador("ind-milho", `${data.milho.valor}`, data.milho.variacao);
     }
     if (data.boi_gordo && data.boi_gordo.valor !== "--") {
       preencherIndicador("ind-boi", `${data.boi_gordo.valor}`, data.boi_gordo.variacao);
@@ -162,10 +202,12 @@ document.getElementById("cc-toggle").addEventListener("click", toggleLegenda);
 /* ---------- Inicialização ---------- */
 obterVideoIdAoVivo().then(montarPlayer);
 atualizarCambio();
+atualizarBitcoin();
 atualizarClima();
 atualizarCommodities();
 
 setInterval(atualizarCambio, CONFIG.refresh.cambio);
+setInterval(atualizarBitcoin, CONFIG.refresh.cambio);
 setInterval(atualizarClima, CONFIG.refresh.clima);
 setInterval(atualizarCommodities, CONFIG.refresh.commodities);
 setInterval(checarTrocaDeVideo, CONFIG.refresh.youtubeLive);
