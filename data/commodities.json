@@ -10,5 +10,11 @@
     "unidade": "R$/@",
     "variacao": -0.23,
     "data_referencia": "07/08/2026"
+  },
+  "milho": {
+    "valor": "R$ 65,02",
+    "unidade": "R$/saca",
+    "variacao": 0.28,
+    "data_referencia": "07/08/2026"
   }
 }
