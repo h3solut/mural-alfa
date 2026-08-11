@@ -23,30 +23,48 @@ from datetime import datetime, timezone
 import requests
 
 # Lista fixa — revisão manual mensal, sem robô de "descoberta" de ranking.
-ACOES_BR = ["PETR4", "VALE3", "ITUB4", "BBDC4", "ABEV3", "B3SA3", "^BVSP"]
+ACOES_BR = ["PETR4", "VALE3", "ITUB4", "BBDC4", "ABEV3", "B3SA3"]
+INDICE_BR = "^BVSP"
 ACOES_EUA = ["AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "TSLA"]
 
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "stocks.json"
 
 
-def buscar_br(token: str):
-    tickers = ",".join(ACOES_BR)
-    url = f"https://brapi.dev/api/quote/{tickers}"
-    params = {"token": token}
-    resp = requests.get(url, params=params, timeout=20)
+def _consultar_brapi_v2(tickers: str, token: str):
+    url = "https://brapi.dev/api/v2/stocks/quote"
+    headers = {"Authorization": f"Bearer {token}"}
+    resp = requests.get(url, params={"symbols": tickers}, headers=headers, timeout=20)
     resp.raise_for_status()
-    data = resp.json()
+    return resp.json().get("results", [])
 
+
+def buscar_br(token: str):
     resultados = []
-    for item in data.get("results", []):
-        simbolo = item.get("symbol") or item.get("stock")
-        preco = item.get("regularMarketPrice")
-        variacao = item.get("regularMarketChangePercent")
-        if simbolo is None or preco is None:
-            continue
-        # Índice Ibovespa fica com nome mais amigável
-        nome = "IBOVESPA" if simbolo in ("^BVSP", "IBOV") else simbolo
-        resultados.append({"simbolo": nome, "preco": preco, "variacao": variacao})
+
+    # Ações — endpoint v2, header de autenticação (confirmado na doc oficial)
+    try:
+        for item in _consultar_brapi_v2(",".join(ACOES_BR), token):
+            simbolo = item.get("symbol") or item.get("stock")
+            preco = item.get("regularMarketPrice")
+            variacao = item.get("regularMarketChangePercent")
+            if simbolo is None or preco is None:
+                continue
+            resultados.append({"simbolo": simbolo, "preco": preco, "variacao": variacao})
+    except Exception as e:
+        print(f"[erro] B3 (ações): {e}")
+
+    # Índice Ibovespa — chamada separada (mesmo endpoint v2), pra um
+    # eventual problema aqui não derrubar as ações acima.
+    try:
+        for item in _consultar_brapi_v2(INDICE_BR, token):
+            preco = item.get("regularMarketPrice")
+            variacao = item.get("regularMarketChangePercent")
+            if preco is None:
+                continue
+            resultados.append({"simbolo": "IBOVESPA", "preco": preco, "variacao": variacao})
+    except Exception as e:
+        print(f"[erro] B3 (índice Ibovespa): {e}")
+
     return resultados
 
 
