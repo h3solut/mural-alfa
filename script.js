@@ -16,7 +16,7 @@ const CONFIG = {
     cambio: 60 * 1000,          // 1 min
     clima: 15 * 60 * 1000,      // 15 min
     commodities: 30 * 60 * 1000,// 30 min (o arquivo em si só muda a cada hora)
-    youtubeLive: 5 * 60 * 1000  // 5 min (o arquivo em si só muda a cada 15 min)
+    youtubeLive: 5 * 60 * 1000  // 5 min (o arquivo em si só muda a cada 5 min)
   }
 };
 
@@ -135,7 +135,7 @@ function preencherIndicador(id, texto, variacao) {
 }
 
 /* ---------- Player do YouTube (vídeo ao vivo, atualizado automaticamente) + legenda ----------
-   O ID do vídeo vem de data/youtube-live.json, atualizado a cada 15 min por
+   O ID do vídeo vem de data/youtube-live.json, atualizado a cada 5 min por
    um GitHub Action que descobre qual é a transmissão ao vivo atual do canal.
    Isso evita ter que trocar o ID manualmente sempre que o canal encerra um
    vídeo e começa outro (o que acontece diariamente). O controle de legenda
@@ -170,6 +170,24 @@ function montarPlayer(videoId) {
   wrap.appendChild(iframe);
   legendaLigada = false;
   document.getElementById("cc-toggle").classList.remove("active");
+  esconderEspera();
+}
+
+function mostrarEspera() {
+  let overlay = document.getElementById("espera-overlay");
+  if (!overlay) {
+    overlay = document.createElement("div");
+    overlay.id = "espera-overlay";
+    overlay.className = "espera-overlay";
+    overlay.innerHTML = "<span>Aguardando a próxima transmissão…</span>";
+    document.querySelector(".video-wrap").appendChild(overlay);
+  }
+  overlay.style.display = "flex";
+}
+
+function esconderEspera() {
+  const overlay = document.getElementById("espera-overlay");
+  if (overlay) overlay.style.display = "none";
 }
 
 async function checarTrocaDeVideo() {
@@ -178,6 +196,32 @@ async function checarTrocaDeVideo() {
     montarPlayer(novoId);
   }
 }
+
+/* Escuta mensagens do player do YouTube pra saber quando o vídeo termina
+   (evento onStateChange, estado 0 = ENDED) e reage na hora, em vez de
+   esperar até 5 minutos pelo próximo ciclo automático de checagem. */
+window.addEventListener("message", (event) => {
+  if (typeof event.data !== "string") return;
+  let msg;
+  try {
+    msg = JSON.parse(event.data);
+  } catch {
+    return;
+  }
+  if (msg.event === "onStateChange" && msg.info === 0) {
+    mostrarEspera();
+    checarTrocaDeVideo();
+    // continua tentando de 20 em 20s enquanto estiver na tela de espera
+    const tentativas = setInterval(async () => {
+      const overlay = document.getElementById("espera-overlay");
+      if (!overlay || overlay.style.display === "none") {
+        clearInterval(tentativas);
+        return;
+      }
+      await checarTrocaDeVideo();
+    }, 20 * 1000);
+  }
+});
 
 function enviarComandoYT(func, args = []) {
   const iframe = document.getElementById("yt-iframe");
