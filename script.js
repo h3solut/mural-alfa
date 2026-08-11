@@ -16,7 +16,8 @@ const CONFIG = {
     cambio: 60 * 1000,          // 1 min
     clima: 15 * 60 * 1000,      // 15 min
     commodities: 30 * 60 * 1000,// 30 min (o arquivo em si só muda a cada hora)
-    youtubeLive: 5 * 60 * 1000  // 5 min (o arquivo em si só muda a cada 5 min)
+    youtubeLive: 5 * 60 * 1000, // 5 min (o arquivo em si só muda a cada 5 min)
+    news: 10 * 60 * 1000        // 10 min (o arquivo em si só muda a cada 20 min)
   }
 };
 
@@ -134,8 +135,39 @@ function preencherIndicador(id, texto, variacao) {
   }
 }
 
+/* ---------- Faixa de notícias (ticker RSS agregado via GitHub Action) ---------- */
+async function atualizarTicker() {
+  try {
+    const res = await fetch(`data/news.json?t=${Date.now()}`);
+    const data = await res.json();
+    const itens = data.itens || [];
+    if (itens.length === 0) return;
+
+    const track = document.getElementById("ticker-track");
+    // Duplica a lista uma vez pra permitir o loop contínuo (a animação
+    // desloca 50% da largura, que corresponde exatamente a uma cópia).
+    const textoItens = itens.map(i => `<span class="ticker-item">${escapeHTML(i.titulo)} <span style="opacity:.5">— ${escapeHTML(i.fonte)}</span></span>`);
+    track.innerHTML = textoItens.join("") + textoItens.join("");
+
+    // Ajusta a duração da animação proporcionalmente ao tamanho do texto,
+    // pra manter uma velocidade de leitura mais ou menos constante
+    // independente de quantas notícias vierem.
+    const largura = track.scrollWidth / 2;
+    const duracaoSegundos = Math.max(40, largura / 60);
+    track.style.animationDuration = `${duracaoSegundos}s`;
+  } catch (e) {
+    console.error("Erro ao buscar notícias:", e);
+  }
+}
+
+function escapeHTML(texto) {
+  const div = document.createElement("div");
+  div.textContent = texto;
+  return div.innerHTML;
+}
+
 /* ---------- Player do YouTube (vídeo ao vivo, atualizado automaticamente) + legenda ----------
-   O ID do vídeo vem de data/youtube-live.json, atualizado a cada 5 min por
+   O ID do vídeo vem de data/youtube-live.json, atualizado a cada 15 min por
    um GitHub Action que descobre qual é a transmissão ao vivo atual do canal.
    Isso evita ter que trocar o ID manualmente sempre que o canal encerra um
    vídeo e começa outro (o que acontece diariamente). O controle de legenda
@@ -256,12 +288,14 @@ atualizarCambio();
 atualizarBitcoin();
 atualizarClima();
 atualizarCommodities();
+atualizarTicker();
 
 setInterval(atualizarCambio, CONFIG.refresh.cambio);
 setInterval(atualizarBitcoin, CONFIG.refresh.cambio);
 setInterval(atualizarClima, CONFIG.refresh.clima);
 setInterval(atualizarCommodities, CONFIG.refresh.commodities);
 setInterval(checarTrocaDeVideo, CONFIG.refresh.youtubeLive);
+setInterval(atualizarTicker, CONFIG.refresh.news);
 
 /* Recarrega a página inteira uma vez por dia (às 5h) pra evitar
    qualquer vazamento de memória do navegador em execução 24/7 */

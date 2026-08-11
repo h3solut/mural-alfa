@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Atualiza data/commodities.json com os indicadores mais recentes de
-Soja (CEPEA/ESALQ - Paraná), Milho (CEPEA/ESALQ) e Boi Gordo (CEPEA/ESALQ).
+Soja (CEPEA/ESALQ - Paraná) e Boi Gordo (CEPEA/ESALQ) da CEPEA/ESALQ.
 
 Rodado automaticamente pelo GitHub Action em
 .github/workflows/update-commodities.yml (uma vez por hora).
