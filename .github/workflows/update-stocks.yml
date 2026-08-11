@@ -1,0 +1,38 @@
+name: Atualizar ações (B3 + EUA)
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # a cada 30 minutos, 24h por dia
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    env:
+      BRAPI_TOKEN: ${{ secrets.BRAPI_TOKEN }}
+      TWELVEDATA_KEY: ${{ secrets.TWELVEDATA_KEY }}
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: pip install requests
+
+      - name: Rodar o script
+        run: python3 scripts/fetch_stocks.py
+
+      - name: Commitar alterações (se houver)
+        run: |
+          git config user.name "mural-alfa-bot"
+          git config user.email "actions@github.com"
+          git add data/stocks.json
+          git diff --cached --quiet || git commit -m "Atualiza cotações de ações"
+          git push
