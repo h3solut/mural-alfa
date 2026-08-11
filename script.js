@@ -142,7 +142,7 @@ function formatarAcao(item, moeda) {
   const classeVar = item.variacao >= 0 ? "var-up" : "var-down";
   const precoFormatado = Number(item.preco).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   const variacaoFormatada = Math.abs(Number(item.variacao)).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-  return `<span class="stock-item"><span class="ticker">${item.simbolo}</span> ${moeda} ${precoFormatado} <span class="${classeVar}">${seta} ${variacaoFormatada}%</span></span>`;
+  return `<span class="stock-item"><span class="stock-symbol">${item.simbolo}</span> ${moeda} ${precoFormatado} <span class="${classeVar}">${seta} ${variacaoFormatada}%</span></span>`;
 }
 
 async function atualizarAcoes() {
