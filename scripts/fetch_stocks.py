@@ -41,21 +41,24 @@ def _consultar_brapi_v2(ticker: str, token: str):
 def buscar_br(token: str):
     resultados = []
 
-    # Uma chamada por símbolo — a conta gratuita parece não aceitar lote
-    # de vários símbolos numa chamada só (dava erro 400 mesmo com a
-    # autenticação correta), mas símbolo único funciona normalmente.
     for ticker in ACOES_BR + [INDICE_BR]:
         try:
             for item in _consultar_brapi_v2(ticker, token):
-                simbolo = item.get("symbol") or item.get("stock")
-                preco = item.get("regularMarketPrice")
-                variacao = item.get("regularMarketChangePercent")
+                # Os campos de preço/variação ficam dentro de item["data"],
+                # não soltos na raiz do item — foi essa a causa dos
+                # resultados vazios até agora.
+                dados = item.get("data") or {}
+                simbolo = item.get("symbol") or item.get("requestedSymbol")
+                preco = dados.get("regularMarketPrice")
+                variacao = dados.get("regularMarketChangePercent")
                 if preco is None:
                     continue
                 nome = "IBOVESPA" if ticker == INDICE_BR else (simbolo or ticker)
                 resultados.append({"simbolo": nome, "preco": preco, "variacao": variacao})
         except Exception as e:
             print(f"[erro] B3 ({ticker}): {e}")
+
+    return resultados
 
     return resultados
 def buscar_eua(apikey: str):
