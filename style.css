@@ -137,3 +137,20 @@ html, body {
   border-color: var(--azul-alfa);
   opacity: 0.9;
 }
+
+.espera-overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--bg-video);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.espera-overlay span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: clamp(18px, 2vw, 32px);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
