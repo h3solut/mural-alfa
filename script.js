@@ -17,7 +17,8 @@ const CONFIG = {
     clima: 15 * 60 * 1000,      // 15 min
     commodities: 30 * 60 * 1000,// 30 min (o arquivo em si só muda a cada hora)
     youtubeLive: 5 * 60 * 1000, // 5 min (o arquivo em si só muda a cada 5 min)
-    news: 10 * 60 * 1000        // 10 min (o arquivo em si só muda a cada 20 min)
+    news: 10 * 60 * 1000,       // 10 min (o arquivo em si só muda a cada 20 min)
+    stocks: 15 * 60 * 1000      // 15 min (o arquivo em si só muda a cada 30 min)
   }
 };
 
@@ -132,6 +133,44 @@ function preencherIndicador(id, texto, variacao) {
   el.classList.remove("up", "down");
   if (typeof variacao === "number" && !isNaN(variacao)) {
     el.classList.add(variacao >= 0 ? "up" : "down");
+  }
+}
+
+/* ---------- Faixa de ações (B3 + EUA, arquivo estático via GitHub Action) ---------- */
+function formatarAcao(item, moeda) {
+  const seta = item.variacao >= 0 ? "▲" : "▼";
+  const classeVar = item.variacao >= 0 ? "var-up" : "var-down";
+  const precoFormatado = Number(item.preco).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const variacaoFormatada = Math.abs(Number(item.variacao)).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  return `<span class="stock-item"><span class="ticker">${item.simbolo}</span> ${moeda} ${precoFormatado} <span class="${classeVar}">${seta} ${variacaoFormatada}%</span></span>`;
+}
+
+async function atualizarAcoes() {
+  try {
+    const res = await fetch(`data/stocks.json?t=${Date.now()}`);
+    const data = await res.json();
+    const br = data.br || [];
+    const eua = data.eua || [];
+    if (br.length === 0 && eua.length === 0) return;
+
+    const partes = [];
+    if (br.length) {
+      partes.push(`<span class="stock-group-tag br">B3</span>`);
+      partes.push(...br.map(item => formatarAcao(item, "R$")));
+    }
+    if (eua.length) {
+      partes.push(`<span class="stock-group-tag us">EUA</span>`);
+      partes.push(...eua.map(item => formatarAcao(item, "US$")));
+    }
+
+    const track = document.getElementById("stocks-track");
+    track.innerHTML = partes.join("") + partes.join("");
+
+    const largura = track.scrollWidth / 2;
+    const duracaoSegundos = Math.max(30, largura / 70);
+    track.style.animationDuration = `${duracaoSegundos}s`;
+  } catch (e) {
+    console.error("Erro ao buscar ações:", e);
   }
 }
 
@@ -289,6 +328,7 @@ atualizarBitcoin();
 atualizarClima();
 atualizarCommodities();
 atualizarTicker();
+atualizarAcoes();
 
 setInterval(atualizarCambio, CONFIG.refresh.cambio);
 setInterval(atualizarBitcoin, CONFIG.refresh.cambio);
@@ -296,6 +336,7 @@ setInterval(atualizarClima, CONFIG.refresh.clima);
 setInterval(atualizarCommodities, CONFIG.refresh.commodities);
 setInterval(checarTrocaDeVideo, CONFIG.refresh.youtubeLive);
 setInterval(atualizarTicker, CONFIG.refresh.news);
+setInterval(atualizarAcoes, CONFIG.refresh.stocks);
 
 /* Recarrega a página inteira uma vez por dia (às 5h) pra evitar
    qualquer vazamento de memória do navegador em execução 24/7 */
