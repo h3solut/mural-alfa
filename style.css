@@ -292,7 +292,7 @@ html, body {
   font-weight: 600;
 }
 
-.stock-item .ticker { font-weight: 700; }
+.stock-item .stock-symbol { font-weight: 700; }
 
 .stock-item .var-up { color: #4CC98A; }
 .stock-item .var-down { color: #F0736E; }
