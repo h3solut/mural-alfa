@@ -1,0 +1,35 @@
+name: Atualizar notícias
+
+on:
+  schedule:
+    - cron: "*/20 * * * *" # a cada 20 minutos, 24h por dia
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: pip install feedparser
+
+      - name: Rodar o script
+        run: python3 scripts/fetch_news.py
+
+      - name: Commitar alterações (se houver)
+        run: |
+          git config user.name "mural-alfa-bot"
+          git config user.email "actions@github.com"
+          git add data/news.json
+          git diff --cached --quiet || git commit -m "Atualiza notícias"
+          git push
