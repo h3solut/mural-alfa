@@ -30,14 +30,15 @@ DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "stocks.json"
 
 
 def buscar_br(token: str):
-    url = "https://brapi.dev/api/v2/stocks/quote"
-    params = {"symbols": ",".join(ACOES_BR), "token": token}
+    tickers = ",".join(ACOES_BR)
+    url = f"https://brapi.dev/api/quote/{tickers}"
+    params = {"token": token}
     resp = requests.get(url, params=params, timeout=20)
     resp.raise_for_status()
     data = resp.json()
 
     resultados = []
-    for item in data.get("results", data.get("stocks", [])):
+    for item in data.get("results", []):
         simbolo = item.get("symbol") or item.get("stock")
         preco = item.get("regularMarketPrice")
         variacao = item.get("regularMarketChangePercent")
