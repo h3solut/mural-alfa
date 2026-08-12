@@ -12,13 +12,13 @@
     },
     {
       "simbolo": "ITUB4",
-      "preco": 39,
-      "variacao": -3.51
+      "preco": 39.29,
+      "variacao": 0.74
     },
     {
       "simbolo": "BBDC4",
-      "preco": 16.79,
-      "variacao": -2.27
+      "preco": 16.88,
+      "variacao": 0.54
     },
     {
       "simbolo": "ABEV3",
@@ -27,13 +27,13 @@
     },
     {
       "simbolo": "B3SA3",
-      "preco": 14.29,
-      "variacao": -2.59
+      "preco": 14.32,
+      "variacao": 0.21
     },
     {
       "simbolo": "IBOVESPA",
-      "preco": 167874.64,
-      "variacao": -2.5
+      "preco": 168309.55,
+      "variacao": 0.26
     }
   ],
   "eua": [
@@ -68,5 +68,5 @@
       "variacao": 0.58329081
     }
   ],
-  "atualizado_em": "2026-08-12T11:52:02.675253+00:00"
+  "atualizado_em": "2026-08-12T13:20:41.623139+00:00"
 }
