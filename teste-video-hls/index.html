@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mural ALFA — teste HLS nativo</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+  /* Ajuste de teste (opcional): reduz a área física do vídeo, igual
+     fizemos em ../teste-video/. Aqui começa em 1 (tamanho normal)
+     porque o objetivo desta versão é eliminar o peso do player do
+     YouTube, não o tamanho de tela — mas dá pra combinar as duas coisas
+     mudando o número abaixo, se ainda precisar. */
+  :root { --video-scale: 1; }
+
+  .video-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-video);
+  }
+  #video-nativo {
+    width: calc(var(--video-scale) * 100%);
+    height: calc(var(--video-scale) * 100%);
+    display: block;
+    background: var(--bg-video);
+  }
+
+  #audio-toggle { right: 18px; } /* só existe um botão nesta versão (sem CC) */
+</style>
+</head>
+<body>
+
+  <div class="layout">
+
+    <aside class="sidebar">
+      <img src="../assets/logo.png" alt="ALFA Assessoria Contábil" class="logo">
+
+      <div class="indicators" id="indicators">
+        <div class="indicator" id="ind-usd">
+          <span class="label">Dólar</span>
+          <span class="value">--</span>
+        </div>
+        <div class="indicator" id="ind-eur">
+          <span class="label">Euro</span>
+          <span class="value">--</span>
+        </div>
+        <div class="indicator" id="ind-btc">
+          <span class="label">Bitcoin</span>
+          <span class="value">--</span>
+        </div>
+        <div class="indicator" id="ind-soja">
+          <span class="label">Soja</span>
+          <span class="value">--</span>
+        </div>
+        <div class="indicator" id="ind-milho">
+          <span class="label">Milho</span>
+          <span class="value">--</span>
+        </div>
+        <div class="indicator" id="ind-boi">
+          <span class="label">Boi Gordo</span>
+          <span class="value">--</span>
+        </div>
+        <div class="indicator" id="ind-clima">
+          <span class="label">Jataí-GO</span>
+          <span class="value"><span class="weather-icon" id="clima-icone">--</span> --</span>
+        </div>
+        <div class="indicator" id="ind-umidade">
+          <span class="label">Umidade / UV</span>
+          <span class="value">--</span>
+        </div>
+      </div>
+
+      <div class="clock" id="clock">--:--</div>
+    </aside>
+
+    <main class="main-area">
+      <div class="video-wrap">
+        <video id="video-nativo" playsinline autoplay muted></video>
+        <button id="audio-toggle" class="cc-btn" title="Ligar/desligar som (começa mudo)" aria-label="Ligar/desligar som">🔇</button>
+      </div>
+
+      <div class="stocks-ticker">
+        <div class="stocks-label">Ações</div>
+        <div class="stocks-track-wrap">
+          <div class="stocks-track" id="stocks-track">
+            <span class="stock-item">Carregando cotações…</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="ticker">
+        <div class="ticker-label">Últimas notícias</div>
+        <div class="ticker-track-wrap">
+          <div class="ticker-track" id="ticker-track">
+            <span class="ticker-item">Carregando notícias…</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <!-- Selo discreto pra confirmar visualmente, na tela cheia do kiosk,
+       que essa é a versão de teste 2 (HLS nativo, sem player do
+       YouTube) e não a versão principal nem a teste-video/. -->
+  <div style="position:fixed;bottom:6px;left:6px;z-index:20;font:11px/1.4 sans-serif;color:rgba(255,255,255,0.35);pointer-events:none;">
+    TESTE 2 · HLS nativo (sem player do YouTube)
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.17/hls.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
