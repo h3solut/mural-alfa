@@ -5,6 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mural ALFA — teste qualidade vídeo</title>
 <link rel="stylesheet" href="../style.css">
+<style>
+  /* Ajuste de teste: reduz a área física do vídeo (menos pixels pra
+     compor/escalar na tela), além da qualidade já forçada no script.js.
+     Só afeta esta pasta de teste — não mexe no ../style.css principal.
+     Pra ajustar, mude só o número abaixo (0.5 = 50% do espaço atual). */
+  :root { --video-scale: 0.5; }
+
+  .video-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #yt-player {
+    width: calc(var(--video-scale) * 100%);
+    height: calc(var(--video-scale) * 100%);
+  }
+</style>
 </head>
 <body>
 
@@ -82,7 +99,7 @@
        que essa é a versão de teste (qualidade de vídeo forçada) e não a
        versão principal. Não depende do style.css compartilhado. -->
   <div style="position:fixed;bottom:6px;left:6px;z-index:20;font:11px/1.4 sans-serif;color:rgba(255,255,255,0.35);pointer-events:none;">
-    TESTE · qualidade de vídeo forçada
+    TESTE · qualidade forçada + tamanho reduzido
   </div>
 
   <script src="https://www.youtube.com/iframe_api"></script>
