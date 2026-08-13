@@ -232,6 +232,7 @@ function escapeHTML(texto) {
 let player = null;
 let videoIdAtual = null;
 let legendaLigada = false;
+let audioLigado = false; // vídeo começa mudo por padrão (menos processamento)
 let idPendente = null; // guarda o ID buscado enquanto a API do YT ainda não carregou
 
 async function obterVideoIdAoVivo() {
@@ -260,7 +261,7 @@ function criarPlayer(videoId) {
     videoId: videoId,
     playerVars: {
       autoplay: 1,
-      mute: 0,
+      mute: 1,
       controls: 0,
       modestbranding: 1,
       rel: 0,
@@ -271,6 +272,9 @@ function criarPlayer(videoId) {
     events: {
       onReady: (e) => {
         e.target.setPlaybackQuality(CONFIG.qualidadeForcada);
+        e.target.mute();
+        audioLigado = false;
+        atualizarBotaoAudio();
         esconderEspera();
       },
       onStateChange: (e) => {
@@ -308,6 +312,9 @@ function montarPlayer(videoId) {
   videoIdAtual = videoId;
   player.loadVideoById(videoId);
   player.setPlaybackQuality(CONFIG.qualidadeForcada);
+  player.mute(); // cada vídeo novo volta a começar mudo, por padrão
+  audioLigado = false;
+  atualizarBotaoAudio();
   legendaLigada = false;
   document.getElementById("cc-toggle").classList.remove("active");
   esconderEspera();
@@ -357,6 +364,27 @@ function toggleLegenda() {
 }
 
 document.getElementById("cc-toggle").addEventListener("click", toggleLegenda);
+
+/* ---------- Botão de áudio (vídeo começa mudo por padrão) ---------- */
+function atualizarBotaoAudio() {
+  const btn = document.getElementById("audio-toggle");
+  if (!btn) return;
+  btn.textContent = audioLigado ? "🔊" : "🔇";
+  btn.classList.toggle("active", audioLigado);
+}
+
+function toggleAudio() {
+  if (!player) return;
+  audioLigado = !audioLigado;
+  if (audioLigado) {
+    player.unMute();
+  } else {
+    player.mute();
+  }
+  atualizarBotaoAudio();
+}
+
+document.getElementById("audio-toggle").addEventListener("click", toggleAudio);
 
 /* ---------- Inicialização ---------- */
 obterVideoIdAoVivo().then((id) => {
