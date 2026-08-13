@@ -1,5 +1,5 @@
 {
-  "videoId": null,
-  "hlsUrl": null,
-  "atualizado_em": null
+  "videoId": "xu8KOhG8utc",
+  "hlsUrl": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1786668761/ei/eRJ-aqWpN-imoBIPi67isAM/ip/45.171.10.147/id/xu8KOhG8utc.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-hhxbuxaxjvcg-btoe.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/bui/AZFlqhP6n2s8WgMRqwBvWvNRSn-Bb50m7i-SzAeZeRtkDmSSIEK_w13aJS3Df--dHK3-QKEQEK6Dy3kS/spc/KBGBcrJeDn2f-d_IMnsffNw_boiPq1vbJjxmaIHPfaq37fg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1968750/met/1786647162,/mh/JB/mm/44/mn/sn-hhxbuxaxjvcg-btoe/ms/lva/mv/m/mvi/1/pcm2cms/yes/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,51946838,52089683/mt/1786646691/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgvp,rqh,xpc,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgZGSpAkZXVhIWkJBkQ2TYYJVUk535wzPOhvlE7hjF-F0CIQDmzlyJX1s5uA8ty7-ifDHh5FzERzX6A98ptogJITlNGw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms/lsig/APaTxxMwRgIhAJIyiDYM1GK1BHvUNs6h9gk3heyTK40V5nLUJrz10dkqAiEA5Ew91aarfyNB0Jv5OntxGdxfuEICKVv2n9ugXMAzzOQ%3D%3D/playlist/index.m3u8",
+  "atualizado_em": "teste manual"
 }
