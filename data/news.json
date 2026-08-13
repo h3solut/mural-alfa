@@ -1,49 +1,84 @@
 {
   "itens": [
     {
-      "titulo": "Projeto usa jogos de tabuleiro para ensinar educação financeira a alunos de escolas públicas no DF",
-      "fonte": "G1",
-      "data": "2026-08-13T05:00:30+00:00"
-    },
-    {
-      "titulo": "MANPADS: como são os mísseis portáteis do Irã que poderiam atingir avião de Trump e provocaram operação secreta",
-      "fonte": "G1",
-      "data": "2026-08-13T05:00:22+00:00"
-    },
-    {
-      "titulo": "Idoso de 85 anos viraliza ao vender pudins na praia para pagar exames e recebe ajuda; VÍDEO",
-      "fonte": "G1",
-      "data": "2026-08-13T05:00:19+00:00"
-    },
-    {
-      "titulo": "A receita por trás das coxinhas que faturam até R$ 250 mil por mês",
-      "fonte": "G1",
-      "data": "2026-08-13T05:00:18+00:00"
-    },
-    {
-      "titulo": "Chuvas, granizo e tornado deixam destruição em mais de 30 mil propriedades rurais e danificam lavouras no RS, diz levantamento",
-      "fonte": "G1",
-      "data": "2026-08-13T05:00:16+00:00"
-    },
-    {
-      "titulo": "O que realmente acontece com seus dados quando você clica em 'deletar'?",
-      "fonte": "G1",
-      "data": "2026-08-13T05:00:12+00:00"
-    },
-    {
-      "titulo": "Veja como salvar uma orquídea com folhas e raízes secas ou murchas",
-      "fonte": "G1",
-      "data": "2026-08-13T05:00:10+00:00"
-    },
-    {
-      "titulo": "Desigualdade social e racial limita prática de atividade física no Brasil, aponta pesquisa",
-      "fonte": "G1",
-      "data": "2026-08-13T05:00:08+00:00"
-    },
-    {
-      "titulo": "Análise WW: Governo escala contra Discord após pressão de Janja",
+      "titulo": "Passageiros de um voo observaram o eclipse solar total sobre a Espanha",
       "fonte": "CNN Brasil",
-      "data": "2026-08-13T04:51:21+00:00"
+      "data": "2026-08-13T06:33:40+00:00"
+    },
+    {
+      "titulo": "“Bumbum de cadeira”: passar longos períodos sentado pode achatar o glúteo?",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-13T06:33:13+00:00"
+    },
+    {
+      "titulo": "Tartaruga se perde no Atlântico e “pega avião” de volta para casa",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-13T06:33:03+00:00"
+    },
+    {
+      "titulo": "Taiwan realiza exercício em jogos de guerra enquanto China aumenta pressão",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-13T06:28:11+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para Brasília (DF): sol com algumas nuvens ao longo do dia; noite de céu limpo",
+      "fonte": "G1",
+      "data": "2026-08-13T06:06:40+00:00"
+    },
+    {
+      "titulo": "Com apoio do governo, Congresso autoriza gasto de até R$ 7 bi acima do teto",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-13T06:06:40+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para São Paulo (SP): muitas nuvens o dia todo, com aberturas de sol",
+      "fonte": "G1",
+      "data": "2026-08-13T06:06:17+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para São Bernardo do Campo (SP): sol com muitas nuvens durante o dia e períodos de céu nublado; noite com muitas nuvens",
+      "fonte": "G1",
+      "data": "2026-08-13T06:05:58+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para Santo André (SP): sol com muitas nuvens durante o dia e períodos de céu nublado; noite com muitas nuvens",
+      "fonte": "G1",
+      "data": "2026-08-13T06:05:43+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para Osasco (SP): sol com muitas nuvens durante o dia e períodos de céu nublado; noite com muitas nuvens",
+      "fonte": "G1",
+      "data": "2026-08-13T06:05:22+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para Guarulhos (SP): sol com muitas nuvens durante o dia e períodos de céu nublado; noite com muitas nuvens",
+      "fonte": "G1",
+      "data": "2026-08-13T06:05:06+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para São Gonçalo (RJ): sol com muitas nuvens durante o dia e períodos de céu nublado; noite com poucas nuvens",
+      "fonte": "G1",
+      "data": "2026-08-13T06:04:49+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para o Rio de Janeiro (RJ): muitas nuvens o dia todo, com aberturas de sol",
+      "fonte": "G1",
+      "data": "2026-08-13T06:04:32+00:00"
+    },
+    {
+      "titulo": "Análise WW: Lula e Alcolumbre se reaproximam pensando em reeleições",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-13T06:00:50+00:00"
+    },
+    {
+      "titulo": "Ministros do TSE se reúnem hoje para debater limites da IA nas eleições",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-13T06:00:20+00:00"
+    },
+    {
+      "titulo": "Irã exige indenização por derramamento de petróleo em águas do Golfo",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-13T05:53:28+00:00"
     },
     {
       "titulo": "Haddad registra candidatura ao governo de SP e declara R$ 861 mil ao TSE",
@@ -51,39 +86,9 @@
       "data": "2026-08-13T04:06:00+00:00"
     },
     {
-      "titulo": "Flaco López comenta falha de Carlos Miguel no Palmeiras: “Normal errar”",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-13T03:12:27+00:00"
-    },
-    {
-      "titulo": "Messi volta a jogar pelo Inter Miami após morte do pai",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-13T03:09:03+00:00"
-    },
-    {
       "titulo": "Plano de Flávio Bolsonaro para educação replica o pai em alfabetização e quer pagar aluno para dar reforço",
       "fonte": "Folha",
       "data": "2026-08-13T03:03:00+00:00"
-    },
-    {
-      "titulo": "Discord: ANPD não está atualizada para tratar o ECA Digital, diz professor",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-13T02:59:11+00:00"
-    },
-    {
-      "titulo": "Algoz de João Fonseca, Shelton defende título no Canadá contra Nakashima",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-13T02:52:23+00:00"
-    },
-    {
-      "titulo": "Veja melhores momentos de Cruzeiro 1 x 1 Flamengo pela Libertadores",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-13T02:48:26+00:00"
-    },
-    {
-      "titulo": "Campeão olímpico revela que “raiva” motivou ouro olímpico do vôlei em 1992",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-13T02:45:04+00:00"
     },
     {
       "titulo": "EUA e Colômbia vão realizar ações militares conjuntas em luta antidrogas",
@@ -91,15 +96,10 @@
       "data": "2026-08-13T02:39:00+00:00"
     },
     {
-      "titulo": "Na prática, STF acabou com a Moratória da Soja, diz especialista",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-13T02:33:35+00:00"
-    },
-    {
       "titulo": "Stênio Garcia acusa filhas de questionarem sua sanidade: 'Não admito ser incapacitado'",
       "fonte": "Folha",
       "data": "2026-08-13T02:25:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-13T05:21:18.558016+00:00"
+  "atualizado_em": "2026-08-13T07:02:01.624576+00:00"
 }
