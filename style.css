@@ -166,6 +166,11 @@ html, body {
   opacity: 0.9;
 }
 
+/* Botão de áudio fica ao lado do botão de legenda */
+#audio-toggle {
+  right: 72px;
+}
+
 .espera-overlay {
   position: absolute;
   inset: 0;

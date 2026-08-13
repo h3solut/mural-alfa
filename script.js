@@ -213,6 +213,7 @@ function escapeHTML(texto) {
    é feito via postMessage pra Player API do YouTube (funciona mesmo sem o
    wrapper oficial YT.Player, desde que o iframe tenha enablejsapi=1). */
 let legendaLigada = false;
+let audioLigado = false; // vídeo começa mudo por padrão
 let videoIdAtual = null;
 
 async function obterVideoIdAoVivo() {
@@ -234,13 +235,15 @@ function montarPlayer(videoId) {
   iframe.id = "yt-iframe";
   iframe.src =
     `https://www.youtube.com/embed/${videoId}` +
-    `?autoplay=1&mute=0&controls=0&modestbranding=1&rel=0&playsinline=1` +
+    `?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&playsinline=1` +
     `&enablejsapi=1&cc_load_policy=0&origin=${encodeURIComponent(location.origin)}`;
   iframe.allow = "autoplay; encrypted-media";
   iframe.frameBorder = "0";
   wrap.appendChild(iframe);
   legendaLigada = false;
   document.getElementById("cc-toggle").classList.remove("active");
+  audioLigado = false; // cada vídeo novo volta a começar mudo
+  atualizarBotaoAudio();
   esconderEspera();
 }
 
@@ -320,6 +323,22 @@ function toggleLegenda() {
 }
 
 document.getElementById("cc-toggle").addEventListener("click", toggleLegenda);
+
+/* ---------- Botão de áudio (vídeo começa mudo por padrão) ---------- */
+function atualizarBotaoAudio() {
+  const btn = document.getElementById("audio-toggle");
+  if (!btn) return;
+  btn.textContent = audioLigado ? "🔊" : "🔇";
+  btn.classList.toggle("active", audioLigado);
+}
+
+function toggleAudio() {
+  audioLigado = !audioLigado;
+  enviarComandoYT(audioLigado ? "unMute" : "mute");
+  atualizarBotaoAudio();
+}
+
+document.getElementById("audio-toggle").addEventListener("click", toggleAudio);
 
 /* ---------- Inicialização ---------- */
 obterVideoIdAoVivo().then(montarPlayer);

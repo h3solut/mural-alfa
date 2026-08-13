@@ -120,7 +120,101 @@ sem usar git no terminal. Duas pegadinhas recorrentes:
   arrastar-e-soltar — precisam ser criadas manualmente via "Add file →
   Create new file", colando o caminho completo no nome.
 
+### 8. yt-dlp: listar metadados funciona de nuvem, resolver URL de reprodução não
+`extract_flat=True` (usado em `fetch_live_video.py` só pra listar
+vídeos/status) é tolerado pelo YouTube de IPs de datacenter (GitHub
+Actions incluso). Já pedir a URL de reprodução real de um vídeo
+(resolução completa de formato) é bloqueado por bot-detection
+("Sign in to confirm you're not a bot") em IPs de datacenter — só
+funciona de IP residencial (testado com sucesso rodando local, do PC
+de casa do Hugo).
+
+### 9. URLs de vídeo do googlevideo.com só tocam em páginas do youtube.com
+Mesmo resolvendo a URL do manifesto HLS com sucesso (de IP
+residencial), tentar reproduzi-la direto numa tag `<video>` num site
+de terceiros dá **403 Forbidden** (aparece como erro de CORS no
+console, mas a causa raiz é checagem de Origin/Referer do lado do
+Google — a URL só é aceita quando a requisição parece vir do próprio
+youtube.com). Não tem contorno simples client-side: só dá pra tocar
+esse tipo de URL de um domínio próprio usando um servidor proxy que
+busca o vídeo com um header `Referer` forjado e reenvia pro navegador
+com CORS liberado — infraestrutura real (proxy rodando 24/7, reescrita
+de playlist HLS), não um ajuste de config. Ver investigação abaixo.
+
 ---
+
+## Investigação: travamento de vídeo na Mi TV Stick (ENCERRADA em 13/08/2026)
+
+**Sintoma confirmado:** só o vídeo trava/fica recarregando sem
+acumular buffer confiável na Mi TV Stick; o resto da página (relógio,
+indicadores, tickers) roda liso o tempo todo — inclusive durante o
+travamento do vídeo. Rodando num computador normal, tudo funciona
+perfeitamente, inclusive o vídeo.
+
+**Dispositivo testado:** Xiaomi Mi TV Stick, modelo MiTV-AESP0, Android
+9 (TV, SDK 28), WebView `com.google.android.webview` 138.0.7204.179,
+tela 1920x1080, rodando Fully Kiosk Browser.
+
+**O que foi tentado, em ordem, e o resultado de cada um:**
+
+1. **Forçar qualidade baixa no player oficial do YouTube**
+   (`teste-video/`, via `YT.Player.setPlaybackQuality('small')`) — sem
+   efeito. Suspeita: o YouTube ignora esse comando em transmissões ao
+   vivo (API antiga, pouco mantida pelo Google).
+2. **Reduzir o tamanho de exibição do vídeo** (CSS, `--video-scale`)
+   — sem efeito. Faz sentido em retrospecto: reduzir o tamanho na tela
+   não reduz o trabalho de *decodificar* o vídeo, só o de exibi-lo.
+3. **Vídeo mudo por padrão** — sem efeito.
+4. **Trocar "Video Player Engine" do Fully Kiosk** (Auto → Android
+   Media Player) — sem efeito. Suspeita: esse seletor só afeta uma tag
+   `<video>` nativa carregada pela própria página do Fully Kiosk; o
+   player do YouTube roda dentro de um iframe cross-origin
+   (youtube.com), fora do alcance dessa configuração.
+5. **Hardware Acceleration do Fully Kiosk** — já estava ligada desde o
+   início; não era a causa.
+6. **Sinal de Wi-Fi** — descartado; roteador perto, só uma porta de
+   madeira no meio, sinal bom. Também não bateria com o sintoma (só o
+   vídeo trava, não a página toda).
+7. **Bypass total do player do YouTube via HLS nativo**
+   (`teste-video-hls/`, `<video>` + `hls.js`, sem nenhum JS/iframe do
+   youtube.com) — tecnicamente a abordagem mais correta (elimina o
+   peso da aplicação web do YouTube: anúncios, Polymer, analytics), e
+   também teria permitido forçar a qualidade mínima de verdade (ao
+   escolher a variante do manifesto HLS diretamente, em vez de pedir
+   educadamente pro YouTube). Esbarrou em dois bloqueios técnicos
+   reais do lado do Google, documentados nas lições 8 e 9 acima:
+   bot-detection ao resolver a URL de IP de nuvem (contornável com IP
+   residencial) e bloqueio de Referer/Origin ao tocar a URL fora do
+   youtube.com (só contornável com um servidor proxy).
+
+**Conclusão:** esgotamos os ajustes de configuração e as duas
+arquiteturas de player possíveis (iframe oficial e HLS nativo) sem
+resolver. Decidido **não construir o servidor proxy de vídeo** — seria
+infraestrutura desproporcional ao problema (proxy rodando 24/7
+reencaminhando vídeo ao vivo continuamente, não só um JSON leve a cada
+5 min). A causa mais provável que sobra é a própria Mi TV Stick não
+ter poder de decodificação de vídeo suficiente para rodar dentro de um
+WebView, independente de ajuste de software — isso já era um risco
+conhecido, anotado no backlog deste documento antes mesmo dessa
+investigação começar.
+
+**Próximo passo recomendado:** testar em hardware mais forte (ver
+backlog). Se resolver, a causa fica confirmada como hardware, sem
+precisar de mais nenhuma mudança de código.
+
+**O que fica no repositório:** `teste-video/` e `teste-video-hls/`
+continuam publicados (não foram removidos), como referência caso
+quisermos retomar alguma dessas linhas de investigação no futuro — mas
+nenhuma das duas foi adotada como versão principal.
+
+**Atualização (13/08/2026):** mesmo não tendo resolvido o travamento,
+o "vídeo mudo por padrão" foi adotado na versão principal (raiz) por
+motivo à parte da investigação — evita som indesejado até alguém optar
+por ligar. Botão `🔇`/`🔊` ao lado do botão de legenda (`#audio-toggle`
+em `index.html`/`style.css`, funções `toggleAudio`/`atualizarBotaoAudio`
+em `script.js`, comando `mute`/`unMute` via postMessage). É a única
+mudança dos testes que migrou pra raiz — tamanho de vídeo e qualidade
+forçada continuam só nas pastas de teste.
 
 ## Backlog conhecido (não implementado ainda)
 
@@ -134,8 +228,10 @@ sem usar git no terminal. Duas pegadinhas recorrentes:
   (testar com 2 canais simultâneos primeiro).
 - **Login YouTube Premium na box** (pra remover anúncios) — depende de
   configurar o Fully Kiosk pra não limpar cookies ao reiniciar.
-- **Testar em hardware mais forte** — Mi TV Stick e Mi Box testadas;
-  avaliar Tanix TX9S ou Ugoos AM6B+ se a atual não aguentar bem.
+- **Testar em hardware mais forte** — Mi TV Stick e Mi Box testadas.
+  Prioridade alta: depois da investigação de travamento de vídeo (ver
+  seção acima), essa é a hipótese que sobrou sem testar. Avaliar Tanix
+  TX9S ou Ugoos AM6B+.
 
 ## Preferências do Hugo pra esse projeto
 
