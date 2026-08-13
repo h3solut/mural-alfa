@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mural ALFA — teste qualidade vídeo</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <div class="layout">
+
+    <aside class="sidebar">
+      <img src="../assets/logo.png" alt="ALFA Assessoria Contábil" class="logo">
+
+      <div class="indicators" id="indicators">
+        <div class="indicator" id="ind-usd">
+          <span class="label">Dólar</span>
+          <span class="value">--</span>
+        </div>
+        <div class="indicator" id="ind-eur">
+          <span class="label">Euro</span>
+          <span class="value">--</span>
+        </div>
+        <div class="indicator" id="ind-btc">
+          <span class="label">Bitcoin</span>
+          <span class="value">--</span>
+        </div>
+        <div class="indicator" id="ind-soja">
+          <span class="label">Soja</span>
+          <span class="value">--</span>
+        </div>
+        <div class="indicator" id="ind-milho">
+          <span class="label">Milho</span>
+          <span class="value">--</span>
+        </div>
+        <div class="indicator" id="ind-boi">
+          <span class="label">Boi Gordo</span>
+          <span class="value">--</span>
+        </div>
+        <div class="indicator" id="ind-clima">
+          <span class="label">Jataí-GO</span>
+          <span class="value"><span class="weather-icon" id="clima-icone">--</span> --</span>
+        </div>
+        <div class="indicator" id="ind-umidade">
+          <span class="label">Umidade / UV</span>
+          <span class="value">--</span>
+        </div>
+      </div>
+
+      <div class="clock" id="clock">--:--</div>
+    </aside>
+
+    <main class="main-area">
+      <div class="video-wrap">
+        <div id="yt-player"></div>
+        <button id="cc-toggle" class="cc-btn" title="Ligar/desligar legenda" aria-label="Ligar/desligar legenda">CC</button>
+      </div>
+
+      <div class="stocks-ticker">
+        <div class="stocks-label">Ações</div>
+        <div class="stocks-track-wrap">
+          <div class="stocks-track" id="stocks-track">
+            <span class="stock-item">Carregando cotações…</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="ticker">
+        <div class="ticker-label">Últimas notícias</div>
+        <div class="ticker-track-wrap">
+          <div class="ticker-track" id="ticker-track">
+            <span class="ticker-item">Carregando notícias…</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <!-- Selo discreto só pra confirmar visualmente, na tela cheia do kiosk,
+       que essa é a versão de teste (qualidade de vídeo forçada) e não a
+       versão principal. Não depende do style.css compartilhado. -->
+  <div style="position:fixed;bottom:6px;left:6px;z-index:20;font:11px/1.4 sans-serif;color:rgba(255,255,255,0.35);pointer-events:none;">
+    TESTE · qualidade de vídeo forçada
+  </div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
