@@ -1,29 +1,74 @@
 {
   "itens": [
     {
-      "titulo": "Cidade do RS estima perdas de até R$ 7 milhões no comércio após ciclone causar apagão de cinco dias",
-      "fonte": "G1",
-      "data": "2026-08-14T05:00:16+00:00"
+      "titulo": "Robô com inteligência artificial chega à indústria têxtil brasileira",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-14T06:37:09+00:00"
     },
     {
-      "titulo": "Israel alertou EUA várias vezes sobre ameaça de morte contra Trump, diz agência",
-      "fonte": "G1",
-      "data": "2026-08-14T05:00:13+00:00"
+      "titulo": "Onda de calor em São Paulo: o que sabemos sobre o fenômeno",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-14T06:34:32+00:00"
     },
     {
-      "titulo": "DF cumpriu apenas 6 das 19 metas de plano para acolher população de rua, diz Tribunal de Contas",
-      "fonte": "G1",
-      "data": "2026-08-14T05:00:11+00:00"
+      "titulo": "Estudo diz que cães conseguem perceber sentimentos por expressão facial",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-14T06:33:25+00:00"
     },
     {
-      "titulo": "Morte em rope jump: Justiça mantém prisão de réus e marca audiência para setembro",
-      "fonte": "G1",
-      "data": "2026-08-14T04:00:10+00:00"
+      "titulo": "Pela 1ª vez, candidata de Atibaia vence Miss São Paulo; assista",
+      "fonte": "Folha",
+      "data": "2026-08-14T06:30:00+00:00"
     },
     {
-      "titulo": "Taxa de condomínio sobe acima da inflação em quase todo o Rio e pode chegar a 40% do aluguel, diz pesquisa",
+      "titulo": "Previsão do tempo hoje para Brasília (DF): sol com algumas nuvens ao longo do dia; noite de céu limpo",
       "fonte": "G1",
-      "data": "2026-08-14T04:00:09+00:00"
+      "data": "2026-08-14T06:06:35+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para São Paulo (SP): sol com muitas nuvens; pancadas de chuva à tarde e à noite",
+      "fonte": "G1",
+      "data": "2026-08-14T06:06:19+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para São Bernardo do Campo (SP): sol com muitas nuvens durante o dia e períodos de céu nublado; noite com muitas nuvens",
+      "fonte": "G1",
+      "data": "2026-08-14T06:06:03+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para Santo André (SP): sol com muitas nuvens durante o dia e períodos de céu nublado; noite com muitas nuvens",
+      "fonte": "G1",
+      "data": "2026-08-14T06:05:48+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para Osasco (SP): sol com muitas nuvens durante o dia e períodos de céu nublado; noite com muitas nuvens",
+      "fonte": "G1",
+      "data": "2026-08-14T06:05:32+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para Guarulhos (SP): sol com muitas nuvens durante o dia e períodos de céu nublado; noite com muitas nuvens",
+      "fonte": "G1",
+      "data": "2026-08-14T06:05:16+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para São Gonçalo (RJ): sol e muitas nuvens à tarde; à noite o céu ainda fica com muita nebulosidade, mas não chove",
+      "fonte": "G1",
+      "data": "2026-08-14T06:05:00+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para o Rio de Janeiro (RJ): sol com muitas nuvens; pancadas de chuva à tarde e à noite",
+      "fonte": "G1",
+      "data": "2026-08-14T06:04:43+00:00"
+    },
+    {
+      "titulo": "Líder da ultradireita supera candidato 'cara de lata de lixo' em eleição no Reino Unido",
+      "fonte": "Folha",
+      "data": "2026-08-14T05:49:00+00:00"
+    },
+    {
+      "titulo": "Nigel Farage recupera cadeira no parlamento do Reino Unido",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-14T05:28:34+00:00"
     },
     {
       "titulo": "Libertadores: veja melhores momentos de Rosario Central 0 x 0 Corinthians",
@@ -36,11 +81,6 @@
       "data": "2026-08-14T03:41:22+00:00"
     },
     {
-      "titulo": "A tragédia no Discord e a proteção de crianças e adolescentes na internet - O Assunto #1783",
-      "fonte": "G1",
-      "data": "2026-08-14T03:30:08+00:00"
-    },
-    {
       "titulo": "Azul reverte lucro e encerra 2º tri com prejuízo de R$ 1 bilhão após alta dos combustíveis",
       "fonte": "Folha",
       "data": "2026-08-14T03:22:00+00:00"
@@ -51,16 +91,6 @@
       "data": "2026-08-14T03:20:14+00:00"
     },
     {
-      "titulo": "Vilarejo é referência em suporte e orientação em todas as etapas da obra",
-      "fonte": "G1",
-      "data": "2026-08-14T03:05:09+00:00"
-    },
-    {
-      "titulo": "Município de Montes Claros dá posse a aprovados em concurso público",
-      "fonte": "G1",
-      "data": "2026-08-14T03:04:10+00:00"
-    },
-    {
       "titulo": "Trem descarrila perto da Estação Júlio Prestes em São Paulo",
       "fonte": "CNN Brasil",
       "data": "2026-08-14T03:02:38+00:00"
@@ -69,37 +99,7 @@
       "titulo": "Carla Madeira navega o caos do luto e se revolta contra a homofobia no livro 'Quando'",
       "fonte": "Folha",
       "data": "2026-08-14T03:01:00+00:00"
-    },
-    {
-      "titulo": "Veja os melhores momentos de Cienciano 6 x 1 Botafogo pela Sul-Americana",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-14T02:59:17+00:00"
-    },
-    {
-      "titulo": "Entenda como funciona a filiação partidária, que gerou polêmica com Flávio Bolsonaro",
-      "fonte": "Folha",
-      "data": "2026-08-14T02:44:00+00:00"
-    },
-    {
-      "titulo": "Sátira é a melhor maneira de responder ultradireita europeia, diz professor",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-14T02:40:53+00:00"
-    },
-    {
-      "titulo": "Corinthians segura a pressão do Rosario Central e empata pela Libertadores",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-14T02:35:51+00:00"
-    },
-    {
-      "titulo": "Corinthians fica com um a menos, mas deixa Argentina vivo na Copa Libertadores",
-      "fonte": "Folha",
-      "data": "2026-08-14T02:35:00+00:00"
-    },
-    {
-      "titulo": "Botafogo leva baile na altitude e é goleado pelo Cienciano na Sul-Americana",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-14T02:30:04+00:00"
     }
   ],
-  "atualizado_em": "2026-08-14T05:08:15.448498+00:00"
+  "atualizado_em": "2026-08-14T06:46:22.675203+00:00"
 }
