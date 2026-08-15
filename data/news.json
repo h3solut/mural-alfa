@@ -1,6 +1,66 @@
 {
   "itens": [
     {
+      "titulo": "Rio das Ostras avança na Educação Permanente em Saúde",
+      "fonte": "G1",
+      "data": "2026-08-15T03:03:11+00:00"
+    },
+    {
+      "titulo": "Macaé autoriza sepultamento de pets em jazigos de seus tutores",
+      "fonte": "G1",
+      "data": "2026-08-15T03:03:09+00:00"
+    },
+    {
+      "titulo": "Carreta oferece oficinas gratuitas de educação financeira em Macaé",
+      "fonte": "G1",
+      "data": "2026-08-15T03:03:08+00:00"
+    },
+    {
+      "titulo": "Suécia reduz maioridade penal para 14 anos",
+      "fonte": "Folha",
+      "data": "2026-08-15T03:03:00+00:00"
+    },
+    {
+      "titulo": "Quem é Léo Derik, jogador do Athletico condenado a 13 anos de prisão por estupros contra ex",
+      "fonte": "G1",
+      "data": "2026-08-15T03:01:06+00:00"
+    },
+    {
+      "titulo": "Tia e avó de adolescente brasileiro que matou a mãe em Portugal querem a guarda da irmã dele, diz jornal",
+      "fonte": "G1",
+      "data": "2026-08-15T03:00:49+00:00"
+    },
+    {
+      "titulo": "Eleições 2026: prazo para pedir voto em trânsito termina em 20 de agosto; saiba como fazer",
+      "fonte": "G1",
+      "data": "2026-08-15T03:00:47+00:00"
+    },
+    {
+      "titulo": "Abono salarial PIS/Pasep 2026 paga último lote neste sábado; veja quem recebe",
+      "fonte": "G1",
+      "data": "2026-08-15T03:00:41+00:00"
+    },
+    {
+      "titulo": "Onda de calor começa neste sábado e atinge áreas de quatro regiões; Sul terá temporais e chuva acima de 100 mm",
+      "fonte": "G1",
+      "data": "2026-08-15T03:00:36+00:00"
+    },
+    {
+      "titulo": "Alfa Inteligência: Lula e Flávio esquecem de falar do futuro em propostas",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T02:48:22+00:00"
+    },
+    {
+      "titulo": "Kristen Stewart conta que foi proibida de passear no Rio durante gravações da saga 'Crepúsculo': 'Disseram que era perigoso'",
+      "fonte": "Folha",
+      "data": "2026-08-15T02:39:00+00:00"
+    },
+    {
+      "titulo": "Solicitações de certidão brasileira para menores nascidos nos EUA disparam",
+      "fonte": "Folha",
+      "data": "2026-08-15T02:28:00+00:00"
+    },
+    {
       "titulo": "Terremoto de magnitude 7,7 deixa ao menos dois mortos na Indonésia",
       "fonte": "CNN Brasil",
       "data": "2026-08-15T02:19:44+00:00"
@@ -9,11 +69,6 @@
       "titulo": "Reaproximação com Lula é gesto de “boa-vontade” de Alcolumbre, diz Arko",
       "fonte": "CNN Brasil",
       "data": "2026-08-15T02:15:09+00:00"
-    },
-    {
-      "titulo": "Dino retira sigilo de decisões em inquérito que investiga a existência de suposta organização criminosa em órgãos públicos do Maranhão",
-      "fonte": "G1",
-      "data": "2026-08-15T02:08:59+00:00"
     },
     {
       "titulo": "“Camp Rock 4” vai acontecer? Veja o que se sabe",
@@ -44,62 +99,7 @@
       "titulo": "Descoberta da Petrobras no Amapá é relevante, mas tem pouco impacto imediato, dizem especialistas",
       "fonte": "Folha",
       "data": "2026-08-15T02:00:00+00:00"
-    },
-    {
-      "titulo": "Alta do PIB acima de 2% se torna mais difícil em 2026, dizem economistas",
-      "fonte": "Folha",
-      "data": "2026-08-15T02:00:00+00:00"
-    },
-    {
-      "titulo": "Exame de sangue para Alzheimer nos EUA desperta dúvidas e ansiedade; médicos pedem cautela",
-      "fonte": "Folha",
-      "data": "2026-08-15T02:00:00+00:00"
-    },
-    {
-      "titulo": "Da amizade à chantagem, como grupos coagem crianças e adolescentes no Discord",
-      "fonte": "Folha",
-      "data": "2026-08-15T02:00:00+00:00"
-    },
-    {
-      "titulo": "Ipaam multa Prefeitura de Iranduba em R$ 2,5 milhões por queima de resíduos a céu aberto durante incêndio em lixão",
-      "fonte": "G1",
-      "data": "2026-08-15T01:47:13+00:00"
-    },
-    {
-      "titulo": "Bruna Biancardi mostra festa de 87 anos de avó do Neymar; veja",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T01:45:38+00:00"
-    },
-    {
-      "titulo": "CNN Brasil começa série de sabatinas com candidatos ao governo do DF",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T01:34:49+00:00"
-    },
-    {
-      "titulo": "Petrobras anuncia descoberta de petróleo na bacia da Foz do Amazonas",
-      "fonte": "G1",
-      "data": "2026-08-15T01:32:15+00:00"
-    },
-    {
-      "titulo": "Grammy pode reconsiderar categoria de K-Pop após boicote de BTS",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T01:32:15+00:00"
-    },
-    {
-      "titulo": "Análise: Domínio americano sobre Ormuz está fora de cogitação",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T01:31:20+00:00"
-    },
-    {
-      "titulo": "Carlin Moura, candidato ao Senado, declara R$ 50 mil em bens ao TSE",
-      "fonte": "G1",
-      "data": "2026-08-15T01:23:46+00:00"
-    },
-    {
-      "titulo": "Robbie Williams revela diagnóstico de autismo: “Explica muita coisa”",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T01:18:17+00:00"
     }
   ],
-  "atualizado_em": "2026-08-15T02:27:51.828642+00:00"
+  "atualizado_em": "2026-08-15T03:20:59.850395+00:00"
 }
