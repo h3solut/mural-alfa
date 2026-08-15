@@ -1,9 +1,59 @@
 {
   "itens": [
     {
+      "titulo": "Dr. Wanderley, candidato ao Senado por Alagoas, declara R$ 3,5 milhões em bens ao TSE",
+      "fonte": "G1",
+      "data": "2026-08-15T23:35:21+00:00"
+    },
+    {
+      "titulo": "Para saúde ter mais recursos é preciso parar autopromoção de políticos, diz leitora",
+      "fonte": "Folha",
+      "data": "2026-08-15T23:30:00+00:00"
+    },
+    {
+      "titulo": "'Debates só servem para gerar cortes nas redes e transformar políticos em influencers', opina leitor",
+      "fonte": "Folha",
+      "data": "2026-08-15T23:30:00+00:00"
+    },
+    {
+      "titulo": "Cabo Daciolo declara R$ 190,7 mil em bens ao TSE; vice Igor Oliveira informa patrimônio de R$ 102,5 mil",
+      "fonte": "G1",
+      "data": "2026-08-15T23:24:13+00:00"
+    },
+    {
+      "titulo": "Rogério Caboclo anuncia que não disputará presidência do São Paulo",
+      "fonte": "Folha",
+      "data": "2026-08-15T23:23:00+00:00"
+    },
+    {
+      "titulo": "Renan Calheiros, candidato ao Senado por Alagoas, declara R$ 3,5 milhões em bens ao TSE",
+      "fonte": "G1",
+      "data": "2026-08-15T23:21:18+00:00"
+    },
+    {
+      "titulo": "Frota antiga, falhas na fiscalização e estações precárias: Consórcio Guaicurus é condenado a pagar R$ 30 milhões",
+      "fonte": "G1",
+      "data": "2026-08-15T23:21:07+00:00"
+    },
+    {
+      "titulo": "VÍDEOS: Jornal do Acre 1ª edição deste sábado, 15 de agosto de 2026",
+      "fonte": "G1",
+      "data": "2026-08-15T23:18:20+00:00"
+    },
+    {
+      "titulo": "Pablo Marçal registra candidatura a presidente no TSE",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T23:15:28+00:00"
+    },
+    {
       "titulo": "Veado é resgatado após ser vítima de atropelamento em estrada no DF; veja vídeo",
       "fonte": "G1",
       "data": "2026-08-15T23:11:44+00:00"
+    },
+    {
+      "titulo": "Abel Ferreira pede calma após derrota: “Parece que está em último”",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T23:11:37+00:00"
     },
     {
       "titulo": "Incêndio de grandes proporções atinge loja no centro comercial de Parauapebas, no PA",
@@ -16,29 +66,9 @@
       "data": "2026-08-15T23:10:08+00:00"
     },
     {
-      "titulo": "Madrasta suspeita de obrigar enteada a ingerir soda cáustica vai para prisão domiciliar no Acre",
-      "fonte": "G1",
-      "data": "2026-08-15T23:09:59+00:00"
-    },
-    {
-      "titulo": "Marina JHC, candidata ao Senado por Alagoas, declara R$ 47 milhões em bens ao TSE",
-      "fonte": "G1",
-      "data": "2026-08-15T23:06:38+00:00"
-    },
-    {
-      "titulo": "Gustavo Galassi, candidato ao Senado, declara R$ 5.525 mil em bens ao TSE",
-      "fonte": "G1",
-      "data": "2026-08-15T23:05:39+00:00"
-    },
-    {
-      "titulo": "VÍDEOS: JL2 de sábado, 15 de agosto de 2026",
-      "fonte": "G1",
-      "data": "2026-08-15T23:05:16+00:00"
-    },
-    {
-      "titulo": "Marcelo Heringer, candidato ao Senado, indica ao TSE que não tem bens a declarar",
-      "fonte": "G1",
-      "data": "2026-08-15T23:02:22+00:00"
+      "titulo": "São Paulo x Coritiba: escalações e onde assistir ao jogo do Brasileirão",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T23:06:10+00:00"
     },
     {
       "titulo": "Morre mulher que ficou 37 horas presa em escombros após terremoto na Colômbia",
@@ -69,37 +99,7 @@
       "titulo": "Entenda a cronologia do caso de estudante morta pelo namorado em SC",
       "fonte": "CNN Brasil",
       "data": "2026-08-15T22:33:37+00:00"
-    },
-    {
-      "titulo": "Arroz engorda? Especialistas e Dr. Kalil desmontam mitos sobre alimentação",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T22:30:38+00:00"
-    },
-    {
-      "titulo": "Homem morre após queda do 14º andar em Londrina (PR); quatro são presos",
-      "fonte": "Folha",
-      "data": "2026-08-15T22:30:00+00:00"
-    },
-    {
-      "titulo": "Lázaro Ramos entra para calçada da fama em Gramado; confira",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T22:29:51+00:00"
-    },
-    {
-      "titulo": "Trump semeia antiamericanismo pelo mundo",
-      "fonte": "Folha",
-      "data": "2026-08-15T22:28:00+00:00"
-    },
-    {
-      "titulo": "Brasil descobre mais petróleo e torra o dinheiro como se não houvesse amanhã",
-      "fonte": "Folha",
-      "data": "2026-08-15T22:23:00+00:00"
-    },
-    {
-      "titulo": "Fluminense 3 x 2 Palmeiras: veja os melhores momentos pelo Brasileirão",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T22:20:52+00:00"
     }
   ],
-  "atualizado_em": "2026-08-15T23:17:36.825848+00:00"
+  "atualizado_em": "2026-08-15T23:39:27.957665+00:00"
 }
