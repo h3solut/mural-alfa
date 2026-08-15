@@ -1,6 +1,16 @@
 {
   "itens": [
     {
+      "titulo": "Mais de 50 contas ligadas a golpe de R$ 37 milhões são bloqueadas para tentar ressarcir idosa que foi vítima",
+      "fonte": "G1",
+      "data": "2026-08-15T04:00:19+00:00"
+    },
+    {
+      "titulo": "PF investiga se imóveis usados por Cláudio Castro foram vantagem indevida em troca de contratos de R$ 350 milhões",
+      "fonte": "G1",
+      "data": "2026-08-15T04:00:11+00:00"
+    },
+    {
       "titulo": "Terremoto de magnitude 7,7 deixa 2 mortos na Indonésia",
       "fonte": "Folha",
       "data": "2026-08-15T03:54:00+00:00"
@@ -39,16 +49,6 @@
       "titulo": "Eleições 2026: prazo para pedir voto em trânsito termina em 20 de agosto; saiba como fazer",
       "fonte": "G1",
       "data": "2026-08-15T03:00:47+00:00"
-    },
-    {
-      "titulo": "Abono salarial PIS/Pasep 2026 paga último lote neste sábado; veja quem recebe",
-      "fonte": "G1",
-      "data": "2026-08-15T03:00:41+00:00"
-    },
-    {
-      "titulo": "Onda de calor começa neste sábado e atinge áreas de quatro regiões; Sul terá temporais e chuva acima de 100 mm",
-      "fonte": "G1",
-      "data": "2026-08-15T03:00:36+00:00"
     },
     {
       "titulo": "Alfa Inteligência: Lula e Flávio esquecem de falar do futuro em propostas",
@@ -101,5 +101,5 @@
       "data": "2026-08-15T02:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-15T04:06:56.847298+00:00"
+  "atualizado_em": "2026-08-15T04:50:13.487824+00:00"
 }
