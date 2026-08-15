@@ -1,34 +1,74 @@
 {
   "itens": [
     {
+      "titulo": "Estácio de Sá marca presença em evento que celebra o Carnaval de Campos",
+      "fonte": "G1",
+      "data": "2026-08-15T17:07:03+00:00"
+    },
+    {
+      "titulo": "Homem condenado por assassinar e estuprar adolescente de 14 anos é morto após deixar presídio no AC",
+      "fonte": "G1",
+      "data": "2026-08-15T17:06:49+00:00"
+    },
+    {
+      "titulo": "Suspeito de tentativa de latrocínio contra médico morre após troca de tiros com a PM na Bahia",
+      "fonte": "G1",
+      "data": "2026-08-15T17:05:04+00:00"
+    },
+    {
+      "titulo": "Ideb 2025: Piracicaba sobe 0,5 ponto no ensino fundamental e fica abaixo da meta no ensino médio",
+      "fonte": "G1",
+      "data": "2026-08-15T17:04:16+00:00"
+    },
+    {
+      "titulo": "Padilha diz que quem estiver de passagem por SP, Guarulhos ou São Bernardo pode se vacinar contra o sarampo",
+      "fonte": "G1",
+      "data": "2026-08-15T17:04:07+00:00"
+    },
+    {
+      "titulo": "Roberto Rocha declara R$ 3,5 milhões em bens ao TSE; vice informa R$ 435 mil",
+      "fonte": "G1",
+      "data": "2026-08-15T17:03:01+00:00"
+    },
+    {
+      "titulo": "Líder do PT na Câmara, Pedro Uczai recebe alta da UTI após AVC",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T17:01:54+00:00"
+    },
+    {
+      "titulo": "De quanto em quanto tempo devemos trocar as toalhas?",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T17:00:59+00:00"
+    },
+    {
+      "titulo": "Redes sociais enfrentam enxurrada de processos nos EUA; entenda",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T17:00:44+00:00"
+    },
+    {
+      "titulo": "Motociclista cai e tem pescoço ferido por fio de internet solto em MG",
+      "fonte": "G1",
+      "data": "2026-08-15T17:00:08+00:00"
+    },
+    {
+      "titulo": "É fácil querer mudar escala 6x1, assim como 'a criança vai preferir ir menos à escola', diz CEO do Rei do Mate",
+      "fonte": "Folha",
+      "data": "2026-08-15T17:00:00+00:00"
+    },
+    {
+      "titulo": "Eleições 2026: Candidatos à Presidência declaram patrimônios que variam de R$ 30 mil a R$ 242 milhões ao TSE",
+      "fonte": "G1",
+      "data": "2026-08-15T16:58:19+00:00"
+    },
+    {
       "titulo": "Milhares de fãs de Bonnie Tyler celebram a cantora às vésperas de funeral",
       "fonte": "Folha",
       "data": "2026-08-15T16:51:00+00:00"
     },
     {
-      "titulo": "Casal é preso com cerca de 50 kg de drogas e mil comprimidos de ecstasy",
-      "fonte": "G1",
-      "data": "2026-08-15T16:50:26+00:00"
-    },
-    {
-      "titulo": "Cantor Mato Grosso se emociona durante show em Goiás ao homenagear irmã que morreu",
-      "fonte": "G1",
-      "data": "2026-08-15T16:48:53+00:00"
-    },
-    {
       "titulo": "D23: com Robert Downey Jr. e Chris Evans, Marvel posta fotos de bastidores",
       "fonte": "CNN Brasil",
       "data": "2026-08-15T16:48:48+00:00"
-    },
-    {
-      "titulo": "Como a Austrália, conhecida por sua fauna exuberante, tornou-se o epicentro das extinções no planeta",
-      "fonte": "G1",
-      "data": "2026-08-15T16:47:53+00:00"
-    },
-    {
-      "titulo": "Presos beneficiados com saída temporária do Dia dos Pais não retornam a presídio de Campos",
-      "fonte": "G1",
-      "data": "2026-08-15T16:46:54+00:00"
     },
     {
       "titulo": "Rota do Ártico vira corredor de gás russo para a China",
@@ -39,26 +79,6 @@
       "titulo": "Conor Kennedy apoia alistamento na Ucrânia após ordem de prisão na Rússia",
       "fonte": "Folha",
       "data": "2026-08-15T16:45:00+00:00"
-    },
-    {
-      "titulo": "Ex-noiva de Latino acusa cantor de agressões e diz ter medida protetiva; ele nega as acusações",
-      "fonte": "G1",
-      "data": "2026-08-15T16:44:32+00:00"
-    },
-    {
-      "titulo": "Taubaté abre edital para contratar consultas na rede privada de saúde; saiba as especialidades",
-      "fonte": "G1",
-      "data": "2026-08-15T16:41:28+00:00"
-    },
-    {
-      "titulo": "Festa de Iemanjá reúne diversos grupos religiosos em Fortaleza; programação vai até domingo (16)",
-      "fonte": "G1",
-      "data": "2026-08-15T16:40:10+00:00"
-    },
-    {
-      "titulo": "VÍDEOS: EPTV 1 Sul de Minas de sábado, 15 de agosto de 2026",
-      "fonte": "G1",
-      "data": "2026-08-15T16:39:49+00:00"
     },
     {
       "titulo": "Desabamento em SBC ocorreu ao lado de obra da CDHU; laudos serão avaliados",
@@ -79,27 +99,7 @@
       "titulo": "Investigador sofre tentativa de assalto, reage e atinge suspeito na Berrini",
       "fonte": "CNN Brasil",
       "data": "2026-08-15T16:26:56+00:00"
-    },
-    {
-      "titulo": "Ex-professor de Cambridge é encontrado morto após acusações de plágio",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T16:26:07+00:00"
-    },
-    {
-      "titulo": "Fiuk diz que não tem mais relação com Fábio Jr. e expõe crise financeira",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T16:22:35+00:00"
-    },
-    {
-      "titulo": "Maria Ribeiro manda recado a Tata Werneck após tapão em “Quem Ama Cuida”",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T16:22:08+00:00"
-    },
-    {
-      "titulo": "PSG desiste de contratar Suzuki após exigência de agentes, diz jornalista",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T16:06:34+00:00"
     }
   ],
-  "atualizado_em": "2026-08-15T16:56:29.903023+00:00"
+  "atualizado_em": "2026-08-15T17:21:05.310251+00:00"
 }
