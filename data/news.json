@@ -1,6 +1,41 @@
 {
   "itens": [
     {
+      "titulo": "Confira o que abre e o que fecha em Santarém no feriado da Adesão do Pará à Independência do Brasil",
+      "fonte": "G1",
+      "data": "2026-08-15T10:45:12+00:00"
+    },
+    {
+      "titulo": "Carnaval 2027: Jaguariúna vira tema de enredo no grupo especial de SP, e escola faz apresentação na cidade",
+      "fonte": "G1",
+      "data": "2026-08-15T10:44:26+00:00"
+    },
+    {
+      "titulo": "Desigualdade e perda de aprendizagem: o que o Ideb diz sobre a educação pública de Campinas",
+      "fonte": "G1",
+      "data": "2026-08-15T10:39:42+00:00"
+    },
+    {
+      "titulo": "Terreiro Casa de Oxumarê celebra 190 anos com programação especial em Salvador; confira",
+      "fonte": "G1",
+      "data": "2026-08-15T10:38:28+00:00"
+    },
+    {
+      "titulo": "Litoral da Paraíba tem quatro trechos de praia impróprios para banho; saiba quais",
+      "fonte": "G1",
+      "data": "2026-08-15T10:29:20+00:00"
+    },
+    {
+      "titulo": "Festival da Juventude do CIEE oferece 118 vagas de estágio e aprendiz em Petrolina",
+      "fonte": "G1",
+      "data": "2026-08-15T10:28:55+00:00"
+    },
+    {
+      "titulo": "Órion oferece 150 vagas de empregos em prédio de negócios e saúde, em Goiânia",
+      "fonte": "G1",
+      "data": "2026-08-15T10:20:50+00:00"
+    },
+    {
       "titulo": "Canadá oferece bolsas de graduação a estudantes internacionais; saiba mais",
       "fonte": "CNN Brasil",
       "data": "2026-08-15T10:15:00+00:00"
@@ -14,11 +49,6 @@
       "titulo": "Hytalo Santos: um ano após prisão do influenciador e do marido, relembre a investigação e os principais desdobramentos do caso",
       "fonte": "G1",
       "data": "2026-08-15T10:10:22+00:00"
-    },
-    {
-      "titulo": "Vale do Paraíba e Serra da Mantiqueira têm chance de chuva isolada no sábado; próxima semana será de calor e tempo seco",
-      "fonte": "G1",
-      "data": "2026-08-15T10:03:08+00:00"
     },
     {
       "titulo": "5 vícios ao dirigir que estão destruindo o seu carro (e o seu bolso)",
@@ -41,39 +71,14 @@
       "data": "2026-08-15T10:00:40+00:00"
     },
     {
-      "titulo": "Thor Dantas eleva patrimônio em 200,5% em quatro anos e declara mais de R$ 760 mil em bens",
-      "fonte": "G1",
-      "data": "2026-08-15T10:00:35+00:00"
-    },
-    {
       "titulo": "Da rejeição à escolha: início da campanha testa projetos de presidenciáveis",
       "fonte": "CNN Brasil",
       "data": "2026-08-15T10:00:20+00:00"
     },
     {
-      "titulo": "Você viu? Mãe finge dormir e flagra estupro da filha, motorista esfaqueado e trabalhadores retiram gestante de caminhão",
-      "fonte": "G1",
-      "data": "2026-08-15T10:00:19+00:00"
-    },
-    {
       "titulo": "Volta do Talibã ao poder no Afeganistão completa 5 anos; veja o que mudou",
       "fonte": "CNN Brasil",
       "data": "2026-08-15T10:00:18+00:00"
-    },
-    {
-      "titulo": "Você viu? Trabalhador morrem em mineradora, idoso esfaqueado em bicicleta e vacas deixam pasto para viver em ‘cama’",
-      "fonte": "G1",
-      "data": "2026-08-15T10:00:16+00:00"
-    },
-    {
-      "titulo": "Fotógrafos seguem borboletas e dão de cara com sucuri e jacaré em banho de sol em rio cristalino; veja vídeo",
-      "fonte": "G1",
-      "data": "2026-08-15T10:00:13+00:00"
-    },
-    {
-      "titulo": "Motociclista 'Capeta de Jesus' adota rosa como cor oficial em festa de rock em Roraima: 'não devo satisfação'",
-      "fonte": "G1",
-      "data": "2026-08-15T10:00:08+00:00"
     },
     {
       "titulo": "Além de crueldade, estupidez estava no DNA do escravismo romano",
@@ -86,11 +91,6 @@
       "data": "2026-08-15T09:30:46+00:00"
     },
     {
-      "titulo": "Assista ao Bom Dia Sábado",
-      "fonte": "G1",
-      "data": "2026-08-15T09:30:20+00:00"
-    },
-    {
       "titulo": "Cerâmica de 1900 mostra diferenças de hábitos alimentares entre grupos no Brasil",
       "fonte": "Folha",
       "data": "2026-08-15T09:00:00+00:00"
@@ -101,5 +101,5 @@
       "data": "2026-08-15T09:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-15T10:22:07.503448+00:00"
+  "atualizado_em": "2026-08-15T10:54:54.652154+00:00"
 }
