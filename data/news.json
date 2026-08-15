@@ -1,49 +1,89 @@
 {
   "itens": [
     {
-      "titulo": "Assista ao BATV",
+      "titulo": "Siga o EPTV 2 Ribeirão e Franca",
       "fonte": "G1",
-      "data": "2026-08-15T22:15:22+00:00"
+      "data": "2026-08-15T22:33:43+00:00"
     },
     {
-      "titulo": "Suspeito de incêndio em hotel que deixou mulher em estado grave é preso em cafeteria no RS",
+      "titulo": "Assista aos telejornais da TV Bahia",
       "fonte": "G1",
-      "data": "2026-08-15T22:14:37+00:00"
+      "data": "2026-08-15T22:33:32+00:00"
     },
     {
-      "titulo": "Assista ao Boa Noite Espírito Santo",
+      "titulo": "Assista ao JAP2 deste sábado (15)",
       "fonte": "G1",
-      "data": "2026-08-15T22:13:21+00:00"
+      "data": "2026-08-15T22:33:10+00:00"
     },
     {
-      "titulo": "Assista ao JRO2 deste sábado, 15",
+      "titulo": "Homem é esfaqueado e socorrido após entrar em farmácia no Centro de Jundiaí",
       "fonte": "G1",
-      "data": "2026-08-15T22:12:30+00:00"
+      "data": "2026-08-15T22:30:37+00:00"
     },
     {
-      "titulo": "Ex-vereador é condenado a 41 anos de prisão por encomendar a morte de técnica de enfermagem",
+      "titulo": "Projeto oferece tomografia e cirurgia de catarata pelo SUS em três cidades do Ceará",
       "fonte": "G1",
-      "data": "2026-08-15T22:12:03+00:00"
+      "data": "2026-08-15T22:30:08+00:00"
     },
     {
-      "titulo": "Assista aos telejornais da TV Liberal",
-      "fonte": "G1",
-      "data": "2026-08-15T22:11:28+00:00"
+      "titulo": "Homem morre após queda do 14º andar em Londrina (PR); quatro são presos",
+      "fonte": "Folha",
+      "data": "2026-08-15T22:30:00+00:00"
     },
     {
-      "titulo": "Ônibus pega fogo e precisa ser evacuado em MS; passageiros não ficaram feridos",
+      "titulo": "Preço médio do etanol tem queda em São José dos Campos e Taubaté, aponta ANP",
       "fonte": "G1",
-      "data": "2026-08-15T22:10:09+00:00"
+      "data": "2026-08-15T22:29:23+00:00"
     },
     {
-      "titulo": "TV Integração de Divinópolis ao vivo: assista aos telejornais",
+      "titulo": "Veja quem são os candidatos a vice-governador em Alagoas em 2026",
       "fonte": "G1",
-      "data": "2026-08-15T22:09:18+00:00"
+      "data": "2026-08-15T22:24:14+00:00"
+    },
+    {
+      "titulo": "Brasil descobre mais petróleo e torra o dinheiro como se não houvesse amanhã",
+      "fonte": "Folha",
+      "data": "2026-08-15T22:23:00+00:00"
+    },
+    {
+      "titulo": "Vanderlan Cardoso (PSD) declara patrimônio de R$ 66 milhões; veja patrimônio de candidato ao Senado em Goiás",
+      "fonte": "G1",
+      "data": "2026-08-15T22:19:19+00:00"
+    },
+    {
+      "titulo": "Tempestades e inundações deixam seis mortos em Indiana, dizem autoridades",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T22:11:04+00:00"
+    },
+    {
+      "titulo": "Decisivo em virada do Fluminense, Cano exalta torcida: “Nosso ânimo”",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T22:07:20+00:00"
     },
     {
       "titulo": "Dez minutos de exercícios por dia podem evitar casos de demência",
       "fonte": "Folha",
       "data": "2026-08-15T22:00:00+00:00"
+    },
+    {
+      "titulo": "Petrobras estima começar a extrair petróleo da Margem Equatorial em 7 anos",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T21:57:17+00:00"
+    },
+    {
+      "titulo": "Com mais dois desfalques, Flamengo viaja para enfrentar o Mirassol",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T21:54:43+00:00"
+    },
+    {
+      "titulo": "Justiça manda bloquear R$ 1 bi por suspeita de fraude na iluminação de SP",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T21:53:54+00:00"
+    },
+    {
+      "titulo": "Viih Tube e Eliezer fazem casamento religioso; veja fotos",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T21:53:05+00:00"
     },
     {
       "titulo": "Sem jogar há um mês, Djokovic sofre com exaustão e cai em Cincinnati",
@@ -56,50 +96,10 @@
       "data": "2026-08-15T21:34:58+00:00"
     },
     {
-      "titulo": "Caso Henry Borel: TJRJ anula quebra de sigilo de celular de Jairinho",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T21:33:16+00:00"
-    },
-    {
       "titulo": "Palmeiras leva virada do Fluminense nos acréscimos e pode ter vantagem reduzida",
       "fonte": "Folha",
       "data": "2026-08-15T21:32:00+00:00"
-    },
-    {
-      "titulo": "Arias é chamado de “Judas” em reencontro com a torcida do Fluminense; veja",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T21:30:47+00:00"
-    },
-    {
-      "titulo": "Matthew McConaughey diz que Jennifer Lopez o livrou de perrengue no México",
-      "fonte": "Folha",
-      "data": "2026-08-15T21:29:00+00:00"
-    },
-    {
-      "titulo": "Cano decide, e Fluminense vira sobre Palmeiras no fim pelo Brasileirão",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T21:27:51+00:00"
-    },
-    {
-      "titulo": "Hugo Calderano é eliminado no Europe Smash",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T21:17:44+00:00"
-    },
-    {
-      "titulo": "“Precisa virar SAF, se não vai fechar”, diz técnico da Ponte sobre o clube",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T21:15:14+00:00"
-    },
-    {
-      "titulo": "Tempestade se transforma em furacão ao se aproximar da Ilha Grande do Havaí",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-15T21:14:18+00:00"
-    },
-    {
-      "titulo": "Polícia investiga morte de jovem encontrada às margens de rio em Guaratinguetá (SP)",
-      "fonte": "Folha",
-      "data": "2026-08-15T21:08:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-15T22:18:23.251965+00:00"
+  "atualizado_em": "2026-08-15T22:42:16.362811+00:00"
 }
