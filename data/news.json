@@ -1,6 +1,11 @@
 {
   "itens": [
     {
+      "titulo": "Terremoto de magnitude 7,7 deixa 2 mortos na Indonésia",
+      "fonte": "Folha",
+      "data": "2026-08-15T03:54:00+00:00"
+    },
+    {
       "titulo": "Rio das Ostras avança na Educação Permanente em Saúde",
       "fonte": "G1",
       "data": "2026-08-15T03:03:11+00:00"
@@ -76,6 +81,11 @@
       "data": "2026-08-15T02:02:39+00:00"
     },
     {
+      "titulo": "Aviso",
+      "fonte": "Folha",
+      "data": "2026-08-15T02:00:00+00:00"
+    },
+    {
       "titulo": "China escolhe o Brasil para extrair e a Ásia para produzir",
       "fonte": "Folha",
       "data": "2026-08-15T02:00:00+00:00"
@@ -89,17 +99,7 @@
       "titulo": "Buscas por sobreviventes dão lugar à remoção de escombros e acolhimento de desabrigados",
       "fonte": "Folha",
       "data": "2026-08-15T02:00:00+00:00"
-    },
-    {
-      "titulo": "Fabricante de iate de R$ 2 bi que pertenceu a Vorcaro é intimada a prestar depoimento no caso Master",
-      "fonte": "Folha",
-      "data": "2026-08-15T02:00:00+00:00"
-    },
-    {
-      "titulo": "Descoberta da Petrobras no Amapá é relevante, mas tem pouco impacto imediato, dizem especialistas",
-      "fonte": "Folha",
-      "data": "2026-08-15T02:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-15T03:20:59.850395+00:00"
+  "atualizado_em": "2026-08-15T04:06:56.847298+00:00"
 }
