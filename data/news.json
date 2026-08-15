@@ -1,49 +1,64 @@
 {
   "itens": [
     {
+      "titulo": "Mulheres negras são as mais afetadas com desemprego no Brasil, diz estudo",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T06:34:08+00:00"
+    },
+    {
+      "titulo": "Saiba por que próximo eclipse solar total visível no Brasil será só em 2045",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T06:33:05+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para Brasília (DF): sol com algumas nuvens ao longo do dia; noite de céu limpo",
+      "fonte": "G1",
+      "data": "2026-08-15T06:06:22+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para São Paulo (SP): sol com muitas nuvens; pancadas de chuva à tarde e à noite",
+      "fonte": "G1",
+      "data": "2026-08-15T06:06:03+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para São Bernardo do Campo (SP): sol com algumas nuvens e chuva passageira; à noite, muitas nuvens mas com tempo firme",
+      "fonte": "G1",
+      "data": "2026-08-15T06:05:45+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para Santo André (SP): sol com algumas nuvens e chuva passageira; à noite, muitas nuvens mas com tempo firme",
+      "fonte": "G1",
+      "data": "2026-08-15T06:05:27+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para Osasco (SP): sol, com pancadas de chuva de manhã e muitas nuvens à tarde; à noite, tempo firme",
+      "fonte": "G1",
+      "data": "2026-08-15T06:05:02+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para Guarulhos (SP): sol com algumas nuvens e chuva passageira; à noite, muitas nuvens mas com tempo firme",
+      "fonte": "G1",
+      "data": "2026-08-15T06:04:46+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para São Gonçalo (RJ): sol com algumas nuvens; chove rápido durante o dia e à noite",
+      "fonte": "G1",
+      "data": "2026-08-15T06:04:30+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para o Rio de Janeiro (RJ): sol com algumas nuvens; chove rápido durante o dia e à noite",
+      "fonte": "G1",
+      "data": "2026-08-15T06:04:13+00:00"
+    },
+    {
+      "titulo": "Melhora da classe política também exige mudança da sociedade, diz sociólogo",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-15T06:00:19+00:00"
+    },
+    {
       "titulo": "Peru faz simulação para desastres após terremotos na Colômbia e Venezuela",
       "fonte": "CNN Brasil",
       "data": "2026-08-15T05:08:04+00:00"
-    },
-    {
-      "titulo": "Bienal do Livro de Brasília começa nesta segunda com entrada gratuita; veja programação",
-      "fonte": "G1",
-      "data": "2026-08-15T05:00:17+00:00"
-    },
-    {
-      "titulo": "De servidora pública a dona de fábrica: a história da empreendedora do melhor chocolate do Brasil",
-      "fonte": "G1",
-      "data": "2026-08-15T05:00:16+00:00"
-    },
-    {
-      "titulo": "Festival de Cinema de Brasília: após atraso e risco de cancelamento, governo paga primeira parcela à organização do evento",
-      "fonte": "G1",
-      "data": "2026-08-15T05:00:14+00:00"
-    },
-    {
-      "titulo": "'Traficante novo na cidade': VÍDEOS mostram falas sobre aparência e origem de juiz indígena que diz ser vítima de perseguição",
-      "fonte": "G1",
-      "data": "2026-08-15T05:00:12+00:00"
-    },
-    {
-      "titulo": "Merendeira é aplaudida por 'corredor' de alunos e colegas no último dia de trabalho antes de se aposentar; VÍDEO",
-      "fonte": "G1",
-      "data": "2026-08-15T05:00:10+00:00"
-    },
-    {
-      "titulo": "'Eu atirei nele e ele morreu': o que Luigi Mangione confessou em audiência e o que acontece a partir de agora",
-      "fonte": "G1",
-      "data": "2026-08-15T05:00:08+00:00"
-    },
-    {
-      "titulo": "Mais de 50 contas ligadas a golpe de R$ 37 milhões são bloqueadas para tentar ressarcir idosa que foi vítima",
-      "fonte": "G1",
-      "data": "2026-08-15T04:00:19+00:00"
-    },
-    {
-      "titulo": "PF investiga se imóveis usados por Cláudio Castro foram vantagem indevida em troca de contratos de R$ 350 milhões",
-      "fonte": "G1",
-      "data": "2026-08-15T04:00:11+00:00"
     },
     {
       "titulo": "Terremoto de magnitude 7,7 deixa 2 mortos na Indonésia",
@@ -71,7 +86,7 @@
       "data": "2026-08-15T02:28:00+00:00"
     },
     {
-      "titulo": "Terremoto de magnitude 7,7 deixa ao menos dois mortos na Indonésia",
+      "titulo": "Terremoto de magnitude 7,7 deixa ao menos 20 mortos na Indonésia",
       "fonte": "CNN Brasil",
       "data": "2026-08-15T02:19:44+00:00"
     },
@@ -84,22 +99,7 @@
       "titulo": "“Camp Rock 4” vai acontecer? Veja o que se sabe",
       "fonte": "CNN Brasil",
       "data": "2026-08-15T02:02:39+00:00"
-    },
-    {
-      "titulo": "Aviso",
-      "fonte": "Folha",
-      "data": "2026-08-15T02:00:00+00:00"
-    },
-    {
-      "titulo": "China escolhe o Brasil para extrair e a Ásia para produzir",
-      "fonte": "Folha",
-      "data": "2026-08-15T02:00:00+00:00"
-    },
-    {
-      "titulo": "Elite precisa compreender o real custo da desigualdade no Brasil, defendem autores",
-      "fonte": "Folha",
-      "data": "2026-08-15T02:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-15T05:57:05.474549+00:00"
+  "atualizado_em": "2026-08-15T06:41:51.817550+00:00"
 }
