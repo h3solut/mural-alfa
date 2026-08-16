@@ -1,6 +1,31 @@
 {
   "itens": [
     {
+      "titulo": "Terremoto na Indonésia: Número de mortos passa de 50; milhares deixam casas",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T04:14:13+00:00"
+    },
+    {
+      "titulo": "Militares da Coreia do Sul atiram após soldados norte-coreanos cruzarem a fronteira",
+      "fonte": "G1",
+      "data": "2026-08-16T04:04:50+00:00"
+    },
+    {
+      "titulo": "Eleições 2026: Campanha eleitoral começa oficialmente neste domingo (16); veja cenário no Ceará",
+      "fonte": "G1",
+      "data": "2026-08-16T04:00:13+00:00"
+    },
+    {
+      "titulo": "Inspiradas nas 'Patricinhas de Beverly Hills', estudantes do RS criam app para ajudar na escolha de looks antes de sair de casa",
+      "fonte": "G1",
+      "data": "2026-08-16T04:00:11+00:00"
+    },
+    {
+      "titulo": "Caça abate drone militar que invadiu espaço aéreo da Romênia durante missão da Otan",
+      "fonte": "G1",
+      "data": "2026-08-16T03:41:08+00:00"
+    },
+    {
       "titulo": "17ª Marcha para Jesus reúne fiéis em Macaé no próximo dia 22 de agosto",
       "fonte": "G1",
       "data": "2026-08-16T03:04:11+00:00"
@@ -24,26 +49,6 @@
       "titulo": "Mega-Sena pode pagar R$ 38 milhões neste domingo; g1 transmite ao vivo",
       "fonte": "G1",
       "data": "2026-08-16T03:00:32+00:00"
-    },
-    {
-      "titulo": "Quem são os candidatos ao Senado pelo RJ nas eleições de 2026?",
-      "fonte": "G1",
-      "data": "2026-08-16T03:00:21+00:00"
-    },
-    {
-      "titulo": "Eleições ao Senado: Lula foca em governabilidade e Flávio em enfrentamento ao STF; veja candidatos e estratégias",
-      "fonte": "G1",
-      "data": "2026-08-16T03:00:18+00:00"
-    },
-    {
-      "titulo": "Eleições 2026: Veja a agenda dos candidatos ao Governo do RJ no domingo",
-      "fonte": "G1",
-      "data": "2026-08-16T03:00:17+00:00"
-    },
-    {
-      "titulo": "Saiba como maior observatório astronômico do Brasil ajuda a desvendar mistérios do Universo",
-      "fonte": "G1",
-      "data": "2026-08-16T03:00:13+00:00"
     },
     {
       "titulo": "Alstom investe R$ 130 mi em 5 anos para ampliar produção de trens em SP",
@@ -94,12 +99,7 @@
       "titulo": "São Paulo empata com Coritiba e chega a 9 jogos sem vencer no Brasileirão",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T01:55:36+00:00"
-    },
-    {
-      "titulo": "Ameaçado por stalker da namorada, ex-Arsenal pede para sair do Galatasaray",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T01:53:49+00:00"
     }
   ],
-  "atualizado_em": "2026-08-16T03:45:47.264372+00:00"
+  "atualizado_em": "2026-08-16T04:33:24.698589+00:00"
 }
