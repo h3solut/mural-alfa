@@ -1,6 +1,31 @@
 {
   "itens": [
     {
+      "titulo": "Terremoto na Indonésia: número de mortos sobe para 53; país decreta estado de emergência de 2 semanas",
+      "fonte": "G1",
+      "data": "2026-08-16T11:31:51+00:00"
+    },
+    {
+      "titulo": "Nevoeiro cobre litoral de SP e paralisa maior porto do país; VEJA",
+      "fonte": "G1",
+      "data": "2026-08-16T11:27:48+00:00"
+    },
+    {
+      "titulo": "Incêndio atinge loja de colchões em São José de Ribamar, na Grande São Luís",
+      "fonte": "G1",
+      "data": "2026-08-16T11:24:38+00:00"
+    },
+    {
+      "titulo": "Gêmeas que nasceram unidas pela cabeça morrem em cirurgia final de separação em Ribeirão Preto",
+      "fonte": "G1",
+      "data": "2026-08-16T11:17:52+00:00"
+    },
+    {
+      "titulo": "Unicamp realiza feira de profissionalização para jovens pretos e pardos",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T11:15:30+00:00"
+    },
+    {
       "titulo": "Defesa Civil envia dois alertas vermelhos para chuvas em quatro horas no RS",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T11:09:18+00:00"
@@ -24,26 +49,6 @@
       "titulo": "Dos R$ 10 à Bolsa: jovens do interior de SP contam como começaram a investir e especialistas dão dicas",
       "fonte": "G1",
       "data": "2026-08-16T11:00:50+00:00"
-    },
-    {
-      "titulo": "Proibição de deepfakes, showmícios e outdoors: VEJA o que não pode em propagandas eleitorais no Acre",
-      "fonte": "G1",
-      "data": "2026-08-16T11:00:44+00:00"
-    },
-    {
-      "titulo": "K9 Kira e policial do Baep do interior de SP representam o Brasil em 'Olimpíada Canina' nos EUA",
-      "fonte": "G1",
-      "data": "2026-08-16T11:00:43+00:00"
-    },
-    {
-      "titulo": "Criadores de vacas leiteiras usam ventilador e umidificador para evitar estresse térmico no noroeste de SP",
-      "fonte": "G1",
-      "data": "2026-08-16T11:00:38+00:00"
-    },
-    {
-      "titulo": "Músico de Itu ganha bolsa de doutorado em universidade de 900 anos que teve Copérnico como aluno",
-      "fonte": "G1",
-      "data": "2026-08-16T11:00:36+00:00"
     },
     {
       "titulo": "Contra o Santos, Vasco retoma foco na fuga do rebaixamento no Brasileirão",
@@ -91,15 +96,10 @@
       "data": "2026-08-16T10:00:43+00:00"
     },
     {
-      "titulo": "Corinthians e Cruzeiro fazem “duelo de reservas” no Brasileirão",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T10:00:43+00:00"
-    },
-    {
       "titulo": "Petrobras prevê gastar R$ 3,3 bi em poços na Foz do Amazonas",
       "fonte": "Folha",
       "data": "2026-08-16T10:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-16T11:18:25.091785+00:00"
+  "atualizado_em": "2026-08-16T11:39:49.412727+00:00"
 }
