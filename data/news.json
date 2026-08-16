@@ -1,14 +1,54 @@
 {
   "itens": [
     {
+      "titulo": "Criança desaparecida é encontrada morta em tanque de granja em Goiás",
+      "fonte": "G1",
+      "data": "2026-08-16T17:44:42+00:00"
+    },
+    {
+      "titulo": "Jovem com mandado de prisão em aberto por tráfico de drogas é preso em Barra do Piraí",
+      "fonte": "G1",
+      "data": "2026-08-16T17:40:01+00:00"
+    },
+    {
+      "titulo": "Mulher é achada morta com sinais de estrangulamento dentro de casa em Criciúma",
+      "fonte": "G1",
+      "data": "2026-08-16T17:36:14+00:00"
+    },
+    {
+      "titulo": "Deputado aciona Justiça contra número dado a irmão de Michelle Bolsonaro",
+      "fonte": "Folha",
+      "data": "2026-08-16T17:35:00+00:00"
+    },
+    {
+      "titulo": "Livros de Paulo Setúbal ganham versões em braille e audiolivro em Tatuí",
+      "fonte": "G1",
+      "data": "2026-08-16T17:34:29+00:00"
+    },
+    {
+      "titulo": "Inmet alerta para baixa umidade do ar em mais de 50 cidades do Sertão da PB; veja quais",
+      "fonte": "G1",
+      "data": "2026-08-16T17:33:29+00:00"
+    },
+    {
+      "titulo": "Alunos de Engenharia de Sorocaba vencem prêmio nacional com jogos e app de tecnologia nuclear",
+      "fonte": "G1",
+      "data": "2026-08-16T17:33:23+00:00"
+    },
+    {
+      "titulo": "Eleições 2026: candidatos ao Governo do PI iniciam campanha neste domingo (16)",
+      "fonte": "G1",
+      "data": "2026-08-16T17:33:05+00:00"
+    },
+    {
+      "titulo": "Motorista morre após invadir pista contrária e capotar carro na rodovia Washington Luís em Rio Preto",
+      "fonte": "G1",
+      "data": "2026-08-16T17:32:03+00:00"
+    },
+    {
       "titulo": "Chefe do comando central dos EUA visita porta-aviões USS Abraham Lincoln",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T17:31:28+00:00"
-    },
-    {
-      "titulo": "Homem é preso após agredir cliente com arma e garrafa em bar de Juiz de Fora",
-      "fonte": "G1",
-      "data": "2026-08-16T17:26:56+00:00"
     },
     {
       "titulo": "Presença militar israelense acompanha tensão na Cisjordânia",
@@ -21,29 +61,9 @@
       "data": "2026-08-16T17:23:32+00:00"
     },
     {
-      "titulo": "Erro de digitação coloca candidato de MS entre os mais ricos do Brasil com R$ 1,8 bilhão em bens",
-      "fonte": "G1",
-      "data": "2026-08-16T17:23:07+00:00"
-    },
-    {
-      "titulo": "Mutirão de empregos oferece mais de 200 vagas em Mogi das Cruzes",
-      "fonte": "G1",
-      "data": "2026-08-16T17:21:47+00:00"
-    },
-    {
-      "titulo": "Irã oferece US$ 30 mil por captura ou morte de soldados dos EUA",
-      "fonte": "G1",
-      "data": "2026-08-16T17:19:39+00:00"
-    },
-    {
       "titulo": "Atlético-MG e Grêmio se enfrentam buscando aumentar sequência invicta",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T17:19:00+00:00"
-    },
-    {
-      "titulo": "Eleições 2026: veja a agenda de Renan Filho neste domingo (16)",
-      "fonte": "G1",
-      "data": "2026-08-16T17:18:17+00:00"
     },
     {
       "titulo": "Arthur Aguiar e Jheny Santucci anunciam segunda gravidez: “Uma nova vida”",
@@ -66,24 +86,9 @@
       "data": "2026-08-16T17:16:48+00:00"
     },
     {
-      "titulo": "Incêndio destrói casa no distrito de Rubião Júnior em Botucatu",
-      "fonte": "G1",
-      "data": "2026-08-16T17:16:46+00:00"
-    },
-    {
-      "titulo": "Temporal com granizo atinge Porto Alegre e Região Metropolitana",
-      "fonte": "G1",
-      "data": "2026-08-16T17:14:57+00:00"
-    },
-    {
       "titulo": "Migrantes marroquinos protestam em Ceuta e pedem asilo à Espanha",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T17:14:54+00:00"
-    },
-    {
-      "titulo": "Resultado da Mega-Sena 3045: aposta do Piauí acerta quina e leva R$ 89 mil; veja cidades premiadas",
-      "fonte": "G1",
-      "data": "2026-08-16T17:12:55+00:00"
     },
     {
       "titulo": "Beijos, looks xadrez, corrida do saco e ovo na colher: Bruna Biancardi mostra arraiá com Neymar",
@@ -94,12 +99,7 @@
       "titulo": "Mar de lama ou instituições funcionando?",
       "fonte": "Folha",
       "data": "2026-08-16T17:00:00+00:00"
-    },
-    {
-      "titulo": "Irã oferece recompensa de US$ 30 mil por morte ou captura de soldados dos EUA",
-      "fonte": "Folha",
-      "data": "2026-08-16T16:39:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-16T17:39:41.344768+00:00"
+  "atualizado_em": "2026-08-16T17:55:48.050758+00:00"
 }
