@@ -1,6 +1,21 @@
 {
   "itens": [
     {
+      "titulo": "Editorial sobre contas públicas divide opiniões de leitores",
+      "fonte": "Folha",
+      "data": "2026-08-16T23:45:00+00:00"
+    },
+    {
+      "titulo": "Drones com explosivos viram nova arma na disputa entre facções no Rio de Janeiro",
+      "fonte": "G1",
+      "data": "2026-08-16T23:43:40+00:00"
+    },
+    {
+      "titulo": "PF apreende no Paraguai avião de Vorcaro",
+      "fonte": "Folha",
+      "data": "2026-08-16T23:38:00+00:00"
+    },
+    {
       "titulo": "Lula decide não ir a debate da Band e alega desigualdade de condições",
       "fonte": "Folha",
       "data": "2026-08-16T23:30:00+00:00"
@@ -71,11 +86,6 @@
       "data": "2026-08-16T23:01:00+00:00"
     },
     {
-      "titulo": "Obras provocam bloqueios no Sistema Anchieta-Imigrantes; veja programação",
-      "fonte": "G1",
-      "data": "2026-08-16T23:00:08+00:00"
-    },
-    {
       "titulo": "Nova onda de calor deve atingir o Brasil nos próximos dias; veja previsão",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T23:00:08+00:00"
@@ -89,17 +99,7 @@
       "titulo": "Candidatos ao governo de Minas chegam para o primeiro debate eleitoral",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T22:56:56+00:00"
-    },
-    {
-      "titulo": "Ebola na República Democrática do Congo é o mais mortal da história",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T22:56:16+00:00"
-    },
-    {
-      "titulo": "João Fonseca iguala marca de Guga de 23 anos atrás e “repete” Pete Sampras",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T22:45:43+00:00"
     }
   ],
-  "atualizado_em": "2026-08-16T23:38:05.191116+00:00"
+  "atualizado_em": "2026-08-16T23:54:53.173806+00:00"
 }
