@@ -1,14 +1,64 @@
 {
   "itens": [
     {
+      "titulo": "ACM Neto começa campanha eleitoral em cidades do interior da Bahia",
+      "fonte": "G1",
+      "data": "2026-08-16T15:46:24+00:00"
+    },
+    {
+      "titulo": "Incêndio atinge barracas e parte de construção em Romaria",
+      "fonte": "G1",
+      "data": "2026-08-16T15:45:14+00:00"
+    },
+    {
+      "titulo": "Agência de classificação de risco Fitch eleva nota de crédito do município do Rio de Janeiro para o grau mais alto",
+      "fonte": "G1",
+      "data": "2026-08-16T15:44:40+00:00"
+    },
+    {
+      "titulo": "Tarcísio dá pontapé inicial em campanha à reeleição ao Governo ao lado de expoentes políticos em Osasco",
+      "fonte": "G1",
+      "data": "2026-08-16T15:44:31+00:00"
+    },
+    {
+      "titulo": "Bianca Andrade é internada e tranquiliza fãs sobre saúde: 'Foi só um susto'",
+      "fonte": "Folha",
+      "data": "2026-08-16T15:44:00+00:00"
+    },
+    {
+      "titulo": "Carro bate contra poste e mobiliza equipe do Corpo de Bombeiros em Volta Redonda",
+      "fonte": "G1",
+      "data": "2026-08-16T15:41:24+00:00"
+    },
+    {
+      "titulo": "Lula discursa em primeiro dia de campanha; veja principais frases",
+      "fonte": "G1",
+      "data": "2026-08-16T15:40:50+00:00"
+    },
+    {
+      "titulo": "O que está levando cada vez mais homens a fazer preenchimento no pênis, apesar dos riscos",
+      "fonte": "G1",
+      "data": "2026-08-16T15:37:02+00:00"
+    },
+    {
+      "titulo": "VÍDEOS: Liberal Comunidade de domingo, 16 de agosto",
+      "fonte": "G1",
+      "data": "2026-08-16T15:36:52+00:00"
+    },
+    {
+      "titulo": "Lula começa campanha em São Bernardo em tom emotivo e critica gestão da pandemia sob Bolsonaro",
+      "fonte": "Folha",
+      "data": "2026-08-16T15:31:00+00:00"
+    },
+    {
+      "titulo": "Haddad lança campanha em evento exaltando Lula",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T15:23:08+00:00"
+    },
+    {
       "titulo": "Zema inicia campanha com promessa de 'superpresídio' e críticas a ministros do STF",
       "fonte": "Folha",
       "data": "2026-08-16T15:19:00+00:00"
-    },
-    {
-      "titulo": "Engavetamento deixa um ferido e motorista envolvido foge sem prestar socorro em Itupeva",
-      "fonte": "G1",
-      "data": "2026-08-16T15:16:21+00:00"
     },
     {
       "titulo": "Caiado começa campanha com carreata em Goiás e afirma que é oposição a Lula, após fala de Kassab",
@@ -19,21 +69,6 @@
       "titulo": "Piscina pública em Berlim vira palco para extrema direita e discussão sobre racismo na Alemanha",
       "fonte": "Folha",
       "data": "2026-08-16T15:13:00+00:00"
-    },
-    {
-      "titulo": "Mulher é presa com drogas escondidas nas partes íntimas ao tentar entrar em presídio de Governador Valadares",
-      "fonte": "G1",
-      "data": "2026-08-16T15:09:41+00:00"
-    },
-    {
-      "titulo": "Aroldo Félix dá início à campanha eleitoral com ato em bairro de Salvador",
-      "fonte": "G1",
-      "data": "2026-08-16T15:09:34+00:00"
-    },
-    {
-      "titulo": "Juliana Brizola declara R$ 376,1 mil em bens ao TSE; Edegar Pretto informa R$ 670,4 mil",
-      "fonte": "G1",
-      "data": "2026-08-16T15:07:44+00:00"
     },
     {
       "titulo": "Atendimento veterinário gratuito é ampliado em Pereira, na Colômbia",
@@ -56,50 +91,15 @@
       "data": "2026-08-16T15:03:37+00:00"
     },
     {
-      "titulo": "VÍDEO: Câmera mostra SUV em alta velocidade atingir picape e invadir casa em Campo Grande",
-      "fonte": "G1",
-      "data": "2026-08-16T15:02:40+00:00"
-    },
-    {
-      "titulo": "Loteria Federal hoje: resultado do concurso 6092 e números sorteados",
-      "fonte": "G1",
-      "data": "2026-08-16T15:00:54+00:00"
+      "titulo": "Rússia ataca siderúrgica na Ucrânia e mata duas pessoas",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T15:01:10+00:00"
     },
     {
       "titulo": "Redação do Enem: professor aponta 7 temas que merecem atenção em 2026",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T15:00:17+00:00"
-    },
-    {
-      "titulo": "Produtividade e rotina mediada por telas são os novos cativeiros das relações, diz Esther Perel",
-      "fonte": "Folha",
-      "data": "2026-08-16T15:00:00+00:00"
-    },
-    {
-      "titulo": "Mineral reforça hipótese sobre origem de cratera de Colônia, na zona sul de São Paulo",
-      "fonte": "Folha",
-      "data": "2026-08-16T15:00:00+00:00"
-    },
-    {
-      "titulo": "Família deveria ser sinônimo de acolhimento",
-      "fonte": "Folha",
-      "data": "2026-08-16T15:00:00+00:00"
-    },
-    {
-      "titulo": "Setor farmacêutico diz que extensão de patentes pode atrasar genéricos e aumentar gastos com remédios",
-      "fonte": "Folha",
-      "data": "2026-08-16T15:00:00+00:00"
-    },
-    {
-      "titulo": "Incêndio atinge casa de festas em Joinville",
-      "fonte": "G1",
-      "data": "2026-08-16T14:58:41+00:00"
-    },
-    {
-      "titulo": "Celina Leão abre campanha de reeleição ao governo do DF ao lado de Michelle Bolsonaro e Bia Kicis",
-      "fonte": "G1",
-      "data": "2026-08-16T14:56:32+00:00"
     }
   ],
-  "atualizado_em": "2026-08-16T15:21:56.113120+00:00"
+  "atualizado_em": "2026-08-16T15:53:44.410770+00:00"
 }
