@@ -1,6 +1,61 @@
 {
   "itens": [
     {
+      "titulo": "17ª Marcha para Jesus reúne fiéis em Macaé no próximo dia 22 de agosto",
+      "fonte": "G1",
+      "data": "2026-08-16T03:04:11+00:00"
+    },
+    {
+      "titulo": "Lavabos ganham protagonismo nos projetos residenciais",
+      "fonte": "G1",
+      "data": "2026-08-16T03:03:13+00:00"
+    },
+    {
+      "titulo": "Educaseg leva palestra sobre bullying e cyberbullying a alunos",
+      "fonte": "G1",
+      "data": "2026-08-16T03:03:10+00:00"
+    },
+    {
+      "titulo": "Ataque de mísseis russos em Kiev provoca incêndio e deixa um ferido",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T03:01:12+00:00"
+    },
+    {
+      "titulo": "Mega-Sena pode pagar R$ 38 milhões neste domingo; g1 transmite ao vivo",
+      "fonte": "G1",
+      "data": "2026-08-16T03:00:32+00:00"
+    },
+    {
+      "titulo": "Quem são os candidatos ao Senado pelo RJ nas eleições de 2026?",
+      "fonte": "G1",
+      "data": "2026-08-16T03:00:21+00:00"
+    },
+    {
+      "titulo": "Eleições ao Senado: Lula foca em governabilidade e Flávio em enfrentamento ao STF; veja candidatos e estratégias",
+      "fonte": "G1",
+      "data": "2026-08-16T03:00:18+00:00"
+    },
+    {
+      "titulo": "Eleições 2026: Veja a agenda dos candidatos ao Governo do RJ no domingo",
+      "fonte": "G1",
+      "data": "2026-08-16T03:00:17+00:00"
+    },
+    {
+      "titulo": "Saiba como maior observatório astronômico do Brasil ajuda a desvendar mistérios do Universo",
+      "fonte": "G1",
+      "data": "2026-08-16T03:00:13+00:00"
+    },
+    {
+      "titulo": "Alstom investe R$ 130 mi em 5 anos para ampliar produção de trens em SP",
+      "fonte": "Folha",
+      "data": "2026-08-16T02:59:00+00:00"
+    },
+    {
+      "titulo": "São Paulo 1 x 1 Coritiba: veja os melhores momentos do jogo do Brasileirão",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T02:51:15+00:00"
+    },
+    {
       "titulo": "Pizzaria das Tartarugas Ninja é inaugurada na avenida Paulista",
       "fonte": "Folha",
       "data": "2026-08-16T02:00:00+00:00"
@@ -11,7 +66,7 @@
       "data": "2026-08-16T02:00:00+00:00"
     },
     {
-      "titulo": "Lula começa campanha no palanquesindical que o projetou para a política",
+      "titulo": "Lula começa campanha no palanque sindical que o projetou para a política",
       "fonte": "Folha",
       "data": "2026-08-16T02:00:00+00:00"
     },
@@ -36,11 +91,6 @@
       "data": "2026-08-16T02:00:00+00:00"
     },
     {
-      "titulo": "Dono de banca de jornal de Curitiba vota 'em quem tem mais chance de derrotar PT'",
-      "fonte": "Folha",
-      "data": "2026-08-16T02:00:00+00:00"
-    },
-    {
       "titulo": "São Paulo empata com Coritiba e chega a 9 jogos sem vencer no Brasileirão",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T01:55:36+00:00"
@@ -49,57 +99,7 @@
       "titulo": "Ameaçado por stalker da namorada, ex-Arsenal pede para sair do Galatasaray",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T01:53:49+00:00"
-    },
-    {
-      "titulo": "Ataque russo com mísseis provoca incêndios em Kiev e deixa um ferido, dizem autoridades",
-      "fonte": "G1",
-      "data": "2026-08-16T01:50:38+00:00"
-    },
-    {
-      "titulo": "Brasil soma mais 3 medalhas no Grand Prix de Judô",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T01:44:42+00:00"
-    },
-    {
-      "titulo": "Surto de sarampo leva São Paulo e cidades da Grande SP a ampliar vacinação contra a doença",
-      "fonte": "G1",
-      "data": "2026-08-16T01:35:42+00:00"
-    },
-    {
-      "titulo": "Rogério Caboclo desiste da disputa à presidência do São Paulo",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T01:32:33+00:00"
-    },
-    {
-      "titulo": "Governador Carlos Brandão nega envolvimento em organização criminosa investigada pela PF no Maranhão",
-      "fonte": "G1",
-      "data": "2026-08-16T01:28:26+00:00"
-    },
-    {
-      "titulo": "Pesquisa nacional levanta dados sobre a saúde dos brasileiros",
-      "fonte": "G1",
-      "data": "2026-08-16T01:17:01+00:00"
-    },
-    {
-      "titulo": "Eleições 2026: saiba como foi o dia dos candidatos ao Governo do Maranhão",
-      "fonte": "G1",
-      "data": "2026-08-16T01:04:30+00:00"
-    },
-    {
-      "titulo": "Tifanny é ovacionada pela torcida do Osasco após nova decisão da CBV",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T00:57:30+00:00"
-    },
-    {
-      "titulo": "Dados prévios do TSE indicam 20.438 candidaturas",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T00:54:29+00:00"
-    },
-    {
-      "titulo": "El Niño deixa o verão amazônico com tempo seco e temperaturas altas, em Manaus",
-      "fonte": "G1",
-      "data": "2026-08-16T00:49:15+00:00"
     }
   ],
-  "atualizado_em": "2026-08-16T02:46:05.315220+00:00"
+  "atualizado_em": "2026-08-16T03:45:47.264372+00:00"
 }
