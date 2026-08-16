@@ -1,6 +1,61 @@
 {
   "itens": [
     {
+      "titulo": "Pai suspeito de matar filho a facadas em MT tem prisão convertida em preventiva",
+      "fonte": "G1",
+      "data": "2026-08-16T23:12:08+00:00"
+    },
+    {
+      "titulo": "Motociclista de 50 anos morre após acidente com carro em rodovia de Guaratinguetá",
+      "fonte": "G1",
+      "data": "2026-08-16T23:10:18+00:00"
+    },
+    {
+      "titulo": "Saiba quem eram as vítimas do acidente com 10 mortos em Petrópolis",
+      "fonte": "G1",
+      "data": "2026-08-16T23:08:25+00:00"
+    },
+    {
+      "titulo": "Junno Andrade revela reação de Xuxa ao convite da Dança dos Famosos: 'Disse que eu não estava preparado'",
+      "fonte": "Folha",
+      "data": "2026-08-16T23:06:00+00:00"
+    },
+    {
+      "titulo": "A estupidificação da espécie",
+      "fonte": "Folha",
+      "data": "2026-08-16T23:06:00+00:00"
+    },
+    {
+      "titulo": "No dia 1 de campanha, PT faz culto à personalidade de Lula e PL projeta Flávio com antipetismo",
+      "fonte": "Folha",
+      "data": "2026-08-16T23:01:00+00:00"
+    },
+    {
+      "titulo": "Obras provocam bloqueios no Sistema Anchieta-Imigrantes; veja programação",
+      "fonte": "G1",
+      "data": "2026-08-16T23:00:08+00:00"
+    },
+    {
+      "titulo": "Ana Estela Haddad entra na coordenação da campanha de Lula em SP",
+      "fonte": "Folha",
+      "data": "2026-08-16T23:00:00+00:00"
+    },
+    {
+      "titulo": "Candidatos ao Governo de MT iniciam campanha neste domingo (16); veja agendas",
+      "fonte": "G1",
+      "data": "2026-08-16T22:50:35+00:00"
+    },
+    {
+      "titulo": "João Fonseca iguala marca de Guga de 23 anos atrás e “repete” Pete Sampras",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T22:45:43+00:00"
+    },
+    {
+      "titulo": "Dois homens são presos com arma e droga na Avenida Kennedy, em São Luís",
+      "fonte": "G1",
+      "data": "2026-08-16T22:41:47+00:00"
+    },
+    {
       "titulo": "Fisiculturista Dwayne Quamina morre aos 40 nos EUA",
       "fonte": "Folha",
       "data": "2026-08-16T22:38:00+00:00"
@@ -9,6 +64,11 @@
       "titulo": "Dança dos famosos 2026 anuncia participantes; veja lista",
       "fonte": "G1",
       "data": "2026-08-16T22:27:16+00:00"
+    },
+    {
+      "titulo": "Junno Andrade revela que Xuxa não o apoiou para “Dança dos Famosos”",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T22:26:11+00:00"
     },
     {
       "titulo": "Eles se apaixonaram e violaram a lei para ter certeza de que não eram irmãos",
@@ -26,11 +86,6 @@
       "data": "2026-08-16T22:18:57+00:00"
     },
     {
-      "titulo": "Augusto Cury inicia campanha na Grande BH e defende 'revolução na educação', segurança integrada e 'pacto nacional'",
-      "fonte": "G1",
-      "data": "2026-08-16T22:12:04+00:00"
-    },
-    {
       "titulo": "Marabraz pede recuperação judicial com dívidas de R$ 140 milhões",
       "fonte": "Folha",
       "data": "2026-08-16T22:07:00+00:00"
@@ -41,65 +96,10 @@
       "data": "2026-08-16T22:01:48+00:00"
     },
     {
-      "titulo": "Amazônia Agro de domingo, 16 de agosto de 2026",
-      "fonte": "G1",
-      "data": "2026-08-16T22:01:11+00:00"
-    },
-    {
-      "titulo": "Projeto oferece 420 vagas gratuitas em oficinas de dança, tecnologia e audiovisual no litoral de SP",
-      "fonte": "G1",
-      "data": "2026-08-16T22:00:08+00:00"
-    },
-    {
-      "titulo": "Dupla é presa com arma e drogas dentro de cemitério em Imperatriz, no MA",
-      "fonte": "G1",
-      "data": "2026-08-16T21:59:30+00:00"
-    },
-    {
-      "titulo": "Acidente com ônibus em Petrópolis mobiliza favela de Belo Horizonte",
-      "fonte": "Folha",
-      "data": "2026-08-16T21:57:00+00:00"
-    },
-    {
-      "titulo": "Trump reduz exercício militar com Seul e diz que Coreia do Norte tem sido 'inofensiva e respeitosa'",
-      "fonte": "Folha",
-      "data": "2026-08-16T21:57:00+00:00"
-    },
-    {
-      "titulo": "Recém-nascida de apenas 3 dias é encontrada abandonada em terreno baldio em Araruama",
-      "fonte": "G1",
-      "data": "2026-08-16T21:55:34+00:00"
-    },
-    {
       "titulo": "São Paulo abre conversas pelo atacante Jamie Vardy, diz jornalista",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T21:55:22+00:00"
-    },
-    {
-      "titulo": "Wellington Fagundes (PL) inicia campanha ao Governo neste domingo (16)",
-      "fonte": "G1",
-      "data": "2026-08-16T21:52:41+00:00"
-    },
-    {
-      "titulo": "Atlético-MG 3×0 Grêmio: veja os melhores momentos pelo Brasileirão",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T21:52:30+00:00"
-    },
-    {
-      "titulo": "Donald Trump elogia novo pacto de defesa no Oriente Médio",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T21:52:19+00:00"
-    },
-    {
-      "titulo": "Autoridade do governo Trump acusa Brasil de censura após X alterar algoritmo para eleição",
-      "fonte": "Folha",
-      "data": "2026-08-16T21:50:00+00:00"
-    },
-    {
-      "titulo": "Lucas Rangel gasta quase R$ 23 mil no casamento de Viih Tube; entenda",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T21:49:20+00:00"
     }
   ],
-  "atualizado_em": "2026-08-16T22:42:05.018237+00:00"
+  "atualizado_em": "2026-08-16T23:17:05.523043+00:00"
 }
