@@ -1,14 +1,79 @@
 {
   "itens": [
     {
-      "titulo": "Quem são os candidatos a governador do RJ nas eleições de 2026?",
-      "fonte": "G1",
-      "data": "2026-08-16T21:11:27+00:00"
+      "titulo": "Torcida do Vasco provoca Neymar com máscaras do craque chorando e de Bruna Marquezine",
+      "fonte": "Folha",
+      "data": "2026-08-16T21:33:00+00:00"
     },
     {
-      "titulo": "Homem é preso por agredir esposa com enxada em Rorainópolis",
+      "titulo": "Sobe para 84 o número de mortos em naufrágio de balsa no Zimbábue",
+      "fonte": "Folha",
+      "data": "2026-08-16T21:30:00+00:00"
+    },
+    {
+      "titulo": "Lens se segura com um a menos, bate PSG e conquista Supercopa da França",
+      "fonte": "Folha",
+      "data": "2026-08-16T21:30:00+00:00"
+    },
+    {
+      "titulo": "Motorista atropela PM e outras duas pessoas durante abordagem em rodovia no interior de SP",
       "fonte": "G1",
-      "data": "2026-08-16T21:09:34+00:00"
+      "data": "2026-08-16T21:29:08+00:00"
+    },
+    {
+      "titulo": "Idoso que teve até 90% do corpo queimado em incêndio em Varginha morre em hospital",
+      "fonte": "G1",
+      "data": "2026-08-16T21:28:42+00:00"
+    },
+    {
+      "titulo": "Energia solar supera marco global e acelera expansão",
+      "fonte": "Folha",
+      "data": "2026-08-16T21:28:00+00:00"
+    },
+    {
+      "titulo": "Pivetta (Republicanos) inicia campanha ao Governo neste domingo (16)",
+      "fonte": "G1",
+      "data": "2026-08-16T21:26:38+00:00"
+    },
+    {
+      "titulo": "De ciúmes a homicídio: 'violentômetro' instalado no interior de SP alerta para escalada da violência contra a mulher",
+      "fonte": "G1",
+      "data": "2026-08-16T21:24:12+00:00"
+    },
+    {
+      "titulo": "Candidatos ao Governo de Goiás iniciam campanha eleitoral; veja como foi o primeiro dia",
+      "fonte": "G1",
+      "data": "2026-08-16T21:23:44+00:00"
+    },
+    {
+      "titulo": "Grávida de quatro meses está entre os 10 mortos no acidente em Petrópolis; Marido sofreu ferimentos leves",
+      "fonte": "G1",
+      "data": "2026-08-16T21:23:21+00:00"
+    },
+    {
+      "titulo": "Presidente do Corinthians busca aval do CORI para renovar com Memphis",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T21:19:36+00:00"
+    },
+    {
+      "titulo": "Candidatos ao governo do DF abrem campanha com missas, atos de rua e jogo de futebol; veja resumo do primeiro dia",
+      "fonte": "G1",
+      "data": "2026-08-16T21:18:43+00:00"
+    },
+    {
+      "titulo": "PRF apreende 390 ampolas de remédio emagrecedor escondidas em banco de carro na BR-153",
+      "fonte": "G1",
+      "data": "2026-08-16T21:14:57+00:00"
+    },
+    {
+      "titulo": "Zé Felipe posa ao lado dos filhos e encanta a web: “Tropinha”",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T21:14:36+00:00"
+    },
+    {
+      "titulo": "Com um a menos, Lens vence PSG e conquista o título da Supercopa da França",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T21:07:40+00:00"
     },
     {
       "titulo": "Santos deslancha na etapa final, aproveita falhas do Vasco e deixa zona da degola",
@@ -16,90 +81,25 @@
       "data": "2026-08-16T21:07:00+00:00"
     },
     {
-      "titulo": "Carro fica partido ao meio em acidente que deixou um morto e nove feridos na Mogi-Bertioga; VEJA",
-      "fonte": "G1",
-      "data": "2026-08-16T21:05:26+00:00"
+      "titulo": "Elizabeth Olsen dá à luz primeiro filho com músico Robbie Arnett, diz site",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T21:06:58+00:00"
     },
     {
-      "titulo": "VÍDEO: Homem morre afogado na Praia de Araoca, em Guimarães",
-      "fonte": "G1",
-      "data": "2026-08-16T21:04:48+00:00"
+      "titulo": "Com colete à prova de balas, Renan Santos defende plano de encarceramento",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T21:06:44+00:00"
     },
     {
-      "titulo": "De nenhum bem a R$ 15,4 milhões: veja o patrimônio dos candidatos ao Senado pelo Pará declarado ao TSE",
-      "fonte": "G1",
-      "data": "2026-08-16T21:04:04+00:00"
-    },
-    {
-      "titulo": "Polícia Federal localiza avião de Vorcaro no Paraguai",
-      "fonte": "G1",
-      "data": "2026-08-16T21:03:47+00:00"
-    },
-    {
-      "titulo": "Vídeo: vítima de feminicídio é esfaqueada por companheiro na fila de supermercado na Zona Norte de SP",
-      "fonte": "G1",
-      "data": "2026-08-16T21:01:03+00:00"
-    },
-    {
-      "titulo": "Região de Piracicaba começa semana com 1,5 mil vagas de emprego abertas; saiba como se candidatar",
-      "fonte": "G1",
-      "data": "2026-08-16T21:00:10+00:00"
+      "titulo": "Relacionamento aberto é três vezes mais comum entre jovens LGBT+",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T21:00:50+00:00"
     },
     {
       "titulo": "Othon Bastos será homenageado na 1ª edição do Festival de Teatro de São Paulo",
       "fonte": "Folha",
       "data": "2026-08-16T21:00:00+00:00"
-    },
-    {
-      "titulo": "Santos vence em São Januário e afunda Vasco no Z-4 do Brasileirão",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T20:57:53+00:00"
-    },
-    {
-      "titulo": "Atlético-MG vence o Grêmio com facilidade e aproxima o tricolor do Z4",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T20:57:05+00:00"
-    },
-    {
-      "titulo": "Mortes: Fez da música a trilha sonora dos negócios e da vida",
-      "fonte": "Folha",
-      "data": "2026-08-16T20:52:00+00:00"
-    },
-    {
-      "titulo": "Quem é O’Connell, rival de João Fonseca no Masters de Cincinnati",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T20:44:12+00:00"
-    },
-    {
-      "titulo": "Virginia Fonseca viaja de jatinho e Vini Jr. cobra: “Vindo para Madri?”",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T20:43:35+00:00"
-    },
-    {
-      "titulo": "Eleição terá ao menos 20,5 mil candidatos pelo país, aponta balanço do TSE",
-      "fonte": "Folha",
-      "data": "2026-08-16T20:42:00+00:00"
-    },
-    {
-      "titulo": "Novo 'Homem-Aranha' faz US$ 2 bilhões na bilheteria, e 'A Odisseia' rende US$ 1,27 bi",
-      "fonte": "Folha",
-      "data": "2026-08-16T20:42:00+00:00"
-    },
-    {
-      "titulo": "“Homem-Aranha: Um Novo Dia” arrecada US$ 2 bilhões em 3 semanas",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T20:41:28+00:00"
-    },
-    {
-      "titulo": "Mirassol x Flamengo: escalações e onde assistir ao Brasileirão",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T20:40:28+00:00"
-    },
-    {
-      "titulo": "Vitória x Botafogo: escalações e onde assistir ao jogo do Brasileirão",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T20:36:01+00:00"
     }
   ],
-  "atualizado_em": "2026-08-16T21:17:47.901694+00:00"
+  "atualizado_em": "2026-08-16T21:38:42.596156+00:00"
 }
