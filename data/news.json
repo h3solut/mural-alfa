@@ -1,6 +1,16 @@
 {
   "itens": [
     {
+      "titulo": "Chuvas matam 9 no Japão, inundam casas e desabrigam centenas",
+      "fonte": "Folha",
+      "data": "2026-08-16T11:51:00+00:00"
+    },
+    {
+      "titulo": "Suspeito de matar sargento da PM é preso no litoral do Piauí; vídeo registrou crime",
+      "fonte": "G1",
+      "data": "2026-08-16T11:42:49+00:00"
+    },
+    {
       "titulo": "Terremoto na Indonésia: número de mortos sobe para 53; país decreta estado de emergência de 2 semanas",
       "fonte": "G1",
       "data": "2026-08-16T11:31:51+00:00"
@@ -46,11 +56,6 @@
       "data": "2026-08-16T11:02:21+00:00"
     },
     {
-      "titulo": "Dos R$ 10 à Bolsa: jovens do interior de SP contam como começaram a investir e especialistas dão dicas",
-      "fonte": "G1",
-      "data": "2026-08-16T11:00:50+00:00"
-    },
-    {
       "titulo": "Contra o Santos, Vasco retoma foco na fuga do rebaixamento no Brasileirão",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T11:00:23+00:00"
@@ -94,12 +99,7 @@
       "titulo": "Checklist do carro usado: saiba o que avaliar antes de fechar negócio",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T10:00:43+00:00"
-    },
-    {
-      "titulo": "Petrobras prevê gastar R$ 3,3 bi em poços na Foz do Amazonas",
-      "fonte": "Folha",
-      "data": "2026-08-16T10:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-16T11:39:49.412727+00:00"
+  "atualizado_em": "2026-08-16T11:56:38.366763+00:00"
 }
