@@ -1,6 +1,41 @@
 {
   "itens": [
     {
+      "titulo": "Lula decide não ir a debate da Band e alega desigualdade de condições",
+      "fonte": "Folha",
+      "data": "2026-08-16T23:30:00+00:00"
+    },
+    {
+      "titulo": "Vídeo mostra atos de vandalismo no Terminal Cehab em Macaé",
+      "fonte": "G1",
+      "data": "2026-08-16T23:28:19+00:00"
+    },
+    {
+      "titulo": "Debate em MG: candidatos ao governo se enfrentam pela 1ª vez",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T23:25:08+00:00"
+    },
+    {
+      "titulo": "'Braço direito', 'senador do povo' e segurança: em evento, candidatos ao Senado em SP divulgam lemas",
+      "fonte": "G1",
+      "data": "2026-08-16T23:24:08+00:00"
+    },
+    {
+      "titulo": "Trump manda Pentágono reduzir exercícios militares com a Coreia do Sul",
+      "fonte": "G1",
+      "data": "2026-08-16T23:22:13+00:00"
+    },
+    {
+      "titulo": "Flamengo atropela Mirassol e cola de vez no Palmeiras, líder do Brasileirão",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T23:21:32+00:00"
+    },
+    {
+      "titulo": "Cinco pessoas ficam feridas após batida entre caminhão e três carros na BR-153, em Goiás",
+      "fonte": "G1",
+      "data": "2026-08-16T23:20:51+00:00"
+    },
+    {
       "titulo": "Pai suspeito de matar filho a facadas em MT tem prisão convertida em preventiva",
       "fonte": "G1",
       "data": "2026-08-16T23:12:08+00:00"
@@ -9,6 +44,11 @@
       "titulo": "Motociclista de 50 anos morre após acidente com carro em rodovia de Guaratinguetá",
       "fonte": "G1",
       "data": "2026-08-16T23:10:18+00:00"
+    },
+    {
+      "titulo": "Luciano Huck “desaparece” após tecido cair nele ao vivo; confira",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T23:09:14+00:00"
     },
     {
       "titulo": "Saiba quem eram as vítimas do acidente com 10 mortos em Petrópolis",
@@ -36,70 +76,30 @@
       "data": "2026-08-16T23:00:08+00:00"
     },
     {
+      "titulo": "Nova onda de calor deve atingir o Brasil nos próximos dias; veja previsão",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T23:00:08+00:00"
+    },
+    {
       "titulo": "Ana Estela Haddad entra na coordenação da campanha de Lula em SP",
       "fonte": "Folha",
       "data": "2026-08-16T23:00:00+00:00"
     },
     {
-      "titulo": "Candidatos ao Governo de MT iniciam campanha neste domingo (16); veja agendas",
-      "fonte": "G1",
-      "data": "2026-08-16T22:50:35+00:00"
+      "titulo": "Candidatos ao governo de Minas chegam para o primeiro debate eleitoral",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T22:56:56+00:00"
+    },
+    {
+      "titulo": "Ebola na República Democrática do Congo é o mais mortal da história",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T22:56:16+00:00"
     },
     {
       "titulo": "João Fonseca iguala marca de Guga de 23 anos atrás e “repete” Pete Sampras",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T22:45:43+00:00"
-    },
-    {
-      "titulo": "Dois homens são presos com arma e droga na Avenida Kennedy, em São Luís",
-      "fonte": "G1",
-      "data": "2026-08-16T22:41:47+00:00"
-    },
-    {
-      "titulo": "Fisiculturista Dwayne Quamina morre aos 40 nos EUA",
-      "fonte": "Folha",
-      "data": "2026-08-16T22:38:00+00:00"
-    },
-    {
-      "titulo": "Dança dos famosos 2026 anuncia participantes; veja lista",
-      "fonte": "G1",
-      "data": "2026-08-16T22:27:16+00:00"
-    },
-    {
-      "titulo": "Junno Andrade revela que Xuxa não o apoiou para “Dança dos Famosos”",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T22:26:11+00:00"
-    },
-    {
-      "titulo": "Eles se apaixonaram e violaram a lei para ter certeza de que não eram irmãos",
-      "fonte": "Folha",
-      "data": "2026-08-16T22:24:00+00:00"
-    },
-    {
-      "titulo": "IA vai inundar o serviço público como um tsunami",
-      "fonte": "Folha",
-      "data": "2026-08-16T22:22:00+00:00"
-    },
-    {
-      "titulo": "Acidente entre caminhões deixa um morto e dois feridos na BR-153",
-      "fonte": "G1",
-      "data": "2026-08-16T22:18:57+00:00"
-    },
-    {
-      "titulo": "Marabraz pede recuperação judicial com dívidas de R$ 140 milhões",
-      "fonte": "Folha",
-      "data": "2026-08-16T22:07:00+00:00"
-    },
-    {
-      "titulo": "Após expor crise financeira, Fiuk vende veículo em “oferta relâmpago”",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T22:01:48+00:00"
-    },
-    {
-      "titulo": "São Paulo abre conversas pelo atacante Jamie Vardy, diz jornalista",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T21:55:22+00:00"
     }
   ],
-  "atualizado_em": "2026-08-16T23:17:05.523043+00:00"
+  "atualizado_em": "2026-08-16T23:38:05.191116+00:00"
 }
