@@ -1,44 +1,89 @@
 {
   "itens": [
     {
+      "titulo": "Chefe do comando central dos EUA visita porta-aviões USS Abraham Lincoln",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T17:31:28+00:00"
+    },
+    {
+      "titulo": "Homem é preso após agredir cliente com arma e garrafa em bar de Juiz de Fora",
+      "fonte": "G1",
+      "data": "2026-08-16T17:26:56+00:00"
+    },
+    {
+      "titulo": "Presença militar israelense acompanha tensão na Cisjordânia",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T17:25:32+00:00"
+    },
+    {
+      "titulo": "Cristiano Ronaldo afirma que o próximo ano pode marcar fim da carreira",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T17:23:32+00:00"
+    },
+    {
+      "titulo": "Erro de digitação coloca candidato de MS entre os mais ricos do Brasil com R$ 1,8 bilhão em bens",
+      "fonte": "G1",
+      "data": "2026-08-16T17:23:07+00:00"
+    },
+    {
+      "titulo": "Mutirão de empregos oferece mais de 200 vagas em Mogi das Cruzes",
+      "fonte": "G1",
+      "data": "2026-08-16T17:21:47+00:00"
+    },
+    {
+      "titulo": "Irã oferece US$ 30 mil por captura ou morte de soldados dos EUA",
+      "fonte": "G1",
+      "data": "2026-08-16T17:19:39+00:00"
+    },
+    {
+      "titulo": "Atlético-MG e Grêmio se enfrentam buscando aumentar sequência invicta",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T17:19:00+00:00"
+    },
+    {
+      "titulo": "Eleições 2026: veja a agenda de Renan Filho neste domingo (16)",
+      "fonte": "G1",
+      "data": "2026-08-16T17:18:17+00:00"
+    },
+    {
+      "titulo": "Arthur Aguiar e Jheny Santucci anunciam segunda gravidez: “Uma nova vida”",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T17:17:21+00:00"
+    },
+    {
+      "titulo": "Kim Jong-Un e Putin reafirmam laços no Dia da Libertação da Coreia",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T17:17:06+00:00"
+    },
+    {
+      "titulo": "Com Lázaro Ramos, 'Feito Pipa' leva cinema às lágrimas no Festival de Gramado",
+      "fonte": "Folha",
+      "data": "2026-08-16T17:17:00+00:00"
+    },
+    {
+      "titulo": "Irã oferece 30 mil dólares por soldados americanos mortos ou capturados",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T17:16:48+00:00"
+    },
+    {
+      "titulo": "Incêndio destrói casa no distrito de Rubião Júnior em Botucatu",
+      "fonte": "G1",
+      "data": "2026-08-16T17:16:46+00:00"
+    },
+    {
+      "titulo": "Temporal com granizo atinge Porto Alegre e Região Metropolitana",
+      "fonte": "G1",
+      "data": "2026-08-16T17:14:57+00:00"
+    },
+    {
       "titulo": "Migrantes marroquinos protestam em Ceuta e pedem asilo à Espanha",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T17:14:54+00:00"
     },
     {
-      "titulo": "1º dia de campanha: Lula fala de mulheres; Flávio cita de INSS e Lulinha",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T17:13:32+00:00"
-    },
-    {
-      "titulo": "Homem é preso por suspeita de agredir  mulher em Barra Mansa",
+      "titulo": "Resultado da Mega-Sena 3045: aposta do Piauí acerta quina e leva R$ 89 mil; veja cidades premiadas",
       "fonte": "G1",
-      "data": "2026-08-16T17:09:41+00:00"
-    },
-    {
-      "titulo": "Ex-servidores temporários da saúde denunciam atraso no pagamento de rescisões pela Prefeitura de Juiz de Fora",
-      "fonte": "G1",
-      "data": "2026-08-16T17:09:32+00:00"
-    },
-    {
-      "titulo": "Homem que deveria estar em prisão domiciliar é flagrado na rua e levado à delegacia em Boa Vista",
-      "fonte": "G1",
-      "data": "2026-08-16T17:08:24+00:00"
-    },
-    {
-      "titulo": "De nenhum bem a R$ 2,3 milhões: veja o patrimônio dos candidatos ao senado por Sergipe declarado ao TSE",
-      "fonte": "G1",
-      "data": "2026-08-16T17:07:01+00:00"
-    },
-    {
-      "titulo": "Campanha de Flávio articula encontro com aliados e artistas em Barretos",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T17:03:14+00:00"
-    },
-    {
-      "titulo": "Sabonete em barra realmente reduz o odor no vaso sanitário?",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T17:00:38+00:00"
+      "data": "2026-08-16T17:12:55+00:00"
     },
     {
       "titulo": "Beijos, looks xadrez, corrida do saco e ovo na colher: Bruna Biancardi mostra arraiá com Neymar",
@@ -51,55 +96,10 @@
       "data": "2026-08-16T17:00:00+00:00"
     },
     {
-      "titulo": "Eleições 2026: veja a agenda de Lenilda Luna neste domingo (16)",
-      "fonte": "G1",
-      "data": "2026-08-16T16:59:49+00:00"
-    },
-    {
-      "titulo": "Candidatos a governo começam campanha nos estados; veja as agendas",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T16:58:03+00:00"
-    },
-    {
-      "titulo": "Grave acidente envolvendo quatro carros deixa três feridos na Avenida Rodrigo Otávio, em Manaus",
-      "fonte": "G1",
-      "data": "2026-08-16T16:57:51+00:00"
-    },
-    {
-      "titulo": "Ao lançar campanha, Tarcísio afirma que pauta da mulher dominará debates",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T16:56:46+00:00"
-    },
-    {
-      "titulo": "Primeiro dia de campanha eleitoral tem adesivaços, atos e candidatos sem agenda pública em MS",
-      "fonte": "G1",
-      "data": "2026-08-16T16:56:27+00:00"
-    },
-    {
-      "titulo": "Raquel Lyra inicia campanha em ato com apoiadores no Recife e fala em estratégia com foco na Região Metropolitana",
-      "fonte": "G1",
-      "data": "2026-08-16T16:54:09+00:00"
-    },
-    {
-      "titulo": "Acidente de ônibus no RJ: Sobe para 10 número de mortos em viagem turística",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T16:53:24+00:00"
-    },
-    {
-      "titulo": "TSE decide não analisar liminar sobre eventos do PT e projeto ligado a Lula",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T16:52:02+00:00"
-    },
-    {
       "titulo": "Irã oferece recompensa de US$ 30 mil por morte ou captura de soldados dos EUA",
       "fonte": "Folha",
       "data": "2026-08-16T16:39:00+00:00"
-    },
-    {
-      "titulo": "'O planeta em que nascemos não existe mais': o climatologista que alerta para epidemia de eventos climáticos extremos, mas se mantém otimista",
-      "fonte": "Folha",
-      "data": "2026-08-16T16:38:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-16T17:20:12.151636+00:00"
+  "atualizado_em": "2026-08-16T17:39:41.344768+00:00"
 }
