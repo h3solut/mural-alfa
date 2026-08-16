@@ -1,34 +1,84 @@
 {
   "itens": [
     {
+      "titulo": "Homem é morto a tiros dentro de casa abandonada na Zona Leste de Manaus",
+      "fonte": "G1",
+      "data": "2026-08-16T12:35:00+00:00"
+    },
+    {
+      "titulo": "Romeu Zema inicia campanha à Presidência em Montes Claros",
+      "fonte": "G1",
+      "data": "2026-08-16T12:32:44+00:00"
+    },
+    {
+      "titulo": "Motociclista é encontrado morto em canteiro central da SP-300 em Pirajuí",
+      "fonte": "G1",
+      "data": "2026-08-16T12:30:34+00:00"
+    },
+    {
+      "titulo": "Mato Grosso terá 479 candidatos nas eleições de 2026, número menor que o registrado em 2022",
+      "fonte": "G1",
+      "data": "2026-08-16T12:29:25+00:00"
+    },
+    {
+      "titulo": "De R$ 967,43 a R$ 1,8 milhão: veja o patrimônio dos candidatos ao governo do Piauí declarado ao TSE",
+      "fonte": "G1",
+      "data": "2026-08-16T12:23:18+00:00"
+    },
+    {
+      "titulo": "'Nunca cogitamos não lançar': o relato de um cientista que ajudou a fabricar a bomba atômica que devastou Nagasaki",
+      "fonte": "Folha",
+      "data": "2026-08-16T12:17:00+00:00"
+    },
+    {
+      "titulo": "Ladrões roubam quatro obras do Renascimento em museu da Sicília durante feriado italiano",
+      "fonte": "G1",
+      "data": "2026-08-16T12:16:55+00:00"
+    },
+    {
+      "titulo": "Artista de RO é selecionada para expor obras no Carrousel du Louvre, em Paris",
+      "fonte": "G1",
+      "data": "2026-08-16T12:13:22+00:00"
+    },
+    {
+      "titulo": "Eleições 2026: veja a agenda dos candidatos ao Governo do MA no primeiro dia oficial de campanha",
+      "fonte": "G1",
+      "data": "2026-08-16T12:08:56+00:00"
+    },
+    {
+      "titulo": "Lula visitará navio da Petrobras no Amapá para exaltar indícios de petróleo e em gesto a Alcolumbre",
+      "fonte": "Folha",
+      "data": "2026-08-16T12:04:00+00:00"
+    },
+    {
+      "titulo": "Brasil conquista primeiro ouro na história do Mundial de ginástica rítmica",
+      "fonte": "Folha",
+      "data": "2026-08-16T12:03:00+00:00"
+    },
+    {
+      "titulo": "Botafogo busca reconstrução no Brasileirão após sofrer goleada histórica",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T12:00:44+00:00"
+    },
+    {
+      "titulo": "Como uma rota de navegação congelada está aproximando a China e a Rússia",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-16T12:00:25+00:00"
+    },
+    {
+      "titulo": "Nicole Bahls batiza cabrito de Vini Jr. e recebe mãe do jogador: 'Virginia já está aqui'",
+      "fonte": "Folha",
+      "data": "2026-08-16T12:00:00+00:00"
+    },
+    {
+      "titulo": "A companheira de Betelgeuse e suas implicações",
+      "fonte": "Folha",
+      "data": "2026-08-16T12:00:00+00:00"
+    },
+    {
       "titulo": "Chuvas matam 9 no Japão, inundam casas e desabrigam centenas",
       "fonte": "Folha",
       "data": "2026-08-16T11:51:00+00:00"
-    },
-    {
-      "titulo": "Suspeito de matar sargento da PM é preso no litoral do Piauí; vídeo registrou crime",
-      "fonte": "G1",
-      "data": "2026-08-16T11:42:49+00:00"
-    },
-    {
-      "titulo": "Terremoto na Indonésia: número de mortos sobe para 53; país decreta estado de emergência de 2 semanas",
-      "fonte": "G1",
-      "data": "2026-08-16T11:31:51+00:00"
-    },
-    {
-      "titulo": "Nevoeiro cobre litoral de SP e paralisa maior porto do país; VEJA",
-      "fonte": "G1",
-      "data": "2026-08-16T11:27:48+00:00"
-    },
-    {
-      "titulo": "Incêndio atinge loja de colchões em São José de Ribamar, na Grande São Luís",
-      "fonte": "G1",
-      "data": "2026-08-16T11:24:38+00:00"
-    },
-    {
-      "titulo": "Gêmeas que nasceram unidas pela cabeça morrem em cirurgia final de separação em Ribeirão Preto",
-      "fonte": "G1",
-      "data": "2026-08-16T11:17:52+00:00"
     },
     {
       "titulo": "Unicamp realiza feira de profissionalização para jovens pretos e pardos",
@@ -41,21 +91,6 @@
       "data": "2026-08-16T11:09:18+00:00"
     },
     {
-      "titulo": "Maioria dos brasileiros rejeita eutanásia e suicídio assistido, mas se divide sobre interromper tratamentos, diz Datafolha",
-      "fonte": "G1",
-      "data": "2026-08-16T11:09:15+00:00"
-    },
-    {
-      "titulo": "Salão adapta rotina para acolher crianças atípicas e neurodivergentes em Macapá",
-      "fonte": "G1",
-      "data": "2026-08-16T11:05:07+00:00"
-    },
-    {
-      "titulo": "Paraíba tem quatro açudes secos e 18 com menos de 10% da capacidade, aponta Aesa",
-      "fonte": "G1",
-      "data": "2026-08-16T11:02:21+00:00"
-    },
-    {
       "titulo": "Contra o Santos, Vasco retoma foco na fuga do rebaixamento no Brasileirão",
       "fonte": "CNN Brasil",
       "data": "2026-08-16T11:00:23+00:00"
@@ -64,42 +99,7 @@
       "titulo": "Empreendedorismo após os 60 cresce e redefine trabalho no Brasil",
       "fonte": "Folha",
       "data": "2026-08-16T11:00:00+00:00"
-    },
-    {
-      "titulo": "O crime nos trinques",
-      "fonte": "Folha",
-      "data": "2026-08-16T11:00:00+00:00"
-    },
-    {
-      "titulo": "José de Abreu completa 45 anos de Globo e diz que nunca foi censurado pela emissora",
-      "fonte": "Folha",
-      "data": "2026-08-16T11:00:00+00:00"
-    },
-    {
-      "titulo": "Resultados na rodada podem colocar Santos em penúltimo lugar no Brasileirão",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T10:30:56+00:00"
-    },
-    {
-      "titulo": "Reduzir dívida líquida é uma das prioridades da Cogna, diz CEO após balanço",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T10:30:41+00:00"
-    },
-    {
-      "titulo": "Ucrânia lança centenas de drones em um dos maiores ataques contra a Rússia",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T10:17:09+00:00"
-    },
-    {
-      "titulo": "Gaza: Plano de Trump depende do desarmamento do Hamas e retirada de Israel",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T10:00:46+00:00"
-    },
-    {
-      "titulo": "Checklist do carro usado: saiba o que avaliar antes de fechar negócio",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-16T10:00:43+00:00"
     }
   ],
-  "atualizado_em": "2026-08-16T11:56:38.366763+00:00"
+  "atualizado_em": "2026-08-16T12:41:41.030669+00:00"
 }
