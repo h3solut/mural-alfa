@@ -1,6 +1,71 @@
 {
   "itens": [
     {
+      "titulo": "Quem era Rafael Brito, empresário acreano que morreu aos 32 anos durante tratamento de doença rara",
+      "fonte": "G1",
+      "data": "2026-08-17T08:30:08+00:00"
+    },
+    {
+      "titulo": "MP pede à Justiça aumento de 24 para 38 anos da pena de condenado por estuprar e matar estudante em SP",
+      "fonte": "G1",
+      "data": "2026-08-17T08:24:52+00:00"
+    },
+    {
+      "titulo": "Brasileiro segue detido há mais de 15 dias em embarcação na Islândia após missão contra caça de baleias",
+      "fonte": "G1",
+      "data": "2026-08-17T08:24:26+00:00"
+    },
+    {
+      "titulo": "Advogado sequestrado pelo PCC pediu socorro a cliente em 'tribunal do crime', mas foi ignorado",
+      "fonte": "G1",
+      "data": "2026-08-17T08:23:59+00:00"
+    },
+    {
+      "titulo": "Estudo no RS tenta entender quais adolescentes têm maior risco de depressão; saiba como funciona",
+      "fonte": "G1",
+      "data": "2026-08-17T08:04:13+00:00"
+    },
+    {
+      "titulo": "Novo golpe do Desenrola exibe CPF e dados da vítima para cobrar acordo por PIX; saiba como se proteger",
+      "fonte": "G1",
+      "data": "2026-08-17T08:04:11+00:00"
+    },
+    {
+      "titulo": "Conheça segredo de receita de pão de queijo que virou atração em cafeteria com jeitinho de casa de vó no interior de MG",
+      "fonte": "G1",
+      "data": "2026-08-17T08:04:08+00:00"
+    },
+    {
+      "titulo": "Barbalha celebra 180 anos com o desafio de manter história e memória preservadas no Cariri",
+      "fonte": "G1",
+      "data": "2026-08-17T08:04:05+00:00"
+    },
+    {
+      "titulo": "Lei do Bem: empresas do agro têm até 31 de agosto para reduzir impostos",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T08:00:15+00:00"
+    },
+    {
+      "titulo": "PIS/Pasep é pago a 4,1 milhões de trabalhadores; veja calendário e quem recebe",
+      "fonte": "Folha",
+      "data": "2026-08-17T08:00:00+00:00"
+    },
+    {
+      "titulo": "Funai revê posição e dá sinal verde para megaprojeto no Ceará sem consulta a indígenas",
+      "fonte": "Folha",
+      "data": "2026-08-17T08:00:00+00:00"
+    },
+    {
+      "titulo": "Cidade de São Paulo deve ter calor de até 34°C e tempo seco ao longo da semana",
+      "fonte": "Folha",
+      "data": "2026-08-17T08:00:00+00:00"
+    },
+    {
+      "titulo": "Podcast discute impacto de apostas online entre mulheres",
+      "fonte": "Folha",
+      "data": "2026-08-17T08:00:00+00:00"
+    },
+    {
       "titulo": "Empresas de mobilidade querem fomento a investimentos na reforma tributária",
       "fonte": "CNN Brasil",
       "data": "2026-08-17T07:30:07+00:00"
@@ -34,72 +99,7 @@
       "titulo": "Após reviravoltas, 33 senadores miram reeleição e 10 governo estadual",
       "fonte": "CNN Brasil",
       "data": "2026-08-17T07:09:50+00:00"
-    },
-    {
-      "titulo": "Base de Tarcísio dobra e domina Assembleia Legislativa de SP em ano eleitoral",
-      "fonte": "Folha",
-      "data": "2026-08-17T07:07:00+00:00"
-    },
-    {
-      "titulo": "Flávio e Zema propõem mudanças no STF em planos de governo",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T07:06:44+00:00"
-    },
-    {
-      "titulo": "Os 5 melhores shows do Rock in Rio nos últimos 15 anos",
-      "fonte": "G1",
-      "data": "2026-08-17T07:06:01+00:00"
-    },
-    {
-      "titulo": "Indício de petróleo acirra disputa eleitoral no Amapá, pressiona Petrobras e atrai Lula ao estado",
-      "fonte": "Folha",
-      "data": "2026-08-17T07:03:00+00:00"
-    },
-    {
-      "titulo": "Veteranos da dramaturgia retornam à TV em 'Por Você'",
-      "fonte": "G1",
-      "data": "2026-08-17T07:01:48+00:00"
-    },
-    {
-      "titulo": "De 'liberou geral' a objeto de desejo: camping da Festa do Peão de Barretos vira espaço disputado por artistas e público",
-      "fonte": "G1",
-      "data": "2026-08-17T07:01:21+00:00"
-    },
-    {
-      "titulo": "Emprego: veja as vagas disponíveis em Petrolina e Salgueiro",
-      "fonte": "G1",
-      "data": "2026-08-17T07:01:19+00:00"
-    },
-    {
-      "titulo": "Sinais de trânsito apagados: furtos de cabos já custaram R$ 26,6 milhões ao Rio desde 2021",
-      "fonte": "G1",
-      "data": "2026-08-17T07:01:18+00:00"
-    },
-    {
-      "titulo": "Confira concursos e vagas de emprego no Ceará com inscrições abertas nesta segunda-feira (17)",
-      "fonte": "G1",
-      "data": "2026-08-17T07:01:17+00:00"
-    },
-    {
-      "titulo": "Rede de restaurantes abre 80 vagas de emprego em Uberaba, MG; veja como se inscrever",
-      "fonte": "G1",
-      "data": "2026-08-17T07:01:11+00:00"
-    },
-    {
-      "titulo": "Suspeito de envolvimento em queda de homem do 14º andar no Paraná pediu pizza após agressões, diz delegado",
-      "fonte": "G1",
-      "data": "2026-08-17T07:00:45+00:00"
-    },
-    {
-      "titulo": "Usuários de canetas emagrecedoras relatam perda de interesse em atividades que já foram prazerosas",
-      "fonte": "Folha",
-      "data": "2026-08-17T07:00:00+00:00"
-    },
-    {
-      "titulo": "Na largada da campanha eleitoral, Lula lidera atenção nas redes sociais",
-      "fonte": "Folha",
-      "data": "2026-08-17T07:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-17T07:51:42.273773+00:00"
+  "atualizado_em": "2026-08-17T08:40:06.297002+00:00"
 }
