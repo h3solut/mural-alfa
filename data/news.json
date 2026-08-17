@@ -1,6 +1,96 @@
 {
   "itens": [
     {
+      "titulo": "Petrobras amplia ofensiva na Foz do Amazonas e pede ao Ibama licença para explorar mais 3 poços",
+      "fonte": "G1",
+      "data": "2026-08-17T16:54:45+00:00"
+    },
+    {
+      "titulo": "Pablo Marçal diz que patrimônio declarado ao TSE de R$ 7,4 bilhões é 'erro de digitação'",
+      "fonte": "G1",
+      "data": "2026-08-17T16:53:37+00:00"
+    },
+    {
+      "titulo": "Terras de Verano surge como um novo jeito de viver na zona sul de Ribeirão Preto",
+      "fonte": "G1",
+      "data": "2026-08-17T16:53:03+00:00"
+    },
+    {
+      "titulo": "Homem que ateou fogo na companheira em Sarapuí é preso pela Polícia Civil em Sorocaba",
+      "fonte": "G1",
+      "data": "2026-08-17T16:51:05+00:00"
+    },
+    {
+      "titulo": "Motorista de aplicativo é sequestrado e achado em porta-malas em São Luís",
+      "fonte": "G1",
+      "data": "2026-08-17T16:49:15+00:00"
+    },
+    {
+      "titulo": "Novas imagens mostram agressões de empresário a dentista em São Paulo",
+      "fonte": "Folha",
+      "data": "2026-08-17T16:48:00+00:00"
+    },
+    {
+      "titulo": "Moreira Salles entra em aposta global de US$ 3,8 bi na SpaceX",
+      "fonte": "Folha",
+      "data": "2026-08-17T16:48:00+00:00"
+    },
+    {
+      "titulo": "Acidente de helicóptero deixa 3 mortos em ilha na Grécia",
+      "fonte": "G1",
+      "data": "2026-08-17T16:47:00+00:00"
+    },
+    {
+      "titulo": "Mulher se assusta com homem de moto e capacete dentro de papelaria e descobre que era o irmão atrás de caneta no AC; VÍDEO",
+      "fonte": "G1",
+      "data": "2026-08-17T16:46:56+00:00"
+    },
+    {
+      "titulo": "Quem é Daniel Brandão, presidente do TCE do Maranhão afastado por decisão de Flávio Dino",
+      "fonte": "G1",
+      "data": "2026-08-17T16:46:38+00:00"
+    },
+    {
+      "titulo": "System of a Down e Faith No More fazem show no Rio de Janeiro em 2027",
+      "fonte": "Folha",
+      "data": "2026-08-17T16:41:00+00:00"
+    },
+    {
+      "titulo": "Segurança é destaque em debates para governos estaduais, diz Quaest",
+      "fonte": "Folha",
+      "data": "2026-08-17T16:37:00+00:00"
+    },
+    {
+      "titulo": "EUA: Designação de PCC e CV como terroristas não aumenta autoridade militar",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T16:34:16+00:00"
+    },
+    {
+      "titulo": "Lucas e Matheus: irmãos da dupla sertaneja morreram com 5 anos de diferença",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T16:33:04+00:00"
+    },
+    {
+      "titulo": "Ex-BBB Lia Khey leva macramê à Alemanha e celebra expansão da arte",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T16:30:24+00:00"
+    },
+    {
+      "titulo": "Líder indígena e família morrem em acidente seguido de incêndio em MS",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T16:28:02+00:00"
+    },
+    {
+      "titulo": "Brasileirão: Flamengo cresce e Palmeiras vê chances de título caírem",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T16:26:30+00:00"
+    },
+    {
+      "titulo": "Ações da Casas Bahia desabam até 36% após pedido de recuperação judicial",
+      "fonte": "Folha",
+      "data": "2026-08-17T16:20:00+00:00"
+    },
+    {
       "titulo": "À CNN, João Gomes revela sonho de reunir veteranos e novatos em disco",
       "fonte": "CNN Brasil",
       "data": "2026-08-17T16:18:17+00:00"
@@ -9,97 +99,7 @@
       "titulo": "Hayden Panettiere abriu mão da guarda da filha; entenda",
       "fonte": "CNN Brasil",
       "data": "2026-08-17T16:18:07+00:00"
-    },
-    {
-      "titulo": "Três guardas municipais são investigados por suspeita de tortura após abordagem a moradora em Caraguatatuba",
-      "fonte": "G1",
-      "data": "2026-08-17T16:16:15+00:00"
-    },
-    {
-      "titulo": "Dispositivo no lugar do cinto de segurança é encontrado pela PRF em carro após motorista capotar, ser ejetada e morrer no Paraná",
-      "fonte": "G1",
-      "data": "2026-08-17T16:15:54+00:00"
-    },
-    {
-      "titulo": "Estrangeiros retiram R$ 15,6 bilhões da Bolsa em agosto, maior saída desde 2022",
-      "fonte": "G1",
-      "data": "2026-08-17T16:14:13+00:00"
-    },
-    {
-      "titulo": "Lula e Flávio evitam assuntos espinhosos durante lançamento de campanha",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T16:13:32+00:00"
-    },
-    {
-      "titulo": "Campina Grande ganha nova linha de ônibus no transporte público; veja o itinerário",
-      "fonte": "G1",
-      "data": "2026-08-17T16:12:37+00:00"
-    },
-    {
-      "titulo": "Espuma tóxica volta a cobrir trecho do Rio Tietê, em Salto; vídeo",
-      "fonte": "G1",
-      "data": "2026-08-17T16:12:25+00:00"
-    },
-    {
-      "titulo": "Após suspensão do TCE, Prefeitura de São José contrata empresa de segurança por R$ 45 milhões sem concorrência",
-      "fonte": "G1",
-      "data": "2026-08-17T16:10:43+00:00"
-    },
-    {
-      "titulo": "Ministro de Israel defende matar '30 a 40' pessoas por noite em Gaza",
-      "fonte": "G1",
-      "data": "2026-08-17T16:10:25+00:00"
-    },
-    {
-      "titulo": "Crescimento da economia brasileira desacelera no 2º tri com retração em junho, diz BC",
-      "fonte": "Folha",
-      "data": "2026-08-17T16:09:00+00:00"
-    },
-    {
-      "titulo": "Aposentada do RJ fica 5 meses sem receber do INSS após cartório do PR declará-la morta",
-      "fonte": "G1",
-      "data": "2026-08-17T16:07:48+00:00"
-    },
-    {
-      "titulo": "CNN entrevista Celina Leão, candidata ao governo do DF",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T16:04:39+00:00"
-    },
-    {
-      "titulo": "Plano da China busca liderar dados de IA e moldar sistemas no mundo",
-      "fonte": "Folha",
-      "data": "2026-08-17T16:03:00+00:00"
-    },
-    {
-      "titulo": "Polícia investiga morte de criança de 4 anos com sinais de agressão no RS",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T16:00:40+00:00"
-    },
-    {
-      "titulo": "Arquiteta Sol Camacho traz bastidores de restauro de prédio histórico em mostra",
-      "fonte": "Folha",
-      "data": "2026-08-17T16:00:00+00:00"
-    },
-    {
-      "titulo": "Acervo de Jô Soares será vendido a partir desta quarta (19) em bazar beneficente",
-      "fonte": "Folha",
-      "data": "2026-08-17T16:00:00+00:00"
-    },
-    {
-      "titulo": "Regra para determinar base de cálculo do Simples Nacional muda em janeiro",
-      "fonte": "Folha",
-      "data": "2026-08-17T16:00:00+00:00"
-    },
-    {
-      "titulo": "Os riscos do zolpidem, remédio para insônia mais consumido no Brasil",
-      "fonte": "Folha",
-      "data": "2026-08-17T16:00:00+00:00"
-    },
-    {
-      "titulo": "Motorista de Haddad presta depoimento nesta segunda em SP",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T15:55:09+00:00"
     }
   ],
-  "atualizado_em": "2026-08-17T16:26:49.226640+00:00"
+  "atualizado_em": "2026-08-17T17:00:01.118655+00:00"
 }
