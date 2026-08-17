@@ -1,6 +1,81 @@
 {
   "itens": [
     {
+      "titulo": "É amor verdadeiro ou love bombing?",
+      "fonte": "Folha",
+      "data": "2026-08-17T11:16:00+00:00"
+    },
+    {
+      "titulo": "Elba Ramalho, 75 anos: confira as 10 músicas mais tocadas da cantora paraibana",
+      "fonte": "G1",
+      "data": "2026-08-17T11:15:39+00:00"
+    },
+    {
+      "titulo": "Famosos lamentam morte de Hayden Panettiere aos 36 anos: 'Orando pela sua filha'",
+      "fonte": "G1",
+      "data": "2026-08-17T11:15:17+00:00"
+    },
+    {
+      "titulo": "Tarcísio diz que PM analisou 70 câmeras em SP e não viu perseguição de motorista de Haddad",
+      "fonte": "G1",
+      "data": "2026-08-17T11:14:10+00:00"
+    },
+    {
+      "titulo": "Mulher morre após ser atingida por roda de ônibus do BRT no Tanque",
+      "fonte": "G1",
+      "data": "2026-08-17T11:13:17+00:00"
+    },
+    {
+      "titulo": "Exercícios militares EUA-Coreia do Sul começam após Trump ordenar 'drástica redução'; Seul diz esperar negociações com Coreia do Norte",
+      "fonte": "G1",
+      "data": "2026-08-17T11:12:03+00:00"
+    },
+    {
+      "titulo": "Lava-louças pega fogo e provoca princípio de incêndio em Aracaju",
+      "fonte": "G1",
+      "data": "2026-08-17T11:10:20+00:00"
+    },
+    {
+      "titulo": "PM é baleado na cabeça por policial de folga após discussão em Água Preta",
+      "fonte": "G1",
+      "data": "2026-08-17T11:10:08+00:00"
+    },
+    {
+      "titulo": "Jovem morre após moto bater em poste na MS-166 em Antônio João",
+      "fonte": "G1",
+      "data": "2026-08-17T11:10:00+00:00"
+    },
+    {
+      "titulo": "BTG/Nexus: Lula e Flávio Bolsonaro mantêm empate técnico no 2º turno, com 47% a 44%",
+      "fonte": "Folha",
+      "data": "2026-08-17T11:10:00+00:00"
+    },
+    {
+      "titulo": "Proteger as florestas é investir no agronegócio",
+      "fonte": "Folha",
+      "data": "2026-08-17T11:00:00+00:00"
+    },
+    {
+      "titulo": "Polícias no Brasil operam com efetivo abaixo do previsto em lei; veja números por corporação",
+      "fonte": "Folha",
+      "data": "2026-08-17T11:00:00+00:00"
+    },
+    {
+      "titulo": "Avaliação negativa do governo Lula vai a 42%, indica Nexus/BTG",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T10:54:49+00:00"
+    },
+    {
+      "titulo": "Nexus/BTG: Lula é desaprovado por 48% e aprovado por 47%",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T10:52:44+00:00"
+    },
+    {
+      "titulo": "Umidade baixa e calor extremo marcam a semana em Rio Branco; veja previsão",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T10:48:17+00:00"
+    },
+    {
       "titulo": "Macapá terá chuva no início da semana e sol forte a partir de quinta-feira",
       "fonte": "CNN Brasil",
       "data": "2026-08-17T10:45:06+00:00"
@@ -16,90 +91,15 @@
       "data": "2026-08-17T10:41:42+00:00"
     },
     {
-      "titulo": "Bispo de Goiás critica casamentos em clubes, praias e à beira de lago: 'Coração triste'",
-      "fonte": "G1",
-      "data": "2026-08-17T10:41:17+00:00"
-    },
-    {
-      "titulo": "Conheça a história da Casa do Povoador, uma das primeiras habitações de Piracicaba e que apresenta sinais de abandono",
-      "fonte": "G1",
-      "data": "2026-08-17T10:41:03+00:00"
-    },
-    {
-      "titulo": "Homem é morto na Zona Sudoeste do Rio; PM é levado para Delegacia de Homicídios",
-      "fonte": "G1",
-      "data": "2026-08-17T10:40:18+00:00"
-    },
-    {
       "titulo": "Enviado de Trump se reúne com Netanyahu para discutir plano para Gaza",
       "fonte": "CNN Brasil",
       "data": "2026-08-17T10:39:08+00:00"
     },
     {
-      "titulo": "Acidente entre carro e caminhão deixa mortos na TO-010",
-      "fonte": "G1",
-      "data": "2026-08-17T10:38:57+00:00"
-    },
-    {
       "titulo": "Belém terá semana com céu nublado e chuvas em quase todos os dias",
       "fonte": "CNN Brasil",
       "data": "2026-08-17T10:38:42+00:00"
-    },
-    {
-      "titulo": "Hayden Panettiere se assumiu bissexual em biografia meses antes de morrer: 'Eu tinha medo'",
-      "fonte": "G1",
-      "data": "2026-08-17T10:38:41+00:00"
-    },
-    {
-      "titulo": "‘Mamãe ama vocês duas daí do céu’, escreve mãe de gêmeas que morreram em cirurgia de separação em Ribeirão Preto, SP",
-      "fonte": "G1",
-      "data": "2026-08-17T10:37:44+00:00"
-    },
-    {
-      "titulo": "Adolescente é agredido com pedaço de madeira após bola bater em portão de casa na Bahia",
-      "fonte": "G1",
-      "data": "2026-08-17T10:37:26+00:00"
-    },
-    {
-      "titulo": "O que se sabe sobre a morte do sargento da PM agredido e baleado no litoral do PI",
-      "fonte": "G1",
-      "data": "2026-08-17T10:35:43+00:00"
-    },
-    {
-      "titulo": "Porto Velho enfrenta semana de pouca chuva e calor extremo; veja previsão",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T10:35:21+00:00"
-    },
-    {
-      "titulo": "Previsão do tempo para Boa Vista indica momentos climáticos distintos",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T10:31:28+00:00"
-    },
-    {
-      "titulo": "Semana em Palmas será marcada por calor intenso e ausência de chuvas",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T10:29:36+00:00"
-    },
-    {
-      "titulo": "PF faz operação contra fraudes em emissão de CPFs no RJ",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T10:28:59+00:00"
-    },
-    {
-      "titulo": "Com dívida de R$ 17,3 bi, Grupo Casas Bahia pede recuperação judicial",
-      "fonte": "Folha",
-      "data": "2026-08-17T10:24:00+00:00"
-    },
-    {
-      "titulo": "Fuvest abre inscrições para vestibular 2027 da USP, que terá prova em Fortaleza",
-      "fonte": "Folha",
-      "data": "2026-08-17T10:00:00+00:00"
-    },
-    {
-      "titulo": "Entre CV e PCC não há apenas guerra, e ainda sabemos muito pouco",
-      "fonte": "Folha",
-      "data": "2026-08-17T10:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-17T10:50:47.718742+00:00"
+  "atualizado_em": "2026-08-17T11:22:31.939594+00:00"
 }
