@@ -2,28 +2,28 @@
   "br": [
     {
       "simbolo": "PETR4",
-      "preco": 42.2,
-      "variacao": 0.26
+      "preco": 42.28,
+      "variacao": 0.45
     },
     {
       "simbolo": "VALE3",
-      "preco": 71.12,
-      "variacao": -0.25
+      "preco": 71.53,
+      "variacao": 0.32
     },
     {
       "simbolo": "ITUB4",
-      "preco": 38.44,
-      "variacao": -1.44
+      "preco": 38.42,
+      "variacao": -1.49
     },
     {
       "simbolo": "BBDC4",
-      "preco": 16.32,
-      "variacao": -1.33
+      "preco": 16.31,
+      "variacao": -1.39
     },
     {
       "simbolo": "ABEV3",
-      "preco": 14.61,
-      "variacao": -0.95
+      "preco": 14.67,
+      "variacao": -0.54
     },
     {
       "simbolo": "B3SA3",
@@ -32,41 +32,41 @@
     },
     {
       "simbolo": "IBOVESPA",
-      "preco": 166786.98,
-      "variacao": -0.09
+      "preco": 166950.06,
+      "variacao": 0.01
     }
   ],
   "eua": [
     {
       "simbolo": "AAPL",
-      "preco": 304.47,
-      "variacao": -0.47723097
+      "preco": 303.29,
+      "variacao": -0.86294013
     },
     {
       "simbolo": "MSFT",
-      "preco": 484.63,
-      "variacao": -2.174
+      "preco": 485.03,
+      "variacao": -2.093257
     },
     {
       "simbolo": "GOOGL",
-      "preco": 343.805,
-      "variacao": -0.60566462
+      "preco": 344.1,
+      "variacao": -0.52037986
     },
     {
       "simbolo": "AMZN",
-      "preco": 261.325,
-      "variacao": -0.50447132
+      "preco": 260.78,
+      "variacao": -0.7119718
     },
     {
       "simbolo": "NVDA",
-      "preco": 227.475,
-      "variacao": 1.028156
+      "preco": 227.6,
+      "variacao": 1.083672
     },
     {
       "simbolo": "TSLA",
-      "preco": 340.76,
-      "variacao": -0.44116898
+      "preco": 341.59,
+      "variacao": -0.19867036
     }
   ],
-  "atualizado_em": "2026-08-17T15:29:54.908254+00:00"
+  "atualizado_em": "2026-08-17T15:54:11.557462+00:00"
 }
