@@ -1,9 +1,84 @@
 {
   "itens": [
     {
-      "titulo": "De R$ 215 mil a R$ 65,1 milhões: veja o patrimônio dos candidatos ao governo de Goiás declarado ao TSE",
+      "titulo": "Leitor, qual é sua opinião sobre morte assistida?",
+      "fonte": "Folha",
+      "data": "2026-08-17T23:17:00+00:00"
+    },
+    {
+      "titulo": "DNA será decisivo para identificar 7 indígenas mortos em acidente na MS-295",
       "fonte": "G1",
-      "data": "2026-08-17T22:51:02+00:00"
+      "data": "2026-08-17T23:13:26+00:00"
+    },
+    {
+      "titulo": "Cães de indígenas Warao são abandonados após transferência de famílias para novo abrigo em Belém",
+      "fonte": "G1",
+      "data": "2026-08-17T23:13:25+00:00"
+    },
+    {
+      "titulo": "Cinco pessoas são presas pela morte de turista de 22 anos em rodoviária de Barra do Bugres (MT)",
+      "fonte": "G1",
+      "data": "2026-08-17T23:12:04+00:00"
+    },
+    {
+      "titulo": "Bombeiros buscam mulher que desapareceu após embarcação virar no Rio São Francisco em Sergipe",
+      "fonte": "G1",
+      "data": "2026-08-17T23:12:01+00:00"
+    },
+    {
+      "titulo": "Rompimento de adutora destrói calçada e alaga casas em Almirante Tamandaré",
+      "fonte": "G1",
+      "data": "2026-08-17T23:11:59+00:00"
+    },
+    {
+      "titulo": "Litoral de SP registra 80 mortes por afogamento em 2026",
+      "fonte": "G1",
+      "data": "2026-08-17T23:10:45+00:00"
+    },
+    {
+      "titulo": "Artefato encontrado em Paço do Lumiar era simulacro feito com canos de PVC, diz SSP",
+      "fonte": "G1",
+      "data": "2026-08-17T23:10:37+00:00"
+    },
+    {
+      "titulo": "Moraes autoriza Bolsonaro a ir ao dentista, mas nega atendimento na clínica de mulher de Flávio",
+      "fonte": "Folha",
+      "data": "2026-08-17T23:08:00+00:00"
+    },
+    {
+      "titulo": "De R$ 0 a R$ 16,1 milhões: veja patrimônio dos candidatos ao governo de MS",
+      "fonte": "G1",
+      "data": "2026-08-17T23:07:27+00:00"
+    },
+    {
+      "titulo": "Líder de gangue de Los Angeles planejou assassinato de Tupac, diz promotor",
+      "fonte": "Folha",
+      "data": "2026-08-17T23:07:00+00:00"
+    },
+    {
+      "titulo": "Em SP, Nunes planeja agenda de Flávio na periferia e almoço com empresários",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T23:02:11+00:00"
+    },
+    {
+      "titulo": "Pesquisa Mulheres & Bets vira música para expor impacto das apostas",
+      "fonte": "Folha",
+      "data": "2026-08-17T23:00:00+00:00"
+    },
+    {
+      "titulo": "'É provavelmente meu último ano no futebol', afirma Cristiano Ronaldo",
+      "fonte": "Folha",
+      "data": "2026-08-17T22:59:00+00:00"
+    },
+    {
+      "titulo": "Ciclone extratropical ameaça Brasil: entenda fenômeno e alerta",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T22:56:53+00:00"
+    },
+    {
+      "titulo": "João Fonseca x Christopher O’Connell: horário e onde assistir ao jogo",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T22:56:10+00:00"
     },
     {
       "titulo": "Segurança que testemunhou agressão a dentista deveria ter acionado a polícia, dizem especialistas",
@@ -11,95 +86,20 @@
       "data": "2026-08-17T22:50:00+00:00"
     },
     {
-      "titulo": "Rapaz de 18 anos é preso suspeito de esfaquear homem por ciúmes da ex-namorada em Teodoro Sampaio",
-      "fonte": "G1",
-      "data": "2026-08-17T22:49:04+00:00"
-    },
-    {
-      "titulo": "Assista aos telejornais da TV Bahia",
-      "fonte": "G1",
-      "data": "2026-08-17T22:49:02+00:00"
-    },
-    {
       "titulo": "Cidade de São Paulo registra recorde de mortes de motociclistas em julho",
       "fonte": "Folha",
       "data": "2026-08-17T22:49:00+00:00"
     },
     {
-      "titulo": "Assista aos telejornais da TV Subaé",
-      "fonte": "G1",
-      "data": "2026-08-17T22:48:43+00:00"
-    },
-    {
-      "titulo": "Helio Gurovitz lança no Rio 'Meia-palavra', seu primeiro romance",
-      "fonte": "G1",
-      "data": "2026-08-17T22:46:24+00:00"
-    },
-    {
-      "titulo": "Caso Jennifer: suspeitos de matar jovem de 18 anos teriam feito 'pacto de silêncio', diz polícia",
-      "fonte": "G1",
-      "data": "2026-08-17T22:45:55+00:00"
-    },
-    {
-      "titulo": "Laudo revela causa da morte de estudante de biologia assassinada pelo namorado em SC",
-      "fonte": "G1",
-      "data": "2026-08-17T22:45:10+00:00"
-    },
-    {
-      "titulo": "Famílias esperam horas por liberação de corpos no IML de Nova Iguaçu: 'Descaso'",
-      "fonte": "G1",
-      "data": "2026-08-17T22:45:00+00:00"
+      "titulo": "Grupo Pontal-Thopen pede recuperação judicial com passivo de R$ 4,6 bilhões",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T22:45:25+00:00"
     },
     {
       "titulo": "Sergio Poroger lança em São Paulo livro sobre cinemas abandonados",
       "fonte": "Folha",
       "data": "2026-08-17T22:45:00+00:00"
-    },
-    {
-      "titulo": "Taís Araújo e Leci Brandão abrem festival Estéticas das Periferias 2026",
-      "fonte": "Folha",
-      "data": "2026-08-17T22:30:00+00:00"
-    },
-    {
-      "titulo": "Homem é preso suspeito de atear fogo na mulher no interior de São Paulo",
-      "fonte": "Folha",
-      "data": "2026-08-17T22:26:00+00:00"
-    },
-    {
-      "titulo": "Vou morrer, e os rios de São Paulo continuarão poluídos",
-      "fonte": "Folha",
-      "data": "2026-08-17T22:25:00+00:00"
-    },
-    {
-      "titulo": "Justiça concede habeas corpus e influenciador Buzeira deixará a prisão após dez meses",
-      "fonte": "Folha",
-      "data": "2026-08-17T22:24:00+00:00"
-    },
-    {
-      "titulo": "Responsabilidade fiscal e políticas públicas não são concorrentes; veja vídeo",
-      "fonte": "Folha",
-      "data": "2026-08-17T22:22:00+00:00"
-    },
-    {
-      "titulo": "Estrela bilhões de vezes mais brilhante que o comum é descoberta",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T22:21:33+00:00"
-    },
-    {
-      "titulo": "Petrobras já gastou cerca de US$ 300 milhões em poço na Margem Equatorial",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T22:12:45+00:00"
-    },
-    {
-      "titulo": "Como avaliar o momento certo para fazer contato visual durante conversa",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T22:11:17+00:00"
-    },
-    {
-      "titulo": "Trump diz que relatos de escassez de suprimentos em porta-aviões são falsos",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T22:10:13+00:00"
     }
   ],
-  "atualizado_em": "2026-08-17T22:56:39.568078+00:00"
+  "atualizado_em": "2026-08-17T23:24:11.353736+00:00"
 }
