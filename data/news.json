@@ -1,6 +1,76 @@
 {
   "itens": [
     {
+      "titulo": "Americana confirma terceira morte por febre maculosa no ano",
+      "fonte": "G1",
+      "data": "2026-08-17T17:49:25+00:00"
+    },
+    {
+      "titulo": "Tour Maçônico leva visitantes a templos históricos em Curitiba",
+      "fonte": "G1",
+      "data": "2026-08-17T17:45:16+00:00"
+    },
+    {
+      "titulo": "É preciso parar os maus robôs",
+      "fonte": "Folha",
+      "data": "2026-08-17T17:45:00+00:00"
+    },
+    {
+      "titulo": "A vida de sucesso de Hayden Panettiere nas telas e a dificuldade da atriz para lidar com a fama",
+      "fonte": "Folha",
+      "data": "2026-08-17T17:45:00+00:00"
+    },
+    {
+      "titulo": "‘Desafio da humanidade’, diz cineasta Lygia Barbosa sobre economia azul",
+      "fonte": "G1",
+      "data": "2026-08-17T17:42:14+00:00"
+    },
+    {
+      "titulo": "Campanha nacional coleta DNA de familiares de desaparecidos em Volta Redonda e Angra dos Reis",
+      "fonte": "G1",
+      "data": "2026-08-17T17:42:13+00:00"
+    },
+    {
+      "titulo": "Casas Bahia tem dificuldades com estoque e busca empréstimo de R$ 1 bi",
+      "fonte": "Folha",
+      "data": "2026-08-17T17:42:00+00:00"
+    },
+    {
+      "titulo": "Flávio acusa Caiado de ajudar Lula, depois de Kassab ter dito que ele tem 'chance zero' nas eleições",
+      "fonte": "Folha",
+      "data": "2026-08-17T17:41:00+00:00"
+    },
+    {
+      "titulo": "O Que Diferencia Marcas Imobiliárias que Constroem Valor de Longo Prazo",
+      "fonte": "G1",
+      "data": "2026-08-17T17:40:03+00:00"
+    },
+    {
+      "titulo": "Henrique Lyra declara R$ 228 mil em bens ao TSE; André Gustavo não informou patrimônio",
+      "fonte": "G1",
+      "data": "2026-08-17T17:39:19+00:00"
+    },
+    {
+      "titulo": "Pós-Unifor está com inscrições abertas para especializações na área do Direito",
+      "fonte": "G1",
+      "data": "2026-08-17T17:39:08+00:00"
+    },
+    {
+      "titulo": "Pitty vai lançar novo álbum, o primeiro de faixas inéditas em sete anos, em outubro",
+      "fonte": "Folha",
+      "data": "2026-08-17T17:37:00+00:00"
+    },
+    {
+      "titulo": "Marina é hostilizada por homem em ato de campanha de Haddad com mulheres",
+      "fonte": "Folha",
+      "data": "2026-08-17T17:35:00+00:00"
+    },
+    {
+      "titulo": "Homem é preso após tentar tocar nos seios e agarrar pernas de mulher em Rorainópolis",
+      "fonte": "G1",
+      "data": "2026-08-17T17:33:52+00:00"
+    },
+    {
       "titulo": "Servidores do IBGE iniciam greve em oposição a medidas da gestão Pochmann",
       "fonte": "Folha",
       "data": "2026-08-17T17:31:00+00:00"
@@ -11,49 +81,9 @@
       "data": "2026-08-17T17:30:00+00:00"
     },
     {
-      "titulo": "Mulher é presa em flagrante após ser filmada sacudindo cachorro em condomínio no Recreio; vídeo",
-      "fonte": "G1",
-      "data": "2026-08-17T17:24:38+00:00"
-    },
-    {
-      "titulo": "Arraial do Cabo abre processo seletivo na área da Saúde",
-      "fonte": "G1",
-      "data": "2026-08-17T17:23:23+00:00"
-    },
-    {
-      "titulo": "Discord responde à ANPD e diz que suspendeu lives no Brasil",
-      "fonte": "G1",
-      "data": "2026-08-17T17:22:22+00:00"
-    },
-    {
-      "titulo": "Investir com segurança: como escolher uma incorporadora alinhada aos seus valores",
-      "fonte": "G1",
-      "data": "2026-08-17T17:21:19+00:00"
-    },
-    {
-      "titulo": "VÍDEOS: Jornal Anhanguera 1ª Edição-TO de segunda-feira, 17 de agosto de 2026",
-      "fonte": "G1",
-      "data": "2026-08-17T17:21:08+00:00"
-    },
-    {
-      "titulo": "Eleições 2026 no PR: Sandro Alex diz ter plano de reestruturação de carreira de professores",
-      "fonte": "G1",
-      "data": "2026-08-17T17:20:52+00:00"
-    },
-    {
-      "titulo": "Moradores de comunidade de BH lamentam morte de amigos em acidente com ônibus na Serra de Petrópolis",
-      "fonte": "G1",
-      "data": "2026-08-17T17:20:21+00:00"
-    },
-    {
-      "titulo": "ExpoQuinari registra cerca de 40 mil pessoas em quatro noites de evento, estima prefeitura",
-      "fonte": "G1",
-      "data": "2026-08-17T17:20:13+00:00"
-    },
-    {
-      "titulo": "Discord começa a suspender chamadas de vídeo e compartilhamento de tela",
-      "fonte": "Folha",
-      "data": "2026-08-17T17:18:00+00:00"
+      "titulo": "Banido de vários países por antissemitismo, Kanye West fará show na Rússia",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T17:25:11+00:00"
     },
     {
       "titulo": "Parceira em “Pânico”, Jenna Ortega lamenta morte de Hayden Panettiere",
@@ -69,37 +99,7 @@
       "titulo": "Quem são os candidatos a governador do Rio de Janeiro em 2026",
       "fonte": "CNN Brasil",
       "data": "2026-08-17T17:11:52+00:00"
-    },
-    {
-      "titulo": "MC Livinho comenta possível retorno de namoro com ex: “Ligo, não atende”",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T17:10:32+00:00"
-    },
-    {
-      "titulo": "'Do Ney Matogrosso ninguém fala, porque ele é homem', rebate Xuxa sobre críticas por figurino",
-      "fonte": "Folha",
-      "data": "2026-08-17T17:10:00+00:00"
-    },
-    {
-      "titulo": "Estreia de “Por Você” será marcada por morte chocante; saiba tudo",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T17:07:49+00:00"
-    },
-    {
-      "titulo": "Galípolo defende juro contracionista para frear demanda doméstica",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T17:06:25+00:00"
-    },
-    {
-      "titulo": "Usar o ChatGPT prejudica o cérebro? Ainda estamos longe de saber",
-      "fonte": "Folha",
-      "data": "2026-08-17T17:05:00+00:00"
-    },
-    {
-      "titulo": "Enem 2026: Inep convoca docentes para trabalharem no dia da prova",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T17:01:17+00:00"
     }
   ],
-  "atualizado_em": "2026-08-17T17:35:06.324053+00:00"
+  "atualizado_em": "2026-08-17T18:00:30.155939+00:00"
 }
