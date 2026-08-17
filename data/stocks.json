@@ -2,71 +2,71 @@
   "br": [
     {
       "simbolo": "PETR4",
-      "preco": 42.58,
-      "variacao": 1.16
+      "preco": 42.47,
+      "variacao": 0.9
     },
     {
       "simbolo": "VALE3",
-      "preco": 71.55,
-      "variacao": 0.35
+      "preco": 71.41,
+      "variacao": 0.15
     },
     {
       "simbolo": "ITUB4",
-      "preco": 38.3,
-      "variacao": -1.79
+      "preco": 38.38,
+      "variacao": -1.59
     },
     {
       "simbolo": "BBDC4",
-      "preco": 16.25,
-      "variacao": -1.75
+      "preco": 16.22,
+      "variacao": -1.93
     },
     {
       "simbolo": "ABEV3",
-      "preco": 14.66,
-      "variacao": -0.61
+      "preco": 14.67,
+      "variacao": -0.54
     },
     {
       "simbolo": "B3SA3",
-      "preco": 14.51,
-      "variacao": -1.09
+      "preco": 14.41,
+      "variacao": -1.77
     },
     {
       "simbolo": "IBOVESPA",
-      "preco": 166845.03,
-      "variacao": -0.05
+      "preco": 166783.56,
+      "variacao": -0.09
     }
   ],
   "eua": [
     {
       "simbolo": "AAPL",
-      "preco": 306.205,
-      "variacao": 0.08989224
+      "preco": 305.69,
+      "variacao": -0.078446128
     },
     {
       "simbolo": "MSFT",
-      "preco": 480.975,
-      "variacao": -2.91179
+      "preco": 480.54001,
+      "variacao": -2.99959
     },
     {
       "simbolo": "GOOGL",
-      "preco": 343.92,
-      "variacao": -0.57241802
+      "preco": 344.079987,
+      "variacao": -0.52616576
     },
     {
       "simbolo": "AMZN",
-      "preco": 260.545,
-      "variacao": -0.80144449
+      "preco": 261.33499,
+      "variacao": -0.50066723
     },
     {
       "simbolo": "NVDA",
-      "preco": 225.575,
-      "variacao": 0.18431175
+      "preco": 225.050003,
+      "variacao": -0.048854418
     },
     {
       "simbolo": "TSLA",
-      "preco": 340.67,
-      "variacao": -0.46746401
+      "preco": 339.34,
+      "variacao": -0.85604721
     }
   ],
-  "atualizado_em": "2026-08-17T19:31:56.885267+00:00"
+  "atualizado_em": "2026-08-17T20:32:24.978358+00:00"
 }
