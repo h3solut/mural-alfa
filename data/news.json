@@ -1,6 +1,41 @@
 {
   "itens": [
     {
+      "titulo": "De uma portinha a um bar de três andares: a história de um negócio que virou símbolo da Lapa",
+      "fonte": "G1",
+      "data": "2026-08-17T05:00:18+00:00"
+    },
+    {
+      "titulo": "Mulher que sobreviveu a 17 facadas do ex em SP fala sobre culpa e recomeço: ‘Cada um carrega o que é seu’",
+      "fonte": "G1",
+      "data": "2026-08-17T05:00:16+00:00"
+    },
+    {
+      "titulo": "6ª Bienal Internacional do Livro de Brasília começa nesta segunda com entrada gratuita",
+      "fonte": "G1",
+      "data": "2026-08-17T05:00:14+00:00"
+    },
+    {
+      "titulo": "Mãe admite que deixou 3 crianças sozinhas em casa com vela acesa para ir a forró; menina se feriu em incêndio",
+      "fonte": "G1",
+      "data": "2026-08-17T05:00:11+00:00"
+    },
+    {
+      "titulo": "Correios: balanço prévio aponta prejuízo de R$ 5,4 bilhões no 1º semestre de 2026",
+      "fonte": "G1",
+      "data": "2026-08-17T05:00:10+00:00"
+    },
+    {
+      "titulo": "Hayden Panettiere, atriz de 'Heroes', morre aos 36 anos",
+      "fonte": "Folha",
+      "data": "2026-08-17T04:52:00+00:00"
+    },
+    {
+      "titulo": "Tumulto em templo deixa ao menos seis mortos e vários feridos na Índia",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-17T04:37:22+00:00"
+    },
+    {
       "titulo": "Hayden Panettiere, atriz de Heroes e Nashville, morre aos 36 anos",
       "fonte": "CNN Brasil",
       "data": "2026-08-17T04:02:47+00:00"
@@ -21,34 +56,9 @@
       "data": "2026-08-17T03:29:56+00:00"
     },
     {
-      "titulo": "Asfalto muda o panorama do Distrito de Panorâmica, em Montes Claros",
-      "fonte": "G1",
-      "data": "2026-08-17T03:04:09+00:00"
-    },
-    {
-      "titulo": "Prefeitura inicia construção do Calendário de Eventos 2027",
-      "fonte": "G1",
-      "data": "2026-08-17T03:03:08+00:00"
-    },
-    {
       "titulo": "Candidato ao Governo do Paraná pelo PSD, Sandro Alex participa de sabatina Folha/UOL nesta segunda",
       "fonte": "Folha",
       "data": "2026-08-17T03:03:00+00:00"
-    },
-    {
-      "titulo": "Programa de IST/Aids oferece testes gratuitos e sigilosos em Macaé",
-      "fonte": "G1",
-      "data": "2026-08-17T03:01:28+00:00"
-    },
-    {
-      "titulo": "Bruno Pedreiro do PCO não declara bens ao TSE; vice Flávio Amaral também informa não ter patrimônio",
-      "fonte": "G1",
-      "data": "2026-08-17T03:01:25+00:00"
-    },
-    {
-      "titulo": "Gelson Merísio declara R$ 652 mil em bens ao TSE; vice Angela Albino informa R$ 343 mil",
-      "fonte": "G1",
-      "data": "2026-08-17T03:01:24+00:00"
     },
     {
       "titulo": "Após descoberta da Petrobras e reunião com Alcolumbre, Lula vai ao Amapá",
@@ -89,17 +99,7 @@
       "titulo": "PMs de SP deixam de acionar câmeras antes de disparos, e mortes ficam sem gravação",
       "fonte": "Folha",
       "data": "2026-08-17T02:00:00+00:00"
-    },
-    {
-      "titulo": "Aplicativo do Tesouro Direto é desativado nesta segunda (17); saiba como acessar investimentos",
-      "fonte": "Folha",
-      "data": "2026-08-17T02:00:00+00:00"
-    },
-    {
-      "titulo": "“Vai ser bem ruim para você”: veja mensagens de ameças de Ivo Kos à esposa",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-17T01:53:03+00:00"
     }
   ],
-  "atualizado_em": "2026-08-17T04:23:17.718973+00:00"
+  "atualizado_em": "2026-08-17T05:19:19.199987+00:00"
 }
