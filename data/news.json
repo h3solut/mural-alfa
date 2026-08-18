@@ -1,49 +1,89 @@
 {
   "itens": [
     {
-      "titulo": "Atriz Laura Cardoso morre aos 98 anos",
+      "titulo": "Corpos de vítimas de acidente com ônibus na Serra de Petrópolis chegam a Belo Horizonte",
+      "fonte": "G1",
+      "data": "2026-08-18T06:45:57+00:00"
+    },
+    {
+      "titulo": "Esclerose Múltipla: agora é possível chegar ao diagnóstico mais cedo",
       "fonte": "CNN Brasil",
-      "data": "2026-08-18T05:49:46+00:00"
+      "data": "2026-08-18T06:43:23+00:00"
     },
     {
-      "titulo": "Laura Cardoso, um dos principais nomes da dramaturgia brasileira, morre aos 99 anos",
-      "fonte": "G1",
-      "data": "2026-08-18T05:46:22+00:00"
+      "titulo": "Única planta nativa da Antártica tem genoma mapeado e pode revelar mistério",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T06:37:56+00:00"
     },
     {
-      "titulo": "Das pistas de skate às oficinas de arte: como as férias movimentam negócios para o público infantil",
-      "fonte": "G1",
-      "data": "2026-08-18T05:02:28+00:00"
+      "titulo": "Genérica de caneta emagrecedora ainda não tem data para chegar às farmácias",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T06:37:39+00:00"
     },
     {
-      "titulo": "Exposição no Museu Nacional mostra outro lado da construção de Brasília; veja imagens",
-      "fonte": "G1",
-      "data": "2026-08-18T05:00:40+00:00"
+      "titulo": "Violência consome cerca de R$ 285 bilhões por ano no Brasil, diz estudo",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T06:35:22+00:00"
     },
     {
-      "titulo": "De agressões a abusos sexuais: promotor detalha torturas em clínica após prisão de casal em Portugal",
-      "fonte": "G1",
-      "data": "2026-08-18T05:00:37+00:00"
+      "titulo": "Estado de São Paulo terá Dia D de multivacinação no sábado (22)",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T06:34:22+00:00"
     },
     {
-      "titulo": "A cidade da Colômbia que foi devastada por terremoto de 1999, mas resistiu ao tremor mais recente",
-      "fonte": "G1",
-      "data": "2026-08-18T05:00:33+00:00"
+      "titulo": "Eclipse lunar de grande magnitude será visto do Brasil em 27 de agosto",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T06:33:36+00:00"
     },
     {
-      "titulo": "Golpe usa nome da Defensoria Pública e voz clonada para enganar vítimas no RS; entenda como funciona",
-      "fonte": "G1",
-      "data": "2026-08-18T05:00:29+00:00"
+      "titulo": "Multa ou bloqueio: advogado diz até onde ANPD pode punir Discord no Brasil",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T06:33:28+00:00"
     },
     {
-      "titulo": "'O loirinho me inspira': relembre as músicas que Marina Sena dedicou para Juliano Floss",
-      "fonte": "G1",
-      "data": "2026-08-18T05:00:24+00:00"
+      "titulo": "TSE reúne ministros para discutir regras sobre IA e deepfakes nas eleições",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T06:30:56+00:00"
     },
     {
-      "titulo": "Personalidade muda mais ao longo da vida do que as pessoas imaginam, aponta estudo",
+      "titulo": "Previsão do tempo hoje para Brasília (DF): sol com algumas nuvens; não chove",
       "fonte": "G1",
-      "data": "2026-08-18T05:00:22+00:00"
+      "data": "2026-08-18T06:06:59+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para São Paulo (SP): sol com algumas nuvens; não chove",
+      "fonte": "G1",
+      "data": "2026-08-18T06:06:43+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para São Bernardo do Campo (SP): tempo ensolarado, com nevoeiro ao amanhecer; noite de céu limpo",
+      "fonte": "G1",
+      "data": "2026-08-18T06:06:28+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para Santo André (SP): tempo ensolarado, com nevoeiro ao amanhecer; noite de céu limpo",
+      "fonte": "G1",
+      "data": "2026-08-18T06:06:12+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para Osasco (SP): tempo ensolarado, com nevoeiro ao amanhecer; noite de céu limpo",
+      "fonte": "G1",
+      "data": "2026-08-18T06:05:53+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para Guarulhos (SP): dia ensolarado, com nevoeiro ao amanhecer; as nuvens aumentam à noite",
+      "fonte": "G1",
+      "data": "2026-08-18T06:05:37+00:00"
+    },
+    {
+      "titulo": "Previsão do tempo hoje para São Gonçalo (RJ): tempo nublado com nevoeiro o dia todo; à noite o tempo abre e o céu fica limpo",
+      "fonte": "G1",
+      "data": "2026-08-18T06:05:19+00:00"
+    },
+    {
+      "titulo": "Morre Laura Cardoso, 98, atriz que deu rosto e voz à ficção",
+      "fonte": "Folha",
+      "data": "2026-08-18T05:56:00+00:00"
     },
     {
       "titulo": "Tarcísio manifesta solidariedade a Marina após hostilidade em SP",
@@ -51,55 +91,15 @@
       "data": "2026-08-18T04:30:00+00:00"
     },
     {
-      "titulo": "Estudante morre após ataque a tiros em escola nas Filipinas",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T03:56:09+00:00"
-    },
-    {
       "titulo": "Tiroteio em escola nas Filipinas deixa dois estudantes mortos",
       "fonte": "Folha",
       "data": "2026-08-18T03:25:00+00:00"
     },
     {
-      "titulo": "Vídeo: Mulher é quase arrastada pela água enquanto pilotava moto na Índia",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T03:15:49+00:00"
-    },
-    {
-      "titulo": "Osmar Stabile confirma acerto para a renovação de Memphis com o Corinthians",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T03:08:12+00:00"
-    },
-    {
       "titulo": "Juliano Floss anuncia fim de namoro com Marina Sena",
       "fonte": "Folha",
       "data": "2026-08-18T03:06:00+00:00"
-    },
-    {
-      "titulo": "Tarcísio começa campanha em SP com discurso nacional, calibrado para 2030",
-      "fonte": "Folha",
-      "data": "2026-08-18T03:04:00+00:00"
-    },
-    {
-      "titulo": "Debates de 2026 miram destruição de adversários políticos, diz Arko Advice",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T02:59:38+00:00"
-    },
-    {
-      "titulo": "Houve risco iminente de golpe, diz ex-comandante da FAB no governo Bolsonaro",
-      "fonte": "Folha",
-      "data": "2026-08-18T02:58:00+00:00"
-    },
-    {
-      "titulo": "Juliano Floss anuncia fim de relacionamento com Marina Sena",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T02:55:53+00:00"
-    },
-    {
-      "titulo": "Área técnica do Cade aprova operação entre MSC e Maersk em disputa pelo Tecon Santos 10",
-      "fonte": "Folha",
-      "data": "2026-08-18T02:54:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-18T05:59:20.826320+00:00"
+  "atualizado_em": "2026-08-18T06:56:53.157177+00:00"
 }
