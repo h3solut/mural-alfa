@@ -2,71 +2,71 @@
   "br": [
     {
       "simbolo": "PETR4",
-      "preco": 42.73,
-      "variacao": 0.61
+      "preco": 42.6,
+      "variacao": 0.31
     },
     {
       "simbolo": "VALE3",
-      "preco": 71.56,
-      "variacao": 0.21
+      "preco": 71.55,
+      "variacao": 0.2
     },
     {
       "simbolo": "ITUB4",
-      "preco": 38.13,
-      "variacao": -0.65
+      "preco": 38.19,
+      "variacao": -0.5
     },
     {
       "simbolo": "BBDC4",
-      "preco": 16.07,
-      "variacao": -0.92
-    },
-    {
-      "simbolo": "ABEV3",
-      "preco": 14.74,
-      "variacao": 0.48
-    },
-    {
-      "simbolo": "B3SA3",
-      "preco": 14.32,
+      "preco": 16.12,
       "variacao": -0.62
     },
     {
+      "simbolo": "ABEV3",
+      "preco": 14.73,
+      "variacao": 0.41
+    },
+    {
+      "simbolo": "B3SA3",
+      "preco": 14.3,
+      "variacao": -0.76
+    },
+    {
       "simbolo": "IBOVESPA",
-      "preco": 166262.27,
-      "variacao": -0.31
+      "preco": 166334.86,
+      "variacao": -0.27
     }
   ],
   "eua": [
     {
       "simbolo": "AAPL",
-      "preco": 309.705,
-      "variacao": 1.34658
+      "preco": 310.23,
+      "variacao": 1.51838
     },
     {
       "simbolo": "MSFT",
-      "preco": 483.09,
-      "variacao": 0.57041613
+      "preco": 481.75,
+      "variacao": 0.29145287
     },
     {
       "simbolo": "GOOGL",
-      "preco": 343.94,
-      "variacao": -0.01744186
+      "preco": 344.03,
+      "variacao": 0.0087209302
     },
     {
       "simbolo": "AMZN",
-      "preco": 260.02,
-      "variacao": -0.4936656
+      "preco": 259.46,
+      "variacao": -0.70797045
     },
     {
       "simbolo": "NVDA",
-      "preco": 219.235,
-      "variacao": -2.56655
+      "preco": 219.73,
+      "variacao": -2.34656
     },
     {
       "simbolo": "TSLA",
-      "preco": 336.63,
-      "variacao": -0.78691067
+      "preco": 336.89,
+      "variacao": -0.71028231
     }
   ],
-  "atualizado_em": "2026-08-18T19:31:22.793015+00:00"
+  "atualizado_em": "2026-08-18T20:29:20.045170+00:00"
 }
