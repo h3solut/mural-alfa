@@ -1,105 +1,105 @@
 {
   "itens": [
     {
-      "titulo": "Assista ao Jornal da Manhã",
+      "titulo": "Assista ao Bom Dia ES",
       "fonte": "G1",
-      "data": "2026-08-18T08:53:30+00:00"
+      "data": "2026-08-18T09:27:46+00:00"
     },
     {
-      "titulo": "Laura Cardoso lançou filme, recebeu homenagem e celebrou a vida no último ano",
+      "titulo": "Primeira vez no Barretão? Veja 7 dicas que você precisa saber antes de ir à Festa do Peão",
+      "fonte": "G1",
+      "data": "2026-08-18T09:24:39+00:00"
+    },
+    {
+      "titulo": "AO VIVO: assista à programação da NSC TV",
+      "fonte": "G1",
+      "data": "2026-08-18T09:22:09+00:00"
+    },
+    {
+      "titulo": "Busca por desaparecidos: Piauí terá 10 pontos para coleta de DNA; veja locais",
+      "fonte": "G1",
+      "data": "2026-08-18T09:15:09+00:00"
+    },
+    {
+      "titulo": "Morre Laura Cardoso; reveja momentos marcantes da carreira da atriz",
+      "fonte": "G1",
+      "data": "2026-08-18T09:12:26+00:00"
+    },
+    {
+      "titulo": "Dia do Estagiário: veja oportunidades de estágio abertas na Paraíba",
+      "fonte": "G1",
+      "data": "2026-08-18T09:12:12+00:00"
+    },
+    {
+      "titulo": "Cerca de um quinto dos brasileiros não resolvem conflitos sem IA",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T09:00:53+00:00"
+    },
+    {
+      "titulo": "Roraimense realiza sonho e é aprovada para ser diplomata no Itamaraty: 'Convicção inabalável'",
+      "fonte": "G1",
+      "data": "2026-08-18T09:00:41+00:00"
+    },
+    {
+      "titulo": "Taubaté tem a maior taxa de mortalidade no trânsito entre cidades de SP com mais de 300 mil habitantes",
+      "fonte": "G1",
+      "data": "2026-08-18T09:00:35+00:00"
+    },
+    {
+      "titulo": "Bon Jovi: álbum clássico que revelou “Livin’ On A Prayer” completa 40 anos",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T09:00:21+00:00"
+    },
+    {
+      "titulo": "Libertadores: Fluminense precisa de feito que não alcançou no ano por vaga",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T09:00:20+00:00"
+    },
+    {
+      "titulo": "Análise: Como ex-presidentes dos EUA lidaram com o Irã",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T09:00:03+00:00"
+    },
+    {
+      "titulo": "Luce, o primeiro veículo elétrico da Ferrari, é leiloado por valor recorde de US$ 40 milhões",
       "fonte": "Folha",
-      "data": "2026-08-18T08:44:00+00:00"
+      "data": "2026-08-18T09:00:00+00:00"
     },
     {
-      "titulo": "De R$ 0 a R$ 3,9 milhões: veja o patrimônio dos candidatos ao Senado do RJ declarado ao TSE",
-      "fonte": "G1",
-      "data": "2026-08-18T08:42:06+00:00"
-    },
-    {
-      "titulo": "Hyundai i20 Comfort: conheça a versão básica que custa R$ 99 mil",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T08:30:58+00:00"
-    },
-    {
-      "titulo": "Casas Bahia: Entenda como o juro pesa na crise do grupo varejista",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T08:30:24+00:00"
-    },
-    {
-      "titulo": "Grávida de quatro meses é agredida e estuprada pelo ex no litoral de SP",
-      "fonte": "G1",
-      "data": "2026-08-18T08:22:00+00:00"
-    },
-    {
-      "titulo": "Restaurante é condenado a indenizar ex-funcionária que se queimou fritando batatas; valor pode passar de R$ 90 mil",
-      "fonte": "G1",
-      "data": "2026-08-18T08:21:38+00:00"
-    },
-    {
-      "titulo": "Advogado diz que recebeu 'decreto de morte' do PCC após ser sequestrado: 'Viver tranquilamente?'",
-      "fonte": "G1",
-      "data": "2026-08-18T08:20:29+00:00"
-    },
-    {
-      "titulo": "Casas Bahia se prendeu muito ao modelo de lojas físicas, diz Tozzi",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T08:10:57+00:00"
-    },
-    {
-      "titulo": "Dínamo Zagreb x Viking: horário e onde assistir aos playoffs da Champions",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T08:05:48+00:00"
-    },
-    {
-      "titulo": "Mega-Sena: quanto rendem R$ 45 milhões na poupança, Tesouro Direto ou CDB",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T08:05:38+00:00"
-    },
-    {
-      "titulo": "Veja o que cada candidato ao governo do Amapá declarou de bens ao TSE",
-      "fonte": "G1",
-      "data": "2026-08-18T08:05:02+00:00"
-    },
-    {
-      "titulo": "VÍDEO: Motociclista atingido por motorista embriagado parou em teto de viatura policial em MG",
-      "fonte": "G1",
-      "data": "2026-08-18T08:04:59+00:00"
-    },
-    {
-      "titulo": "Horas depois de pedir medida protetiva, mulher é quase atropelada e deixada seminua no meio da rua em MG",
-      "fonte": "G1",
-      "data": "2026-08-18T08:04:57+00:00"
-    },
-    {
-      "titulo": "Fundos de investimento: o que é e como investir",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T08:00:55+00:00"
-    },
-    {
-      "titulo": "Náutico x Ceará: horário e onde assistir ao jogo da Série B",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T08:00:47+00:00"
-    },
-    {
-      "titulo": "Champions, Libertadores e Sul-Americana: veja agenda desta terça (18)",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T08:00:39+00:00"
-    },
-    {
-      "titulo": "Plano contra seca extrema no Amazonas une ciência e ribeirinhos para salvar botos",
+      "titulo": "ViaMobilidade pode ser multada em até R$ 4 milhões por descarrilamentos em SP",
       "fonte": "Folha",
-      "data": "2026-08-18T08:00:00+00:00"
+      "data": "2026-08-18T09:00:00+00:00"
     },
     {
-      "titulo": "São Paulo deve ter clima seco e temperatura máxima de 30°C nesta terça (18)",
+      "titulo": "Frei Betto lança 'Anatomia do Poder' e discute impasses da política",
       "fonte": "Folha",
-      "data": "2026-08-18T08:00:00+00:00"
+      "data": "2026-08-18T09:00:00+00:00"
     },
     {
-      "titulo": "OpenAI anuncia negócios no Brasil e minimiza risco político com Casa Branca",
+      "titulo": "Após excesso em 'Vale Tudo', Globo impõe limite em ações de merchandising nas novelas",
       "fonte": "Folha",
-      "data": "2026-08-18T08:00:00+00:00"
+      "data": "2026-08-18T09:00:00+00:00"
+    },
+    {
+      "titulo": "Eleições de meio de mandato expõem desgaste político do governo Trump",
+      "fonte": "Folha",
+      "data": "2026-08-18T09:00:00+00:00"
+    },
+    {
+      "titulo": "Memória subsiste mesmo 'deletando' 50% das conexões de neurônios",
+      "fonte": "Folha",
+      "data": "2026-08-18T09:00:00+00:00"
+    },
+    {
+      "titulo": "Judicialização eleitoral mais que dobra e pré-campanha de 2026 registra recorde histórico",
+      "fonte": "Folha",
+      "data": "2026-08-18T09:00:00+00:00"
+    },
+    {
+      "titulo": "Guia busca combater gado de pecuária ilegal em terras indígenas",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T08:57:17+00:00"
     }
   ],
-  "atualizado_em": "2026-08-18T08:56:00.473921+00:00"
+  "atualizado_em": "2026-08-18T09:32:55.735846+00:00"
 }
