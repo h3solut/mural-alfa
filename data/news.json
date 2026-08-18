@@ -1,6 +1,16 @@
 {
   "itens": [
     {
+      "titulo": "Atriz Laura Cardoso morre aos 98 anos",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T05:49:46+00:00"
+    },
+    {
+      "titulo": "Laura Cardoso, um dos principais nomes da dramaturgia brasileira, morre aos 99 anos",
+      "fonte": "G1",
+      "data": "2026-08-18T05:46:22+00:00"
+    },
+    {
       "titulo": "Das pistas de skate às oficinas de arte: como as férias movimentam negócios para o público infantil",
       "fonte": "G1",
       "data": "2026-08-18T05:02:28+00:00"
@@ -34,11 +44,6 @@
       "titulo": "Personalidade muda mais ao longo da vida do que as pessoas imaginam, aponta estudo",
       "fonte": "G1",
       "data": "2026-08-18T05:00:22+00:00"
-    },
-    {
-      "titulo": "Exames do cérebro fornecem a primeira evidência de que cães conseguem distinguir entre medo e tristeza em humanos",
-      "fonte": "G1",
-      "data": "2026-08-18T05:00:18+00:00"
     },
     {
       "titulo": "Tarcísio manifesta solidariedade a Marina após hostilidade em SP",
@@ -94,12 +99,7 @@
       "titulo": "Área técnica do Cade aprova operação entre MSC e Maersk em disputa pelo Tecon Santos 10",
       "fonte": "Folha",
       "data": "2026-08-18T02:54:00+00:00"
-    },
-    {
-      "titulo": "Tarcísio presta solidariedade a Marina e repudia tentativa de agressão",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T02:52:24+00:00"
     }
   ],
-  "atualizado_em": "2026-08-18T05:29:59.417927+00:00"
+  "atualizado_em": "2026-08-18T05:59:20.826320+00:00"
 }
