@@ -1,49 +1,94 @@
 {
   "itens": [
     {
-      "titulo": "PF faz operação contra contrabando de cosméticos e produtos de saúde na região central de SP",
-      "fonte": "G1",
-      "data": "2026-08-18T11:18:40+00:00"
+      "titulo": "Lula leva fotógrafo de campanha em avião oficial para registrar evento de governo como propaganda",
+      "fonte": "Folha",
+      "data": "2026-08-18T11:52:00+00:00"
     },
     {
-      "titulo": "Receita Federal faz leilão com catamarã, caminhão, van e eletrônicos em Salvador",
+      "titulo": "Funcionário é suspeito de desviar R$ 7 milhões de empresa de Curitiba e simular vitórias em rifas para justificar enriquecimento",
       "fonte": "G1",
-      "data": "2026-08-18T11:17:18+00:00"
+      "data": "2026-08-18T11:49:03+00:00"
     },
     {
-      "titulo": "Caminhão carregado de açúcar tomba em Olinda após duas rodas se soltarem do veículo; VÍDEO",
+      "titulo": "Peruanos furtam bagagem com pen drive de R$ 265 mil em criptomoedas em hotel no RJ e são presos no ES",
       "fonte": "G1",
-      "data": "2026-08-18T11:16:29+00:00"
+      "data": "2026-08-18T11:46:04+00:00"
+    },
+    {
+      "titulo": "ChatGPT anuncia versão para adolescentes com limites de conteúdo, uso e controle dos pais",
+      "fonte": "G1",
+      "data": "2026-08-18T11:42:49+00:00"
+    },
+    {
+      "titulo": "Motorista baleado durante corrida cobra mais segurança em Ribeirão Preto, SP: 'Risco todo mundo corre, mas dá para evitar'",
+      "fonte": "G1",
+      "data": "2026-08-18T11:41:04+00:00"
+    },
+    {
+      "titulo": "Laura Cardoso já foi dubladora e emprestou a voz a Betty, de ‘Os Flintstones’; relembre",
+      "fonte": "G1",
+      "data": "2026-08-18T11:40:51+00:00"
+    },
+    {
+      "titulo": "CNPEM oferece bolsas de verão para universitários com tudo pago; veja como se inscrever",
+      "fonte": "G1",
+      "data": "2026-08-18T11:39:35+00:00"
+    },
+    {
+      "titulo": "Homem é preso por incendiar companheira na Pavuna; vítima está em estado grave",
+      "fonte": "G1",
+      "data": "2026-08-18T11:38:39+00:00"
+    },
+    {
+      "titulo": "Empresário do ramo de loterias é preso em operação da Polícia Civil, em João Pessoa",
+      "fonte": "G1",
+      "data": "2026-08-18T11:37:34+00:00"
+    },
+    {
+      "titulo": "Laura Cardoso foi um exemplo de mulher e de artista, diz Fernanda Torres",
+      "fonte": "Folha",
+      "data": "2026-08-18T11:36:00+00:00"
+    },
+    {
+      "titulo": "Técnico do Egito na Copa do Mundo desmaia durante briga entre suas esposas",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T11:33:57+00:00"
+    },
+    {
+      "titulo": "Técnicos trocam socos após empate entre Vélez e Defensa pelo Argentino",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T11:33:35+00:00"
+    },
+    {
+      "titulo": "Álvarez é barrado por Simeone em meio a interesse do Barcelona",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T11:29:04+00:00"
+    },
+    {
+      "titulo": "Famosos lamentam morte de Laura Cardoso, ícone da TV brasileira",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T11:28:15+00:00"
+    },
+    {
+      "titulo": "Bolsas da Ásia recuam com petróleo e inflação; Nikkei lidera perdas",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T11:24:49+00:00"
+    },
+    {
+      "titulo": "Compra de joias liga amiga de Lulinha a ex-assessor de Lula; entenda",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T11:23:24+00:00"
+    },
+    {
+      "titulo": "Laura Cardoso deixa duas filhas; veja quem são",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-18T11:20:11+00:00"
     },
     {
       "titulo": "Rússia mata 10 na Ucrânia; Kiev faz mega-ataque a Moscou",
       "fonte": "Folha",
       "data": "2026-08-18T11:16:00+00:00"
-    },
-    {
-      "titulo": "Veja quais bairros de Aracaju sofrem alterações no trânsito para ensaios do Desfile de 7 de setembro",
-      "fonte": "G1",
-      "data": "2026-08-18T11:15:58+00:00"
-    },
-    {
-      "titulo": "Motorista é preso com cerca de 100 kg de cocaína escondidos na lataria de veículo na Grande Fortaleza",
-      "fonte": "G1",
-      "data": "2026-08-18T11:14:23+00:00"
-    },
-    {
-      "titulo": "Trevo dos contornos da Tamoios terá bloqueio para obras nesta quarta (19), em Caraguatatuba; veja o horário",
-      "fonte": "G1",
-      "data": "2026-08-18T11:14:13+00:00"
-    },
-    {
-      "titulo": "Ataques aéreos israelenses atingem a base aérea síria de Abu al-Duhur, relata TV estatal",
-      "fonte": "G1",
-      "data": "2026-08-18T11:14:05+00:00"
-    },
-    {
-      "titulo": "Nascida no Bixiga, Laura Cardoso começou a carreira na TV e se consolidou com grupo de teatro de SP",
-      "fonte": "G1",
-      "data": "2026-08-18T11:12:24+00:00"
     },
     {
       "titulo": "EUA deixam na mão seus principais parceiros, diz especialista",
@@ -54,52 +99,7 @@
       "titulo": "Laura Cardoso já disse que queria morrer dormindo; relembre",
       "fonte": "Folha",
       "data": "2026-08-18T11:05:00+00:00"
-    },
-    {
-      "titulo": "Itaú recebe aval preliminar para abrir banco próprio nos Estados Unidos",
-      "fonte": "Folha",
-      "data": "2026-08-18T11:04:00+00:00"
-    },
-    {
-      "titulo": "Candidata à Presidência registra plano de governo de duas páginas e é criticada nas redes",
-      "fonte": "Folha",
-      "data": "2026-08-18T11:03:00+00:00"
-    },
-    {
-      "titulo": "Fluminense e Palmeiras lutam para não “desnivelar” a Libertadores 2026",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T11:00:36+00:00"
-    },
-    {
-      "titulo": "Setor elétrico brasileiro viaja no túnel do tempo?",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T11:00:16+00:00"
-    },
-    {
-      "titulo": "Fabricantes de máquinas agrícolas investem em inovação contra queda nas vendas",
-      "fonte": "Folha",
-      "data": "2026-08-18T11:00:00+00:00"
-    },
-    {
-      "titulo": "A transição energética economicamente motivada",
-      "fonte": "Folha",
-      "data": "2026-08-18T11:00:00+00:00"
-    },
-    {
-      "titulo": "Produção do helicóptero usado nas tragédias de Brumadinho e no RS é encerrada no Brasil",
-      "fonte": "Folha",
-      "data": "2026-08-18T11:00:00+00:00"
-    },
-    {
-      "titulo": "Apesar de crise no agro, empresas preveem dobrar de tamanho em cinco anos no país",
-      "fonte": "Folha",
-      "data": "2026-08-18T11:00:00+00:00"
-    },
-    {
-      "titulo": "Morre “PQD”, líder do Comando Vermelho no Rio de Janeiro",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-18T10:57:52+00:00"
     }
   ],
-  "atualizado_em": "2026-08-18T11:22:50.915809+00:00"
+  "atualizado_em": "2026-08-18T11:57:06.491182+00:00"
 }
