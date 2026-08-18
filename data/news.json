@@ -1,29 +1,54 @@
 {
   "itens": [
     {
+      "titulo": "Das pistas de skate às oficinas de arte: como as férias movimentam negócios para o público infantil",
+      "fonte": "G1",
+      "data": "2026-08-18T05:02:28+00:00"
+    },
+    {
+      "titulo": "Exposição no Museu Nacional mostra outro lado da construção de Brasília; veja imagens",
+      "fonte": "G1",
+      "data": "2026-08-18T05:00:40+00:00"
+    },
+    {
+      "titulo": "De agressões a abusos sexuais: promotor detalha torturas em clínica após prisão de casal em Portugal",
+      "fonte": "G1",
+      "data": "2026-08-18T05:00:37+00:00"
+    },
+    {
+      "titulo": "A cidade da Colômbia que foi devastada por terremoto de 1999, mas resistiu ao tremor mais recente",
+      "fonte": "G1",
+      "data": "2026-08-18T05:00:33+00:00"
+    },
+    {
+      "titulo": "Golpe usa nome da Defensoria Pública e voz clonada para enganar vítimas no RS; entenda como funciona",
+      "fonte": "G1",
+      "data": "2026-08-18T05:00:29+00:00"
+    },
+    {
+      "titulo": "'O loirinho me inspira': relembre as músicas que Marina Sena dedicou para Juliano Floss",
+      "fonte": "G1",
+      "data": "2026-08-18T05:00:24+00:00"
+    },
+    {
+      "titulo": "Personalidade muda mais ao longo da vida do que as pessoas imaginam, aponta estudo",
+      "fonte": "G1",
+      "data": "2026-08-18T05:00:22+00:00"
+    },
+    {
+      "titulo": "Exames do cérebro fornecem a primeira evidência de que cães conseguem distinguir entre medo e tristeza em humanos",
+      "fonte": "G1",
+      "data": "2026-08-18T05:00:18+00:00"
+    },
+    {
       "titulo": "Tarcísio manifesta solidariedade a Marina após hostilidade em SP",
       "fonte": "Folha",
       "data": "2026-08-18T04:30:00+00:00"
     },
     {
-      "titulo": "Homem parte para cima de funcionário por R$ 1 em sorveteria no RS; VÍDEO",
-      "fonte": "G1",
-      "data": "2026-08-18T04:00:08+00:00"
-    },
-    {
       "titulo": "Estudante morre após ataque a tiros em escola nas Filipinas",
       "fonte": "CNN Brasil",
       "data": "2026-08-18T03:56:09+00:00"
-    },
-    {
-      "titulo": "Ataque a tiros em escola nas Filipinas deixa dois mortos",
-      "fonte": "G1",
-      "data": "2026-08-18T03:32:40+00:00"
-    },
-    {
-      "titulo": "O que fizeram e disseram os candidatos à Presidência no lançamento das campanhas - O Assunto #1785",
-      "fonte": "G1",
-      "data": "2026-08-18T03:30:08+00:00"
     },
     {
       "titulo": "Tiroteio em escola nas Filipinas deixa dois estudantes mortos",
@@ -46,34 +71,9 @@
       "data": "2026-08-18T03:06:00+00:00"
     },
     {
-      "titulo": "Montes Claros inaugura clínica gratuita de fisioterapia",
-      "fonte": "G1",
-      "data": "2026-08-18T03:05:14+00:00"
-    },
-    {
-      "titulo": "Metais DAX unem design, desempenho e 10 anos de garantia",
-      "fonte": "G1",
-      "data": "2026-08-18T03:04:13+00:00"
-    },
-    {
-      "titulo": "Projeto de Trabalho Social para obras no Canal de Medeiros é apresentado",
-      "fonte": "G1",
-      "data": "2026-08-18T03:04:11+00:00"
-    },
-    {
-      "titulo": "Macaé terá audiência para propor monitoramento eletrônico de agressores",
-      "fonte": "G1",
-      "data": "2026-08-18T03:04:10+00:00"
-    },
-    {
       "titulo": "Tarcísio começa campanha em SP com discurso nacional, calibrado para 2030",
       "fonte": "Folha",
       "data": "2026-08-18T03:04:00+00:00"
-    },
-    {
-      "titulo": "Mega-Sena pode pagar prêmio de R$ 45 milhões nesta terça-feira; g1 transmite ao vivo",
-      "fonte": "G1",
-      "data": "2026-08-18T03:00:57+00:00"
     },
     {
       "titulo": "Debates de 2026 miram destruição de adversários políticos, diz Arko Advice",
@@ -101,5 +101,5 @@
       "data": "2026-08-18T02:52:24+00:00"
     }
   ],
-  "atualizado_em": "2026-08-18T04:56:20.133108+00:00"
+  "atualizado_em": "2026-08-18T05:29:59.417927+00:00"
 }
