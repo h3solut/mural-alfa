@@ -2,71 +2,71 @@
   "br": [
     {
       "simbolo": "PETR4",
-      "preco": 43.4,
-      "variacao": 1.88
+      "preco": 43.22,
+      "variacao": 1.46
     },
     {
       "simbolo": "VALE3",
-      "preco": 72.04,
-      "variacao": 0.68
-    },
-    {
-      "simbolo": "ITUB4",
-      "preco": 38.38,
-      "variacao": 0.5
-    },
-    {
-      "simbolo": "BBDC4",
-      "preco": 16.08,
-      "variacao": -0.25
-    },
-    {
-      "simbolo": "ABEV3",
-      "preco": 14.79,
-      "variacao": 0.41
-    },
-    {
-      "simbolo": "B3SA3",
-      "preco": 14.42,
+      "preco": 72.15,
       "variacao": 0.84
     },
     {
+      "simbolo": "ITUB4",
+      "preco": 38.42,
+      "variacao": 0.6
+    },
+    {
+      "simbolo": "BBDC4",
+      "preco": 16.06,
+      "variacao": -0.37
+    },
+    {
+      "simbolo": "ABEV3",
+      "preco": 14.74,
+      "variacao": 0.07
+    },
+    {
+      "simbolo": "B3SA3",
+      "preco": 14.45,
+      "variacao": 1.05
+    },
+    {
       "simbolo": "IBOVESPA",
-      "preco": 167773.52,
-      "variacao": 0.86
+      "preco": 167522.14,
+      "variacao": 0.71
     }
   ],
   "eua": [
     {
       "simbolo": "AAPL",
-      "preco": 314.78,
-      "variacao": 1.53211
+      "preco": 316.67,
+      "variacao": 2.14173
     },
     {
       "simbolo": "MSFT",
-      "preco": 484.42,
-      "variacao": 0.57928183
+      "preco": 483.75,
+      "variacao": 0.4401709
     },
     {
       "simbolo": "GOOGL",
-      "preco": 344.12,
-      "variacao": -0.023245847
+      "preco": 344.105,
+      "variacao": -0.027603778
     },
     {
       "simbolo": "AMZN",
-      "preco": 264.17,
-      "variacao": 1.81923
+      "preco": 265.51,
+      "variacao": 2.33571
     },
     {
       "simbolo": "NVDA",
-      "preco": 219.64,
-      "variacao": -0.045510827
+      "preco": 219.82,
+      "variacao": 0.036404162
     },
     {
       "simbolo": "TSLA",
-      "preco": 348.73,
-      "variacao": 3.52065
+      "preco": 349.28,
+      "variacao": 3.68392
     }
   ],
-  "atualizado_em": "2026-08-19T18:41:34.738251+00:00"
+  "atualizado_em": "2026-08-19T19:30:17.675187+00:00"
 }
