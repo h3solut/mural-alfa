@@ -1,6 +1,16 @@
 {
   "itens": [
     {
+      "titulo": "Trump pressiona por encontro com Kim Jong Un ainda este ano",
+      "fonte": "Folha",
+      "data": "2026-08-19T04:45:00+00:00"
+    },
+    {
+      "titulo": "Após anúncio de Trump, Canadá confirma suspensão de tarifas de 50% dos EUA",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T04:16:59+00:00"
+    },
+    {
       "titulo": "Jovem que fotografa partos desde os 19 anos fala da responsabilidade: 'momento que não se repete'",
       "fonte": "G1",
       "data": "2026-08-19T04:00:10+00:00"
@@ -89,17 +99,7 @@
       "titulo": "SBT resgata episódios raros de Chaves para comemorar 45 anos da emissora",
       "fonte": "Folha",
       "data": "2026-08-19T02:50:00+00:00"
-    },
-    {
-      "titulo": "Del Valle vence Tolima fora e abre vantagem nas oitavas da Libertadores",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T02:46:58+00:00"
-    },
-    {
-      "titulo": "Trump manda repórter se calar, e Casa Branca diz que filhos 'vão se envergonhar' dela",
-      "fonte": "Folha",
-      "data": "2026-08-19T02:45:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-19T04:19:36.364423+00:00"
+  "atualizado_em": "2026-08-19T04:57:01.768301+00:00"
 }
