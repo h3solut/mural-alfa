@@ -1,49 +1,94 @@
 {
   "itens": [
     {
-      "titulo": "Bom Dia Cidade - Ribeirão e Franca",
-      "fonte": "G1",
-      "data": "2026-08-19T10:24:38+00:00"
+      "titulo": "Clima extremo exige transformação agrícola no Reino Unido",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T10:57:14+00:00"
     },
     {
-      "titulo": "Operação prende três por roubos de eletrônicos em Salvador; prejuízo estimado foi de mais de R$ 100 mil",
-      "fonte": "G1",
-      "data": "2026-08-19T10:20:55+00:00"
+      "titulo": "Rivadavia se despede da Libertadores invicto e com artilheiro do torneio",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T10:52:46+00:00"
     },
     {
-      "titulo": "Interesses pessoais de Trump influenciam suas decisões como presidente para 69% dos americanos, diz pesquisa",
-      "fonte": "G1",
-      "data": "2026-08-19T10:19:09+00:00"
+      "titulo": "Traficante ‘Cascão’, operador de armas e drogas do CV, é preso no Rio",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T10:50:29+00:00"
     },
     {
-      "titulo": "Decreto que limita horário de bares e restaurantes deixa comerciantes descontentes em Muzambinho",
+      "titulo": "Assista ao Bom Dia Vanguarda ao vivo no g1",
       "fonte": "G1",
-      "data": "2026-08-19T10:18:32+00:00"
+      "data": "2026-08-19T10:49:35+00:00"
     },
     {
-      "titulo": "Descoberta na Foz do Amazonas só será 'passaporte para o futuro' se modelo adotado no pré-sal mudar, diz ex-diretor da Petrobras",
+      "titulo": "Explosão de botijão de gás atinge três casas e deixa três pessoas feridas no interior da Bahia",
       "fonte": "G1",
-      "data": "2026-08-19T10:17:04+00:00"
+      "data": "2026-08-19T10:47:50+00:00"
     },
     {
-      "titulo": "Homem é preso com cerca de 80 frascos de substâncias emagrecedoras em apartamento em Cordovil",
+      "titulo": "Mãe é presa suspeita de maus-tratos contra filhos em casa com lixo, mau cheiro e animal morto",
       "fonte": "G1",
-      "data": "2026-08-19T10:11:30+00:00"
+      "data": "2026-08-19T10:45:03+00:00"
     },
     {
-      "titulo": "Acidente entre ônibus e carreta deixa 21 mortos no Paraná",
+      "titulo": "Pogba deixa o Monaco e segue buscando reerguer a carreira após doping",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T10:41:54+00:00"
+    },
+    {
+      "titulo": "Fisioterapeuta de Glória Menezes recorda rotina da atriz; confira",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T10:40:59+00:00"
+    },
+    {
+      "titulo": "Homem morre após ser espancado em Copacabana; família diz que ele foi confundido com um ladrão",
+      "fonte": "G1",
+      "data": "2026-08-19T10:40:02+00:00"
+    },
+    {
+      "titulo": "Aos 69 anos, marceneiro coleciona medalhas em provas de ciclismo: 'Não tem limite para o esporte'",
+      "fonte": "G1",
+      "data": "2026-08-19T10:38:37+00:00"
+    },
+    {
+      "titulo": "Mega-Sena 3046: 5 apostas do oeste do PA acertam a quadra; prêmio vai a R$ 50 milhões",
+      "fonte": "G1",
+      "data": "2026-08-19T10:37:38+00:00"
+    },
+    {
+      "titulo": "Presidente do Chile declara estado de catástrofe após chuvas intensas",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T10:37:34+00:00"
+    },
+    {
+      "titulo": "Operação resgata centenas de quelônios e aplica R$ 2 milhões em multas no Amazonas",
+      "fonte": "G1",
+      "data": "2026-08-19T10:36:49+00:00"
+    },
+    {
+      "titulo": "Bom Dia Cidade Piracicaba ao vivo",
+      "fonte": "G1",
+      "data": "2026-08-19T10:36:03+00:00"
+    },
+    {
+      "titulo": "Previdência quer concessão automática de benefício após recurso favorável a segurado do INSS",
+      "fonte": "Folha",
+      "data": "2026-08-19T10:35:00+00:00"
+    },
+    {
+      "titulo": "O Grande Debate: Denúncias contra Marcola vão atingir Lula até as eleições?",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T10:24:24+00:00"
+    },
+    {
+      "titulo": "22 mortos: Ônibus envolvido em acidente levava pacientes de Imbituva (PR)",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T10:12:54+00:00"
+    },
+    {
+      "titulo": "Acidente entre micro-ônibus e carreta deixa 22 mortos no Paraná",
       "fonte": "Folha",
       "data": "2026-08-19T10:11:00+00:00"
-    },
-    {
-      "titulo": "Hemocentro tem estoque de sangue abaixo de 40% em Juiz de Fora; veja novas regras de doação",
-      "fonte": "G1",
-      "data": "2026-08-19T10:10:26+00:00"
-    },
-    {
-      "titulo": "Vídeos do g1 e TV Bahia - quarta-feira, 19 de agosto de 2026",
-      "fonte": "G1",
-      "data": "2026-08-19T10:10:13+00:00"
     },
     {
       "titulo": "Toyota obtém R$ 123,6 milhões do BNDES para construir centro de tecnologia para biocombustíveis",
@@ -54,52 +99,7 @@
       "titulo": "Dia Mundial da Fotografia: a posição do mapa que descreve como você aparece",
       "fonte": "Folha",
       "data": "2026-08-19T10:00:00+00:00"
-    },
-    {
-      "titulo": "Nossos museus, salas de concerto e teatros queimam por falta de contratos",
-      "fonte": "Folha",
-      "data": "2026-08-19T10:00:00+00:00"
-    },
-    {
-      "titulo": "Igreja Presbiteriana segue conservadora, mas se distancia do bolsonarismo",
-      "fonte": "Folha",
-      "data": "2026-08-19T10:00:00+00:00"
-    },
-    {
-      "titulo": "Grupo paulistano tenta salvar sede cultural ameaçada em Heliópolis",
-      "fonte": "Folha",
-      "data": "2026-08-19T10:00:00+00:00"
-    },
-    {
-      "titulo": "Cenipa aponta falhas no freio e possível piloto não habilitado em saída de pista de jatinho no RS",
-      "fonte": "Folha",
-      "data": "2026-08-19T09:50:00+00:00"
-    },
-    {
-      "titulo": "Acidente entre ônibus e carreta deixa pelo menos 22 mortos no Paraná",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T09:43:37+00:00"
-    },
-    {
-      "titulo": "Libertadores: Palmeiras encara o Cerro para evitar pior campanha da década",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T09:30:38+00:00"
-    },
-    {
-      "titulo": "Tenista Nick Kyrgios é suspenso após testar positivo para cocaína",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T09:30:21+00:00"
-    },
-    {
-      "titulo": "Coquimbo Unido x Platense: horário e onde assistir ao jogo da Libertadores",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T09:15:29+00:00"
-    },
-    {
-      "titulo": "Brasil projeta alta de 20% nas exportações de etanol",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T09:00:21+00:00"
     }
   ],
-  "atualizado_em": "2026-08-19T10:25:27.561377+00:00"
+  "atualizado_em": "2026-08-19T10:59:16.094779+00:00"
 }
