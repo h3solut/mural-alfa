@@ -1,44 +1,84 @@
 {
   "itens": [
     {
-      "titulo": "Homem que fabricava armas com impressoras 3D para facções é preso no RS: 'Funcionavam com boa precisão'",
+      "titulo": "Bom Dia Cidade - Ribeirão e Franca",
       "fonte": "G1",
-      "data": "2026-08-19T09:46:04+00:00"
+      "data": "2026-08-19T10:24:38+00:00"
     },
     {
-      "titulo": "Câmara analisa autorização para Campinas renegociar dívidas com a União e regra para focinheira em cães",
+      "titulo": "Operação prende três por roubos de eletrônicos em Salvador; prejuízo estimado foi de mais de R$ 100 mil",
       "fonte": "G1",
-      "data": "2026-08-19T09:43:55+00:00"
+      "data": "2026-08-19T10:20:55+00:00"
     },
     {
-      "titulo": "Alto Tietê tem mais de 4,6 mil vagas de emprego nesta quarta-feira; veja lista",
+      "titulo": "Interesses pessoais de Trump influenciam suas decisões como presidente para 69% dos americanos, diz pesquisa",
       "fonte": "G1",
-      "data": "2026-08-19T09:42:35+00:00"
+      "data": "2026-08-19T10:19:09+00:00"
     },
     {
-      "titulo": "Após 15 anos, Campinas vai pagar multa de R$ 257 mil em ação que cobrava melhorias na saúde no Oziel",
+      "titulo": "Decreto que limita horário de bares e restaurantes deixa comerciantes descontentes em Muzambinho",
       "fonte": "G1",
-      "data": "2026-08-19T09:41:56+00:00"
+      "data": "2026-08-19T10:18:32+00:00"
     },
     {
-      "titulo": "PF mira fraude em migração com declarações de união estável falsas",
+      "titulo": "Descoberta na Foz do Amazonas só será 'passaporte para o futuro' se modelo adotado no pré-sal mudar, diz ex-diretor da Petrobras",
       "fonte": "G1",
-      "data": "2026-08-19T09:39:30+00:00"
+      "data": "2026-08-19T10:17:04+00:00"
     },
     {
-      "titulo": "Polícia Civil deflagra operação contra tráfico, homicídios e roubos na Grande João Pessoa",
+      "titulo": "Homem é preso com cerca de 80 frascos de substâncias emagrecedoras em apartamento em Cordovil",
       "fonte": "G1",
-      "data": "2026-08-19T09:33:26+00:00"
+      "data": "2026-08-19T10:11:30+00:00"
     },
     {
-      "titulo": "Morre menina de 10 anos atingida por deslizamento de terra em Santo Amaro da Imperatriz",
-      "fonte": "G1",
-      "data": "2026-08-19T09:32:34+00:00"
+      "titulo": "Acidente entre ônibus e carreta deixa 21 mortos no Paraná",
+      "fonte": "Folha",
+      "data": "2026-08-19T10:11:00+00:00"
     },
     {
-      "titulo": "Advogada morre após ser baleada enquanto passeava com cachorro no Benedito Bentes, em Maceió",
+      "titulo": "Hemocentro tem estoque de sangue abaixo de 40% em Juiz de Fora; veja novas regras de doação",
       "fonte": "G1",
-      "data": "2026-08-19T09:31:01+00:00"
+      "data": "2026-08-19T10:10:26+00:00"
+    },
+    {
+      "titulo": "Vídeos do g1 e TV Bahia - quarta-feira, 19 de agosto de 2026",
+      "fonte": "G1",
+      "data": "2026-08-19T10:10:13+00:00"
+    },
+    {
+      "titulo": "Toyota obtém R$ 123,6 milhões do BNDES para construir centro de tecnologia para biocombustíveis",
+      "fonte": "Folha",
+      "data": "2026-08-19T10:00:00+00:00"
+    },
+    {
+      "titulo": "Dia Mundial da Fotografia: a posição do mapa que descreve como você aparece",
+      "fonte": "Folha",
+      "data": "2026-08-19T10:00:00+00:00"
+    },
+    {
+      "titulo": "Nossos museus, salas de concerto e teatros queimam por falta de contratos",
+      "fonte": "Folha",
+      "data": "2026-08-19T10:00:00+00:00"
+    },
+    {
+      "titulo": "Igreja Presbiteriana segue conservadora, mas se distancia do bolsonarismo",
+      "fonte": "Folha",
+      "data": "2026-08-19T10:00:00+00:00"
+    },
+    {
+      "titulo": "Grupo paulistano tenta salvar sede cultural ameaçada em Heliópolis",
+      "fonte": "Folha",
+      "data": "2026-08-19T10:00:00+00:00"
+    },
+    {
+      "titulo": "Cenipa aponta falhas no freio e possível piloto não habilitado em saída de pista de jatinho no RS",
+      "fonte": "Folha",
+      "data": "2026-08-19T09:50:00+00:00"
+    },
+    {
+      "titulo": "Acidente entre ônibus e carreta deixa pelo menos 22 mortos no Paraná",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T09:43:37+00:00"
     },
     {
       "titulo": "Libertadores: Palmeiras encara o Cerro para evitar pior campanha da década",
@@ -59,47 +99,7 @@
       "titulo": "Brasil projeta alta de 20% nas exportações de etanol",
       "fonte": "CNN Brasil",
       "data": "2026-08-19T09:00:21+00:00"
-    },
-    {
-      "titulo": "Di María em Itaquera: argentino volta ao palco de seu primeiro gol em Copas",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T09:00:14+00:00"
-    },
-    {
-      "titulo": "Moda penitenciária: Busca por roupas para quem vai visitar detentos cresce nas redes",
-      "fonte": "Folha",
-      "data": "2026-08-19T09:00:00+00:00"
-    },
-    {
-      "titulo": "Brasil vê disparada na apreensão de 'maconha gourmet' produzida nos EUA",
-      "fonte": "Folha",
-      "data": "2026-08-19T09:00:00+00:00"
-    },
-    {
-      "titulo": "Sociedade de Pediatria desaconselha fotos com pacientes em redes sociais e upload de imagens de IA",
-      "fonte": "Folha",
-      "data": "2026-08-19T09:00:00+00:00"
-    },
-    {
-      "titulo": "Via Láctea devorou galáxia anã cerca de 11,8 bilhões de anos atrás",
-      "fonte": "Folha",
-      "data": "2026-08-19T09:00:00+00:00"
-    },
-    {
-      "titulo": "Como uma empresa que imitou a marca Jordan driblou a Nike na China",
-      "fonte": "Folha",
-      "data": "2026-08-19T09:00:00+00:00"
-    },
-    {
-      "titulo": "Trump tem pior índice de aprovação e não dá sinais de que mudará de rumo",
-      "fonte": "Folha",
-      "data": "2026-08-19T09:00:00+00:00"
-    },
-    {
-      "titulo": "Ministério Público Federal afirma que igreja histórica em Salvador corre o risco de desabar",
-      "fonte": "Folha",
-      "data": "2026-08-19T08:39:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-19T09:52:08.701129+00:00"
+  "atualizado_em": "2026-08-19T10:25:27.561377+00:00"
 }
