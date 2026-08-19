@@ -1,14 +1,89 @@
 {
   "itens": [
     {
+      "titulo": "Eleições 2026: veja como foi o 4º dia oficial de campanha dos candidatos ao governo do Amapá",
+      "fonte": "G1",
+      "data": "2026-08-19T23:51:55+00:00"
+    },
+    {
+      "titulo": "Resultados das Loterias Caixa",
+      "fonte": "G1",
+      "data": "2026-08-19T23:51:37+00:00"
+    },
+    {
+      "titulo": "Durigan deve se encontrar com economistas do governo FHC para falar sobre eventual Lula 4",
+      "fonte": "Folha",
+      "data": "2026-08-19T23:50:00+00:00"
+    },
+    {
+      "titulo": "PF encontra mensagem recebida pelo ex-chefe de gabinete de Lula com documento que traz diretrizes para a compra de medicamentos no SUS",
+      "fonte": "G1",
+      "data": "2026-08-19T23:49:07+00:00"
+    },
+    {
+      "titulo": "Canal Ligue 180 registra alta de 90% nos atendimentos em 2026",
+      "fonte": "Folha",
+      "data": "2026-08-19T23:46:00+00:00"
+    },
+    {
+      "titulo": "Veja o que é #FATO ou #FAKE na entrevista de Fernando Haddad ao 'Globo', 'Valor' e CBN",
+      "fonte": "G1",
+      "data": "2026-08-19T23:42:48+00:00"
+    },
+    {
+      "titulo": "VÍDEOS: MG2 de quarta-feira, 19 de agosto de 2026",
+      "fonte": "G1",
+      "data": "2026-08-19T23:40:08+00:00"
+    },
+    {
+      "titulo": "Motorista morre após carreta se envolver em acidente e cair em barranco em Cáceres (MT); vídeo",
+      "fonte": "G1",
+      "data": "2026-08-19T23:37:10+00:00"
+    },
+    {
+      "titulo": "'Quem Ama Cuida': Pilar flagra Ingrid com Iuri e ameaça demitir o funcionário",
+      "fonte": "Folha",
+      "data": "2026-08-19T23:37:00+00:00"
+    },
+    {
+      "titulo": "Michelle publica vídeo com bastidores de gravação com Flávio Bolsonaro para campanha eleitoral",
+      "fonte": "G1",
+      "data": "2026-08-19T23:36:18+00:00"
+    },
+    {
+      "titulo": "Mais de 4 anos de guerra colocam pressão política sobre Volodymyr Zelensky e Vladimir Putin",
+      "fonte": "G1",
+      "data": "2026-08-19T23:35:26+00:00"
+    },
+    {
+      "titulo": "Luis Felipe Salomão toma posse e assume presidência do STJ até 2028",
+      "fonte": "Folha",
+      "data": "2026-08-19T23:34:00+00:00"
+    },
+    {
+      "titulo": "Alvaro Costa e Silva lança coletânea de crônicas publicadas na Folha em livraria de SP",
+      "fonte": "Folha",
+      "data": "2026-08-19T23:28:00+00:00"
+    },
+    {
+      "titulo": "Ivo Kos está em cadeia com superlotação na zona oeste de São Paulo",
+      "fonte": "Folha",
+      "data": "2026-08-19T23:28:00+00:00"
+    },
+    {
+      "titulo": "Caiado critica Lula por 'viés eleitoreiro' do fim da 6x1, mas não diz se é contra ou a favor da medida",
+      "fonte": "Folha",
+      "data": "2026-08-19T23:25:00+00:00"
+    },
+    {
+      "titulo": "Mais de 750 militares dos EUA foram feridos na guerra contra o Irã",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T23:21:13+00:00"
+    },
+    {
       "titulo": "Bernardo Silva é apresentado no Real Madrid: “Não é para qualquer um”",
       "fonte": "CNN Brasil",
       "data": "2026-08-19T23:17:09+00:00"
-    },
-    {
-      "titulo": "Loteria Federal hoje: resultado do concurso 6093 e números sorteados",
-      "fonte": "G1",
-      "data": "2026-08-19T23:16:10+00:00"
     },
     {
       "titulo": "Foguete sul-coreano lançado do Brasil cai no mar após erro de rota",
@@ -24,82 +99,7 @@
       "titulo": "Em sinal de reconciliação, Michelle posta vídeo de gravação com Flávio",
       "fonte": "CNN Brasil",
       "data": "2026-08-19T23:15:15+00:00"
-    },
-    {
-      "titulo": "Praia Grande inicia estudo para trocar ônibus a diesel por elétricos",
-      "fonte": "G1",
-      "data": "2026-08-19T23:15:08+00:00"
-    },
-    {
-      "titulo": "Ciclone extratropical se forma na costa e Inmet emite alerta no Brasil",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T23:14:09+00:00"
-    },
-    {
-      "titulo": "Lei Seca passa a ter novas regras de fiscalização; saiba o que muda",
-      "fonte": "G1",
-      "data": "2026-08-19T23:13:39+00:00"
-    },
-    {
-      "titulo": "Mulher é esfaqueada após recusar relacionamento amoroso em Rosana; homem é preso",
-      "fonte": "G1",
-      "data": "2026-08-19T23:13:23+00:00"
-    },
-    {
-      "titulo": "Homem é preso suspeito de furtar bodes no Piauí; animais foram recuperados após dono reconhecê-los",
-      "fonte": "G1",
-      "data": "2026-08-19T23:12:20+00:00"
-    },
-    {
-      "titulo": "Ônibus atinge asa de Boeing 737 Max da Gol no aeroporto de Guarulhos",
-      "fonte": "Folha",
-      "data": "2026-08-19T23:12:00+00:00"
-    },
-    {
-      "titulo": "Especialista avalia estratégias dos primeiros dias de campanha presidencial",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T23:11:40+00:00"
-    },
-    {
-      "titulo": "Vox Eleitoral: 1 em cada 7 comentários sobre Marçal se tornam palanque",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T23:09:52+00:00"
-    },
-    {
-      "titulo": "Mulher morta após agressão do companheiro foi a três UPAs até ser levada a hospital, diz boletim da polícia",
-      "fonte": "Folha",
-      "data": "2026-08-19T23:09:00+00:00"
-    },
-    {
-      "titulo": "Polícia investiga suspeita de castração de cavalo sem anestesia em ambiente de risco",
-      "fonte": "G1",
-      "data": "2026-08-19T23:08:31+00:00"
-    },
-    {
-      "titulo": "Presidente do Google Brasil fala sobre IA no TMC Conecta em São Paulo",
-      "fonte": "Folha",
-      "data": "2026-08-19T23:08:00+00:00"
-    },
-    {
-      "titulo": "Paulo Guedes prometeu zerar o déficit em 2019",
-      "fonte": "Folha",
-      "data": "2026-08-19T23:08:00+00:00"
-    },
-    {
-      "titulo": "Ministério da Saúde eleva em 40% verba para Santas Casas no país",
-      "fonte": "Folha",
-      "data": "2026-08-19T23:07:00+00:00"
-    },
-    {
-      "titulo": "Trump anuncia 'guerra econômica' contra o Irã e ameaça países que ajudarem o regime",
-      "fonte": "G1",
-      "data": "2026-08-19T23:06:34+00:00"
-    },
-    {
-      "titulo": "Eleições 2026: saiba como foi o dia do candidato André Luís ao governo do Maranhão",
-      "fonte": "G1",
-      "data": "2026-08-19T23:06:31+00:00"
     }
   ],
-  "atualizado_em": "2026-08-19T23:24:27.075817+00:00"
+  "atualizado_em": "2026-08-19T23:55:09.666290+00:00"
 }
