@@ -1,6 +1,46 @@
 {
   "itens": [
     {
+      "titulo": "Novela da vida real: demissão leva empreendedora a criar ateliê de costura",
+      "fonte": "G1",
+      "data": "2026-08-19T05:00:38+00:00"
+    },
+    {
+      "titulo": "UnB e Escola de Saúde Pública do DF abrem 600 vagas para cursos técnicos e de graduação",
+      "fonte": "G1",
+      "data": "2026-08-19T05:00:30+00:00"
+    },
+    {
+      "titulo": "Psicólogo escolar, professora de zumba: como vivia o casal preso em Portugal por tortura em clínica no Brasil",
+      "fonte": "G1",
+      "data": "2026-08-19T05:00:24+00:00"
+    },
+    {
+      "titulo": "Brasil tem menos transparência em anúncios nas redes sociais que União Europeia e Reino Unido, aponta estudo",
+      "fonte": "G1",
+      "data": "2026-08-19T05:00:20+00:00"
+    },
+    {
+      "titulo": "Tarcísio e Haddad gastaram ao menos R$ 2,2 milhões em anúncios no Instagram e no Facebook em 2026, mesmo antes do início da campanha",
+      "fonte": "G1",
+      "data": "2026-08-19T05:00:15+00:00"
+    },
+    {
+      "titulo": "Macaco foge de zoológico na Escócia e volta sozinho no dia seguinte",
+      "fonte": "G1",
+      "data": "2026-08-19T05:00:14+00:00"
+    },
+    {
+      "titulo": "Eleições 2026 têm 8 candidatos 'Lulas' e 20 'Bolsonaros' sem parentesco com o presidente e o ex-presidente",
+      "fonte": "G1",
+      "data": "2026-08-19T05:00:12+00:00"
+    },
+    {
+      "titulo": "Como pai e filho na lista da Interpol foram encontrados em zona rural do interior de SP um ano após assassinato de amigos no Paraná",
+      "fonte": "G1",
+      "data": "2026-08-19T05:00:11+00:00"
+    },
+    {
       "titulo": "Trump pressiona por encontro com Kim Jong Un ainda este ano",
       "fonte": "Folha",
       "data": "2026-08-19T04:45:00+00:00"
@@ -9,16 +49,6 @@
       "titulo": "Após anúncio de Trump, Canadá confirma suspensão de tarifas de 50% dos EUA",
       "fonte": "CNN Brasil",
       "data": "2026-08-19T04:16:59+00:00"
-    },
-    {
-      "titulo": "Jovem que fotografa partos desde os 19 anos fala da responsabilidade: 'momento que não se repete'",
-      "fonte": "G1",
-      "data": "2026-08-19T04:00:10+00:00"
-    },
-    {
-      "titulo": "A Foz do Amazonas e o futuro da exploração de petróleo no Brasil - O Assunto #1786",
-      "fonte": "G1",
-      "data": "2026-08-19T03:30:08+00:00"
     },
     {
       "titulo": "Glória Menezes: relembre papéis marcantes da 'primeira-dama' que comoveu gerações e ajudou a escrever a história da TV brasileira",
@@ -51,39 +81,9 @@
       "data": "2026-08-19T03:06:20+00:00"
     },
     {
-      "titulo": "Comunidade rural de Montes Claros ganha ponte de concreto",
-      "fonte": "G1",
-      "data": "2026-08-19T03:04:11+00:00"
-    },
-    {
-      "titulo": "Aroeira recebe obras de drenagem e melhorias em espaços públicos",
-      "fonte": "G1",
-      "data": "2026-08-19T03:04:09+00:00"
-    },
-    {
-      "titulo": "Macaé mobiliza 45 salas para atualizar vacinação de menores de 15 anos",
-      "fonte": "G1",
-      "data": "2026-08-19T03:02:09+00:00"
-    },
-    {
-      "titulo": "Motorista que atingiu passarela na Fernão Dias deve passar por audiência de custódia nesta quarta; mãe e filho morreram em acidente",
-      "fonte": "G1",
-      "data": "2026-08-19T03:02:08+00:00"
-    },
-    {
       "titulo": "STJ não reconhece relação de casal com filho e noivado como união estável",
       "fonte": "CNN Brasil",
       "data": "2026-08-19T03:01:25+00:00"
-    },
-    {
-      "titulo": "Ligue 180 registra mais de um milhão de atendimentos a mulheres em 2026, 95% do total de 2025",
-      "fonte": "G1",
-      "data": "2026-08-19T03:00:56+00:00"
-    },
-    {
-      "titulo": "Além de Carlos Cesare, quem foram os outros Pablos de 'Qual é a música?', e onde eles estão hoje? Conheça",
-      "fonte": "G1",
-      "data": "2026-08-19T03:00:55+00:00"
     },
     {
       "titulo": "Dorival Júnior quebra jejum de sete jogos sem vitória no São Paulo",
@@ -101,5 +101,5 @@
       "data": "2026-08-19T02:50:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-19T04:57:01.768301+00:00"
+  "atualizado_em": "2026-08-19T05:33:02.645234+00:00"
 }
