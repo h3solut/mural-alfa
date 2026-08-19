@@ -1,29 +1,69 @@
 {
   "itens": [
     {
-      "titulo": "Incêndios Zero: causas, impactos e como prevenir incêndios irregulares",
+      "titulo": "Homem que fabricava armas com impressoras 3D para facções é preso no RS: 'Funcionavam com boa precisão'",
       "fonte": "G1",
-      "data": "2026-08-19T09:01:03+00:00"
+      "data": "2026-08-19T09:46:04+00:00"
     },
     {
-      "titulo": "São Sebastião registra 2,3 mil admissões e fecha 2º trimestre com saldo positivo",
+      "titulo": "Câmara analisa autorização para Campinas renegociar dívidas com a União e regra para focinheira em cães",
       "fonte": "G1",
-      "data": "2026-08-19T09:01:02+00:00"
+      "data": "2026-08-19T09:43:55+00:00"
     },
     {
-      "titulo": "Etéra Udi Complex: projeto em Uberlândia integra moradia, trabalho e serviços",
+      "titulo": "Alto Tietê tem mais de 4,6 mil vagas de emprego nesta quarta-feira; veja lista",
       "fonte": "G1",
-      "data": "2026-08-19T09:01:01+00:00"
+      "data": "2026-08-19T09:42:35+00:00"
     },
     {
-      "titulo": "Pix Pensão: entenda a lei que cria transferências automáticas para pagamento de pensão alimentícia",
+      "titulo": "Após 15 anos, Campinas vai pagar multa de R$ 257 mil em ação que cobrava melhorias na saúde no Oziel",
       "fonte": "G1",
-      "data": "2026-08-19T09:00:30+00:00"
+      "data": "2026-08-19T09:41:56+00:00"
     },
     {
-      "titulo": "Eleições 2026: veja as logos e slogans dos candidatos ao governo de MS",
+      "titulo": "PF mira fraude em migração com declarações de união estável falsas",
       "fonte": "G1",
-      "data": "2026-08-19T09:00:17+00:00"
+      "data": "2026-08-19T09:39:30+00:00"
+    },
+    {
+      "titulo": "Polícia Civil deflagra operação contra tráfico, homicídios e roubos na Grande João Pessoa",
+      "fonte": "G1",
+      "data": "2026-08-19T09:33:26+00:00"
+    },
+    {
+      "titulo": "Morre menina de 10 anos atingida por deslizamento de terra em Santo Amaro da Imperatriz",
+      "fonte": "G1",
+      "data": "2026-08-19T09:32:34+00:00"
+    },
+    {
+      "titulo": "Advogada morre após ser baleada enquanto passeava com cachorro no Benedito Bentes, em Maceió",
+      "fonte": "G1",
+      "data": "2026-08-19T09:31:01+00:00"
+    },
+    {
+      "titulo": "Libertadores: Palmeiras encara o Cerro para evitar pior campanha da década",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T09:30:38+00:00"
+    },
+    {
+      "titulo": "Tenista Nick Kyrgios é suspenso após testar positivo para cocaína",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T09:30:21+00:00"
+    },
+    {
+      "titulo": "Coquimbo Unido x Platense: horário e onde assistir ao jogo da Libertadores",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T09:15:29+00:00"
+    },
+    {
+      "titulo": "Brasil projeta alta de 20% nas exportações de etanol",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T09:00:21+00:00"
+    },
+    {
+      "titulo": "Di María em Itaquera: argentino volta ao palco de seu primeiro gol em Copas",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-19T09:00:14+00:00"
     },
     {
       "titulo": "Moda penitenciária: Busca por roupas para quem vai visitar detentos cresce nas redes",
@@ -56,50 +96,10 @@
       "data": "2026-08-19T09:00:00+00:00"
     },
     {
-      "titulo": "AO VIVO: assista à programação da NSC TV",
-      "fonte": "G1",
-      "data": "2026-08-19T08:58:36+00:00"
-    },
-    {
-      "titulo": "Assista ao Jornal da Manhã",
-      "fonte": "G1",
-      "data": "2026-08-19T08:57:58+00:00"
-    },
-    {
-      "titulo": "Casal é preso em operação contra venda ilegal de emagrecedores e anabolizantes em Fortaleza",
-      "fonte": "G1",
-      "data": "2026-08-19T08:56:49+00:00"
-    },
-    {
       "titulo": "Ministério Público Federal afirma que igreja histórica em Salvador corre o risco de desabar",
       "fonte": "Folha",
       "data": "2026-08-19T08:39:00+00:00"
-    },
-    {
-      "titulo": "Kia Sorento passa por segundo corte e acumula R$ 55 mil de desconto",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T08:00:46+00:00"
-    },
-    {
-      "titulo": "Brasil tem recorde de apreensão de emagrecedores na fronteira com Paraguai",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T08:00:32+00:00"
-    },
-    {
-      "titulo": "Avaí x Sport: horário e onde assistir ao jogo da Série B",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T08:00:29+00:00"
-    },
-    {
-      "titulo": "Falta de vacinas na pecuária deve continuar até início de 2027, diz Sindan",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T08:00:20+00:00"
-    },
-    {
-      "titulo": "Fortaleza x São Bernardo: horário e onde assistir ao jogo da Série B",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-19T08:00:20+00:00"
     }
   ],
-  "atualizado_em": "2026-08-19T09:08:11.879004+00:00"
+  "atualizado_em": "2026-08-19T09:52:08.701129+00:00"
 }
