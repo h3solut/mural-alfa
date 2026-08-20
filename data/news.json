@@ -1,6 +1,71 @@
 {
   "itens": [
     {
+      "titulo": "Morte assistida: quando, onde e por quem essa decisão pode ser tomada - O Assunto #1787",
+      "fonte": "G1",
+      "data": "2026-08-20T03:15:08+00:00"
+    },
+    {
+      "titulo": "CEMEI de Montes Claros ganha prédio novo e moderno",
+      "fonte": "G1",
+      "data": "2026-08-20T03:06:08+00:00"
+    },
+    {
+      "titulo": "Agosto marca o início da preparação das obras para o verão",
+      "fonte": "G1",
+      "data": "2026-08-20T03:04:09+00:00"
+    },
+    {
+      "titulo": "Revitalização dos jardins e áreas verdes é iniciada",
+      "fonte": "G1",
+      "data": "2026-08-20T03:02:08+00:00"
+    },
+    {
+      "titulo": "Festa do Peão de Barretos 2026: veja a programação desta quinta-feira, 20 de agosto",
+      "fonte": "G1",
+      "data": "2026-08-20T03:01:11+00:00"
+    },
+    {
+      "titulo": "Queda de passarela na Fernão Dias que matou mãe e filho: empresa de transporte será investigada pela polícia",
+      "fonte": "G1",
+      "data": "2026-08-20T03:01:10+00:00"
+    },
+    {
+      "titulo": "Mega-Sena pode pagar R$ 50 milhões nesta quinta-feira; g1 transmite ao vivo",
+      "fonte": "G1",
+      "data": "2026-08-20T03:01:04+00:00"
+    },
+    {
+      "titulo": "Apesar de queda na fila no INSS, pessoas relatam espera de até 8 meses por resposta a pedido de benefício",
+      "fonte": "G1",
+      "data": "2026-08-20T03:00:56+00:00"
+    },
+    {
+      "titulo": "Veja quanto o Flamengo faturou com a classificação na Libertadores",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-20T02:51:01+00:00"
+    },
+    {
+      "titulo": "Leila Pereira provoca após vaga do Palmeiras: “Posso perguntar?”",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-20T02:50:17+00:00"
+    },
+    {
+      "titulo": "Flamengo 2 x 1 Cruzeiro: veja os melhores momentos pela Libertadores",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-20T02:46:32+00:00"
+    },
+    {
+      "titulo": "Quem são os candidatos a governador do Rio Grande do Sul em 2026",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-20T02:44:23+00:00"
+    },
+    {
+      "titulo": "River segura empate com Santa Fe e decide vaga em casa na Sul-Americana",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-20T02:33:23+00:00"
+    },
+    {
       "titulo": "Em noite de golaços, Flamengo elimina Cruzeiro e segue na Libertadores",
       "fonte": "CNN Brasil",
       "data": "2026-08-20T02:25:39+00:00"
@@ -31,75 +96,10 @@
       "data": "2026-08-20T02:10:11+00:00"
     },
     {
-      "titulo": "Após vitória do Palmeiras, Arias deixa recado: “Acham que é fácil”",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-20T02:03:14+00:00"
-    },
-    {
-      "titulo": "PanAmazônia pretende fazer parcerias comercias com a Guiana e Venezuela por Roraima",
-      "fonte": "G1",
-      "data": "2026-08-20T02:01:57+00:00"
-    },
-    {
-      "titulo": "Câmara aprova autorização para Campinas renegociar dívidas com a União",
-      "fonte": "G1",
-      "data": "2026-08-20T02:00:19+00:00"
-    },
-    {
-      "titulo": "Orlando Luz e Rafael Matos eliminam Zverev pela 2ª vez no dia em Cincinnati",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-20T02:00:17+00:00"
-    },
-    {
       "titulo": "Quem é Natalie Harp, assessora de Trump que nunca tira folgas e tem aval para falar em nome dele",
       "fonte": "Folha",
       "data": "2026-08-20T02:00:00+00:00"
-    },
-    {
-      "titulo": "Callum Turner e Monica Barbaro protagonizam 'Só Por Uma Noite', que estreia nos cinemas de SP",
-      "fonte": "Folha",
-      "data": "2026-08-20T02:00:00+00:00"
-    },
-    {
-      "titulo": "Negacionistas do clima deveriam passar agosto na cada vez mais quente Phoenix",
-      "fonte": "Folha",
-      "data": "2026-08-20T02:00:00+00:00"
-    },
-    {
-      "titulo": "O ajuste fiscal de ocasião",
-      "fonte": "Folha",
-      "data": "2026-08-20T02:00:00+00:00"
-    },
-    {
-      "titulo": "Lula e Flávio concordam em ao menos 10 promessas em programas de governo",
-      "fonte": "Folha",
-      "data": "2026-08-20T02:00:00+00:00"
-    },
-    {
-      "titulo": "Veja o golaço de Arrascaeta em Flamengo x Cruzeiro, pela Libertadores",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-20T01:54:21+00:00"
-    },
-    {
-      "titulo": "Caso José Arthur: após bebê completar 2 anos, audiência pública cobra respostas em Eldorado do Carajás",
-      "fonte": "G1",
-      "data": "2026-08-20T01:54:03+00:00"
-    },
-    {
-      "titulo": "Senac oferece mais de 600 vagas para cursos gratuitos no Amazonas; veja cursos disponíveis e como se inscrever",
-      "fonte": "G1",
-      "data": "2026-08-20T01:51:37+00:00"
-    },
-    {
-      "titulo": "Família anuncia data de missa de 7º dia de Laura Cardoso",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-20T01:47:19+00:00"
-    },
-    {
-      "titulo": "ANP interdita postos de combustíveis e revendas de gás no Pará",
-      "fonte": "G1",
-      "data": "2026-08-20T01:38:45+00:00"
     }
   ],
-  "atualizado_em": "2026-08-20T02:31:40.305928+00:00"
+  "atualizado_em": "2026-08-20T03:27:11.126404+00:00"
 }
