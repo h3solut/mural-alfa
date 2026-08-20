@@ -1,6 +1,11 @@
 {
   "itens": [
     {
+      "titulo": "Coreia do Sul estima que Coreia do Norte tem até 120 ogivas nucleares; Trump havia citado 57 armas",
+      "fonte": "G1",
+      "data": "2026-08-20T05:45:56+00:00"
+    },
+    {
       "titulo": "Fundador da Evergrande é condenado a prisão perpétua na China; penas de outros cinco executivos vão de 6 a 18 anos",
       "fonte": "G1",
       "data": "2026-08-20T05:26:30+00:00"
@@ -39,11 +44,6 @@
       "titulo": "'Ele nos drogou e nos fez urinar na roupa': as acusações de mais de 200 mulheres contra ex-funcionário do governo francês",
       "fonte": "G1",
       "data": "2026-08-20T05:00:15+00:00"
-    },
-    {
-      "titulo": "Voltar a beber após anos sóbrio é seguro? O que declaração de Brad Pitt revela sobre luta contra o vício",
-      "fonte": "G1",
-      "data": "2026-08-20T05:00:13+00:00"
     },
     {
       "titulo": "Abel faz forte desabafo após vitória do Palmeiras: “Futebol está doente”",
@@ -101,5 +101,5 @@
       "data": "2026-08-20T02:19:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-20T05:36:57.265059+00:00"
+  "atualizado_em": "2026-08-20T06:01:25.575199+00:00"
 }
