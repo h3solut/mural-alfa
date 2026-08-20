@@ -1,44 +1,79 @@
 {
   "itens": [
     {
-      "titulo": "Homem morre após se afogar na Lagoa do Parque Solon de Lucena, em João Pessoa",
-      "fonte": "G1",
-      "data": "2026-08-20T09:24:56+00:00"
+      "titulo": "Fundo Baobá vê reforma tributária como abertura para justiça racial",
+      "fonte": "Folha",
+      "data": "2026-08-20T10:00:00+00:00"
     },
     {
-      "titulo": "Operação bloqueia R$ 49,6 milhões de suspeitos de integrar facção investigada por tráfico na Bahia",
+      "titulo": "Santa Casa de São Paulo recebe inscrições para vestibular de medicina; saiba mais",
+      "fonte": "Folha",
+      "data": "2026-08-20T10:00:00+00:00"
+    },
+    {
+      "titulo": "Lula precisa dialogar com evangélicos, não fazer culto no palanque",
+      "fonte": "Folha",
+      "data": "2026-08-20T10:00:00+00:00"
+    },
+    {
+      "titulo": "Como as fases da Lua entram no planejamento de decisões",
+      "fonte": "Folha",
+      "data": "2026-08-20T10:00:00+00:00"
+    },
+    {
+      "titulo": "Lucro líquido do Banco Fibra sobe 269% no 1º semestre e chega a R$ 155 milhões",
+      "fonte": "Folha",
+      "data": "2026-08-20T10:00:00+00:00"
+    },
+    {
+      "titulo": "Corpo de Leandro Henrique será velado no Jockey Club Brasileiro; Flamengo vai homenagear atleta no Maracanã",
       "fonte": "G1",
-      "data": "2026-08-20T09:21:33+00:00"
+      "data": "2026-08-20T09:55:29+00:00"
+    },
+    {
+      "titulo": "Pirarucu gigante vira atração e faz parque de Goiânia ganhar novo nome em mapas digitais",
+      "fonte": "G1",
+      "data": "2026-08-20T09:52:18+00:00"
+    },
+    {
+      "titulo": "Bairro de Mogi das Cruzes fica sem água nesta quinta-feira para manutenção",
+      "fonte": "G1",
+      "data": "2026-08-20T09:50:23+00:00"
+    },
+    {
+      "titulo": "Assista ao Bom Dia Cidade Campinas",
+      "fonte": "G1",
+      "data": "2026-08-20T09:48:15+00:00"
+    },
+    {
+      "titulo": "Anulada pelo TCE, licitação do transporte de Campinas acumula uma década de impasses; relembre a cronologia",
+      "fonte": "G1",
+      "data": "2026-08-20T09:42:18+00:00"
+    },
+    {
+      "titulo": "China culpa EUA e 'sua política hostil' por tensões com a Coreia do Norte",
+      "fonte": "G1",
+      "data": "2026-08-20T09:41:15+00:00"
+    },
+    {
+      "titulo": "Preso por agiotagem transformou dívida de R$ 30 mil em cobrança de mais de R$ 1 milhão em um ano",
+      "fonte": "G1",
+      "data": "2026-08-20T09:38:14+00:00"
+    },
+    {
+      "titulo": "Justiça condena pastor de BH a dois anos de prisão, em regime aberto, por importunação sexual",
+      "fonte": "G1",
+      "data": "2026-08-20T09:36:02+00:00"
+    },
+    {
+      "titulo": "Memphis x Di María: histórico tem vantagem do argentino e duelo em Copa",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-20T09:30:00+00:00"
     },
     {
       "titulo": "Rayo Vallecano x Alavés: horário e onde assistir ao jogo de LaLiga",
       "fonte": "CNN Brasil",
       "data": "2026-08-20T09:10:57+00:00"
-    },
-    {
-      "titulo": "Dupla é capturada pela polícia por suspeita de matar idoso de 90 anos durante assalto no interior do Ceará",
-      "fonte": "G1",
-      "data": "2026-08-20T09:07:55+00:00"
-    },
-    {
-      "titulo": "Voto em trânsito: prazo para eleitores da PB solicitarem mudança temporária de local de votação termina nesta quinta-feira (20)",
-      "fonte": "G1",
-      "data": "2026-08-20T09:05:49+00:00"
-    },
-    {
-      "titulo": "Incêndio ameaça casas, galpões e posto de combustíveis em BH",
-      "fonte": "G1",
-      "data": "2026-08-20T09:04:39+00:00"
-    },
-    {
-      "titulo": "Festival de Inverno 2026 de Campina Grande tem início nesta quinta (20)",
-      "fonte": "G1",
-      "data": "2026-08-20T09:03:59+00:00"
-    },
-    {
-      "titulo": "Ponte Estaiada terá nova etapa de inspeção e bloqueios parciais em São José dos Campos; veja como será",
-      "fonte": "G1",
-      "data": "2026-08-20T09:01:04+00:00"
     },
     {
       "titulo": "Área de incêndios florestais na Europa pode triplicar com mudança climática",
@@ -49,11 +84,6 @@
       "titulo": "Deep tech brasileira usa IA para definir alvos de terras raras no Nordeste",
       "fonte": "CNN Brasil",
       "data": "2026-08-20T09:00:57+00:00"
-    },
-    {
-      "titulo": "Pais denunciam falta de professores em escola pública de Roraima: 'prejudica o aprendizado'",
-      "fonte": "G1",
-      "data": "2026-08-20T09:00:42+00:00"
     },
     {
       "titulo": "Frigoríficos habilitados à UE já adotam protocolo de segregação, diz Abiec",
@@ -69,37 +99,7 @@
       "titulo": "Queria ter prazer ao ver Trump humilhado pela realidade, mas não consigo",
       "fonte": "Folha",
       "data": "2026-08-20T09:00:00+00:00"
-    },
-    {
-      "titulo": "Macacos e outros primatas parecem interagir com alguns bichos como se fossem seus pets",
-      "fonte": "Folha",
-      "data": "2026-08-20T09:00:00+00:00"
-    },
-    {
-      "titulo": "Livro reflete sobre como criar os filhos no tempo dos algoritmos",
-      "fonte": "Folha",
-      "data": "2026-08-20T09:00:00+00:00"
-    },
-    {
-      "titulo": "Promessa de Cleitinho sobre IPVA em Minas contraria entendimento do STF",
-      "fonte": "Folha",
-      "data": "2026-08-20T09:00:00+00:00"
-    },
-    {
-      "titulo": "Globo compra produções turcas para transformar em novelas verticais para o streaming",
-      "fonte": "Folha",
-      "data": "2026-08-20T09:00:00+00:00"
-    },
-    {
-      "titulo": "Porto de Paranaguá vê tentativa de sabotagem em atuação de rival privado",
-      "fonte": "Folha",
-      "data": "2026-08-20T09:00:00+00:00"
-    },
-    {
-      "titulo": "Converter dólar em real: como fazer a melhor escolha e pagar menos taxas",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-20T08:45:40+00:00"
     }
   ],
-  "atualizado_em": "2026-08-20T09:32:06.287003+00:00"
+  "atualizado_em": "2026-08-20T10:04:22.477753+00:00"
 }
