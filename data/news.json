@@ -1,6 +1,41 @@
 {
   "itens": [
     {
+      "titulo": "Diniz elogia Memphis Depay após vitória do Corinthians: “Pessoa diferente”",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T04:04:45+00:00"
+    },
+    {
+      "titulo": "Estátua de 11 metros do Diabo: MP e Polícia Civil apuram denúncia de intolerância religiosa cometida por prefeito",
+      "fonte": "G1",
+      "data": "2026-08-21T04:00:19+00:00"
+    },
+    {
+      "titulo": "Show por R$ 100, quase um ano dormindo no chão e vontade de desistir: Panda relembra trajetória antes da fama",
+      "fonte": "G1",
+      "data": "2026-08-21T03:56:35+00:00"
+    },
+    {
+      "titulo": "FOTOS: Panda abre noite de shows na  71ª edição da Festa do Peão de Barretos",
+      "fonte": "G1",
+      "data": "2026-08-21T03:46:44+00:00"
+    },
+    {
+      "titulo": "Corinthians tem premiação milionária com vaga nas quartas da Libertadores",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T03:44:43+00:00"
+    },
+    {
+      "titulo": "Lulinha e Marcola nas investigações da PF - O Assunto #1788",
+      "fonte": "G1",
+      "data": "2026-08-21T03:40:49+00:00"
+    },
+    {
+      "titulo": "Tetracampeão mundial de jiu-jítsu morre em acidente no interior de SP",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T03:39:05+00:00"
+    },
+    {
       "titulo": "Avião com oito pessoas a bordo cai no Alasca",
       "fonte": "G1",
       "data": "2026-08-21T03:19:20+00:00"
@@ -9,6 +44,11 @@
       "titulo": "Veja o que fazer em Belém: agenda cultural tem Othon Bastos, Whindersson Nunes, Afronto e mais",
       "fonte": "G1",
       "data": "2026-08-21T03:17:36+00:00"
+    },
+    {
+      "titulo": "Corinthians 1 x 0 Rosario Central: veja melhores momentos pela Libertadores",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T03:13:40+00:00"
     },
     {
       "titulo": "Operação na BA prende 12 e bloqueia R$ 49,6 milhões em lavagem de dinheiro",
@@ -26,29 +66,9 @@
       "data": "2026-08-21T03:03:17+00:00"
     },
     {
-      "titulo": "Macaé alcança recorde histórico de 143,5 mil empregos formais",
-      "fonte": "G1",
-      "data": "2026-08-21T03:03:16+00:00"
-    },
-    {
-      "titulo": "Guarda Civil Municipal passa por curso",
-      "fonte": "G1",
-      "data": "2026-08-21T03:03:15+00:00"
-    },
-    {
       "titulo": "Sul-Americana: Jogadores do Botafogo brigam com técnico do Cienciano",
       "fonte": "CNN Brasil",
       "data": "2026-08-21T03:02:39+00:00"
-    },
-    {
-      "titulo": "Unidade Coronariana de Macaé é a única especializada do interior do RJ",
-      "fonte": "G1",
-      "data": "2026-08-21T03:02:16+00:00"
-    },
-    {
-      "titulo": "Fenattech Engenharia completa nove anos e se destaca em energia solar na região",
-      "fonte": "G1",
-      "data": "2026-08-21T03:02:15+00:00"
     },
     {
       "titulo": "CNJ manda investigar juiz que anulou caso de R$ 200 mi após nomear o filho",
@@ -59,26 +79,6 @@
       "titulo": "Corinthians encerra jejum de 8 anos sem gol em mata-mata da Libertadores",
       "fonte": "CNN Brasil",
       "data": "2026-08-21T02:35:43+00:00"
-    },
-    {
-      "titulo": "Botafogo vence Cienciano, mas é eliminado na Sul-Americana",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T02:32:48+00:00"
-    },
-    {
-      "titulo": "PGR e Mendonça têm desconexão sobre Lulinha, diz pesquisador do STF",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T02:30:58+00:00"
-    },
-    {
-      "titulo": "Botafogo encaminha venda de Matheus Martins; confira valores",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T02:28:17+00:00"
-    },
-    {
-      "titulo": "Corinthians vence Rosario Central com um a menos e avança na Libertadores",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T02:26:28+00:00"
     },
     {
       "titulo": "Corinthians supera expulsão, despacha o Rosario Central e avança na Libertadores",
@@ -101,5 +101,5 @@
       "data": "2026-08-21T02:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-21T03:34:54.959545+00:00"
+  "atualizado_em": "2026-08-21T04:21:12.466314+00:00"
 }
