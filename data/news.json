@@ -1,44 +1,74 @@
 {
   "itens": [
     {
-      "titulo": "TCE acha infiltrações, materiais enferrujados e livros sem uso em depósitos de escolas no interior de SP",
+      "titulo": "Casal é preso por tráfico de drogas durante operação contra organização criminosa em Feira de Santana",
       "fonte": "G1",
-      "data": "2026-08-21T10:26:02+00:00"
+      "data": "2026-08-21T10:55:40+00:00"
     },
     {
-      "titulo": "VÍDEO: Seop interrompe aula de stand-up paddle em Copacabana após alerta de ventania",
+      "titulo": "PMs são suspeitos de extorsão e tortura contra mulheres",
       "fonte": "G1",
-      "data": "2026-08-21T10:25:19+00:00"
+      "data": "2026-08-21T10:55:13+00:00"
     },
     {
-      "titulo": "Estiagem e queimadas atraem ouriços a áreas urbanas no interior de SP; saiba evitar acidentes",
+      "titulo": "Polícia Civil mira esquema de corrupção na Câmara de Vereadores de Japeri",
       "fonte": "G1",
-      "data": "2026-08-21T10:24:51+00:00"
+      "data": "2026-08-21T10:54:32+00:00"
     },
     {
-      "titulo": "Apostas do Paraná acertam cinco números da Mega-Sena e levam prêmios; veja cidades",
+      "titulo": "Dia D de Multivacinação: veja onde se vacinar em Palmas neste sábado (22)",
       "fonte": "G1",
-      "data": "2026-08-21T10:23:18+00:00"
+      "data": "2026-08-21T10:52:44+00:00"
     },
     {
-      "titulo": "Cantor mirim busca o bicampeonato em festival sertanejo na Festa do Peão de Barretos: 'Estou preparado'",
+      "titulo": "Resumão diário #2115: Condenado por homicídio no Maranhão entregou à PF supostas provas contra políticos; Novidades da investigações sobre Lulinha; Dia D de vacinação pelo país; Pescadores resgatados em caixa térmica após 5 dias à deriva",
       "fonte": "G1",
-      "data": "2026-08-21T10:22:37+00:00"
+      "data": "2026-08-21T10:52:37+00:00"
     },
     {
-      "titulo": "Fecani 2026: festival divulga lista das 30 músicas classificadas; veja ordem de apresentação",
+      "titulo": "Augusto Almeida, diretor da CCTECA, morre aos 61 anos em Aracaju",
       "fonte": "G1",
-      "data": "2026-08-21T10:20:18+00:00"
+      "data": "2026-08-21T10:52:33+00:00"
     },
     {
-      "titulo": "Quadrilha suspeita de desviar mercadorias de empresa de papelaria é presa em Resende",
+      "titulo": "Motociclista de 40 anos morre após acidente com carreta na Dutra, em Pindamonhangaba",
       "fonte": "G1",
-      "data": "2026-08-21T10:19:01+00:00"
+      "data": "2026-08-21T10:52:01+00:00"
     },
     {
-      "titulo": "VÍDEOS: Bom Dia Minas de sexta-feira, 21 de agosto de 2026",
+      "titulo": "Primas desaparecidas no PR: principal suspeito é morto em abordagem da Polícia Civil",
       "fonte": "G1",
-      "data": "2026-08-21T10:18:05+00:00"
+      "data": "2026-08-21T10:51:28+00:00"
+    },
+    {
+      "titulo": "Alex Telles explica confusão com técnico rival: “Ele sabe o que falou”",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T10:24:17+00:00"
+    },
+    {
+      "titulo": "Deputado do PT cobra que Flávio dê transparência sobre recursos para filme sobre o pai",
+      "fonte": "Folha",
+      "data": "2026-08-21T10:24:00+00:00"
+    },
+    {
+      "titulo": "Liam Lawson volta à Red Bull após dispensa e admite desafio em Zandvoort",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T10:23:35+00:00"
+    },
+    {
+      "titulo": "RJ: Operação da PM na zona Norte tem tiros e interdição na avenida Brasil",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T10:16:41+00:00"
+    },
+    {
+      "titulo": "Dia D: Campanha Nacional de Multivacinação começa neste sábado (22)",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T10:12:43+00:00"
+    },
+    {
+      "titulo": "EUA fazem operações militares contra cartéis e narcotráfico no Equador",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T10:09:52+00:00"
     },
     {
       "titulo": "Tecon 10: Sem restrições, concentração no Porto de Santos pode chegar a 80%",
@@ -69,37 +99,7 @@
       "titulo": "Fonseca faz 20 anos com números de gente grande e desafios",
       "fonte": "Folha",
       "data": "2026-08-21T10:00:00+00:00"
-    },
-    {
-      "titulo": "Incêndio de grandes proporções atinge bar na Barra da Tijuca, no Rio",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T09:47:32+00:00"
-    },
-    {
-      "titulo": "Incêndio destrói galpão e 15 carros na Vila Andrade, em SP",
-      "fonte": "Folha",
-      "data": "2026-08-21T09:43:00+00:00"
-    },
-    {
-      "titulo": "Variação do dólar: como impacta sua vida financeira",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T09:30:47+00:00"
-    },
-    {
-      "titulo": "Real Betis x Real Sociedad: horário e onde assistir ao jogo de LaLiga",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T09:10:32+00:00"
-    },
-    {
-      "titulo": "Festa do Peão de Barretos: quanto custam os ingressos do rodeio?",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T09:00:59+00:00"
-    },
-    {
-      "titulo": "National Beef mantém margem positiva em meio à crise do gado nos EUA",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T09:00:39+00:00"
     }
   ],
-  "atualizado_em": "2026-08-21T10:27:33.131993+00:00"
+  "atualizado_em": "2026-08-21T11:01:26.623439+00:00"
 }
