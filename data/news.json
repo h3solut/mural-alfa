@@ -1,24 +1,84 @@
 {
   "itens": [
     {
-      "titulo": "Festa e Santos Film Fest agitam cidade com mais de 160 filmes e atrações gratuitas; veja",
-      "fonte": "G1",
-      "data": "2026-08-21T23:22:44+00:00"
+      "titulo": "Quem são os candidatos a governador de Mato Grosso do Sul em 2026",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T23:51:12+00:00"
     },
     {
-      "titulo": "Assista ao Boa Noite Espírito Santo",
+      "titulo": "Resultados das Loterias Caixa",
       "fonte": "G1",
-      "data": "2026-08-21T23:20:15+00:00"
+      "data": "2026-08-21T23:50:01+00:00"
     },
     {
-      "titulo": "'Dark Horse': PF pede à Ancine informações sobre cinebiografia de Jair Bolsonaro",
-      "fonte": "G1",
-      "data": "2026-08-21T23:19:54+00:00"
+      "titulo": "Operação investiga fraude tributária de mais de R$ 500 milhões em Manaus",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T23:49:24+00:00"
     },
     {
-      "titulo": "Internet em Manaus apresenta instabilidade para usuários nesta sexta-feira",
+      "titulo": "Vídeos gravados pelos próprios agressores revelam a crueldade do espancamento de homem acusado injustamente de roubar bicicleta",
       "fonte": "G1",
-      "data": "2026-08-21T23:19:40+00:00"
+      "data": "2026-08-21T23:49:05+00:00"
+    },
+    {
+      "titulo": "Eleições 2026: veja como foi o 6º dia oficial de campanha dos candidatos ao governo do Amapá",
+      "fonte": "G1",
+      "data": "2026-08-21T23:47:22+00:00"
+    },
+    {
+      "titulo": "Entrevistas com os candidatos a presidente: Romeu Zema (Novo)",
+      "fonte": "G1",
+      "data": "2026-08-21T23:46:34+00:00"
+    },
+    {
+      "titulo": "Defesa pede revisão das prisões e uso de tornozeleira em família de Marcola",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T23:45:46+00:00"
+    },
+    {
+      "titulo": "Dave Bautista é escolhido para papel de Kratos em novo “God Of War”",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T23:45:44+00:00"
+    },
+    {
+      "titulo": "Entrevistas com os candidatos a presidente: Flávio Bolsonaro (PL)",
+      "fonte": "G1",
+      "data": "2026-08-21T23:45:41+00:00"
+    },
+    {
+      "titulo": "Eleições 2026: saiba como foi o dia do candidato Orleans Brandão ao governo do Maranhão",
+      "fonte": "G1",
+      "data": "2026-08-21T23:45:18+00:00"
+    },
+    {
+      "titulo": "Entrevistas com os candidatos a presidente: Lula (PT)",
+      "fonte": "G1",
+      "data": "2026-08-21T23:45:08+00:00"
+    },
+    {
+      "titulo": "Homem morre depois de carro capotar em rodovia de Sales Oliveira, SP",
+      "fonte": "G1",
+      "data": "2026-08-21T23:44:54+00:00"
+    },
+    {
+      "titulo": "Exoplaneta com rochas é chamado de ‘Mega-Terra’ e surpreende cientistas",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T23:40:23+00:00"
+    },
+    {
+      "titulo": "Governo Lula manteve relação com EUA em alto nível, diz José Pimenta",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T23:40:05+00:00"
+    },
+    {
+      "titulo": "Wall Street sobe e reduz perdas da semana ditada pelos Treasuries",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T23:37:49+00:00"
+    },
+    {
+      "titulo": "IBP solicita que governo não prorrogue imposto sobre exportação de petróleo",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T23:34:32+00:00"
     },
     {
       "titulo": "Memes marcam debates eleitorais com 'padre de festa junina' em 2022 e cadeirada em 2024; relembre",
@@ -26,34 +86,9 @@
       "data": "2026-08-21T23:18:00+00:00"
     },
     {
-      "titulo": "Homem é suspeito de abusar sexualmente da própria filha de 14 anos em Arcos",
-      "fonte": "G1",
-      "data": "2026-08-21T23:17:34+00:00"
-    },
-    {
-      "titulo": "Homem morre após ser atropelado por ônibus em Fortaleza",
-      "fonte": "G1",
-      "data": "2026-08-21T23:16:54+00:00"
-    },
-    {
-      "titulo": "Veja agenda de campanha dos candidatos ao governo de MG nesta sexta-feira",
-      "fonte": "G1",
-      "data": "2026-08-21T23:16:46+00:00"
-    },
-    {
-      "titulo": "Palmeiras é impedido pela CBF de estrear a terceira camisa contra o Vasco",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T23:16:01+00:00"
-    },
-    {
       "titulo": "Record contrata influenciadora Thais Carla para quadro sobre perda de peso no Hoje em Dia",
       "fonte": "Folha",
       "data": "2026-08-21T23:16:00+00:00"
-    },
-    {
-      "titulo": "Datafolha: 60% dos eleitores paulistas aprovam governo Tarcísio",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T23:15:52+00:00"
     },
     {
       "titulo": "DF e Piauí em caminhos opostos na educação",
@@ -61,45 +96,10 @@
       "data": "2026-08-21T23:13:00+00:00"
     },
     {
-      "titulo": "Análise: Zema e Renan trazem propostas distintas sobre Bolsa Família",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T23:11:52+00:00"
-    },
-    {
-      "titulo": "Reputação é o maior patrimônio de marcas e empresas, diz CEO da CNN Brasil",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T23:11:50+00:00"
-    },
-    {
       "titulo": "Tim Berners-Lee, pioneiro da internet, lança livro dizendo que ela precisa ser resgatada",
       "fonte": "Folha",
       "data": "2026-08-21T23:10:00+00:00"
-    },
-    {
-      "titulo": "Caminhão boiadeiro tomba na PA-279, em Tucumã, e passageiro morre",
-      "fonte": "G1",
-      "data": "2026-08-21T23:07:56+00:00"
-    },
-    {
-      "titulo": "Fiuk anuncia a venda de mais um carro após citar dívidas: “Próximo boleto”",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T23:03:19+00:00"
-    },
-    {
-      "titulo": "Governo vê canal com EUA reaberto, mas não descarta interferência eleitoral",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T23:00:43+00:00"
-    },
-    {
-      "titulo": "Margareth Menezes, ao ignorar Festa de Barretos, desdenha do país sertanejo",
-      "fonte": "Folha",
-      "data": "2026-08-21T23:00:00+00:00"
-    },
-    {
-      "titulo": "Datafolha: Lula é desaprovado por 50% dos eleitores; 47% aprovam",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T22:52:14+00:00"
     }
   ],
-  "atualizado_em": "2026-08-21T23:25:18.459705+00:00"
+  "atualizado_em": "2026-08-21T23:55:58.837067+00:00"
 }
