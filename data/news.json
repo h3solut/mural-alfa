@@ -1,29 +1,94 @@
 {
   "itens": [
     {
+      "titulo": "Avião com oito pessoas a bordo cai no Alasca",
+      "fonte": "G1",
+      "data": "2026-08-21T03:19:20+00:00"
+    },
+    {
+      "titulo": "Veja o que fazer em Belém: agenda cultural tem Othon Bastos, Whindersson Nunes, Afronto e mais",
+      "fonte": "G1",
+      "data": "2026-08-21T03:17:36+00:00"
+    },
+    {
+      "titulo": "Operação na BA prende 12 e bloqueia R$ 49,6 milhões em lavagem de dinheiro",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T03:08:04+00:00"
+    },
+    {
+      "titulo": "Estudantes são premiados em Prêmio Literário",
+      "fonte": "G1",
+      "data": "2026-08-21T03:04:16+00:00"
+    },
+    {
+      "titulo": "Córrego do Cintra é urbanizado em Montes Claros",
+      "fonte": "G1",
+      "data": "2026-08-21T03:03:17+00:00"
+    },
+    {
+      "titulo": "Macaé alcança recorde histórico de 143,5 mil empregos formais",
+      "fonte": "G1",
+      "data": "2026-08-21T03:03:16+00:00"
+    },
+    {
+      "titulo": "Guarda Civil Municipal passa por curso",
+      "fonte": "G1",
+      "data": "2026-08-21T03:03:15+00:00"
+    },
+    {
+      "titulo": "Sul-Americana: Jogadores do Botafogo brigam com técnico do Cienciano",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T03:02:39+00:00"
+    },
+    {
+      "titulo": "Unidade Coronariana de Macaé é a única especializada do interior do RJ",
+      "fonte": "G1",
+      "data": "2026-08-21T03:02:16+00:00"
+    },
+    {
+      "titulo": "Fenattech Engenharia completa nove anos e se destaca em energia solar na região",
+      "fonte": "G1",
+      "data": "2026-08-21T03:02:15+00:00"
+    },
+    {
+      "titulo": "CNJ manda investigar juiz que anulou caso de R$ 200 mi após nomear o filho",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T02:47:57+00:00"
+    },
+    {
+      "titulo": "Corinthians encerra jejum de 8 anos sem gol em mata-mata da Libertadores",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T02:35:43+00:00"
+    },
+    {
+      "titulo": "Botafogo vence Cienciano, mas é eliminado na Sul-Americana",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T02:32:48+00:00"
+    },
+    {
+      "titulo": "PGR e Mendonça têm desconexão sobre Lulinha, diz pesquisador do STF",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T02:30:58+00:00"
+    },
+    {
+      "titulo": "Botafogo encaminha venda de Matheus Martins; confira valores",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T02:28:17+00:00"
+    },
+    {
+      "titulo": "Corinthians vence Rosario Central com um a menos e avança na Libertadores",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T02:26:28+00:00"
+    },
+    {
       "titulo": "Corinthians supera expulsão, despacha o Rosario Central e avança na Libertadores",
       "fonte": "Folha",
       "data": "2026-08-21T02:24:00+00:00"
     },
     {
-      "titulo": "Candidatos ao Senado pelo RS debatem violência contra a mulher, programas sociais e corrupção",
-      "fonte": "G1",
-      "data": "2026-08-21T02:16:27+00:00"
-    },
-    {
       "titulo": "Dave Bautista é confirmado no elenco da série de 'God of War' como Kratos",
       "fonte": "Folha",
       "data": "2026-08-21T02:14:00+00:00"
-    },
-    {
-      "titulo": "Como termina “Outer Banks”? Veja final explicado",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T02:09:53+00:00"
-    },
-    {
-      "titulo": "Deyverson projeta reencontro com o Palmeiras na Libertadores",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T02:08:36+00:00"
     },
     {
       "titulo": "Na contramão do mercado, comércio varejista elimina 46 mil vagas em 2026",
@@ -34,72 +99,7 @@
       "titulo": "Mostra de Alex Flemming em palacete construído por Ramos de Azevedo reflete sobre ruína da civilização",
       "fonte": "Folha",
       "data": "2026-08-21T02:00:00+00:00"
-    },
-    {
-      "titulo": "Mendonça vai usar precedentes do STF para manter caso Lulinha na corte",
-      "fonte": "Folha",
-      "data": "2026-08-21T02:00:00+00:00"
-    },
-    {
-      "titulo": "Novo Datafolha sai nesta sexta; acompanhe análise de resultados em live",
-      "fonte": "Folha",
-      "data": "2026-08-21T02:00:00+00:00"
-    },
-    {
-      "titulo": "Regina Duarte volta ao teatro e lembra política: 'Tem gente que não me perdoa até hoje'",
-      "fonte": "Folha",
-      "data": "2026-08-21T02:00:00+00:00"
-    },
-    {
-      "titulo": "Jazz Mansion celebra dez anos com shows de cantores americanos e brasileiros no Pacaembu",
-      "fonte": "Folha",
-      "data": "2026-08-21T02:00:00+00:00"
-    },
-    {
-      "titulo": "Técnico do Vasco, Pedro Emanuel desabafa após classificação: “Precisávamos”",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T01:56:25+00:00"
-    },
-    {
-      "titulo": "Veja gol perdido por Arthur Cabral em Botafogo x Cienciano na Sul-Americana",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T01:49:00+00:00"
-    },
-    {
-      "titulo": "'Não consigo acreditar no que fizeram com meu irmão', diz irmã de homem que morreu após ser espancado em Copacabana, no Rio",
-      "fonte": "G1",
-      "data": "2026-08-21T01:46:58+00:00"
-    },
-    {
-      "titulo": "Mayim Bialik revela de quais colegas de “The Big Bang Theory” é próxima",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T01:40:58+00:00"
-    },
-    {
-      "titulo": "Deputados protocolam pedido de impeachment contra vice-governadora de PE",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T01:36:09+00:00"
-    },
-    {
-      "titulo": "Um ano após filmagem de agressão com pilha de livros, professora tem condenação mantida por maus-tratos a 4 crianças",
-      "fonte": "G1",
-      "data": "2026-08-21T01:34:28+00:00"
-    },
-    {
-      "titulo": "LDU 0 x 0 Mirassol: veja os pênaltis e melhores momentos pela Libertadores",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T01:33:14+00:00"
-    },
-    {
-      "titulo": "FOTOS: montaria em touros na primeira noite da Festa do Peão de Barretos 2026",
-      "fonte": "G1",
-      "data": "2026-08-21T01:31:03+00:00"
-    },
-    {
-      "titulo": "STF é “vergonha para o Brasil” e contaminou o Judiciário, diz Simões à CNN",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T01:25:53+00:00"
     }
   ],
-  "atualizado_em": "2026-08-21T02:38:15.805867+00:00"
+  "atualizado_em": "2026-08-21T03:34:54.959545+00:00"
 }
