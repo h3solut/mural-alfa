@@ -1,24 +1,49 @@
 {
   "itens": [
     {
+      "titulo": "Casal transforma tradição judaica em negócio de R$ 150 mil por mês em São Paulo",
+      "fonte": "G1",
+      "data": "2026-08-21T05:00:57+00:00"
+    },
+    {
+      "titulo": "Marisa Monte, Silva, Pablo, Zezo, Patrick Costa, Abstract Festival e versão sinfônica de Lulu Santos animam fim de semana no DF",
+      "fonte": "G1",
+      "data": "2026-08-21T05:00:50+00:00"
+    },
+    {
+      "titulo": "Breakfast Weekend: festival de café da manhã no DF vai até dia 30 com menus a partir de R$ 39,90",
+      "fonte": "G1",
+      "data": "2026-08-21T05:00:42+00:00"
+    },
+    {
+      "titulo": "'Não caiu a ficha', diz comerciante que perdeu casa e salgaderia em incêndio após deixar fritadeira ligada em SP",
+      "fonte": "G1",
+      "data": "2026-08-21T05:00:41+00:00"
+    },
+    {
+      "titulo": "Perícia confirma que menino de 12 anos morreu após choque em trailer no DF; dono pode ser responsabilizado",
+      "fonte": "G1",
+      "data": "2026-08-21T05:00:40+00:00"
+    },
+    {
+      "titulo": "O que se sabe sobre vínculo entre adolescente de 14 anos morta e ex-padrasto que confessou o crime após separação da mãe",
+      "fonte": "G1",
+      "data": "2026-08-21T05:00:38+00:00"
+    },
+    {
+      "titulo": "O vendedor de carros da Bélgica que se tornou príncipe após ter parentesco com a família real confirmado",
+      "fonte": "G1",
+      "data": "2026-08-21T05:00:26+00:00"
+    },
+    {
+      "titulo": "Secas extremas podem pressionar abastecimento de São Paulo e Rio de Janeiro, diz estudo",
+      "fonte": "G1",
+      "data": "2026-08-21T05:00:24+00:00"
+    },
+    {
       "titulo": "Diniz elogia Memphis Depay após vitória do Corinthians: “Pessoa diferente”",
       "fonte": "CNN Brasil",
       "data": "2026-08-21T04:04:45+00:00"
-    },
-    {
-      "titulo": "Estátua de 11 metros do Diabo: MP e Polícia Civil apuram denúncia de intolerância religiosa cometida por prefeito",
-      "fonte": "G1",
-      "data": "2026-08-21T04:00:19+00:00"
-    },
-    {
-      "titulo": "Show por R$ 100, quase um ano dormindo no chão e vontade de desistir: Panda relembra trajetória antes da fama",
-      "fonte": "G1",
-      "data": "2026-08-21T03:56:35+00:00"
-    },
-    {
-      "titulo": "FOTOS: Panda abre noite de shows na  71ª edição da Festa do Peão de Barretos",
-      "fonte": "G1",
-      "data": "2026-08-21T03:46:44+00:00"
     },
     {
       "titulo": "Corinthians tem premiação milionária com vaga nas quartas da Libertadores",
@@ -26,24 +51,9 @@
       "data": "2026-08-21T03:44:43+00:00"
     },
     {
-      "titulo": "Lulinha e Marcola nas investigações da PF - O Assunto #1788",
-      "fonte": "G1",
-      "data": "2026-08-21T03:40:49+00:00"
-    },
-    {
       "titulo": "Tetracampeão mundial de jiu-jítsu morre em acidente no interior de SP",
       "fonte": "CNN Brasil",
       "data": "2026-08-21T03:39:05+00:00"
-    },
-    {
-      "titulo": "Avião com oito pessoas a bordo cai no Alasca",
-      "fonte": "G1",
-      "data": "2026-08-21T03:19:20+00:00"
-    },
-    {
-      "titulo": "Veja o que fazer em Belém: agenda cultural tem Othon Bastos, Whindersson Nunes, Afronto e mais",
-      "fonte": "G1",
-      "data": "2026-08-21T03:17:36+00:00"
     },
     {
       "titulo": "Corinthians 1 x 0 Rosario Central: veja melhores momentos pela Libertadores",
@@ -54,16 +64,6 @@
       "titulo": "Operação na BA prende 12 e bloqueia R$ 49,6 milhões em lavagem de dinheiro",
       "fonte": "CNN Brasil",
       "data": "2026-08-21T03:08:04+00:00"
-    },
-    {
-      "titulo": "Estudantes são premiados em Prêmio Literário",
-      "fonte": "G1",
-      "data": "2026-08-21T03:04:16+00:00"
-    },
-    {
-      "titulo": "Córrego do Cintra é urbanizado em Montes Claros",
-      "fonte": "G1",
-      "data": "2026-08-21T03:03:17+00:00"
     },
     {
       "titulo": "Sul-Americana: Jogadores do Botafogo brigam com técnico do Cienciano",
@@ -101,5 +101,5 @@
       "data": "2026-08-21T02:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-21T04:21:12.466314+00:00"
+  "atualizado_em": "2026-08-21T05:08:32.325244+00:00"
 }
