@@ -1,6 +1,16 @@
 {
   "itens": [
     {
+      "titulo": "Gusttavo Lima dá spoiler do primeiro show na Festa do Peão de Barretos 2026",
+      "fonte": "G1",
+      "data": "2026-08-21T05:37:16+00:00"
+    },
+    {
+      "titulo": "FOTOS: Matheus & Kauan na Festa do Peão de Barretos 2026",
+      "fonte": "G1",
+      "data": "2026-08-21T05:25:52+00:00"
+    },
+    {
       "titulo": "Casal transforma tradição judaica em negócio de R$ 150 mil por mês em São Paulo",
       "fonte": "G1",
       "data": "2026-08-21T05:00:57+00:00"
@@ -31,14 +41,9 @@
       "data": "2026-08-21T05:00:38+00:00"
     },
     {
-      "titulo": "O vendedor de carros da Bélgica que se tornou príncipe após ter parentesco com a família real confirmado",
-      "fonte": "G1",
-      "data": "2026-08-21T05:00:26+00:00"
-    },
-    {
-      "titulo": "Secas extremas podem pressionar abastecimento de São Paulo e Rio de Janeiro, diz estudo",
-      "fonte": "G1",
-      "data": "2026-08-21T05:00:24+00:00"
+      "titulo": "Avião fretado com oito pessoas cai em área remota do Alasca",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T04:58:49+00:00"
     },
     {
       "titulo": "Diniz elogia Memphis Depay após vitória do Corinthians: “Pessoa diferente”",
@@ -76,11 +81,6 @@
       "data": "2026-08-21T02:47:57+00:00"
     },
     {
-      "titulo": "Corinthians encerra jejum de 8 anos sem gol em mata-mata da Libertadores",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-21T02:35:43+00:00"
-    },
-    {
       "titulo": "Corinthians supera expulsão, despacha o Rosario Central e avança na Libertadores",
       "fonte": "Folha",
       "data": "2026-08-21T02:24:00+00:00"
@@ -101,5 +101,5 @@
       "data": "2026-08-21T02:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-21T05:08:32.325244+00:00"
+  "atualizado_em": "2026-08-21T05:51:07.414202+00:00"
 }
