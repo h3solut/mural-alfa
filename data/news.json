@@ -1,9 +1,74 @@
 {
   "itens": [
     {
+      "titulo": "Justiça condena Volvo a indenizar aposentada por demora em recall de carro elétrico com risco de incêndio",
+      "fonte": "G1",
+      "data": "2026-08-21T08:16:56+00:00"
+    },
+    {
+      "titulo": "Macaco-prego viraliza após escalar banhistas e tomar mamadeira em praia de SP; VÍDEO",
+      "fonte": "G1",
+      "data": "2026-08-21T08:16:35+00:00"
+    },
+    {
+      "titulo": "Homem ganha videogame da esposa, mas recebe pacote de fraldas: 'Era para ter sido uma alegria'; VÍDEO",
+      "fonte": "G1",
+      "data": "2026-08-21T08:14:28+00:00"
+    },
+    {
+      "titulo": "Fumaça de incêndios viaja por centenas de quilômetros e pode alterar o clima; veja VÍDEO",
+      "fonte": "G1",
+      "data": "2026-08-21T08:04:42+00:00"
+    },
+    {
+      "titulo": "Qual é o perfil dos candidatos de São Paulo nas eleições de 2026?",
+      "fonte": "G1",
+      "data": "2026-08-21T08:04:39+00:00"
+    },
+    {
+      "titulo": "Pilotos e comissários lideram risco de morte por câncer ligado à radiação, aponta estudo",
+      "fonte": "G1",
+      "data": "2026-08-21T08:04:37+00:00"
+    },
+    {
+      "titulo": "Cientistas testam vacinas para barrar câncer de intestino antes que ele se forme",
+      "fonte": "G1",
+      "data": "2026-08-21T08:04:34+00:00"
+    },
+    {
+      "titulo": "Frente fria chega nesta sexta e muda o tempo no Vale do Paraíba e Litoral Norte; veja a previsão",
+      "fonte": "G1",
+      "data": "2026-08-21T08:04:30+00:00"
+    },
+    {
+      "titulo": "São Paulo deve ter ventania do ciclone nesta sexta (21) e frio no fim de semana",
+      "fonte": "Folha",
+      "data": "2026-08-21T08:00:00+00:00"
+    },
+    {
+      "titulo": "Podcast: pesquisa discute como eleitor de esquerda vê Lula e o progressismo",
+      "fonte": "Folha",
+      "data": "2026-08-21T08:00:00+00:00"
+    },
+    {
+      "titulo": "Chinesa busca acesso à Foz do Amazonas após descoberta da Petrobras",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T07:30:52+00:00"
+    },
+    {
+      "titulo": "Renault Koleos é premium de verdade, mas consumo afasta; conheça detalhes",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T07:30:22+00:00"
+    },
+    {
       "titulo": "Queda de avião mata oito pessoas em instalação da Força Aérea dos EUA no Alasca",
       "fonte": "Folha",
       "data": "2026-08-21T07:26:00+00:00"
+    },
+    {
+      "titulo": "O que os presidenciáveis propõem para o agro? Conheça as propostas",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-21T07:20:30+00:00"
     },
     {
       "titulo": "Santander: Juro alto está fazendo efeito esperado",
@@ -11,49 +76,9 @@
       "data": "2026-08-21T07:11:52+00:00"
     },
     {
-      "titulo": "Demi Lovato, o retorno: relembre outras vindas da cantora antes do Rock in Rio",
-      "fonte": "G1",
-      "data": "2026-08-21T07:02:14+00:00"
-    },
-    {
       "titulo": "Oposição quer preservar provas contra Lulinha e busca assinaturas por CPMI",
       "fonte": "CNN Brasil",
       "data": "2026-08-21T07:02:06+00:00"
-    },
-    {
-      "titulo": "Cerimonialistas se revoltam e defendem Viih Tube após polêmica com Jota Quest em casamento",
-      "fonte": "G1",
-      "data": "2026-08-21T07:02:02+00:00"
-    },
-    {
-      "titulo": "Faculdade comprou 105 corpos do Hospital Colônia de Barbacena; pedido de indenização passa de R$ 13 milhões",
-      "fonte": "G1",
-      "data": "2026-08-21T07:01:52+00:00"
-    },
-    {
-      "titulo": "Ameaçado de extinção: SC registra mais de 40 mortes do menor golfinho do Brasil em 2026",
-      "fonte": "G1",
-      "data": "2026-08-21T07:01:46+00:00"
-    },
-    {
-      "titulo": "Emprego: veja as vagas disponíveis em Petrolina e Salgueiro",
-      "fonte": "G1",
-      "data": "2026-08-21T07:01:44+00:00"
-    },
-    {
-      "titulo": "Miss Espírito Santo descobre mastite e vai parar na UTI após bactéria se alojar no silicone: 'Eu era uma bomba-relógio'",
-      "fonte": "G1",
-      "data": "2026-08-21T07:01:22+00:00"
-    },
-    {
-      "titulo": "Qualidade e densidade do petróleo vão definir próximos passos de exploração na costa do Amapá, segundo Petrobras",
-      "fonte": "G1",
-      "data": "2026-08-21T07:01:17+00:00"
-    },
-    {
-      "titulo": "Quem era a mulher grávida que morreu pedindo por cesárea em MG",
-      "fonte": "G1",
-      "data": "2026-08-21T07:01:14+00:00"
     },
     {
       "titulo": "Arsenal x Coventry City: horário e onde assistir ao jogo da Premier League",
@@ -74,32 +99,7 @@
       "titulo": "Guatemala consolida transição e abre novo capítulo democrático",
       "fonte": "Folha",
       "data": "2026-08-21T07:00:00+00:00"
-    },
-    {
-      "titulo": "El Niño expõe preparação desigual das capitais para impactos na saúde",
-      "fonte": "Folha",
-      "data": "2026-08-21T07:00:00+00:00"
-    },
-    {
-      "titulo": "Megaestudo em 34 países mostra como a prática da gratidão impacta na saúde",
-      "fonte": "Folha",
-      "data": "2026-08-21T07:00:00+00:00"
-    },
-    {
-      "titulo": "Fake news gera prejuízo anual de R$ 400 bi, diz livro sobre riscos de IA às marcas",
-      "fonte": "Folha",
-      "data": "2026-08-21T07:00:00+00:00"
-    },
-    {
-      "titulo": "Nos 50 anos da tragédia que vitimou JK, causa da morte provoca divergência entre herdeiras",
-      "fonte": "Folha",
-      "data": "2026-08-21T07:00:00+00:00"
-    },
-    {
-      "titulo": "Proporção de negros eleitos para o Congresso não chega a 30%, mostra estudo",
-      "fonte": "Folha",
-      "data": "2026-08-21T07:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-21T07:40:03.605190+00:00"
+  "atualizado_em": "2026-08-21T08:19:47.452402+00:00"
 }
