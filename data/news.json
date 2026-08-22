@@ -1,19 +1,94 @@
 {
   "itens": [
     {
-      "titulo": "Incêndio atinge fábrica de fertilizantes no Porto do Recife; VÍDEO",
+      "titulo": "Pássaro junino promove espetáculo gratuito em Belém",
       "fonte": "G1",
-      "data": "2026-08-22T21:11:55+00:00"
+      "data": "2026-08-22T21:44:11+00:00"
     },
     {
-      "titulo": "Trânsito na BR-251 é liberado após acidente com quatro carretas",
+      "titulo": "Ale-RR recorre ao STF contra decisão que autoriza candidatura de Jalser Renier",
       "fonte": "G1",
-      "data": "2026-08-22T21:06:23+00:00"
+      "data": "2026-08-22T21:44:10+00:00"
     },
     {
-      "titulo": "Entidades e políticos lamentam morte de Vilma Alves; veja",
+      "titulo": "Datafolha no RJ: Flávio Bolsonaro, 41%; Lula, 36%; Renan Santos; 3%; Ronaldo Caiado; 2%; Augusto Cury, 2%; Zema, 2%",
       "fonte": "G1",
-      "data": "2026-08-22T21:05:17+00:00"
+      "data": "2026-08-22T21:43:45+00:00"
+    },
+    {
+      "titulo": "Datafolha em PE: Lula, 56%; Flávio Bolsonaro, 24%; Ronaldo Caiado; 2%; Renan Santos; 2%; Zema, 1%; Augusto Cury, 1%",
+      "fonte": "G1",
+      "data": "2026-08-22T21:41:18+00:00"
+    },
+    {
+      "titulo": "Flávio e Lulinha, renovação política",
+      "fonte": "Folha",
+      "data": "2026-08-22T21:41:00+00:00"
+    },
+    {
+      "titulo": "Prazo para Prefeitura de Palmas retomar UPAs termina; veja como fica o atendimento",
+      "fonte": "G1",
+      "data": "2026-08-22T21:40:16+00:00"
+    },
+    {
+      "titulo": "Escolas da Baixada Santista e Vale do Ribeira receberão usinas solares em projeto de R$ 6 milhões; entenda",
+      "fonte": "G1",
+      "data": "2026-08-22T21:38:39+00:00"
+    },
+    {
+      "titulo": "Datafolha no DF: Flávio Bolsonaro, 39%;  Lula, 31%; Ronaldo Caiado; 10%; Renan Santos; 3%; Zema, 2%; Augusto Cury, 1%",
+      "fonte": "G1",
+      "data": "2026-08-22T21:38:23+00:00"
+    },
+    {
+      "titulo": "Datafolha em SP: Flávio Bolsonaro, 37%; Lula, 33%; Renan, 5%",
+      "fonte": "G1",
+      "data": "2026-08-22T21:38:20+00:00"
+    },
+    {
+      "titulo": "Qual é o melhor horário para jantar e por que comer a mesma coisa tem efeitos diferentes dependendo da hora do dia?",
+      "fonte": "Folha",
+      "data": "2026-08-22T21:38:00+00:00"
+    },
+    {
+      "titulo": "Datafolha: Avaliação positiva de Lula vai de 46% em PE a 27% em SP, RJ e DF",
+      "fonte": "Folha",
+      "data": "2026-08-22T21:30:00+00:00"
+    },
+    {
+      "titulo": "Datafolha: Flávio tem 47%, e Lula, 42% em SP no 2º turno; MG marca empate",
+      "fonte": "Folha",
+      "data": "2026-08-22T21:30:00+00:00"
+    },
+    {
+      "titulo": "Morre o ator Michael Wright, de “Ritmo & Blues”, aos 70 anos",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T21:29:14+00:00"
+    },
+    {
+      "titulo": "Otaviano Costa confirma lesão nos bastidores do Dança dos Famosos: 'Está tudo bem'",
+      "fonte": "Folha",
+      "data": "2026-08-22T21:26:00+00:00"
+    },
+    {
+      "titulo": "Assédio eleitoral será alvo de ação conjunta no Norte durante as eleições",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T21:14:57+00:00"
+    },
+    {
+      "titulo": "Raquel acusa adversários de tentar “ganhar no tapetão” em Pernambuco",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T21:12:38+00:00"
+    },
+    {
+      "titulo": "União Europeia envia bombeiros à Sérvia para combater incêndios florestais",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T21:11:02+00:00"
+    },
+    {
+      "titulo": "Brasileirão: Com gols de cabeça, Fluminense vira e vence Remo no Maracanã",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T21:08:44+00:00"
     },
     {
       "titulo": "Fundo pede arbitragem para evitar ofera pública de ações de mais de R$ 6 bilhões da Oncoclínicas",
@@ -21,85 +96,10 @@
       "data": "2026-08-22T21:05:00+00:00"
     },
     {
-      "titulo": "Jazz na Serra é atração do último fim de semana de agosto em Santo Antônio do Pinhal; veja a programação",
-      "fonte": "G1",
-      "data": "2026-08-22T21:04:43+00:00"
-    },
-    {
       "titulo": "Bayern supera Dortmund por 2 a 1 e conquista a Supercopa da Alemanha",
       "fonte": "Folha",
       "data": "2026-08-22T21:03:00+00:00"
-    },
-    {
-      "titulo": "Por que perícia afastou hipótese de curto-circuito ao apontar falha elétrica como possível causa de incêndio que destruiu escola em SP",
-      "fonte": "G1",
-      "data": "2026-08-22T21:02:35+00:00"
-    },
-    {
-      "titulo": "Nando Reis apresenta turnê \"Pra Você Guardei o Amor\" em Salvador",
-      "fonte": "G1",
-      "data": "2026-08-22T21:00:29+00:00"
-    },
-    {
-      "titulo": "As opiniões racistas do meu filho estão destruindo nossa família: o que fazer?",
-      "fonte": "Folha",
-      "data": "2026-08-22T21:00:00+00:00"
-    },
-    {
-      "titulo": "Por que profissionais de investimentos costumam errar mais do que eu?",
-      "fonte": "Folha",
-      "data": "2026-08-22T21:00:00+00:00"
-    },
-    {
-      "titulo": "Batida frontal na Raposo Tavares deixa dois mortos em Itapetininga",
-      "fonte": "G1",
-      "data": "2026-08-22T20:59:52+00:00"
-    },
-    {
-      "titulo": "Caminhão carregado de tijolos desce ladeira e atinge duas casas em Dona Inês, na PB",
-      "fonte": "G1",
-      "data": "2026-08-22T20:59:42+00:00"
-    },
-    {
-      "titulo": "Bayern vence Borussia Dortmund e conquista Supercopa da Alemanha",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T20:48:55+00:00"
-    },
-    {
-      "titulo": "Serviço Postal dos EUA atende pedido de Trump e publica plano para restringir voto pelo correio",
-      "fonte": "Folha",
-      "data": "2026-08-22T20:47:00+00:00"
-    },
-    {
-      "titulo": "Internacional x Atlético-MG: escalações e onde assistir ao Brasileirão",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T20:40:48+00:00"
-    },
-    {
-      "titulo": "Instagram e Facebook lideram redes de candidatos a deputado federal",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T20:36:31+00:00"
-    },
-    {
-      "titulo": "Renan Santos ganha chance na TV com debate, e aliados dizem que ele não será nova versão de Marçal",
-      "fonte": "Folha",
-      "data": "2026-08-22T20:29:00+00:00"
-    },
-    {
-      "titulo": "Análise: Nova pesquisa Datafolha evidencia eleição polarizada",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T20:28:55+00:00"
-    },
-    {
-      "titulo": "Países que aderirem à guerra de Trump serão alvos, diz autoridade do Irã",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T20:28:42+00:00"
-    },
-    {
-      "titulo": "Professor é investigado por importunação sexual em escola de SP",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T20:27:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-22T21:20:45.774580+00:00"
+  "atualizado_em": "2026-08-22T21:54:34.883515+00:00"
 }
