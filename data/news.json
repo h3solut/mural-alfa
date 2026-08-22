@@ -1,44 +1,84 @@
 {
   "itens": [
     {
-      "titulo": "Caminhão de mudança é roubado e recuperado pela PM na Zona Oeste de SP",
+      "titulo": "VÍDEOS: Jornal Anhanguera 1ª Edição-TO de sábado, 22 de agosto de 2026",
       "fonte": "G1",
-      "data": "2026-08-22T16:11:00+00:00"
+      "data": "2026-08-22T16:52:22+00:00"
+    },
+    {
+      "titulo": "Polícia investiga como homicídio caso de brasileira encontrada morta no apartamento onde morava na Irlanda",
+      "fonte": "G1",
+      "data": "2026-08-22T16:50:59+00:00"
+    },
+    {
+      "titulo": "Diretora de escola é investigada por obrigar aluno de 10 anos a beber a própria urina em MG",
+      "fonte": "G1",
+      "data": "2026-08-22T16:50:32+00:00"
+    },
+    {
+      "titulo": "Ex-prefeito condenado por incendiar fazenda de rival é solto após Justiça decidir não julgá-lo por homicídio",
+      "fonte": "G1",
+      "data": "2026-08-22T16:46:27+00:00"
+    },
+    {
+      "titulo": "Após 10 meses, caminhada cobra Justiça por mulher esquartejada pelo vizinho no interior do AP",
+      "fonte": "G1",
+      "data": "2026-08-22T16:46:23+00:00"
+    },
+    {
+      "titulo": "Ambulância do Samu tomba após acidente com carro e paciente morre no Norte do RS",
+      "fonte": "G1",
+      "data": "2026-08-22T16:45:06+00:00"
+    },
+    {
+      "titulo": "Jovem morre após quatro meses internada por acidente que matou pai em rodovia de Franca, SP",
+      "fonte": "G1",
+      "data": "2026-08-22T16:42:38+00:00"
+    },
+    {
+      "titulo": "Análise: morte de Hayden Panettiere faz estrelas mirins exporem feridas",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T16:40:05+00:00"
+    },
+    {
+      "titulo": "'Barato da Cozinha': aprenda a fazer maminha com crosta de alho crocante",
+      "fonte": "G1",
+      "data": "2026-08-22T16:37:41+00:00"
+    },
+    {
+      "titulo": "Veja os últimos meses de Hayden Panettiere após uma vida sob os holofotes",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T16:31:45+00:00"
+    },
+    {
+      "titulo": "Como sucesso de vacinas reduz percepção do risco de doenças",
+      "fonte": "Folha",
+      "data": "2026-08-22T16:31:00+00:00"
+    },
+    {
+      "titulo": "Serena Williams e Carlos Alcaraz jogarão duplas mistas juntos no US Open",
+      "fonte": "Folha",
+      "data": "2026-08-22T16:23:00+00:00"
+    },
+    {
+      "titulo": "“Líquido da morte”? Bebidas açucaradas elevam em 2,45 vezes risco de câncer",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T16:21:01+00:00"
+    },
+    {
+      "titulo": "Canadá retaliará os EUA com tarifas sobre diversos setores, diz Carney",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T16:17:56+00:00"
+    },
+    {
+      "titulo": "Elenco de “Quem Ama Cuida” se reúne em festa da peruca; veja fotos",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T16:16:45+00:00"
     },
     {
       "titulo": "Juros menores reduzem endividamento, diz CEO da ABBC",
       "fonte": "CNN Brasil",
       "data": "2026-08-22T16:10:27+00:00"
-    },
-    {
-      "titulo": "O plano que usou drones e helicópteros atrás de Ratanabá em Terra Indígena",
-      "fonte": "G1",
-      "data": "2026-08-22T16:09:34+00:00"
-    },
-    {
-      "titulo": "Assista ao Gazeta Meio Dia - edição regional",
-      "fonte": "G1",
-      "data": "2026-08-22T16:09:07+00:00"
-    },
-    {
-      "titulo": "Canadá anuncia tarifas de retaliação às novas taxas dos EUA a partir de 8 de setembro",
-      "fonte": "G1",
-      "data": "2026-08-22T16:08:09+00:00"
-    },
-    {
-      "titulo": "Assista aos telejornais da TV Liberal",
-      "fonte": "G1",
-      "data": "2026-08-22T16:03:46+00:00"
-    },
-    {
-      "titulo": "Assista ao EPTV1",
-      "fonte": "G1",
-      "data": "2026-08-22T16:03:02+00:00"
-    },
-    {
-      "titulo": "Cinco membros do 'tribunal do crime' são condenados por torturar e matar catadora de recicláveis em BH",
-      "fonte": "G1",
-      "data": "2026-08-22T16:02:58+00:00"
     },
     {
       "titulo": "No Rio, Flávio fala em “tirar bandidos de circulação, em pé ou deitados”",
@@ -51,16 +91,6 @@
       "data": "2026-08-22T16:00:24+00:00"
     },
     {
-      "titulo": "Wesley Safadão promete voltar à Festa do Peão de Barretos para resenha com amigos no camping",
-      "fonte": "G1",
-      "data": "2026-08-22T16:00:16+00:00"
-    },
-    {
-      "titulo": "BofA aponta nível elevado de ganância nas bolsas americanas",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T16:00:05+00:00"
-    },
-    {
       "titulo": "Centro de São Paulo terá museu ao ar livre com trilhos históricos da Light",
       "fonte": "Folha",
       "data": "2026-08-22T16:00:00+00:00"
@@ -69,37 +99,7 @@
       "titulo": "Busquei no Tony Ramos a gentileza do Joel, diz Ricardo Teodoro, de 'Quem Ama Cuida'",
       "fonte": "Folha",
       "data": "2026-08-22T16:00:00+00:00"
-    },
-    {
-      "titulo": "Hayden Panettiere: como acesso a drogas e pressão intensa levam estrelas mirins ao vício",
-      "fonte": "Folha",
-      "data": "2026-08-22T16:00:00+00:00"
-    },
-    {
-      "titulo": "Como entender a inteligência artificial",
-      "fonte": "Folha",
-      "data": "2026-08-22T16:00:00+00:00"
-    },
-    {
-      "titulo": "Flávio deixa de lado 'Bolsonaro moderado' e defende tirar bandido 'de pé ou deitado'",
-      "fonte": "Folha",
-      "data": "2026-08-22T15:58:00+00:00"
-    },
-    {
-      "titulo": "Irmã de Hailey Bieber tenta escapar de prisão por motivo inusitado; entenda",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T15:54:53+00:00"
-    },
-    {
-      "titulo": "Pai deixa filho de 7 anos sozinho no Monte Fuji para continuar trilha",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T15:49:18+00:00"
-    },
-    {
-      "titulo": "Ex-assessor de Lula pediu a lobista quadro de 100 mil euros, diz PF",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T15:49:15+00:00"
     }
   ],
-  "atualizado_em": "2026-08-22T16:20:17.486154+00:00"
+  "atualizado_em": "2026-08-22T16:56:30.396149+00:00"
 }
