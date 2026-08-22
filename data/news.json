@@ -1,54 +1,94 @@
 {
   "itens": [
     {
-      "titulo": "FOTOS: CountryBeat na Festa do Peão de Barretos 2026",
+      "titulo": "Ar frio de origem polar deve derrubar temperaturas e pode trazer chuva para Goiás nos próximos dias, diz Cimehgo",
       "fonte": "G1",
-      "data": "2026-08-22T11:19:24+00:00"
+      "data": "2026-08-22T12:27:48+00:00"
     },
     {
-      "titulo": "Mulher morta é encontrada sentada dentro de geladeira e em estado de decomposição no ES",
+      "titulo": "Intenção de consumo no Amazonas sobe pelo 2º mês seguido e chega a 128,9 pontos",
       "fonte": "G1",
-      "data": "2026-08-22T11:19:16+00:00"
+      "data": "2026-08-22T12:27:06+00:00"
     },
     {
-      "titulo": "PM de São Paulo reage a tentativa de assalto, atira em ladrão, que abandona moto roubada em Ipanema",
+      "titulo": "PM prende quatro suspeitos de furtar 251 peças de roupas de shopping em Natal",
       "fonte": "G1",
-      "data": "2026-08-22T11:17:36+00:00"
+      "data": "2026-08-22T12:23:31+00:00"
     },
     {
-      "titulo": "Inmet alerta para baixa umidade do ar em mais de 180 cidades da Paraíba; veja quais",
+      "titulo": "Homem com mandado de prisão por roubo é preso em Volta Redonda",
       "fonte": "G1",
-      "data": "2026-08-22T11:15:49+00:00"
+      "data": "2026-08-22T12:22:38+00:00"
     },
     {
-      "titulo": "Caderneta atrasada? Região de Campinas tem 'Dia D' de vacinação neste sábado; veja locais",
+      "titulo": "Incêndio atinge área de vegetação de 2 mil m² em Taubaté, SP",
       "fonte": "G1",
-      "data": "2026-08-22T11:15:12+00:00"
+      "data": "2026-08-22T12:20:55+00:00"
     },
     {
-      "titulo": "Dia D da Multivacinação acontece neste sábado (22) em Teresina; veja locais e horários",
+      "titulo": "Motociclista fica gravemente ferida após bater em carro na BR-262, em Nova Serrana",
       "fonte": "G1",
-      "data": "2026-08-22T11:04:36+00:00"
+      "data": "2026-08-22T12:20:02+00:00"
     },
     {
-      "titulo": "Construtora abre 185 vagas de emprego em Salvador e Camaçari; veja como se candidatar",
-      "fonte": "G1",
-      "data": "2026-08-22T11:01:12+00:00"
+      "titulo": "'A Odisseia' se torna filme com classificação para adultos de maior bilheteria",
+      "fonte": "Folha",
+      "data": "2026-08-22T12:20:00+00:00"
     },
     {
-      "titulo": "Morro do Diabo: lendas, emboscada indígena e até aparições fazem parte da história de parque no interior de SP",
+      "titulo": "Chefe do CV no Rio ordenou cobrança de R$ 200 mil para autorizar campanha eleitoral em cidade do Ceará, diz polícia",
       "fonte": "G1",
-      "data": "2026-08-22T11:00:50+00:00"
+      "data": "2026-08-22T12:15:02+00:00"
     },
     {
-      "titulo": "Serie A 2026-27: destaques, favoritos e jogos da 1ª rodada",
+      "titulo": "Homem com mandado por violência doméstica é preso na Via Dutra, em Porto Real",
+      "fonte": "G1",
+      "data": "2026-08-22T12:14:47+00:00"
+    },
+    {
+      "titulo": "Vereador alemão quer promover festa de swing dentro da prefeitura",
+      "fonte": "Folha",
+      "data": "2026-08-22T12:05:00+00:00"
+    },
+    {
+      "titulo": "Coamo anuncia arrendamento de unidades agrícolas no Paraná",
       "fonte": "CNN Brasil",
-      "data": "2026-08-22T11:00:47+00:00"
+      "data": "2026-08-22T12:02:16+00:00"
     },
     {
-      "titulo": "Análise: como Omã passou de mediador a alvo das ameaças de Trump",
+      "titulo": "Suspeito de matar primas no PR usava nome falso e estava foragido",
       "fonte": "CNN Brasil",
-      "data": "2026-08-22T11:00:26+00:00"
+      "data": "2026-08-22T12:01:45+00:00"
+    },
+    {
+      "titulo": "A Ucrânia pode realizar eleições enquanto está em guerra? Entenda",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T12:00:39+00:00"
+    },
+    {
+      "titulo": "El Niño, e não terremoto, afetará safra de café da Colômbia, diz entidade",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T12:00:14+00:00"
+    },
+    {
+      "titulo": "Lula se volta para Donald Trump como aliado improvável, diz Financial Times",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T11:58:54+00:00"
+    },
+    {
+      "titulo": "Com Fifa em crise, chefe da Concacaf pede que Infantino não vá a torneio",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T11:53:36+00:00"
+    },
+    {
+      "titulo": "Datafolha: Lula lidera entre mulheres e pobres; Flávio, entre evangélicos",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T11:51:16+00:00"
+    },
+    {
+      "titulo": "Chelsea renova contrato de atacante brasileiro até 2034",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T11:42:40+00:00"
     },
     {
       "titulo": "Depois do fenômeno 'Arrume-se Comigo', tenho medo do próximo passo",
@@ -59,47 +99,7 @@
       "titulo": "Polícia investiga suposta violência patrimonial contra dentista agredida por empresário",
       "fonte": "Folha",
       "data": "2026-08-22T11:00:00+00:00"
-    },
-    {
-      "titulo": "O 'efeito contraste' de Renan Santos nas eleições de 2026",
-      "fonte": "Folha",
-      "data": "2026-08-22T11:00:00+00:00"
-    },
-    {
-      "titulo": "'Sou uma bisnepobaby', brinca Ana Clara Winter, bisneta de Lima Duarte e filha de Palomma Duarte",
-      "fonte": "Folha",
-      "data": "2026-08-22T11:00:00+00:00"
-    },
-    {
-      "titulo": "99 vende bilhete de metrô em Salvador para ter mais transações e usuários em sua plataforma",
-      "fonte": "Folha",
-      "data": "2026-08-22T11:00:00+00:00"
-    },
-    {
-      "titulo": "O que não tem resposta, nem nunca terá",
-      "fonte": "Folha",
-      "data": "2026-08-22T11:00:00+00:00"
-    },
-    {
-      "titulo": "Tribunal da Bolívia determina prisão preventiva de ex-estrategista de Milei",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T10:50:38+00:00"
-    },
-    {
-      "titulo": "Mortes por desnutrição caem 75% em terra yanomami na comparação com 2023",
-      "fonte": "Folha",
-      "data": "2026-08-22T10:43:00+00:00"
-    },
-    {
-      "titulo": "Cruzeiro pode atrapalhar vida do “algoz” Flamengo no Brasileirão",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T10:30:32+00:00"
-    },
-    {
-      "titulo": "Rodrigo Santoro faz 51 anos: confira cinco destaques da carreira do ator",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T10:30:27+00:00"
     }
   ],
-  "atualizado_em": "2026-08-22T11:40:22.487243+00:00"
+  "atualizado_em": "2026-08-22T12:33:42.113039+00:00"
 }
