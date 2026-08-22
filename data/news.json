@@ -1,34 +1,94 @@
 {
   "itens": [
     {
-      "titulo": "Ar frio de origem polar deve derrubar temperaturas e pode trazer chuva para Goiás nos próximos dias, diz Cimehgo",
+      "titulo": "Câmara de Poços de Caldas pede ação do Estado para evitar paralisação de linhas intermunicipais",
       "fonte": "G1",
-      "data": "2026-08-22T12:27:48+00:00"
+      "data": "2026-08-22T13:12:02+00:00"
     },
     {
-      "titulo": "Intenção de consumo no Amazonas sobe pelo 2º mês seguido e chega a 128,9 pontos",
+      "titulo": "‘Nojento’: universitária relata crise de ansiedade após ter imagem exposta em ‘ranking’ sexual com fotos de alunas",
       "fonte": "G1",
-      "data": "2026-08-22T12:27:06+00:00"
+      "data": "2026-08-22T13:07:39+00:00"
     },
     {
-      "titulo": "PM prende quatro suspeitos de furtar 251 peças de roupas de shopping em Natal",
+      "titulo": "Tragédia do VLS completa 23 anos na semana em que Alcântara voltou a lançar foguete",
       "fonte": "G1",
-      "data": "2026-08-22T12:23:31+00:00"
+      "data": "2026-08-22T13:07:05+00:00"
     },
     {
-      "titulo": "Homem com mandado de prisão por roubo é preso em Volta Redonda",
+      "titulo": "Fazendeiro é preso por furtar energia para irrigar lavoura de café em Rondônia",
       "fonte": "G1",
-      "data": "2026-08-22T12:22:38+00:00"
+      "data": "2026-08-22T13:06:37+00:00"
     },
     {
-      "titulo": "Incêndio atinge área de vegetação de 2 mil m² em Taubaté, SP",
+      "titulo": "Dia do Folclore: autor de livro sobre Comadre Florzinha explica por que encantados não devem ser tratados como 'lendas'",
       "fonte": "G1",
-      "data": "2026-08-22T12:20:55+00:00"
+      "data": "2026-08-22T13:02:17+00:00"
     },
     {
-      "titulo": "Motociclista fica gravemente ferida após bater em carro na BR-262, em Nova Serrana",
+      "titulo": "Concurso da Sesau: Banca organizadora é definida em RO",
       "fonte": "G1",
-      "data": "2026-08-22T12:20:02+00:00"
+      "data": "2026-08-22T13:01:21+00:00"
+    },
+    {
+      "titulo": "'GTA 6': Justiça autoriza empresa a intimar Microsoft e Discord sobre vazamentos",
+      "fonte": "G1",
+      "data": "2026-08-22T13:00:52+00:00"
+    },
+    {
+      "titulo": "Não reconheci meu personagem, diz Regina Duarte sobre 'Vale Tudo'",
+      "fonte": "Folha",
+      "data": "2026-08-22T13:00:00+00:00"
+    },
+    {
+      "titulo": "Sol entra em virgem: como organizar a rotina sem cair na armadilha do perfeccionismo",
+      "fonte": "Folha",
+      "data": "2026-08-22T13:00:00+00:00"
+    },
+    {
+      "titulo": "Rancho raiz mantém tradição viva na Festa do Peão de Barretos",
+      "fonte": "Folha",
+      "data": "2026-08-22T13:00:00+00:00"
+    },
+    {
+      "titulo": "Datafolha: Flávio tem apoio parcial na direita em segundo turno contra Lula",
+      "fonte": "Folha",
+      "data": "2026-08-22T13:00:00+00:00"
+    },
+    {
+      "titulo": "Mercado de marmitas cresce e aposta em cardápio sob medida para a era das canetas emagrecedoras",
+      "fonte": "Folha",
+      "data": "2026-08-22T13:00:00+00:00"
+    },
+    {
+      "titulo": "Michael Wright, ator de 'Oz' e 'O Exército Inútil', morre aos 70 anos",
+      "fonte": "G1",
+      "data": "2026-08-22T12:54:04+00:00"
+    },
+    {
+      "titulo": "Quatro suspeitos são presos por linchamento de ciclista em Copacabana",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T12:41:46+00:00"
+    },
+    {
+      "titulo": "Ana Castela, Safadão, Belo e mais: veja como foi 2º noite em Barretos",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T12:33:16+00:00"
+    },
+    {
+      "titulo": "Superpetroleiros dos EUA e aliados cruzam Ormuz em “efeito fantasma”",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T12:33:15+00:00"
+    },
+    {
+      "titulo": "Trump descreve guerra com o Irã como “um pequeno desvio”",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T12:31:45+00:00"
+    },
+    {
+      "titulo": "Defesa Civil decreta estado de atenção para frio em São Paulo",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T12:31:41+00:00"
     },
     {
       "titulo": "'A Odisseia' se torna filme com classificação para adultos de maior bilheteria",
@@ -36,70 +96,10 @@
       "data": "2026-08-22T12:20:00+00:00"
     },
     {
-      "titulo": "Chefe do CV no Rio ordenou cobrança de R$ 200 mil para autorizar campanha eleitoral em cidade do Ceará, diz polícia",
-      "fonte": "G1",
-      "data": "2026-08-22T12:15:02+00:00"
-    },
-    {
-      "titulo": "Homem com mandado por violência doméstica é preso na Via Dutra, em Porto Real",
-      "fonte": "G1",
-      "data": "2026-08-22T12:14:47+00:00"
-    },
-    {
       "titulo": "Vereador alemão quer promover festa de swing dentro da prefeitura",
       "fonte": "Folha",
       "data": "2026-08-22T12:05:00+00:00"
-    },
-    {
-      "titulo": "Coamo anuncia arrendamento de unidades agrícolas no Paraná",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T12:02:16+00:00"
-    },
-    {
-      "titulo": "Suspeito de matar primas no PR usava nome falso e estava foragido",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T12:01:45+00:00"
-    },
-    {
-      "titulo": "A Ucrânia pode realizar eleições enquanto está em guerra? Entenda",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T12:00:39+00:00"
-    },
-    {
-      "titulo": "El Niño, e não terremoto, afetará safra de café da Colômbia, diz entidade",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T12:00:14+00:00"
-    },
-    {
-      "titulo": "Lula se volta para Donald Trump como aliado improvável, diz Financial Times",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T11:58:54+00:00"
-    },
-    {
-      "titulo": "Com Fifa em crise, chefe da Concacaf pede que Infantino não vá a torneio",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T11:53:36+00:00"
-    },
-    {
-      "titulo": "Datafolha: Lula lidera entre mulheres e pobres; Flávio, entre evangélicos",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T11:51:16+00:00"
-    },
-    {
-      "titulo": "Chelsea renova contrato de atacante brasileiro até 2034",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T11:42:40+00:00"
-    },
-    {
-      "titulo": "Depois do fenômeno 'Arrume-se Comigo', tenho medo do próximo passo",
-      "fonte": "Folha",
-      "data": "2026-08-22T11:00:00+00:00"
-    },
-    {
-      "titulo": "Polícia investiga suposta violência patrimonial contra dentista agredida por empresário",
-      "fonte": "Folha",
-      "data": "2026-08-22T11:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-22T12:33:42.113039+00:00"
+  "atualizado_em": "2026-08-22T13:16:34.265308+00:00"
 }
