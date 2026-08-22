@@ -1,6 +1,76 @@
 {
   "itens": [
     {
+      "titulo": "Telas não são as grandes vilãs: um novo olhar sobre a miopia",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T10:00:56+00:00"
+    },
+    {
+      "titulo": "Como a relação entre Coreia do Sul e EUA mudou no governo Trump",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T10:00:56+00:00"
+    },
+    {
+      "titulo": "Saci, lobisomem e Loira do Banheiro: você conhece as lendas e tradições do Vale do Paraíba? Faça o quiz",
+      "fonte": "G1",
+      "data": "2026-08-22T10:00:44+00:00"
+    },
+    {
+      "titulo": "Você viu? Duas mortes em acidente com carro de aplicativo, grávida morre pedindo cesárea e receita de pão de queijo com jeitinho de casa de vó",
+      "fonte": "G1",
+      "data": "2026-08-22T10:00:39+00:00"
+    },
+    {
+      "titulo": "IA: Brasil não está no grande tema de investimentos, diz especialista",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T10:00:29+00:00"
+    },
+    {
+      "titulo": "Você viu? Duas toneladas de maconha em carga de minério, centenária conta sobre casarão histórico e pai leva filha ao altar sem terno e gravata",
+      "fonte": "G1",
+      "data": "2026-08-22T10:00:21+00:00"
+    },
+    {
+      "titulo": "Casas Bahia faz leilão virtual de eletrodomésticos; lances vão até terça (25)",
+      "fonte": "Folha",
+      "data": "2026-08-22T10:00:00+00:00"
+    },
+    {
+      "titulo": "Como o anticomunismo deturpou a trajetória de Prestes, segundo Anita Prestes",
+      "fonte": "Folha",
+      "data": "2026-08-22T10:00:00+00:00"
+    },
+    {
+      "titulo": "Pegada fóssil de SC revela maior mamífero da Era dos Dinossauros",
+      "fonte": "Folha",
+      "data": "2026-08-22T10:00:00+00:00"
+    },
+    {
+      "titulo": "Sorocaba retoma viagens de trem turístico 60 anos após fim de rota regular",
+      "fonte": "Folha",
+      "data": "2026-08-22T10:00:00+00:00"
+    },
+    {
+      "titulo": "2º dia de Barretos tem Ana Castela poderosa, Natanzinho Lima na arquibancada e retorno de Safadão",
+      "fonte": "G1",
+      "data": "2026-08-22T09:54:06+00:00"
+    },
+    {
+      "titulo": "Assista ao Bom Dia Sábado",
+      "fonte": "G1",
+      "data": "2026-08-22T09:43:24+00:00"
+    },
+    {
+      "titulo": "Massa de ar frio muda o tempo no Sudeste no final de semana; veja previsão",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T09:40:59+00:00"
+    },
+    {
+      "titulo": "Produtores de gado dos EUA criticam flexibilização na importação de carne",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-22T09:40:41+00:00"
+    },
+    {
       "titulo": "Tarifas de 50% dos EUA sobre Canadá entram em vigor após fracasso em negociações",
       "fonte": "Folha",
       "data": "2026-08-22T09:38:00+00:00"
@@ -26,80 +96,10 @@
       "data": "2026-08-22T09:25:13+00:00"
     },
     {
-      "titulo": "Peixe recém-descoberto na Amazônia já enfrenta risco de desaparecer, aponta estudo",
-      "fonte": "G1",
-      "data": "2026-08-22T09:25:09+00:00"
-    },
-    {
-      "titulo": "Adolescente reage a assalto e luta com criminosos no litoral de SP; VÍDEO",
-      "fonte": "G1",
-      "data": "2026-08-22T09:23:40+00:00"
-    },
-    {
       "titulo": "Salton: Espumante é vocação e sustenta resultados positivos",
       "fonte": "CNN Brasil",
       "data": "2026-08-22T09:03:29+00:00"
-    },
-    {
-      "titulo": "VÍDEO: Piloto do Corpo de Bombeiros flagra laser apontado para aeronave durante voo noturno em Divinópolis",
-      "fonte": "G1",
-      "data": "2026-08-22T09:01:06+00:00"
-    },
-    {
-      "titulo": "Sergipe realiza Dia D de Multivacinação neste sábado",
-      "fonte": "G1",
-      "data": "2026-08-22T09:01:04+00:00"
-    },
-    {
-      "titulo": "Inspirado por visão de Nossa Senhora, artista do interior de SP leva obras feitas com a ponta dos dedos ao exterior",
-      "fonte": "G1",
-      "data": "2026-08-22T09:01:00+00:00"
-    },
-    {
-      "titulo": "Como identificar a obesidade infantil? Dr. Kalil e especialistas explicam",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T09:00:51+00:00"
-    },
-    {
-      "titulo": "Venezuela abandona plano para libertar Nicolás Maduro, diz jornal",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T09:00:21+00:00"
-    },
-    {
-      "titulo": "Tarcísio Filho faz 62 anos quatro dias após morte da mãe, Glória Menezes",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T09:00:07+00:00"
-    },
-    {
-      "titulo": "Dia do Folclore: entenda importância das tradições populares na educação",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T09:00:03+00:00"
-    },
-    {
-      "titulo": "China fará missão em busca de água no polo sul da Lua; lançamento é previsto para este domingo",
-      "fonte": "Folha",
-      "data": "2026-08-22T09:00:00+00:00"
-    },
-    {
-      "titulo": "Trump não consegue dominar a linguagem da política brasileira",
-      "fonte": "Folha",
-      "data": "2026-08-22T09:00:00+00:00"
-    },
-    {
-      "titulo": "Após conquistar o mundo, Shein sofre para dar o passo seguinte",
-      "fonte": "Folha",
-      "data": "2026-08-22T09:00:00+00:00"
-    },
-    {
-      "titulo": "Campanha de Tebet mira apoio de Kassab e de prefeitos do PSD em São Paulo",
-      "fonte": "Folha",
-      "data": "2026-08-22T09:00:00+00:00"
-    },
-    {
-      "titulo": "“Super El Niño”: ONG avalia risco para moradias vulneráveis no Brasil",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T08:30:57+00:00"
     }
   ],
-  "atualizado_em": "2026-08-22T09:45:41.460654+00:00"
+  "atualizado_em": "2026-08-22T10:20:10.189475+00:00"
 }
