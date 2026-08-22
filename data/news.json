@@ -1,14 +1,64 @@
 {
   "itens": [
     {
-      "titulo": "Homem que atravessava rodovia empurrando bicicleta morre atropelado por carro em MG",
+      "titulo": "Incêndio atinge fábrica de fertilizantes no Porto do Recife; VÍDEO",
       "fonte": "G1",
-      "data": "2026-08-22T20:53:35+00:00"
+      "data": "2026-08-22T21:11:55+00:00"
     },
     {
-      "titulo": "Círio 2026: Imagem de Nossa Senhora de Nazaré visita Tomé Açu e São João de Pirabas no PA; veja programação",
+      "titulo": "Trânsito na BR-251 é liberado após acidente com quatro carretas",
       "fonte": "G1",
-      "data": "2026-08-22T20:53:33+00:00"
+      "data": "2026-08-22T21:06:23+00:00"
+    },
+    {
+      "titulo": "Entidades e políticos lamentam morte de Vilma Alves; veja",
+      "fonte": "G1",
+      "data": "2026-08-22T21:05:17+00:00"
+    },
+    {
+      "titulo": "Fundo pede arbitragem para evitar ofera pública de ações de mais de R$ 6 bilhões da Oncoclínicas",
+      "fonte": "Folha",
+      "data": "2026-08-22T21:05:00+00:00"
+    },
+    {
+      "titulo": "Jazz na Serra é atração do último fim de semana de agosto em Santo Antônio do Pinhal; veja a programação",
+      "fonte": "G1",
+      "data": "2026-08-22T21:04:43+00:00"
+    },
+    {
+      "titulo": "Bayern supera Dortmund por 2 a 1 e conquista a Supercopa da Alemanha",
+      "fonte": "Folha",
+      "data": "2026-08-22T21:03:00+00:00"
+    },
+    {
+      "titulo": "Por que perícia afastou hipótese de curto-circuito ao apontar falha elétrica como possível causa de incêndio que destruiu escola em SP",
+      "fonte": "G1",
+      "data": "2026-08-22T21:02:35+00:00"
+    },
+    {
+      "titulo": "Nando Reis apresenta turnê \"Pra Você Guardei o Amor\" em Salvador",
+      "fonte": "G1",
+      "data": "2026-08-22T21:00:29+00:00"
+    },
+    {
+      "titulo": "As opiniões racistas do meu filho estão destruindo nossa família: o que fazer?",
+      "fonte": "Folha",
+      "data": "2026-08-22T21:00:00+00:00"
+    },
+    {
+      "titulo": "Por que profissionais de investimentos costumam errar mais do que eu?",
+      "fonte": "Folha",
+      "data": "2026-08-22T21:00:00+00:00"
+    },
+    {
+      "titulo": "Batida frontal na Raposo Tavares deixa dois mortos em Itapetininga",
+      "fonte": "G1",
+      "data": "2026-08-22T20:59:52+00:00"
+    },
+    {
+      "titulo": "Caminhão carregado de tijolos desce ladeira e atinge duas casas em Dona Inês, na PB",
+      "fonte": "G1",
+      "data": "2026-08-22T20:59:42+00:00"
     },
     {
       "titulo": "Bayern vence Borussia Dortmund e conquista Supercopa da Alemanha",
@@ -16,44 +66,14 @@
       "data": "2026-08-22T20:48:55+00:00"
     },
     {
-      "titulo": "Como a falta de mulheres na China faz homens caírem em golpes de falsas noivas e perderem milhões",
-      "fonte": "G1",
-      "data": "2026-08-22T20:48:41+00:00"
-    },
-    {
-      "titulo": "Vigilantes têm armas roubadas e motorista é feito refém em tentativa de assalto a caminhão em Jarinu",
-      "fonte": "G1",
-      "data": "2026-08-22T20:48:28+00:00"
-    },
-    {
       "titulo": "Serviço Postal dos EUA atende pedido de Trump e publica plano para restringir voto pelo correio",
       "fonte": "Folha",
       "data": "2026-08-22T20:47:00+00:00"
     },
     {
-      "titulo": "Caso Geovana: réus vão a júri popular pela morte de babá que era explorada sexualmente pela patroa em Manaus",
-      "fonte": "G1",
-      "data": "2026-08-22T20:46:34+00:00"
-    },
-    {
-      "titulo": "Nora é presa após confessar ter matado sogra em MT e diz que teve surto",
-      "fonte": "G1",
-      "data": "2026-08-22T20:42:21+00:00"
-    },
-    {
-      "titulo": "1ª Feira Nordestina reúne gastronomia, cultura e shows em Guarujá; veja a programação",
-      "fonte": "G1",
-      "data": "2026-08-22T20:41:31+00:00"
-    },
-    {
       "titulo": "Internacional x Atlético-MG: escalações e onde assistir ao Brasileirão",
       "fonte": "CNN Brasil",
       "data": "2026-08-22T20:40:48+00:00"
-    },
-    {
-      "titulo": "Teresa Surita declara mais de R$ 8,4 milhões em bens na disputa ao Senado por Roraima",
-      "fonte": "G1",
-      "data": "2026-08-22T20:40:38+00:00"
     },
     {
       "titulo": "Instagram e Facebook lideram redes de candidatos a deputado federal",
@@ -79,27 +99,7 @@
       "titulo": "Professor é investigado por importunação sexual em escola de SP",
       "fonte": "CNN Brasil",
       "data": "2026-08-22T20:27:00+00:00"
-    },
-    {
-      "titulo": "El Niño já começou, e a tragédia não é inevitável",
-      "fonte": "Folha",
-      "data": "2026-08-22T20:22:00+00:00"
-    },
-    {
-      "titulo": "Xuxa rebate carnavalesco por cobrança de reconhecimento: “Deselegante”",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T20:21:36+00:00"
-    },
-    {
-      "titulo": "EUA impõem sanções ao Irã há quase 50 anos",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-22T20:14:04+00:00"
-    },
-    {
-      "titulo": "O que aconteceu com o sonho americano de Harry e Meghan?",
-      "fonte": "Folha",
-      "data": "2026-08-22T20:05:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-22T20:55:52.585356+00:00"
+  "atualizado_em": "2026-08-22T21:20:45.774580+00:00"
 }
