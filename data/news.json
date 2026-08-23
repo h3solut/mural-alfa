@@ -1,6 +1,96 @@
 {
   "itens": [
     {
+      "titulo": "Domingo será céu nublado na capital paulista; no interior, máxima pode chegar a 32°C",
+      "fonte": "Folha",
+      "data": "2026-08-23T07:15:00+00:00"
+    },
+    {
+      "titulo": "IA pode estar freando salários antes de cortar empregos; veja profissões mais expostas e rankings",
+      "fonte": "G1",
+      "data": "2026-08-23T07:02:03+00:00"
+    },
+    {
+      "titulo": "Pimenta-do-reino na cocada? Doce de sabor inusitado vira fonte de renda para produtores no ES",
+      "fonte": "G1",
+      "data": "2026-08-23T07:02:01+00:00"
+    },
+    {
+      "titulo": "O que acontece quando pessoas de diferentes gerações criam juntas",
+      "fonte": "G1",
+      "data": "2026-08-23T07:02:00+00:00"
+    },
+    {
+      "titulo": "Risco de morrer por câncer de pulmão é até 30 vezes maior entre fumantes; veja por idade",
+      "fonte": "G1",
+      "data": "2026-08-23T07:01:52+00:00"
+    },
+    {
+      "titulo": "Câncer de pulmão é descoberto em estágios já avançados em mais de 8 de cada 10 casos",
+      "fonte": "G1",
+      "data": "2026-08-23T07:01:44+00:00"
+    },
+    {
+      "titulo": "Enter: o que faz a startup brasileira de IA que se tornou unicórnio e já vale US$ 1,2 bilhão",
+      "fonte": "G1",
+      "data": "2026-08-23T07:01:29+00:00"
+    },
+    {
+      "titulo": "Estudantes da Bahia transformam óleo de licuri em biodiesel e levam projeto para o exterior",
+      "fonte": "G1",
+      "data": "2026-08-23T07:01:25+00:00"
+    },
+    {
+      "titulo": "Casos de ‘justiça com as próprias mãos’ sobem 25% no RJ; seguranças são flagrados fazendo rondas irregulares em Copacabana",
+      "fonte": "G1",
+      "data": "2026-08-23T07:00:41+00:00"
+    },
+    {
+      "titulo": "Canetas emagrecedoras mudam perfil de alunos em academias e exigem adaptação dos treinos",
+      "fonte": "Folha",
+      "data": "2026-08-23T07:00:00+00:00"
+    },
+    {
+      "titulo": "Retorno de Harry e Meghan ao Reino Unido reacende tensão na monarquia",
+      "fonte": "Folha",
+      "data": "2026-08-23T07:00:00+00:00"
+    },
+    {
+      "titulo": "Amamentação faz bem ao coração da mãe, mostra estudo internacional",
+      "fonte": "Folha",
+      "data": "2026-08-23T07:00:00+00:00"
+    },
+    {
+      "titulo": "Fernanda Montenegro faz mãe viciada em bingo na série 'Emergência 53'",
+      "fonte": "Folha",
+      "data": "2026-08-23T07:00:00+00:00"
+    },
+    {
+      "titulo": "Esqueça a falta de tempo: minutos de exercício ao dia já fazem diferença",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-23T06:42:31+00:00"
+    },
+    {
+      "titulo": "Cientistas descobrem interruptor capaz de desligar a dor crônica no cérebro",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-23T06:40:54+00:00"
+    },
+    {
+      "titulo": "Temperatura despenca no Sudeste com chegada de ar polar; saiba como fica",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-23T06:40:25+00:00"
+    },
+    {
+      "titulo": "População de onças-pintadas fêmeas cai 77% na Amazônia",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-23T06:33:05+00:00"
+    },
+    {
+      "titulo": "Brighton x Aston Villa: horário e onde assistir ao jogo da Premier League",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-23T06:15:41+00:00"
+    },
+    {
       "titulo": "Cenário é preocupante para situação financeira das famílias, diz professor",
       "fonte": "CNN Brasil",
       "data": "2026-08-23T06:00:38+00:00"
@@ -9,97 +99,7 @@
       "titulo": "Palmeiras x Vasco: horário e onde assistir ao jogo do Brasileirão",
       "fonte": "CNN Brasil",
       "data": "2026-08-23T06:00:25+00:00"
-    },
-    {
-      "titulo": "Superfuturística, réplica do DeLorean do 'De Volta para o Futuro' está entre as mais de mil relíquias em feira de veículos",
-      "fonte": "G1",
-      "data": "2026-08-23T06:00:24+00:00"
-    },
-    {
-      "titulo": "Fazenda histórica que foi de barão do café dará lugar a data center de IA no interior de SP",
-      "fonte": "G1",
-      "data": "2026-08-23T06:00:18+00:00"
-    },
-    {
-      "titulo": "Vitória x Bahia: horário e onde assistir ao jogo do Brasileirão",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-23T06:00:18+00:00"
-    },
-    {
-      "titulo": "Rennes x PSG: horário e onde assistir à Ligue 1",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-23T06:00:18+00:00"
-    },
-    {
-      "titulo": "Bragantino x Grêmio: horário e onde assistir ao jogo do Brasileirão",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-23T06:00:10+00:00"
-    },
-    {
-      "titulo": "Newcastle x Liverpool: horário e onde assistir ao jogo da Premier League",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-23T05:30:12+00:00"
-    },
-    {
-      "titulo": "Bell Marques revela planos para nova geração após lançamento de álbum de canções de ninar",
-      "fonte": "G1",
-      "data": "2026-08-23T05:25:52+00:00"
-    },
-    {
-      "titulo": "Alok eletriza a arena de Barretos com show de drones, pirotecnia e participação de Ana Castela",
-      "fonte": "G1",
-      "data": "2026-08-23T05:25:13+00:00"
-    },
-    {
-      "titulo": "Encontro de embaixadores: Ana Castela abraça Gusttavo Lima em Barretos",
-      "fonte": "G1",
-      "data": "2026-08-23T05:14:51+00:00"
-    },
-    {
-      "titulo": "Ele enxerga em preto e branco e fez da deficiência um negócio de R$ 100 mil por mês",
-      "fonte": "G1",
-      "data": "2026-08-23T05:00:21+00:00"
-    },
-    {
-      "titulo": "Evasão silenciosa: como a falta de acolhimento afasta estudantes LGBTQIA+ das escolas no DF",
-      "fonte": "G1",
-      "data": "2026-08-23T05:00:16+00:00"
-    },
-    {
-      "titulo": "Ana Castela volta para Barretos após show no Parque do Peão e promete festar e ficar sem dormir",
-      "fonte": "G1",
-      "data": "2026-08-23T04:27:07+00:00"
-    },
-    {
-      "titulo": "Com perda parcial da visão, Lito Sousa é liberado para home care",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-23T03:19:47+00:00"
-    },
-    {
-      "titulo": "Como foi o primeiro debate para presidente transmitido no Brasil",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-23T03:10:07+00:00"
-    },
-    {
-      "titulo": "Presidente do STJ diz que regras para eventos não são solução: 'Que juiz vai se vender por passagem?'",
-      "fonte": "Folha",
-      "data": "2026-08-23T03:01:00+00:00"
-    },
-    {
-      "titulo": "Ter tirado as Forças Armadas da frigideira foi a maior proeza de Lula 3",
-      "fonte": "Folha",
-      "data": "2026-08-23T02:15:00+00:00"
-    },
-    {
-      "titulo": "O fator Lulinha na reta final",
-      "fonte": "Folha",
-      "data": "2026-08-23T02:15:00+00:00"
-    },
-    {
-      "titulo": "Festival de Gramado coroa 'Nosso Segredo' após refletir sobre divisão no mundo hoje",
-      "fonte": "Folha",
-      "data": "2026-08-23T02:10:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-23T06:37:11.719494+00:00"
+  "atualizado_em": "2026-08-23T07:19:37.411774+00:00"
 }
