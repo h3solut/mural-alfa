@@ -1,9 +1,69 @@
 {
   "itens": [
     {
-      "titulo": "CRO-MA abre seletivo com vagas para níveis médio e superior em Pinheiro e Imperatriz",
+      "titulo": "VÍDEOS: Amazônia Agro - Acre deste domingo, 23 de agosto de 2026",
       "fonte": "G1",
-      "data": "2026-08-23T15:14:04+00:00"
+      "data": "2026-08-23T15:40:17+00:00"
+    },
+    {
+      "titulo": "Assessor parlamentar morre após colisão de moto com muro de escola em Manaus",
+      "fonte": "G1",
+      "data": "2026-08-23T15:37:17+00:00"
+    },
+    {
+      "titulo": "VÍDEO: dupla de capacete invade casa e mata homem a tiros no ES",
+      "fonte": "G1",
+      "data": "2026-08-23T15:31:17+00:00"
+    },
+    {
+      "titulo": "'Coxinha, pastel e brigadeiro': intercâmbio leva estudantes da Nova Zelândia a escola pública de cidade do interior de SP",
+      "fonte": "G1",
+      "data": "2026-08-23T15:31:14+00:00"
+    },
+    {
+      "titulo": "Saiba por que “A Cabeça do Santo” quase ficou fora da Unidos da Tijuca",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-23T15:29:53+00:00"
+    },
+    {
+      "titulo": "Mototaxista de 20 anos morre após bater contra caminhão estacionado no interior de SP",
+      "fonte": "G1",
+      "data": "2026-08-23T15:29:48+00:00"
+    },
+    {
+      "titulo": "Alok, Gusttavo Lima e Nattan: veja como foi 3ª noite em Barretos",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-23T15:28:54+00:00"
+    },
+    {
+      "titulo": "Homem fica ferido após explosão de botijão de gás em imóvel na Zona Norte de SP",
+      "fonte": "G1",
+      "data": "2026-08-23T15:28:48+00:00"
+    },
+    {
+      "titulo": "Homem é morto a facadas na porta de supermercado em Boa Vista",
+      "fonte": "G1",
+      "data": "2026-08-23T15:28:38+00:00"
+    },
+    {
+      "titulo": "Brasileiro é expulso, e Aston Villa é goleado por Brighton no Inglês",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-23T15:28:11+00:00"
+    },
+    {
+      "titulo": "Kleiton, Kledir e Vitor Ramil se afinam, em trio, no belo relicário de emoções e tradições afetivas do show dos irmãos",
+      "fonte": "G1",
+      "data": "2026-08-23T15:26:28+00:00"
+    },
+    {
+      "titulo": "Melhor modelo de IA da Anthropic tem dificuldade para atrair usuários",
+      "fonte": "Folha",
+      "data": "2026-08-23T15:22:00+00:00"
+    },
+    {
+      "titulo": "F1: Lando Norris vence GP da Holanda e garante segunda vitória seguida",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-23T15:18:08+00:00"
     },
     {
       "titulo": "Cherki brilha, e Manchester City vira sobre o Bournemouth com gols no fim",
@@ -21,16 +81,6 @@
       "data": "2026-08-23T15:06:39+00:00"
     },
     {
-      "titulo": "Pesquisadores da UFPB desenvolvem colete com sensores para monitorar clima, ruído e poluição nas cidades; saiba como funciona",
-      "fonte": "G1",
-      "data": "2026-08-23T15:05:00+00:00"
-    },
-    {
-      "titulo": "Mega-Sena: aposta feita em Pernambuco acerta quina e ganha prêmio de R$ 68 mil",
-      "fonte": "G1",
-      "data": "2026-08-23T15:04:38+00:00"
-    },
-    {
       "titulo": "Morre Janie Bradford, compositora do primeiro hit da Motown, aos 87 anos",
       "fonte": "Folha",
       "data": "2026-08-23T15:02:00+00:00"
@@ -41,65 +91,15 @@
       "data": "2026-08-23T15:01:00+00:00"
     },
     {
-      "titulo": "Dia de Sorte hoje: resultado do concurso 1279 e números sorteados",
-      "fonte": "G1",
-      "data": "2026-08-23T15:00:56+00:00"
-    },
-    {
-      "titulo": "Timemania hoje: resultado do concurso 2432 e números sorteados",
-      "fonte": "G1",
-      "data": "2026-08-23T15:00:56+00:00"
-    },
-    {
       "titulo": "Os 10 híbridos plug-in mais vendidos no Brasil até o momento; veja lista",
       "fonte": "CNN Brasil",
       "data": "2026-08-23T15:00:51+00:00"
     },
     {
-      "titulo": "Chuvas afetam trigo no RS, mas estimativa para a safra é mantida",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-23T15:00:47+00:00"
-    },
-    {
-      "titulo": "Marcos Dorval (PSTU) declara patrimônio de R$ 998 mil: veja bens do candidato ao Senado por SC",
-      "fonte": "G1",
-      "data": "2026-08-23T15:00:40+00:00"
-    },
-    {
-      "titulo": "Piauí tem alertas de baixa umidade e vendaval neste domingo (23); veja as cidades afetadas",
-      "fonte": "G1",
-      "data": "2026-08-23T15:00:38+00:00"
-    },
-    {
-      "titulo": "Marlene Soccas (UP), candidata ao Senado por SC, informa não ter patrimônio",
-      "fonte": "G1",
-      "data": "2026-08-23T15:00:37+00:00"
-    },
-    {
-      "titulo": "Missões que pousaram em Vênus ajudaram a desvendar explosões de raio gama",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-23T15:00:29+00:00"
-    },
-    {
-      "titulo": "O que sabemos sobre plano controverso contra imigração no Texas",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-23T15:00:26+00:00"
-    },
-    {
       "titulo": "O desafio de menstruar com dignidade no Brasil",
-      "fonte": "Folha",
-      "data": "2026-08-23T15:00:00+00:00"
-    },
-    {
-      "titulo": "Bom gosto é a nova habilidade cobiçada no Vale do Silício",
-      "fonte": "Folha",
-      "data": "2026-08-23T15:00:00+00:00"
-    },
-    {
-      "titulo": "A dieta Brat é realmente a melhor maneira de tratar uma gastroenterite?",
       "fonte": "Folha",
       "data": "2026-08-23T15:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-23T15:19:26.312636+00:00"
+  "atualizado_em": "2026-08-23T15:42:21.719515+00:00"
 }
