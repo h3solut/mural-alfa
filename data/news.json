@@ -1,6 +1,21 @@
 {
   "itens": [
     {
+      "titulo": "Ele enxerga em preto e branco e fez da deficiência um negócio de R$ 100 mil por mês",
+      "fonte": "G1",
+      "data": "2026-08-23T05:00:21+00:00"
+    },
+    {
+      "titulo": "Evasão silenciosa: como a falta de acolhimento afasta estudantes LGBTQIA+ das escolas no DF",
+      "fonte": "G1",
+      "data": "2026-08-23T05:00:16+00:00"
+    },
+    {
+      "titulo": "Ana Castela volta para Barretos após show no Parque do Peão e promete festar e ficar sem dormir",
+      "fonte": "G1",
+      "data": "2026-08-23T04:27:07+00:00"
+    },
+    {
       "titulo": "Ludmilla interrompe show no Festival de Inverno Bahia para autografar CDs de fã: ‘Mais abençoado que nunca’",
       "fonte": "G1",
       "data": "2026-08-23T04:06:39+00:00"
@@ -36,24 +51,9 @@
       "data": "2026-08-23T03:10:07+00:00"
     },
     {
-      "titulo": "Macaé oferece consultas médicas neste sábado no Centro Dona Alba",
-      "fonte": "G1",
-      "data": "2026-08-23T03:02:15+00:00"
-    },
-    {
-      "titulo": "Mega-Sena pode pagar R$ 58 milhões neste domingo; g1 transmite ao vivo",
-      "fonte": "G1",
-      "data": "2026-08-23T03:01:00+00:00"
-    },
-    {
       "titulo": "Presidente do STJ diz que regras para eventos não são solução: 'Que juiz vai se vender por passagem?'",
       "fonte": "Folha",
       "data": "2026-08-23T03:01:00+00:00"
-    },
-    {
-      "titulo": "Federações partidárias neutras na corrida presidencial reúnem 3,7 mil candidatos nas eleições",
-      "fonte": "G1",
-      "data": "2026-08-23T03:00:48+00:00"
     },
     {
       "titulo": "Governador mexicano acusado de narcotráfico pelos EUA pede licença do cargo",
@@ -101,5 +101,5 @@
       "data": "2026-08-23T02:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-23T04:34:03.772507+00:00"
+  "atualizado_em": "2026-08-23T05:05:13.478844+00:00"
 }
