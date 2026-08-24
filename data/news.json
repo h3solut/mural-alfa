@@ -1,14 +1,94 @@
 {
   "itens": [
     {
-      "titulo": "Quarto preso que pulou muro de delegacia é capturado pela PM em Porto Velho",
+      "titulo": "Laudo da morte de bebê de 3 meses aponta trauma no tórax e hemorragia intracraniana causados por 'ação contundente'",
       "fonte": "G1",
-      "data": "2026-08-24T17:30:36+00:00"
+      "data": "2026-08-24T17:55:45+00:00"
     },
     {
-      "titulo": "Tutor é preso após cortar orelha de cachorro com faca sob justificativa de 'enviar para pesquisa' em Botucatu",
+      "titulo": "Conselheira tutelar de 34 anos desaparece após sair de casa com o celular em Jacuí, MG",
       "fonte": "G1",
-      "data": "2026-08-24T17:30:12+00:00"
+      "data": "2026-08-24T17:55:39+00:00"
+    },
+    {
+      "titulo": "Incêndio consome mais de 1,2 mil hectares do Cerrado na Chapada dos Veadeiros",
+      "fonte": "G1",
+      "data": "2026-08-24T17:55:35+00:00"
+    },
+    {
+      "titulo": "Imposto de Renda 2026: 4º lote vai liberar R$ 13 milhões em Sergipe; veja como consultar",
+      "fonte": "G1",
+      "data": "2026-08-24T17:54:58+00:00"
+    },
+    {
+      "titulo": "Feirão de Carros reúne mais de mil veículos em Volta Redonda neste fim de semana",
+      "fonte": "G1",
+      "data": "2026-08-24T17:54:15+00:00"
+    },
+    {
+      "titulo": "Ex-detento é morto a tiros após ser atraído para emboscada em São João Batista, no Maranhão",
+      "fonte": "G1",
+      "data": "2026-08-24T17:53:56+00:00"
+    },
+    {
+      "titulo": "Piloto de asa-delta que está em coma foi socorrido pelo filho após cair durante pouso: 'Vai sair ainda melhor'",
+      "fonte": "G1",
+      "data": "2026-08-24T17:52:55+00:00"
+    },
+    {
+      "titulo": "TRE-SP manda Derrite tirar do ar vídeo em que acusa Haddad de comprar droga com dinheiro público em SP",
+      "fonte": "G1",
+      "data": "2026-08-24T17:52:30+00:00"
+    },
+    {
+      "titulo": "Polícia do DF investiga morte de veterinária atacada por cão do Senado como acidente de trabalho",
+      "fonte": "Folha",
+      "data": "2026-08-24T17:52:00+00:00"
+    },
+    {
+      "titulo": "Lula associa fim da escala 6x1 a tempo com família em meio pressão sobre o Congresso",
+      "fonte": "Folha",
+      "data": "2026-08-24T17:50:00+00:00"
+    },
+    {
+      "titulo": "Neymar bebe toda água da garrafa do goleiro Walter e momento viraliza; veja",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-24T17:45:02+00:00"
+    },
+    {
+      "titulo": "Caiado: mobilidade social melhorará a partir de investimentos na educação",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-24T17:43:37+00:00"
+    },
+    {
+      "titulo": "Hobossexual: quem são as pessoas que trocam afeto por um teto para morar? Entenda",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-24T17:43:08+00:00"
+    },
+    {
+      "titulo": "Tarcísio deixa eleições de 2030 em aberto e declara: “O tempo vai dizer”",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-24T17:42:55+00:00"
+    },
+    {
+      "titulo": "Dona da Estácio confirma conversas com a Afya sobre potencial combinação de negócios em educação",
+      "fonte": "Folha",
+      "data": "2026-08-24T17:42:00+00:00"
+    },
+    {
+      "titulo": "Lito Sousa: como é o tratamento home care da doença de Creutzfeldt-Jakob?",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-24T17:34:01+00:00"
+    },
+    {
+      "titulo": "Safra de cacau na África Ocidental deve recuar 10% em 2026/27",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-24T17:32:55+00:00"
+    },
+    {
+      "titulo": "Vídeo: piloto de asa-delta cai em cima de carro no RS",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-24T17:30:23+00:00"
     },
     {
       "titulo": "Michelle fará lives semanais ao lado de Bia Kicis até as eleições",
@@ -16,90 +96,10 @@
       "data": "2026-08-24T17:30:00+00:00"
     },
     {
-      "titulo": "Preso suspeito de esfaquear homem que tentou impedir uso de drogas próximo a crianças em São Luís",
-      "fonte": "G1",
-      "data": "2026-08-24T17:28:41+00:00"
-    },
-    {
       "titulo": "Blogueirinha terá quadro no Estrelas da Casa para testar sintonia dos participantes",
       "fonte": "Folha",
       "data": "2026-08-24T17:27:00+00:00"
-    },
-    {
-      "titulo": "Colar de R$ 2 milhões dado por Buzeira a Neymar levou polícia a investigar rede de receptação de alianças roubadas em SP",
-      "fonte": "G1",
-      "data": "2026-08-24T17:25:58+00:00"
-    },
-    {
-      "titulo": "Empresário que morreu com as duas filhas em acidente na BR-414 era cuidadoso, diz família: 'Amava demais elas'",
-      "fonte": "G1",
-      "data": "2026-08-24T17:23:01+00:00"
-    },
-    {
-      "titulo": "Presidente da Colômbia manda deportar migrantes em situação irregular",
-      "fonte": "Folha",
-      "data": "2026-08-24T17:23:00+00:00"
-    },
-    {
-      "titulo": "PMs são presos em flagrante com drogas em casa e em viaturas em Porto Alegre",
-      "fonte": "G1",
-      "data": "2026-08-24T17:22:42+00:00"
-    },
-    {
-      "titulo": "Celular continua funcionando após ficar 24 horas submerso no Lago de Palmas; veja como foi o resgate",
-      "fonte": "G1",
-      "data": "2026-08-24T17:19:58+00:00"
-    },
-    {
-      "titulo": "Elmano propõe projeto focado em cidades violentas do Ceará: 'Evitar aumento de jovens no mundo do crime'",
-      "fonte": "G1",
-      "data": "2026-08-24T17:19:47+00:00"
-    },
-    {
-      "titulo": "Trump pede a líderes mundiais para cortar relações com Irã, diz secretário",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-24T17:17:02+00:00"
-    },
-    {
-      "titulo": "Larissa Manoela abandona cinebiografia de Carmen Miranda",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-24T17:15:10+00:00"
-    },
-    {
-      "titulo": "Uma janela para a realidade",
-      "fonte": "Folha",
-      "data": "2026-08-24T17:11:00+00:00"
-    },
-    {
-      "titulo": "Criança abraça Neymar antes de jogo do Santos e cena emociona; assista",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-24T17:03:08+00:00"
-    },
-    {
-      "titulo": "Geração de empregos na citricultura cresce 4,2% na safra 2025/26",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-24T17:02:09+00:00"
-    },
-    {
-      "titulo": "Campanha diz que Zema faltou ao debate para se preparar para entrevista do Jornal Nacional",
-      "fonte": "Folha",
-      "data": "2026-08-24T17:00:00+00:00"
-    },
-    {
-      "titulo": "Até 100 mil satélites no espaço é um nível suportável para astronomia, diz cientista",
-      "fonte": "Folha",
-      "data": "2026-08-24T17:00:00+00:00"
-    },
-    {
-      "titulo": "Lula telefona a Erdogan, debate cooperação em defesa e confirma ida à COP31",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-24T16:54:44+00:00"
-    },
-    {
-      "titulo": "Ataque de torcida organizada em dia de Ba-Vi termina com um morto em Salvador",
-      "fonte": "Folha",
-      "data": "2026-08-24T16:52:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-24T17:35:20.455741+00:00"
+  "atualizado_em": "2026-08-24T18:02:26.304198+00:00"
 }
