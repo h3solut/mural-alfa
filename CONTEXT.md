@@ -51,6 +51,75 @@ Sidebar fixa à esquerda (logo + indicadores empilhados + relógio) +
 área principal à direita (vídeo no topo, faixa de ações, faixa de
 notícias, nessa ordem de cima pra baixo).
 
+## Indicador de "última atualização" (Dólar, Euro, Bitcoin, Soja, Milho, Boi Gordo)
+
+Adicionado em 25/08/2026, depois de um print do mural mostrar Dólar e
+Euro travados em "--" enquanto os outros indicadores (inclusive
+Bitcoin, também busca client-side) funcionavam normalmente. Investigado
+na hora: a URL usada em `atualizarCambio()` bate exatamente com a
+documentação oficial da AwesomeAPI, sem sinal de mudança de formato —
+mais provável foi instabilidade pontual do lado deles (serviço grátis,
+sem SLA). Não deu pra confirmar ao vivo qual foi a causa exata.
+
+Em vez de deixar o indicador "sumir" (mostrar "--") quando uma busca
+falha, os 6 indicadores acima agora mantêm o último valor válido na
+tela e mostram, discretamente embaixo do valor, há quanto tempo esse
+dado é o mais recente: "agora" / "há Xmin" / "há Xh". Se passar do
+tempo considerado normal sem uma atualização nova, esse texto fica
+âmbar como aviso sutil (sem esconder o valor).
+
+Implementação em `script.js`:
+- `ultimaAtualizacao` — objeto `id do indicador → Date` do último valor
+  válido recebido.
+- `LIMITE_ALERTA_MIN` — limite em minutos por indicador antes de virar
+  âmbar: 5 pra Dólar/Euro/Bitcoin (atualizam a cada 1 min), 120 pra
+  Soja/Milho/Boi Gordo (o `commodities.json` só muda de hora em hora
+  via GitHub Action).
+- `preencherIndicador()` já grava o timestamp toda vez que recebe um
+  valor válido (não precisou mudar nada nas funções de busca em si).
+- `atualizarTextoHorario()` formata o texto e aplica/remove a classe
+  `.stale`.
+- Um `setInterval` de 30s só recalcula os textos "há Xmin" de tudo,
+  sem depender de nenhuma busca nova — é só o relógio andando.
+
+Markup: `<span class="updated-at"></span>` dentro de cada `.indicator`
+correspondente, em `index.html`. Estilo em `.indicator .updated-at` /
+`.indicator .updated-at.stale`, no `style.css`.
+
+Testado localmente (servidor estático + Playwright, simulando sucesso
+e um cenário de atraso forçado) antes de subir — layout não quebrou e
+o aviso âmbar aparece corretamente.
+
+## Causa raiz do "--" em Dólar/Euro: cota da AwesomeAPI estourada (resolvido em 25/08/2026)
+
+Depois do indicador acima entrar no ar, ficou claro que Dólar/Euro não
+tinham sucesso **nenhuma vez** desde o carregamento da página (span de
+horário ficava em branco, nem "agora" nem âmbar) — não era mais um
+blip pontual. Hugo abriu a URL da API direto no navegador
+(`economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL`) e confirmou:
+
+```json
+{"status":"429","code":"QuotaExceeded","message":"Quota exceeded. To continue using the service, please see https://docs.awesomeapi.com.br/aviso-sobre-limites"}
+```
+
+Chamadas sem chave de API caem numa cota compartilhada não-autenticada
+que estourava com facilidade. Solução: criar conta gratuita em
+awesomeapi.com.br e usar a API key (100 mil requisições/mês, bem acima
+do necessário) via parâmetro `?token=` na URL.
+
+**Decisão de arquitetura tomada:** a chave foi colocada direto em
+`CONFIG.awesomeApiToken` no `script.js` (client-side, visível no
+repositório público) em vez de virar mais um robô do GitHub Actions
+com a chave em Secret (o padrão usado pra soja/milho/boi/ações).
+Trade-off consciente: mais simples de implementar e mantém a
+atualização a cada 1 min (em vez de virar arquivo estático atualizado
+de tempos em tempos), mas a chave fica exposta — qualquer um que veja
+o repo pode usá-la. Como é uma chave gratuita, sem acesso a nada além
+de consulta de cotação, e sem opção de restringir por domínio (a
+AwesomeAPI não oferece isso), o risco foi considerado baixo: se vazar
+e for abusada, é só gerar uma chave nova no painel da AwesomeAPI e
+substituir o valor em `CONFIG.awesomeApiToken`.
+
 ## Chaves de API necessárias (GitHub Secrets)
 
 Configuradas em Settings → Secrets and variables → Actions:
@@ -205,7 +274,10 @@ precisar de mais nenhuma mudança de código.
 **O que fica no repositório:** `teste-video/` e `teste-video-hls/`
 continuam publicados (não foram removidos), como referência caso
 quisermos retomar alguma dessas linhas de investigação no futuro — mas
-nenhuma das duas foi adotada como versão principal.
+nenhuma das duas foi adotada como versão principal. O Action
+`update-teste-video-hls.yml` foi **desativado manualmente** (Actions →
+"..." → Disable workflow) pra não ficar rodando/falhando a cada 5 min
+à toa — reativar só se essa linha de investigação for retomada.
 
 **Atualização (13/08/2026):** mesmo não tendo resolvido o travamento,
 o "vídeo mudo por padrão" foi adotado na versão principal (raiz) por

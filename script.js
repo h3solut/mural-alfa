@@ -8,6 +8,14 @@ const CONFIG = {
   // O ID de verdade é buscado dinamicamente em data/youtube-live.json.
   youtubeVideoIdFallback: "1GelCtns9Pg",
 
+  // Chave gratuita da AwesomeAPI (câmbio), criada em awesomeapi.com.br.
+  // Sem isso, as chamadas caem numa cota compartilhada não-autenticada
+  // que estourava com facilidade (erro 429 QuotaExceeded), deixando
+  // Dólar/Euro travados em "--". Se precisar trocar por uma nova chave
+  // (ex: essa vazar ou for revogada), é só gerar outra no painel da
+  // AwesomeAPI e substituir o valor abaixo.
+  awesomeApiToken: "sk_NzB5KmrpYcSUY6Z7-JJyGiivSnLrV7k5tc6YLD2wjBeX3cxGBD7NE7tnAK_9R",
+
   // Coordenadas usadas na previsão do tempo (Jataí-GO)
   weather: { lat: -17.8825, lon: -51.7139, nome: "Jataí-GO" },
 
@@ -50,7 +58,9 @@ async function atualizarBitcoin() {
 /* ---------- Dólar / Euro (AwesomeAPI) ---------- */
 async function atualizarCambio() {
   try {
-    const res = await fetch("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL");
+    const res = await fetch(
+      `https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL?token=${CONFIG.awesomeApiToken}`
+    );
     const data = await res.json();
     preencherIndicador("ind-usd", `R$ ${Number(data.USDBRL.bid).toFixed(2)}`, Number(data.USDBRL.pctChange));
     preencherIndicador("ind-eur", `R$ ${Number(data.EURBRL.bid).toFixed(2)}`, Number(data.EURBRL.pctChange));
