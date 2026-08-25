@@ -1,44 +1,94 @@
 {
   "itens": [
     {
-      "titulo": "Amigas criam motogrupo feminino no litoral de SP: 'Lugar de mulher é nas duas rodas'",
-      "fonte": "G1",
-      "data": "2026-08-25T08:19:14+00:00"
+      "titulo": "Paróquia de Imbituva faz missa coletiva para vítimas de acidente na BR-373",
+      "fonte": "Folha",
+      "data": "2026-08-25T09:05:00+00:00"
     },
     {
-      "titulo": "Mulher baleada pelo ex fica tetraplégica e decide estudar perícia criminal: 'Última voz da vítima'",
+      "titulo": "Festa do Peão de Barretos 2026: veja a programação desta terça-feira, 25 de agosto",
       "fonte": "G1",
-      "data": "2026-08-25T08:18:08+00:00"
+      "data": "2026-08-25T09:03:15+00:00"
     },
     {
-      "titulo": "Homem asfixiado e morto na rua estava em surto pela perda do pai",
+      "titulo": "Duas novas espécies de escorpiões descobertas na Amazônia são de Roraima",
       "fonte": "G1",
-      "data": "2026-08-25T08:17:48+00:00"
+      "data": "2026-08-25T09:00:42+00:00"
     },
     {
-      "titulo": "Torresmo em formato de rocambole é tradição em Juiz de Fora há mais de três décadas",
+      "titulo": "Como o Talebã governa o Afeganistão e impede até divórcio de mulher que acusa marido de agressão",
       "fonte": "G1",
-      "data": "2026-08-25T08:04:16+00:00"
+      "data": "2026-08-25T09:00:36+00:00"
     },
     {
-      "titulo": "Pintor que transforma fachadas de casas de pessoas carentes se une a grafiteiro para atender pedido de moradora: 'Faz um botão de rosa?'",
+      "titulo": "Diarista sofre cortes no rosto e pescoço por linha de pipa ao andar de moto no AC: 'Nasci de novo'",
       "fonte": "G1",
-      "data": "2026-08-25T08:04:15+00:00"
+      "data": "2026-08-25T09:00:33+00:00"
     },
     {
-      "titulo": "Os documentos que mostram como Juscelino Kubitschek esteve na mira dos EUA durante a ditadura",
+      "titulo": "Entre crescimento e desigualdades: as promessas dos candidatos ao governo de MS ligadas ao setor da celulose",
       "fonte": "G1",
-      "data": "2026-08-25T08:04:11+00:00"
+      "data": "2026-08-25T09:00:31+00:00"
     },
     {
-      "titulo": "Mortes de jogador de futebol e irmã em acidente causam comoção em SP; corpos serão enterrados nesta terça",
+      "titulo": "Pai percorre 5 km empurrando filho com deficiência em bicicleta adaptada e emociona público; assista",
       "fonte": "G1",
-      "data": "2026-08-25T08:03:47+00:00"
+      "data": "2026-08-25T09:00:27+00:00"
     },
     {
-      "titulo": "Diretora que teria obrigado aluno a beber a própria urina em MG pode responder por maus-tratos, aponta MP",
+      "titulo": "João Donato é revivido em tributo que reproduz a sofisticação da obra legada pelo compositor, arranjador e pianista",
       "fonte": "G1",
-      "data": "2026-08-25T08:03:46+00:00"
+      "data": "2026-08-25T09:00:22+00:00"
+    },
+    {
+      "titulo": "Servidor da Prefeitura de Manaus é denunciado por cobrar para facilitar acesso ao Bolsa Família: ‘R$ 180, é só um filho'",
+      "fonte": "G1",
+      "data": "2026-08-25T09:00:16+00:00"
+    },
+    {
+      "titulo": "Cruzeiro e Atlético-MG se enfrentam na Copa do Brasil para “salvar ano”",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-25T09:00:16+00:00"
+    },
+    {
+      "titulo": "Vida é reduzida a enterros e sobrevivência no estado de La Guaira após terremotos",
+      "fonte": "Folha",
+      "data": "2026-08-25T09:00:00+00:00"
+    },
+    {
+      "titulo": "Recuperação da Braskem pode afetar fundos, COEs e debêntures",
+      "fonte": "Folha",
+      "data": "2026-08-25T09:00:00+00:00"
+    },
+    {
+      "titulo": "Discord negocia TAC com governo federal para adequar plataforma às regras do Brasil",
+      "fonte": "Folha",
+      "data": "2026-08-25T09:00:00+00:00"
+    },
+    {
+      "titulo": "Auditoria do TCU aponta risco de colapso em ponte e atraso em obras de ferrovia na Bahia",
+      "fonte": "Folha",
+      "data": "2026-08-25T09:00:00+00:00"
+    },
+    {
+      "titulo": "Tarcísio quer expandir modelo criado na cracolândia para o interior de SP",
+      "fonte": "Folha",
+      "data": "2026-08-25T09:00:00+00:00"
+    },
+    {
+      "titulo": "Só vi fantasmas duas vezes na vida, e um deles foi o de Guimarães Rosa",
+      "fonte": "Folha",
+      "data": "2026-08-25T09:00:00+00:00"
+    },
+    {
+      "titulo": "Esqueleto do século 14 pode ser o da 1ª vítima de trabuco, uma máquina de guerra",
+      "fonte": "Folha",
+      "data": "2026-08-25T09:00:00+00:00"
+    },
+    {
+      "titulo": "Juan Valdez, a “Starbucks latina”, acelera expansão no Brasil",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-25T08:45:01+00:00"
     },
     {
       "titulo": "Atlético-GO x Botafogo-SP: horário e onde assistir ao jogo da Série B",
@@ -49,57 +99,7 @@
       "titulo": "“Canetas do Paraguai” têm conteúdo incerto e podem causas doenças",
       "fonte": "CNN Brasil",
       "data": "2026-08-25T08:00:37+00:00"
-    },
-    {
-      "titulo": "Mega-Sena 3049: sorteio desta terça-feira (25) pode pagar R$ 3,5 milhões",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-25T08:00:37+00:00"
-    },
-    {
-      "titulo": "Com clássico na Copa do Brasil, veja onde assistir os jogos desta terça",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-25T08:00:29+00:00"
-    },
-    {
-      "titulo": "Aneel aprova alta média de 9,58% para consumidores da Neoenergia Elektro",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-25T08:00:15+00:00"
-    },
-    {
-      "titulo": "FriGol diversifica exportações e busca reduzir dependência da China",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-25T08:00:12+00:00"
-    },
-    {
-      "titulo": "Inter Dividendos é destaque no ranking dos fundos de ações mais rentáveis",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-25T08:00:06+00:00"
-    },
-    {
-      "titulo": "Podcast discute papel de debates após ausência de Lula e Flávio Bolsonaro na Band",
-      "fonte": "Folha",
-      "data": "2026-08-25T08:00:00+00:00"
-    },
-    {
-      "titulo": "Calor trasnforma dia a dia em comuna símbolo do aquecimento climático na Europa",
-      "fonte": "Folha",
-      "data": "2026-08-25T08:00:00+00:00"
-    },
-    {
-      "titulo": "Terça (25) pode ter chuva fraca à tarde e temperatura máxima de 20°C em São Paulo",
-      "fonte": "Folha",
-      "data": "2026-08-25T08:00:00+00:00"
-    },
-    {
-      "titulo": "Piloto brasileiro escreve nome de Lito Sousa no céu do Texas",
-      "fonte": "Folha",
-      "data": "2026-08-25T07:54:00+00:00"
-    },
-    {
-      "titulo": "Valencia x Betis: horário e onde assistir ao jogo do Campeonato Espanhol",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-25T07:45:01+00:00"
     }
   ],
-  "atualizado_em": "2026-08-25T08:39:04.040854+00:00"
+  "atualizado_em": "2026-08-25T09:19:13.531512+00:00"
 }
