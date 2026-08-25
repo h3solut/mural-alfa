@@ -1,6 +1,11 @@
 {
   "itens": [
     {
+      "titulo": "Série do Jornal da Globo fala com trabalhadores autônomos de SP para entender eleitores independentes",
+      "fonte": "G1",
+      "data": "2026-08-25T05:37:04+00:00"
+    },
+    {
       "titulo": "Ministério Público denuncia Adilsinho e mais três por morte de advogado",
       "fonte": "Folha",
       "data": "2026-08-25T05:06:00+00:00"
@@ -44,11 +49,6 @@
       "titulo": "Calçada que cedeu e engoliu carros em Porto Alegre ainda não tem prazo para reconstrução; entenda",
       "fonte": "G1",
       "data": "2026-08-25T04:00:15+00:00"
-    },
-    {
-      "titulo": "Casas Bahia, Braskem e a onda de recuperações judiciais pelo Brasil - O Assunto #1790",
-      "fonte": "G1",
-      "data": "2026-08-25T03:30:15+00:00"
     },
     {
       "titulo": "Aluguel comercial dispara em 12 meses, enquanto venda de escritórios perde valor real, aponta FipeZap",
@@ -101,5 +101,5 @@
       "data": "2026-08-25T02:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-25T05:15:31.174110+00:00"
+  "atualizado_em": "2026-08-25T05:50:32.707932+00:00"
 }
