@@ -39,8 +39,8 @@
   "eua": [
     {
       "simbolo": "AAPL",
-      "preco": 310.34,
-      "variacao": 0.3200227
+      "preco": 310.35001,
+      "variacao": 0.32325844
     },
     {
       "simbolo": "MSFT",
@@ -68,5 +68,5 @@
       "variacao": -3.83343
     }
   ],
-  "atualizado_em": "2026-08-25T08:08:58.785492+00:00"
+  "atualizado_em": "2026-08-25T09:09:29.134522+00:00"
 }
