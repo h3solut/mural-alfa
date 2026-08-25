@@ -93,6 +93,23 @@ html, body {
 .indicator .value.up::after { content: " ▲"; color: #1E8E3E; font-size: 0.7em; }
 .indicator .value.down::after { content: " ▼"; color: #C5221F; font-size: 0.7em; }
 
+/* "Atualizado há Xmin" — some quando ainda não há valor, fica sutil quando
+   tudo está em dia, e chama atenção (âmbar) se passar do limite esperado
+   sem uma atualização nova (ver LIMITE_ALERTA_MIN no script.js). */
+.indicator .updated-at {
+  font-size: clamp(8px, 0.65vw, 10px);
+  color: var(--cinza-alfa);
+  opacity: 0.7;
+  white-space: nowrap;
+  min-height: 1em;
+}
+
+.indicator .updated-at.stale {
+  color: #C97A00;
+  opacity: 1;
+  font-weight: 600;
+}
+
 .clock {
   font-size: clamp(18px, 1.8vw, 28px);
   font-weight: 700;

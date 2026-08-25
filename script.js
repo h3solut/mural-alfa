@@ -134,7 +134,44 @@ function preencherIndicador(id, texto, variacao) {
   if (typeof variacao === "number" && !isNaN(variacao)) {
     el.classList.add(variacao >= 0 ? "up" : "down");
   }
+  ultimaAtualizacao[id] = new Date();
+  atualizarTextoHorario(id);
 }
+
+/* ---------- "Atualizado há Xmin" ----------
+   Cada indicador mantém o último valor válido na tela mesmo quando a busca
+   falha (o catch de cada função só loga o erro, não apaga o valor antigo).
+   Esse bloco só cuida de mostrar, discretamente, há quanto tempo aquele
+   valor é o mais recente que conseguimos — e de destacar em âmbar se isso
+   passar do tempo considerado normal pra cada tipo de dado. */
+const ultimaAtualizacao = {}; // id do indicador -> Date do último valor válido
+
+const LIMITE_ALERTA_MIN = {
+  "ind-usd": 5, "ind-eur": 5, "ind-btc": 5,       // atualizam a cada 1 min
+  "ind-soja": 120, "ind-milho": 120, "ind-boi": 120 // arquivo só muda de hora em hora
+};
+
+function formatarTempoDecorrido(data) {
+  const minutos = Math.floor((Date.now() - data.getTime()) / 60000);
+  if (minutos < 1) return "agora";
+  if (minutos < 60) return `há ${minutos}min`;
+  return `há ${Math.floor(minutos / 60)}h`;
+}
+
+function atualizarTextoHorario(id) {
+  const data = ultimaAtualizacao[id];
+  const el = document.querySelector(`#${id} .updated-at`);
+  if (!data || !el) return;
+  el.textContent = formatarTempoDecorrido(data);
+  const minutosDecorridos = (Date.now() - data.getTime()) / 60000;
+  el.classList.toggle("stale", minutosDecorridos >= (LIMITE_ALERTA_MIN[id] || 10));
+}
+
+// Recalcula o texto "há Xmin" de tudo periodicamente, mesmo sem nenhuma
+// busca nova — é só o relógio andando, não depende de sucesso/falha do fetch.
+setInterval(() => {
+  Object.keys(ultimaAtualizacao).forEach(atualizarTextoHorario);
+}, 30 * 1000);
 
 /* ---------- Faixa de ações (B3 + EUA, arquivo estático via GitHub Action) ---------- */
 function formatarAcao(item, moeda) {
