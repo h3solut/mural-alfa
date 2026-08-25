@@ -1,6 +1,21 @@
 {
   "itens": [
     {
+      "titulo": "Produção de imagens de Nossa Senhora triplica antes da Festa da Padroeira; velas e hóstias têm alta na procura",
+      "fonte": "G1",
+      "data": "2026-08-25T04:00:21+00:00"
+    },
+    {
+      "titulo": "Calçada que cedeu e engoliu carros em Porto Alegre ainda não tem prazo para reconstrução; entenda",
+      "fonte": "G1",
+      "data": "2026-08-25T04:00:15+00:00"
+    },
+    {
+      "titulo": "Casas Bahia, Braskem e a onda de recuperações judiciais pelo Brasil - O Assunto #1790",
+      "fonte": "G1",
+      "data": "2026-08-25T03:30:15+00:00"
+    },
+    {
       "titulo": "Aluguel comercial dispara em 12 meses, enquanto venda de escritórios perde valor real, aponta FipeZap",
       "fonte": "Folha",
       "data": "2026-08-25T03:10:00+00:00"
@@ -34,21 +49,6 @@
       "titulo": "STF faz audiência pública sobre combate a facções criminosas; Lei Antifacção é questionada na Corte",
       "fonte": "G1",
       "data": "2026-08-25T03:01:16+00:00"
-    },
-    {
-      "titulo": "Eclipse lunar 'quase' total vai encobrir a Lua de quinta para sexta; fenômeno poderá ser visto em todo o Brasil",
-      "fonte": "G1",
-      "data": "2026-08-25T03:01:13+00:00"
-    },
-    {
-      "titulo": "Deepfake nas eleições: entenda o que é e por que pode enganar o eleitor",
-      "fonte": "G1",
-      "data": "2026-08-25T03:01:09+00:00"
-    },
-    {
-      "titulo": "Ronaldo Caiado participa de entrevista da Globo nesta terça-feira; saiba como assistir",
-      "fonte": "G1",
-      "data": "2026-08-25T03:01:08+00:00"
     },
     {
       "titulo": "Técnico do Athletico-PR, Odair Hellmann se machuca na comemoração de gol",
@@ -101,5 +101,5 @@
       "data": "2026-08-25T02:00:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-25T03:28:50.049473+00:00"
+  "atualizado_em": "2026-08-25T04:20:47.489786+00:00"
 }
