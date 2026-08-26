@@ -1,6 +1,61 @@
 {
   "itens": [
     {
+      "titulo": "Ônibus escolar cai em ribanceira e deixa duas crianças feridas em SC",
+      "fonte": "Folha",
+      "data": "2026-08-26T04:31:00+00:00"
+    },
+    {
+      "titulo": "'A História do Som' e sátira de 'Black Mirror': o que ver na TV e no streaming nesta quarta-feira",
+      "fonte": "Folha",
+      "data": "2026-08-26T04:21:00+00:00"
+    },
+    {
+      "titulo": "Incêndio em hospital no Paquistão deixa ao menos 15 bebês mortos, diz TV local",
+      "fonte": "G1",
+      "data": "2026-08-26T04:10:14+00:00"
+    },
+    {
+      "titulo": "Exame toxicológico será obrigatório para tirar CNH no RS a partir de setembro",
+      "fonte": "G1",
+      "data": "2026-08-26T04:02:32+00:00"
+    },
+    {
+      "titulo": "Zelador atacado com paulada por morador de rua há 15 dias tem melhora, mas segue em UTI no DF",
+      "fonte": "G1",
+      "data": "2026-08-26T04:00:21+00:00"
+    },
+    {
+      "titulo": "Auditor-fiscal acusado de receber propina em esquema de importação no aeroporto de Fortaleza tentou jogar celular no sanitário durante prisão",
+      "fonte": "G1",
+      "data": "2026-08-26T04:00:19+00:00"
+    },
+    {
+      "titulo": "Conselho de Odontologia do DF cassa registro de dentista acusado de estuprar oito pacientes",
+      "fonte": "G1",
+      "data": "2026-08-26T04:00:18+00:00"
+    },
+    {
+      "titulo": "Justiça mantém suspensão de leilão de prédio em Botafogo alvo de desapropriação da Prefeitura do Rio",
+      "fonte": "G1",
+      "data": "2026-08-26T04:00:16+00:00"
+    },
+    {
+      "titulo": "Telas na primeira infância prejudicam o desenvolvimento cerebral",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-26T03:45:59+00:00"
+    },
+    {
+      "titulo": "Bracks vê lance ‘maldoso’ de Kaio Jorge em Ruan e levará caso ao STJD",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-26T03:41:59+00:00"
+    },
+    {
+      "titulo": "Quaest: João Azevedo e Veneziano Vital lideram disputa ao Senado na PB",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-26T03:38:25+00:00"
+    },
+    {
       "titulo": "As duas frentes da guerra comercial de Trump - O Assunto #1791",
       "fonte": "G1",
       "data": "2026-08-26T03:30:15+00:00"
@@ -21,39 +76,9 @@
       "data": "2026-08-26T03:05:00+00:00"
     },
     {
-      "titulo": "1ª Conferência de Aleitamento Materno é realizada em Macaé",
-      "fonte": "G1",
-      "data": "2026-08-26T03:04:17+00:00"
-    },
-    {
-      "titulo": "Alunos de Rio das Ostras ganham nova unidade escolar em Rocha Leão",
-      "fonte": "G1",
-      "data": "2026-08-26T03:04:16+00:00"
-    },
-    {
-      "titulo": "Revestimentos amadeirados seguem entre os favoritos dos projetos residenciais",
-      "fonte": "G1",
-      "data": "2026-08-26T03:03:18+00:00"
-    },
-    {
-      "titulo": "Montes Claros inicia confirmação de agendamento de vacinas pelo WhatsApp",
-      "fonte": "G1",
-      "data": "2026-08-26T03:03:16+00:00"
-    },
-    {
-      "titulo": "Macaé amplia atendimento e canais de proteção animal",
-      "fonte": "G1",
-      "data": "2026-08-26T03:03:15+00:00"
-    },
-    {
       "titulo": "Barrichello processa Scuderia Bandeiras por saída abrupta na Stock Car",
       "fonte": "CNN Brasil",
       "data": "2026-08-26T03:01:52+00:00"
-    },
-    {
-      "titulo": "Como robôs e perfis falsos tentam influenciar as conversas sobre eleições nas redes sociais?",
-      "fonte": "G1",
-      "data": "2026-08-26T03:01:20+00:00"
     },
     {
       "titulo": "Guto Miguel nas oitavas do Challenger de Kingston: horário e onde assistir",
@@ -74,32 +99,7 @@
       "titulo": "Cruzeiro 1 x 1 Atlético-MG: veja os melhores momentos pela Copa do Brasil",
       "fonte": "CNN Brasil",
       "data": "2026-08-26T02:45:56+00:00"
-    },
-    {
-      "titulo": "Quaest: Eduardo Braga lidera corrida ao Senado no AM",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-26T02:41:55+00:00"
-    },
-    {
-      "titulo": "Quaest: Omar Aziz lidera cenários de 1º e 2º turno ao governo do Amazonas",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-26T02:33:55+00:00"
-    },
-    {
-      "titulo": "Canadá não tem poder de fogo contra os EUA como a China, diz especialista",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-26T02:32:35+00:00"
-    },
-    {
-      "titulo": "TJ julga ação que pode anular novo zoneamento de SP nesta quarta",
-      "fonte": "Folha",
-      "data": "2026-08-26T02:25:00+00:00"
-    },
-    {
-      "titulo": "Diagnóstico tardio dificulta combate ao câncer de cabeça e pescoço",
-      "fonte": "Folha",
-      "data": "2026-08-26T02:11:00+00:00"
     }
   ],
-  "atualizado_em": "2026-08-26T03:51:39.495344+00:00"
+  "atualizado_em": "2026-08-26T04:37:19.274810+00:00"
 }
