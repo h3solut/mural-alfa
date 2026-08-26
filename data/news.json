@@ -1,29 +1,94 @@
 {
   "itens": [
     {
-      "titulo": "Acidente entre duas carretas deixa um ferido e complica trânsito na BR-101, em Linhares",
+      "titulo": "Polícia Federal faz buscas em SP e no DF em operação contra corrupção; Justiça afasta servidor",
       "fonte": "G1",
-      "data": "2026-08-26T11:24:36+00:00"
+      "data": "2026-08-26T11:53:11+00:00"
     },
     {
-      "titulo": "Passageiros embarcam para Madri dois dias após pouso de emergência em Natal",
+      "titulo": "Caso Rai: 4 PMs são condenados por tortura de torcedor espancado em banheiro de estádio em Porto Alegre",
       "fonte": "G1",
-      "data": "2026-08-26T11:23:27+00:00"
+      "data": "2026-08-26T11:52:59+00:00"
     },
     {
-      "titulo": "Escultor é condenado a 87 anos de prisão por matar quatro jovens e ocultar corpos em Arapiraca",
+      "titulo": "Três meses após ser encontrado morto na Argentina, viúva recebe corpo de paranaense que desapareceu enquanto ela fazia compras no Paraguai",
       "fonte": "G1",
-      "data": "2026-08-26T11:21:14+00:00"
+      "data": "2026-08-26T11:51:31+00:00"
     },
     {
-      "titulo": "Teresina registra menor temperatura do ano, com 17,9°C durante a madrugada",
-      "fonte": "G1",
-      "data": "2026-08-26T11:20:42+00:00"
+      "titulo": "OSX, de Eike Batista, tem aprovação da maioria dos credores para plano de recuperação judicial",
+      "fonte": "Folha",
+      "data": "2026-08-26T11:50:00+00:00"
     },
     {
-      "titulo": "Incêndio destrói mais de 1,4 mil hectares na região perto do Parque Estadual da Serra Dourada",
+      "titulo": "TV Integração de Divinópolis ao vivo: assista aos telejornais",
       "fonte": "G1",
-      "data": "2026-08-26T11:18:07+00:00"
+      "data": "2026-08-26T11:49:47+00:00"
+    },
+    {
+      "titulo": "TV Integração de Juiz de Fora ao vivo: assista aos telejornais",
+      "fonte": "G1",
+      "data": "2026-08-26T11:49:33+00:00"
+    },
+    {
+      "titulo": "VÍDEOS: Bom Dia DF de quarta-feira, 26 de agosto de 2026",
+      "fonte": "G1",
+      "data": "2026-08-26T11:49:25+00:00"
+    },
+    {
+      "titulo": "TV Integração de Uberaba ao vivo: assista aos telejornais",
+      "fonte": "G1",
+      "data": "2026-08-26T11:49:19+00:00"
+    },
+    {
+      "titulo": "TV Integração de Uberlândia ao vivo: assista aos telejornais",
+      "fonte": "G1",
+      "data": "2026-08-26T11:49:05+00:00"
+    },
+    {
+      "titulo": "'Hablando' o que pensa, Anitta foi o único reality na estreia de Estrelas da Casa",
+      "fonte": "Folha",
+      "data": "2026-08-26T11:46:00+00:00"
+    },
+    {
+      "titulo": "Flopou? Francês volta ao Leipzig após passagens frustrantes por gigantes",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-26T11:41:18+00:00"
+    },
+    {
+      "titulo": "Lyon x Fenerbahçe: horário e onde assistir aos playoffs da Champions League",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-26T11:39:53+00:00"
+    },
+    {
+      "titulo": "Entenda fala de Mendonça sobre salário do STF dar “condição média” de vida",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-26T11:39:16+00:00"
+    },
+    {
+      "titulo": "Motorista de app é preso suspeito de estuprar passageira no Guarujá (SP)",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-26T11:38:23+00:00"
+    },
+    {
+      "titulo": "Veja o momento em que inundação repentina atinge o Nepal",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-26T11:37:07+00:00"
+    },
+    {
+      "titulo": "Klebber Toledo diz que não “teve identificação imediata” com Camila Queiroz",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-26T11:32:18+00:00"
+    },
+    {
+      "titulo": "Chuvas fortes e risco de raios atingem três regiões do Brasil nesta quarta",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-26T11:30:32+00:00"
+    },
+    {
+      "titulo": "Irã amplia capacidades de defesa após ataques de EUA e Israel",
+      "fonte": "CNN Brasil",
+      "data": "2026-08-26T11:28:31+00:00"
     },
     {
       "titulo": "Casas Bahia faz novo leilão de eletrodomésticos; lances vão até 4 de setembro",
@@ -31,75 +96,10 @@
       "data": "2026-08-26T11:18:00+00:00"
     },
     {
-      "titulo": "Operação contra organização criminosa termina com suspeito preso e dois baleados em Rosário",
-      "fonte": "G1",
-      "data": "2026-08-26T11:14:41+00:00"
-    },
-    {
-      "titulo": "Bem-Estar #365- Flacidez no rosto e queda de cabelo por emagrecimento rápido: o que fazer?",
-      "fonte": "G1",
-      "data": "2026-08-26T11:14:13+00:00"
-    },
-    {
-      "titulo": "Mega-Sena 3049: 9 apostas do interior de PE acertam números, confira resultado",
-      "fonte": "G1",
-      "data": "2026-08-26T11:13:50+00:00"
-    },
-    {
       "titulo": "Justiça libera R$ 2,7 bi para pagar atrasados do INSS; veja quem recebe",
       "fonte": "Folha",
       "data": "2026-08-26T11:04:00+00:00"
-    },
-    {
-      "titulo": "Inundações no Nepal matam ao menos 9, e há quase 400 desaparecidos",
-      "fonte": "Folha",
-      "data": "2026-08-26T11:02:00+00:00"
-    },
-    {
-      "titulo": "Cantoria de baleias envolve prática, imitação e ensaios",
-      "fonte": "Folha",
-      "data": "2026-08-26T11:00:00+00:00"
-    },
-    {
-      "titulo": "Mata atlântica é a primeira linha de defesa climática contra o El Niño",
-      "fonte": "Folha",
-      "data": "2026-08-26T11:00:00+00:00"
-    },
-    {
-      "titulo": "Bombeiros, terapeutas e agricultores: quais animais trabalham em parceria com os humanos",
-      "fonte": "Folha",
-      "data": "2026-08-26T11:00:00+00:00"
-    },
-    {
-      "titulo": "Tire suas dúvidas sobre a multa aplicada pela ANPD ao TikTok no país",
-      "fonte": "Folha",
-      "data": "2026-08-26T11:00:00+00:00"
-    },
-    {
-      "titulo": "Morcegos são cegos? Cães veem em preto e branco? Saiba como bichos enxergam",
-      "fonte": "Folha",
-      "data": "2026-08-26T11:00:00+00:00"
-    },
-    {
-      "titulo": "Manchester City anuncia o meia Bouaddi, destaque de Marrocos na Copa",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-26T10:59:39+00:00"
-    },
-    {
-      "titulo": "Presidente das Ligas Europeias diz que Infantino “não tem futuro” na Fifa",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-26T10:59:01+00:00"
-    },
-    {
-      "titulo": "Novo “Homem-Aranha” supera “Vingadores: Ultimato” no Brasil",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-26T10:55:18+00:00"
-    },
-    {
-      "titulo": "Anitta usa look grifado em estreia como conselheira do “Estrelas da Casa”",
-      "fonte": "CNN Brasil",
-      "data": "2026-08-26T10:54:56+00:00"
     }
   ],
-  "atualizado_em": "2026-08-26T11:27:19.668797+00:00"
+  "atualizado_em": "2026-08-26T12:00:45.019870+00:00"
 }
