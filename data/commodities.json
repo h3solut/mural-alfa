@@ -6,15 +6,15 @@
     "data_referencia": "03/09/2026"
   },
   "boi_gordo": {
-    "valor": "R$ 347,60",
+    "valor": "R$ 347,70",
     "unidade": "R$/@",
-    "variacao": 0.06,
-    "data_referencia": "03/09/2026"
+    "variacao": 0.03,
+    "data_referencia": "04/09/2026"
   },
   "milho": {
-    "valor": "R$ 71,06",
+    "valor": "R$ 70,93",
     "unidade": "R$/saca",
-    "variacao": 0.17,
-    "data_referencia": "03/09/2026"
+    "variacao": -0.18,
+    "data_referencia": "04/09/2026"
   }
 }
