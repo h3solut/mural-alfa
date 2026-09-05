@@ -1,9 +1,9 @@
 {
   "soja": {
-    "valor": "R$ 151,68",
+    "valor": "R$ 152,10",
     "unidade": "R$/saca",
-    "variacao": -0.61,
-    "data_referencia": "03/09/2026"
+    "variacao": 0.28,
+    "data_referencia": "04/09/2026"
   },
   "boi_gordo": {
     "valor": "R$ 347,70",
