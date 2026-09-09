@@ -1,15 +1,15 @@
 {
   "soja": {
-    "valor": "R$ 152,10",
+    "valor": "R$ 152,23",
     "unidade": "R$/saca",
-    "variacao": 0.28,
-    "data_referencia": "04/09/2026"
+    "variacao": 0.09,
+    "data_referencia": "08/09/2026"
   },
   "boi_gordo": {
-    "valor": "R$ 347,70",
+    "valor": "R$ 348,35",
     "unidade": "R$/@",
-    "variacao": 0.03,
-    "data_referencia": "04/09/2026"
+    "variacao": 0.19,
+    "data_referencia": "08/09/2026"
   },
   "milho": {
     "valor": "R$ 70,93",
