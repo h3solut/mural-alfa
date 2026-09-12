@@ -39,8 +39,8 @@
   "eua": [
     {
       "simbolo": "AAPL",
-      "preco": 332.23001,
-      "variacao": 1.73317
+      "preco": 332.26999,
+      "variacao": 1.74541
     },
     {
       "simbolo": "MSFT",
@@ -59,14 +59,14 @@
     },
     {
       "simbolo": "NVDA",
-      "preco": 218.2,
-      "variacao": -0.07327517
+      "preco": 218.28999,
+      "variacao": -0.032060507
     },
     {
       "simbolo": "TSLA",
-      "preco": 365.47,
-      "variacao": 0.52536134
+      "preco": 365.44,
+      "variacao": 0.51710994
     }
   ],
-  "atualizado_em": "2026-09-12T05:30:45.945692+00:00"
+  "atualizado_em": "2026-09-12T10:25:04.652480+00:00"
 }
