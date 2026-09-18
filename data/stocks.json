@@ -2,71 +2,71 @@
   "br": [
     {
       "simbolo": "PETR4",
-      "preco": 48.45,
-      "variacao": -0.33
+      "preco": 48.5,
+      "variacao": -0.23
     },
     {
       "simbolo": "VALE3",
-      "preco": 73.18,
-      "variacao": -1.78
+      "preco": 73.37,
+      "variacao": -1.53
     },
     {
       "simbolo": "ITUB4",
-      "preco": 42.36,
-      "variacao": -0.52
+      "preco": 42.33,
+      "variacao": -0.59
     },
     {
       "simbolo": "BBDC4",
-      "preco": 17.94,
-      "variacao": -1.16
+      "preco": 17.99,
+      "variacao": -0.88
     },
     {
       "simbolo": "ABEV3",
-      "preco": 15.4,
-      "variacao": -0.96
+      "preco": 15.38,
+      "variacao": -1.09
     },
     {
       "simbolo": "B3SA3",
-      "preco": 17.66,
-      "variacao": 0.34
+      "preco": 17.59,
+      "variacao": -0.06
     },
     {
       "simbolo": "IBOVESPA",
-      "preco": 185278.84,
-      "variacao": -0.38
+      "preco": 185229.17,
+      "variacao": -0.41
     }
   ],
   "eua": [
     {
       "simbolo": "AAPL",
-      "preco": 335.55,
-      "variacao": -0.43026706
+      "preco": 335.59,
+      "variacao": -0.41839871
     },
     {
       "simbolo": "MSFT",
-      "preco": 494.67,
-      "variacao": -0.61878453
+      "preco": 493.45999,
+      "variacao": -0.86188017
     },
     {
       "simbolo": "GOOGL",
-      "preco": 350.36,
-      "variacao": 0.87237312
+      "preco": 349.059998,
+      "variacao": 0.49808858
     },
     {
       "simbolo": "AMZN",
-      "preco": 253.075,
-      "variacao": 0.75042698
+      "preco": 253.50999,
+      "variacao": 0.92360048
     },
     {
       "simbolo": "NVDA",
-      "preco": 219.495,
-      "variacao": 0.070668216
+      "preco": 222.089996,
+      "variacao": 1.25376
     },
     {
       "simbolo": "TSLA",
-      "preco": 362.73,
-      "variacao": -0.94757294
+      "preco": 364.23001,
+      "variacao": -0.53795772
     }
   ],
-  "atualizado_em": "2026-09-18T18:12:54.045251+00:00"
+  "atualizado_em": "2026-09-18T21:09:08.536067+00:00"
 }
