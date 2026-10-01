@@ -39,34 +39,34 @@
   "eua": [
     {
       "simbolo": "AAPL",
-      "preco": 333.01001,
-      "variacao": 1.095937
+      "preco": 333.019989,
+      "variacao": 1.098966
     },
     {
       "simbolo": "MSFT",
-      "preco": 512.96002,
-      "variacao": 0.78592239
+      "preco": 512.90002,
+      "variacao": 0.77413412
     },
     {
       "simbolo": "GOOGL",
-      "preco": 344.13,
-      "variacao": 0.94156733
+      "preco": 344.079987,
+      "variacao": 0.92689576
     },
     {
       "simbolo": "AMZN",
-      "preco": 249.029999,
-      "variacao": 0.95674408
+      "preco": 249.14999,
+      "variacao": 1.0053901
     },
     {
       "simbolo": "NVDA",
-      "preco": 228.28999,
-      "variacao": 0.47532527
+      "preco": 228.38,
+      "variacao": 0.5149413
     },
     {
       "simbolo": "TSLA",
-      "preco": 354.89001,
-      "variacao": 0.58100508
+      "preco": 354.81,
+      "variacao": 0.55832707
     }
   ],
-  "atualizado_em": "2026-09-30T21:22:34.258374+00:00"
+  "atualizado_em": "2026-10-01T00:45:43.547055+00:00"
 }
