@@ -1,12 +1,21 @@
 name: Atualizar vídeo ao vivo do YouTube
 
 on:
+  # Disparo principal: o cron-job.org chama a API do GitHub (workflow_dispatch)
+  # a cada 5 minutos. O agendamento nativo abaixo fica só como reserva —
+  # em repositório público o GitHub atrasa/pula execuções agendadas com
+  # frequência (já ficou 4h sem rodar), por isso não dá pra depender só dele.
   schedule:
-    - cron: "*/5 * * * *" # a cada 15 minutos, 24h por dia
+    - cron: "*/15 * * * *" # reserva, a cada 15 minutos
   workflow_dispatch: {}
 
 permissions:
   contents: write
+
+# Evita duas execuções (disparador + reserva) mexendo no repositório ao mesmo tempo.
+concurrency:
+  group: youtube-live
+  cancel-in-progress: false
 
 jobs:
   atualizar:
@@ -31,5 +40,10 @@ jobs:
           git config user.name "mural-alfa-bot"
           git config user.email "actions@github.com"
           git add data/youtube-live.json
-          git diff --cached --quiet || git commit -m "Atualiza vídeo ao vivo"
-          git push
+          if git diff --cached --quiet; then
+            echo "Sem alterações pra commitar."
+          else
+            git commit -m "Atualiza vídeo ao vivo"
+            git pull --rebase
+            git push
+          fi
