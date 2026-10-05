@@ -24,6 +24,13 @@ Pages. Dados "vivos" vêm de duas formas:
    estático. Usado sempre que a fonte de dados exige scraping, chave de
    API sensível, ou bloqueia requisições vindas de navegador/CORS.
 
+**Atenção ao agendamento:** o `schedule` (cron) do GitHub Actions é
+"melhor esforço" — em repositório público ele atrasa e pula execuções
+com frequência (ver "Vídeo ao vivo parado" abaixo). Os robôs cujo dado
+muda pouco (commodities, notícias, ações) toleram isso. O do vídeo ao
+vivo não tolera, então ele é disparado por um serviço externo
+(cron-job.org), com o cron do GitHub só como reserva.
+
 ## Estrutura de arquivos
 index.html — estrutura da página (sidebar + vídeo + tickers)
 style.css — todo o visual
@@ -31,7 +38,7 @@ script.js — toda a lógica (fetch dos dados, player, tickers)
 assets/logo.png — logo da ALFA
 data/
 commodities.json — soja, milho, boi gordo (via scrape_cepea.py)
-youtube-live.json — ID do vídeo ao vivo atual (via fetch_live_video.py)
+youtube-live.json — vídeo ao vivo atual: videoId, ao_vivo, falhas_seguidas, atualizado_em (via fetch_live_video.py)
 news.json — manchetes RSS (via fetch_news.py)
 stocks.json — cotações B3 + EUA (via fetch_stocks.py)
 scripts/
@@ -41,7 +48,7 @@ fetch_news.py — agrega RSS (G1, CNN Brasil, Folha)
 fetch_stocks.py — cotações via brapi.dev (B3) e Twelve Data (EUA)
 .github/workflows/
 update-commodities.yml — roda scrape_cepea.py de hora em hora
-update-youtube-live.yml — roda fetch_live_video.py a cada 5 min
+update-youtube-live.yml — roda fetch_live_video.py; disparado a cada 5 min pelo cron-job.org (reserva: cron do GitHub a cada 15 min)
 update-news.yml — roda fetch_news.py a cada 20 min
 update-stocks.yml — roda fetch_stocks.py a cada 30 min
 
@@ -120,11 +127,95 @@ AwesomeAPI não oferece isso), o risco foi considerado baixo: se vazar
 e for abusada, é só gerar uma chave nova no painel da AwesomeAPI e
 substituir o valor em `CONFIG.awesomeApiToken`.
 
+## Vídeo ao vivo parado + disparador externo (resolvido em 05/10/2026)
+
+**Sintoma:** o mural passou a mostrar a vinheta de abertura do "Jornal da
+Manhã 1ª edição" às 10h36, ou seja, a gravação da live das 5h
+reexibida do começo (o YouTube faz isso com uma live já encerrada). O
+`youtube-live.json` estava com `atualizado_em` de 05h50 (4h45 antes).
+
+**Investigação:**
+- O script `fetch_live_video.py` mantinha o ID anterior sem avisar
+  quando não achava nenhuma live — então uma live encerrada ficava na
+  tela indefinidamente.
+- Rodando o workflow manualmente (execução #830), o robô achou a live
+  atual (`[ok] video ao vivo: ...`): **a detecção funcionava**.
+- A execução anterior (#829) tinha sido 4h antes, e o workflow tinha só
+  ~829 execuções desde meados de agosto (um cron de 5 min teria feito
+  mais de 10 mil). Causa raiz: **o agendamento nativo do GitHub Actions
+  atrasa/pula execuções** — ficou ~4h sem disparar.
+- Uma ideia descartada: esconder o vídeo quando o `atualizado_em` ficasse
+  velho. Com um cron falho isso daria alarme falso mesmo com a live
+  normal no ar. Por isso o estado é **explícito** no JSON (`ao_vivo`),
+  não inferido pela idade do arquivo.
+
+**Solução (três partes):**
+
+1. **Disparador externo (cron-job.org).** Um job "mural alfa_upd live
+   video" chama a API do GitHub a cada 5 min:
+   `POST https://api.github.com/repos/h3solut/mural-alfa/actions/workflows/update-youtube-live.yml/dispatches`
+   com corpo `{"ref":"main"}` e os headers `Accept: application/vnd.github+json`,
+   `Authorization: Bearer <token>`, `Content-Type: application/json`,
+   `User-Agent: cron-job.org`. Resposta esperada: **HTTP 204**. O
+   "Save responses in job history" e o aviso de falha ficam ligados no
+   cron-job.org pra notar se parar.
+   - O token é um *fine-grained personal access token* do GitHub
+     (`mural-alfa-disparador`), restrito ao repositório `mural-alfa`,
+     permissão **Actions: Read and write**, validade de 1 ano
+     (**expira em 05/10/2027 — renovar antes disso**; se vencer, o
+     cron-job.org passa a receber 401 e o mural volta a ficar parado).
+     O token fica **só** no cron-job.org, nunca no código. Se vazar:
+     revogar em GitHub → Settings → Developer settings → Fine-grained
+     tokens, gerar outro com as mesmas configurações e trocar o header
+     `Authorization` no cron-job.org. (Já foi trocado uma vez em
+     05/10/2026, depois de aparecer num print da aba "Raw request" —
+     **nunca compartilhar print dessa aba**.)
+   - O `schedule` nativo do workflow continua, a cada 15 min, só como
+     reserva. Uma trava `concurrency` (`youtube-live`) impede duas
+     execuções simultâneas, e o commit usa `git pull --rebase` antes do
+     `git push`.
+
+2. **Estado explícito no robô (`fetch_live_video.py`).** O JSON agora tem
+   `videoId`, `ao_vivo`, `falhas_seguidas` e `atualizado_em`. Se não
+   achar nenhuma live, conta uma falha; na **segunda seguida** grava
+   `ao_vivo: false` (o ID antigo é mantido no arquivo). Achou live →
+   `ao_vivo: true` e zera as falhas. O arquivo **só é reescrito quando
+   algo muda** (antes gravava `atualizado_em` a cada execução, o que
+   geraria uns 288 commits por dia com o disparador de 5 min). Erro do
+   yt-dlp (bloqueio, rede) **não** conta como "sem live": o script sai com
+   erro (X vermelho no Actions) e não mexe no arquivo.
+
+3. **Página (`script.js`).** `obterEstadoAoVivo()` lê o estado inteiro.
+   Com `ao_vivo: false`, a página remove o player e mostra "Aguardando a
+   próxima transmissão…"; quando a live volta (mesmo ID ou outro), o
+   player é remontado. JSON sem o campo `ao_vivo` (formato antigo) conta
+   como ao vivo. Se não der pra ler o JSON no meio da execução, a página
+   **mantém o que está na tela** (antes ela trocava o vídeo pelo ID de
+   reserva `youtubeVideoIdFallback` por causa de uma falha de rede
+   momentânea); o ID de reserva só vale na primeira carga.
+
+**Latência esperada** pra trocar de programa: até 5 min (disparador) +
+1-2 min (cache do GitHub Pages) + até 5 min (a página confere o JSON a
+cada 5 min), ou seja, uns 10 min no pior caso.
+
+**Testado antes de subir:** lógica do robô com yt-dlp simulado (live
+achada, 1ª/2ª/3ª falha, live volta, ID novo, formato antigo, erro do
+yt-dlp) e a página no Playwright (ao vivo, sem transmissão, volta, ID
+novo, erro de rede, formato antigo, 1ª carga sem JSON). Não foi possível
+testar o yt-dlp real daqui (sem acesso ao YouTube); a detecção real foi
+validada pela execução manual #830.
+
 ## Chaves de API necessárias (GitHub Secrets)
 
 Configuradas em Settings → Secrets and variables → Actions:
 - `BRAPI_TOKEN` — gerado em https://brapi.dev (grátis, conta pessoal do Hugo)
 - `TWELVEDATA_KEY` — gerado em https://twelvedata.com (grátis, conta pessoal do Hugo)
+
+Outras credenciais (fora dos GitHub Secrets):
+- **Token do disparador** (GitHub fine-grained PAT) — guardado só no
+  cron-job.org, expira em 05/10/2027. Ver seção "Vídeo ao vivo parado".
+- **Chave da AwesomeAPI** — fica no `script.js` (`CONFIG.awesomeApiToken`),
+  pública de propósito. Ver seção sobre a cota estourada.
 
 ---
 
@@ -209,6 +300,26 @@ esse tipo de URL de um domínio próprio usando um servidor proxy que
 busca o vídeo com um header `Referer` forjado e reenvia pro navegador
 com CORS liberado — infraestrutura real (proxy rodando 24/7, reescrita
 de playlist HLS), não um ajuste de config. Ver investigação abaixo.
+
+### 10. O cron (`schedule`) do GitHub Actions não é confiável pra dado que precisa de frescor
+Em repositório público o GitHub trata o agendamento como "melhor
+esforço": mesmo com `*/5 * * * *`, o workflow do vídeo ao vivo ficou ~4h
+sem rodar e acumulou só ~829 execuções em semanas. Não adianta
+"consertar" o script quando o sintoma é esse — primeiro olhar a lista
+de execuções do workflow (Actions) e conferir **quando foi a última**.
+Pra qualquer robô que precise rodar de fato a cada poucos minutos, usar
+disparo externo via `workflow_dispatch` (ver seção "Vídeo ao vivo parado
++ disparador externo"). Também: pra testar um robô na hora, o botão
+"Run workflow" (Actions) dispara uma execução manual e mostra o log.
+(Logs só aparecem logado no GitHub — logado fora, a página mostra "Sign
+in to view logs".)
+
+### 11. Não "manter o último valor" em silêncio quando a fonte some
+O comportamento antigo do `fetch_live_video.py` (manter o ID anterior
+se não achar live) escondia o problema: o mural seguia mostrando uma
+live encerrada, reexibida do começo pelo YouTube, sem nenhum aviso. Pra
+dado que "expira" (como uma transmissão ao vivo), gravar um estado
+explícito (`ao_vivo: false`) e deixar a página reagir a ele.
 
 ---
 

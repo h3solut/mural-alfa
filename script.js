@@ -24,7 +24,7 @@ const CONFIG = {
     cambio: 60 * 1000,          // 1 min
     clima: 15 * 60 * 1000,      // 15 min
     commodities: 30 * 60 * 1000,// 30 min (o arquivo em si só muda a cada hora)
-    youtubeLive: 5 * 60 * 1000, // 5 min (o arquivo em si só muda a cada 5 min)
+    youtubeLive: 5 * 60 * 1000, // 5 min (o robô checa a cada 5 min; o arquivo só muda quando o estado muda)
     news: 10 * 60 * 1000,       // 10 min (o arquivo em si só muda a cada 20 min)
     stocks: 15 * 60 * 1000      // 15 min (o arquivo em si só muda a cada 30 min)
   }
@@ -253,25 +253,34 @@ function escapeHTML(texto) {
 }
 
 /* ---------- Player do YouTube (vídeo ao vivo, atualizado automaticamente) + legenda ----------
-   O ID do vídeo vem de data/youtube-live.json, atualizado a cada 15 min por
-   um GitHub Action que descobre qual é a transmissão ao vivo atual do canal.
-   Isso evita ter que trocar o ID manualmente sempre que o canal encerra um
-   vídeo e começa outro (o que acontece diariamente). O controle de legenda
-   é feito via postMessage pra Player API do YouTube (funciona mesmo sem o
-   wrapper oficial YT.Player, desde que o iframe tenha enablejsapi=1). */
+   O estado do vídeo vem de data/youtube-live.json, atualizado por um GitHub
+   Action (disparado a cada 5 min pelo cron-job.org) que descobre qual é a
+   transmissão ao vivo atual do canal. Isso evita ter que trocar o ID
+   manualmente sempre que o canal encerra um vídeo e começa outro (o que
+   acontece várias vezes por dia). O arquivo tem:
+     - videoId: último vídeo ao vivo encontrado;
+     - ao_vivo: false quando o canal ficou sem transmissão no ar (nesse caso
+       a tela mostra "Aguardando a próxima transmissão…" em vez de deixar o
+       YouTube reexibir, do começo, uma live que já terminou).
+   O controle de legenda é feito via postMessage pra Player API do YouTube
+   (funciona mesmo sem o wrapper oficial YT.Player, desde que o iframe tenha
+   enablejsapi=1). */
 let legendaLigada = false;
 let audioLigado = false; // vídeo começa mudo por padrão
 let videoIdAtual = null;
 
-async function obterVideoIdAoVivo() {
+// Lê o estado do JSON. Retorna { videoId, aoVivo } ou null se não deu pra ler
+// (rede fora do ar, arquivo ausente...). JSON sem o campo "ao_vivo" (formato
+// antigo) conta como ao vivo.
+async function obterEstadoAoVivo() {
   try {
     const res = await fetch(`data/youtube-live.json?t=${Date.now()}`);
     const data = await res.json();
-    if (data.videoId) return data.videoId;
+    return { videoId: data.videoId || null, aoVivo: data.ao_vivo !== false };
   } catch (e) {
     console.error("Erro ao buscar video ao vivo:", e);
+    return null;
   }
-  return CONFIG.youtubeVideoIdFallback;
 }
 
 function montarPlayer(videoId) {
@@ -311,11 +320,33 @@ function esconderEspera() {
   if (overlay) overlay.style.display = "none";
 }
 
-async function checarTrocaDeVideo() {
-  const novoId = await obterVideoIdAoVivo();
-  if (novoId && novoId !== videoIdAtual) {
-    montarPlayer(novoId);
+// Tira o player da tela (e zera os botões de legenda/áudio). Usado quando o
+// canal está sem transmissão no ar, pra não reexibir uma live encerrada.
+function pararPlayer() {
+  document.getElementById("yt-player").innerHTML = "";
+  videoIdAtual = null; // se a mesma live voltar, o player é remontado
+  legendaLigada = false;
+  document.getElementById("cc-toggle").classList.remove("active");
+  audioLigado = false;
+  atualizarBotaoAudio();
+}
+
+function aplicarEstadoAoVivo(estado) {
+  if (!estado) return;
+  if (!estado.aoVivo) {
+    pararPlayer();
+    mostrarEspera();
+    return;
   }
+  if (estado.videoId && estado.videoId !== videoIdAtual) {
+    montarPlayer(estado.videoId);
+  }
+}
+
+async function checarTrocaDeVideo() {
+  // Se não deu pra ler o arquivo (null), não mexe em nada: mantém o que está
+  // na tela em vez de trocar o vídeo por causa de uma falha momentânea de rede.
+  aplicarEstadoAoVivo(await obterEstadoAoVivo());
 }
 
 /* Escuta mensagens do player do YouTube pra saber quando o vídeo termina
@@ -388,7 +419,10 @@ function toggleAudio() {
 document.getElementById("audio-toggle").addEventListener("click", toggleAudio);
 
 /* ---------- Inicialização ---------- */
-obterVideoIdAoVivo().then(montarPlayer);
+obterEstadoAoVivo().then(estado =>
+  // Na primeira carga, se o arquivo não puder ser lido, usa o vídeo de reserva.
+  aplicarEstadoAoVivo(estado || { videoId: CONFIG.youtubeVideoIdFallback, aoVivo: true })
+);
 atualizarCambio();
 atualizarBitcoin();
 atualizarClima();
