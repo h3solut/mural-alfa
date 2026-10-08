@@ -54,8 +54,8 @@
     },
     {
       "simbolo": "AMZN",
-      "preco": 259.88,
-      "variacao": 1.40076
+      "preco": 259.92001,
+      "variacao": 1.41637
     },
     {
       "simbolo": "NVDA",
@@ -68,5 +68,5 @@
       "variacao": -0.75391278
     }
   ],
-  "atualizado_em": "2026-10-07T20:44:07.157400+00:00"
+  "atualizado_em": "2026-10-08T00:51:46.470574+00:00"
 }
