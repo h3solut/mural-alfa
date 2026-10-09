@@ -1,105 +1,105 @@
 {
   "itens": [
     {
-      "titulo": "Resultados das Loterias Caixa",
-      "fonte": "G1",
-      "data": "2026-10-08T23:51:13+00:00"
-    },
-    {
-      "titulo": "Zanin nega recurso de Paes ao STF sobre anulação de votos de Garotinho ao Governo do RJ",
+      "titulo": "Quem tem tempo para votar?",
       "fonte": "Folha",
-      "data": "2026-10-08T23:48:00+00:00"
+      "data": "2026-10-09T04:28:00+00:00"
     },
     {
-      "titulo": "Buracos, lama e poeira: moradores de Campo Grande cobram asfalto após décadas de espera",
+      "titulo": "Previsão do tempo hoje para Brasília (DF): dia de sol com aumento de nuvens a partir da tarde; não chove",
       "fonte": "G1",
-      "data": "2026-10-08T23:46:52+00:00"
+      "data": "2026-10-09T04:08:09+00:00"
     },
     {
-      "titulo": "Presidente Lula, que concorre à reeleição pelo PT, defende manter a atual política de valorização do salário mínimo",
+      "titulo": "Previsão do tempo hoje para São Paulo (SP): sol e muitas nuvens de manhã; chuva forte à tarde e à noite",
       "fonte": "G1",
-      "data": "2026-10-08T23:46:17+00:00"
+      "data": "2026-10-09T04:07:52+00:00"
     },
     {
-      "titulo": "Lucas Pavanato e Guilherme Boulos se encontram e trocam provocações no Aeroporto de Brasília; vídeo",
+      "titulo": "Previsão do tempo hoje para São Bernardo do Campo (SP): sol com muitas nuvens e períodos de céu nublado; noite com pancadas de chuva",
       "fonte": "G1",
-      "data": "2026-10-08T23:43:39+00:00"
+      "data": "2026-10-09T04:07:36+00:00"
     },
     {
-      "titulo": "VÍDEOS: NE2 de quinta-feira, 8 de outubro de 2026",
+      "titulo": "Previsão do tempo hoje para Santo André (SP): sol com muitas nuvens e períodos de céu nublado; noite com pancadas de chuva",
       "fonte": "G1",
-      "data": "2026-10-08T23:42:27+00:00"
+      "data": "2026-10-09T04:07:03+00:00"
     },
     {
-      "titulo": "Adolescente suspeito de atirar e matar homem na frente da companheira grávida é apreendido no Ceará",
+      "titulo": "Previsão do tempo hoje para Osasco (SP): sol com muitas nuvens e períodos de céu nublado; noite com pancadas de chuva",
       "fonte": "G1",
-      "data": "2026-10-08T23:39:53+00:00"
+      "data": "2026-10-09T04:06:47+00:00"
     },
     {
-      "titulo": "TSE aciona PF para investigar ataques e ameaças a servidores da Justiça Eleitoral",
+      "titulo": "Previsão do tempo hoje para Guarulhos (SP): sol com muitas nuvens e períodos de céu nublado; noite com pancadas de chuva",
       "fonte": "G1",
-      "data": "2026-10-08T23:38:52+00:00"
+      "data": "2026-10-09T04:06:30+00:00"
     },
     {
-      "titulo": "Compradores de loteamento irregular em Valinhos esperam há 17 anos para construir e estimam prejuízo de R$ 26 milhões",
+      "titulo": "Previsão do tempo hoje para São Gonçalo (RJ): sol com muitas nuvens durante o dia e períodos de céu nublado; noite com poucas nuvens",
       "fonte": "G1",
-      "data": "2026-10-08T23:38:08+00:00"
+      "data": "2026-10-09T04:06:13+00:00"
     },
     {
-      "titulo": "Flávio Bolsonaro está escondendo o jogo?",
+      "titulo": "Previsão do tempo hoje para o Rio de Janeiro (RJ): sol e aumento de nuvens de manhã; pancadas de chuva à tarde e à noite",
+      "fonte": "G1",
+      "data": "2026-10-09T04:05:56+00:00"
+    },
+    {
+      "titulo": "O Grande Debate: O que Flávio e Lula precisam fazer para vencer?",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-09T04:00:23+00:00"
+    },
+    {
+      "titulo": "Fluminense 4 x 0 Coritiba: veja os melhores momentos pelo Brasileirão",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-09T03:46:02+00:00"
+    },
+    {
+      "titulo": "Palmeiras 1 x 0 Bahia: veja os melhores momentos pelo Brasileirão",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-09T03:28:51+00:00"
+    },
+    {
+      "titulo": "Mendonça determina remoção de vídeo de Janones e Lindbergh contra Flávio",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-09T03:19:57+00:00"
+    },
+    {
+      "titulo": "Andreas Pereira projeta dérbi com o Corinthians: “Jogo muito especial”",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-09T03:11:57+00:00"
+    },
+    {
+      "titulo": "Ato pró-Lula em Sergipe é interrompido após relatos de homem armado e tiros",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-09T03:11:19+00:00"
+    },
+    {
+      "titulo": "Vox: 63,4% não vão seguir declaração de voto dos candidatos do 1º turno",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-09T03:03:28+00:00"
+    },
+    {
+      "titulo": "Vox: Lula tem 44,2% das intenções de voto no 2º turno; Flávio, 42,7%",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-09T03:01:25+00:00"
+    },
+    {
+      "titulo": "Ministério Público e polícia investigam caso de criança com objeto semelhante a arma em ato pró-Flávio",
       "fonte": "Folha",
-      "data": "2026-10-08T23:38:00+00:00"
+      "data": "2026-10-09T03:00:00+00:00"
     },
     {
-      "titulo": "Morre C.W. Morgan, ator da franquia de terror 'Pânico', aos 72 anos",
+      "titulo": "A Fazenda 18: Renê Thristan é eliminado do reality",
       "fonte": "Folha",
-      "data": "2026-10-08T23:29:00+00:00"
+      "data": "2026-10-09T02:46:00+00:00"
     },
     {
-      "titulo": "Moraes envia à PGR 118 laudos da PF sobre operação contra CV no Rio",
-      "fonte": "CNN Brasil",
-      "data": "2026-10-08T23:25:40+00:00"
-    },
-    {
-      "titulo": "Haddad pede votos para Lula em SP e diz que 'está fácil fazer campanha' contra Flávio Bolsonaro",
+      "titulo": "'Não dá para decidir uma vitória com canetada', diz leitor sobre anulação de votos em Garotinho, no RJ",
       "fonte": "Folha",
-      "data": "2026-10-08T23:25:00+00:00"
-    },
-    {
-      "titulo": "Zanin nega recurso de Paes contra decisão do TSE sobre votos de Garotinho",
-      "fonte": "CNN Brasil",
-      "data": "2026-10-08T23:22:32+00:00"
-    },
-    {
-      "titulo": "“Múmia” de dinossauro que existiu há mais de 60 milhões de anos foi preservada após mordida de réptil",
-      "fonte": "CNN Brasil",
-      "data": "2026-10-08T23:20:32+00:00"
-    },
-    {
-      "titulo": "Flávio visita arcebispo de Brasília e recebe imagem de Nossa Senhora",
-      "fonte": "CNN Brasil",
-      "data": "2026-10-08T23:17:58+00:00"
-    },
-    {
-      "titulo": "Adolescente pede socorro para PM e homem é preso por abuso sexual em SP",
-      "fonte": "CNN Brasil",
-      "data": "2026-10-08T23:13:45+00:00"
-    },
-    {
-      "titulo": "Filho de Cabo Daciolo, ex-candidato à Presidência, faz hat-trick no Sub-20",
-      "fonte": "CNN Brasil",
-      "data": "2026-10-08T23:12:35+00:00"
-    },
-    {
-      "titulo": "Polícia recolhe mais de 50 mil brinquedos falsificados em SP",
-      "fonte": "CNN Brasil",
-      "data": "2026-10-08T23:10:35+00:00"
-    },
-    {
-      "titulo": "Análise: Debate sobre crise climática perde força antes da COP-31",
-      "fonte": "CNN Brasil",
-      "data": "2026-10-08T23:07:16+00:00"
+      "data": "2026-10-09T02:42:00+00:00"
     }
   ],
-  "atualizado_em": "2026-10-08T23:56:12.606439+00:00"
+  "atualizado_em": "2026-10-09T04:52:33.162077+00:00"
 }
