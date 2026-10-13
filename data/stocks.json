@@ -2,71 +2,71 @@
   "br": [
     {
       "simbolo": "PETR4",
-      "preco": 56.74,
-      "variacao": 1.32
+      "preco": 56.85,
+      "variacao": 1.52
     },
     {
       "simbolo": "VALE3",
-      "preco": 67.13,
-      "variacao": -1.13
+      "preco": 67.16,
+      "variacao": -1.09
     },
     {
       "simbolo": "ITUB4",
-      "preco": 49.7,
-      "variacao": -1.53
-    },
-    {
-      "simbolo": "BBDC4",
-      "preco": 21.27,
+      "preco": 49.68,
       "variacao": -1.57
     },
     {
+      "simbolo": "BBDC4",
+      "preco": 21.4,
+      "variacao": -0.97
+    },
+    {
       "simbolo": "ABEV3",
-      "preco": 16.17,
-      "variacao": 1.13
+      "preco": 16.32,
+      "variacao": 2.06
     },
     {
       "simbolo": "B3SA3",
-      "preco": 22.81,
-      "variacao": -2.31
+      "preco": 22.76,
+      "variacao": -2.53
     },
     {
       "simbolo": "IBOVESPA",
-      "preco": 207334.7,
-      "variacao": -0.83
+      "preco": 206887.52,
+      "variacao": -1.04
     }
   ],
   "eua": [
     {
       "simbolo": "AAPL",
-      "preco": 344.22,
-      "variacao": 0.95316267
+      "preco": 341.32999,
+      "variacao": 0.10557684
     },
     {
       "simbolo": "MSFT",
-      "preco": 546.15,
-      "variacao": 0.92395368
+      "preco": 543.65997,
+      "variacao": 0.46381754
     },
     {
       "simbolo": "GOOGL",
-      "preco": 356.28,
-      "variacao": 1.0092988
+      "preco": 353.76001,
+      "variacao": 0.29485386
     },
     {
       "simbolo": "AMZN",
-      "preco": 260.825,
-      "variacao": 0.4989794
+      "preco": 258.62,
+      "variacao": -0.35063525
     },
     {
       "simbolo": "NVDA",
-      "preco": 226.065,
-      "variacao": -0.11267555
+      "preco": 228.52,
+      "variacao": 0.97207356
     },
     {
       "simbolo": "TSLA",
-      "preco": 375.81,
-      "variacao": -0.58725466
+      "preco": 375.23999,
+      "variacao": -0.73803893
     }
   ],
-  "atualizado_em": "2026-10-13T16:18:58.018584+00:00"
+  "atualizado_em": "2026-10-13T21:27:58.097339+00:00"
 }
