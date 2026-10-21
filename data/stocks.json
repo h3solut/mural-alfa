@@ -33,7 +33,7 @@
     {
       "simbolo": "IBOVESPA",
       "preco": 208295.98,
-      "variacao": 1.57
+      "variacao": 0
     }
   ],
   "eua": [
@@ -68,5 +68,5 @@
       "variacao": 1.53507
     }
   ],
-  "atualizado_em": "2026-10-21T07:20:38.275223+00:00"
+  "atualizado_em": "2026-10-21T13:06:38.489455+00:00"
 }
