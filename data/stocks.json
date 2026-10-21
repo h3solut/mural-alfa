@@ -49,8 +49,8 @@
     },
     {
       "simbolo": "GOOGL",
-      "preco": 340.27499,
-      "variacao": -1.13458
+      "preco": 340.28,
+      "variacao": -1.13313
     },
     {
       "simbolo": "AMZN",
@@ -68,5 +68,5 @@
       "variacao": 1.53507
     }
   ],
-  "atualizado_em": "2026-10-21T01:53:35.069436+00:00"
+  "atualizado_em": "2026-10-21T07:20:38.275223+00:00"
 }
