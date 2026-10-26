@@ -1,85 +1,105 @@
 {
   "itens": [
     {
-      "titulo": "Campanha de Lula acusa Kassio de demora para estender horário de votação e vê boicote",
+      "titulo": "OAB parabeniza Lula por reeleição e defende respeito ao resultado das urnas",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-26T00:51:16+00:00"
+    },
+    {
+      "titulo": "Veja as promessas de Lula (PT) para seu quarto mandato na Presidência",
       "fonte": "Folha",
-      "data": "2026-10-25T22:40:00+00:00"
+      "data": "2026-10-26T00:51:00+00:00"
     },
     {
-      "titulo": "Mailza Assis (PP) é reeleita governadora do Acre, projeta Datafolha",
+      "titulo": "2º turno em São Paulo: Flavio Bolsonaro tem 53,85% contra 46,15% de Lula",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-26T00:50:36+00:00"
+    },
+    {
+      "titulo": "Imprensa internacional repercute reeleição de Lula no Brasil",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-26T00:49:30+00:00"
+    },
+    {
+      "titulo": "Conta da 'babaquice' fiscal terá de ser paga pelo próprio Lula",
       "fonte": "Folha",
-      "data": "2026-10-25T22:37:00+00:00"
+      "data": "2026-10-26T00:49:00+00:00"
     },
     {
-      "titulo": "Vereadora pede impeachment de Ricardo Nunes por frota de ônibus menor no 2º turno",
+      "titulo": "Abstenção no 2º turno cai para 19,21%, menor índice desde 2006",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-26T00:47:08+00:00"
+    },
+    {
+      "titulo": "No Ceará, Lula é o mais votado no 2º turno, com 68,93% dos votos válidos",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-26T00:46:34+00:00"
+    },
+    {
+      "titulo": "Escola Rural Municipal Leonardo da Vincci (Desativada), 134ª zona eleitoral: resultado da votação em Laranjal (PR) no 2º turno",
+      "fonte": "G1",
+      "data": "2026-10-26T00:45:36+00:00"
+    },
+    {
+      "titulo": "Resultado das eleições 2026 em São Cristóvão (SE): como foi a votação no 2º turno",
+      "fonte": "G1",
+      "data": "2026-10-26T00:45:36+00:00"
+    },
+    {
+      "titulo": "Resultado das eleições 2026 em Betânia do Piauí (PI): como foi a votação no 2º turno",
+      "fonte": "G1",
+      "data": "2026-10-26T00:45:36+00:00"
+    },
+    {
+      "titulo": "Resultado das eleições 2026 em Passagem Franca do Piauí (PI): como foi a votação no 2º turno",
+      "fonte": "G1",
+      "data": "2026-10-26T00:45:35+00:00"
+    },
+    {
+      "titulo": "Resultado das eleições 2026 em Nossa Senhora Aparecida (SE): como foi a votação no 2º turno",
+      "fonte": "G1",
+      "data": "2026-10-26T00:45:35+00:00"
+    },
+    {
+      "titulo": "Resultado das eleições 2026 em Ribeiro Gonçalves (PI): como foi a votação no 2º turno",
+      "fonte": "G1",
+      "data": "2026-10-26T00:45:35+00:00"
+    },
+    {
+      "titulo": "Resultado das eleições 2026 em Itabaiana (SE): como foi a votação no 2º turno",
+      "fonte": "G1",
+      "data": "2026-10-26T00:45:35+00:00"
+    },
+    {
+      "titulo": "Córrego Fundo (MG): resultado do local de votação por zonas eleitorais no 2º turno",
+      "fonte": "G1",
+      "data": "2026-10-26T00:45:34+00:00"
+    },
+    {
+      "titulo": "EWZ: Principal ETF do Brasil em NY cai mais de 19% após reeleição de Lula",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-26T00:43:20+00:00"
+    },
+    {
+      "titulo": "Eleições 2026: virada de Lula sobre Flávio ocorreu às 20h26",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-26T00:41:43+00:00"
+    },
+    {
+      "titulo": "Eleição nos estados termina com 13 governadores reeleitos e 6 derrotados",
       "fonte": "Folha",
-      "data": "2026-10-25T22:36:00+00:00"
+      "data": "2026-10-26T00:41:00+00:00"
     },
     {
-      "titulo": "Resultado das eleições 2026 em Cândido Rodrigues (SP): como foi a votação no 2º turno",
-      "fonte": "G1",
-      "data": "2026-10-25T22:32:37+00:00"
+      "titulo": "Corinthians parabeniza Lula por reeleição: “Viva a democracia do Brasil”",
+      "fonte": "CNN Brasil",
+      "data": "2026-10-26T00:37:33+00:00"
     },
     {
-      "titulo": "Resultado das eleições 2026 em Tupiratins (TO): como foi a votação no 2º turno",
-      "fonte": "G1",
-      "data": "2026-10-25T22:32:36+00:00"
-    },
-    {
-      "titulo": "Resultado das eleições 2026 em Novo Itacolomi (PR): como foi a votação no 2º turno",
-      "fonte": "G1",
-      "data": "2026-10-25T22:32:29+00:00"
-    },
-    {
-      "titulo": "Resultado das eleições 2026 em Canitar (SP): como foi a votação no 2º turno",
-      "fonte": "G1",
-      "data": "2026-10-25T22:32:26+00:00"
-    },
-    {
-      "titulo": "Resultado das eleições 2026 em Itaporanga (PB): como foi a votação no 2º turno",
-      "fonte": "G1",
-      "data": "2026-10-25T22:32:20+00:00"
-    },
-    {
-      "titulo": "Horário de votação termina; acompanhe a apuração em tempo real no g1",
-      "fonte": "G1",
-      "data": "2026-10-25T22:32:13+00:00"
-    },
-    {
-      "titulo": "Resultado das eleições 2026 em Várzea (PB): como foi a votação no 2º turno",
-      "fonte": "G1",
-      "data": "2026-10-25T22:32:12+00:00"
-    },
-    {
-      "titulo": "Resultado das eleições 2026 em Vista Serrana (PB): como foi a votação no 2º turno",
-      "fonte": "G1",
-      "data": "2026-10-25T22:32:10+00:00"
-    },
-    {
-      "titulo": "Centrais sindicais afirmam que problemas no transporte ferem a democracia no Brasil",
+      "titulo": "Antipetismo é central, mas eleição confirmou força do antibolsonarismo",
       "fonte": "Folha",
-      "data": "2026-10-25T22:31:00+00:00"
-    },
-    {
-      "titulo": "Vicentinho Júnior (PSDB) é eleito governador do Tocantins, projeta Datafolha",
-      "fonte": "Folha",
-      "data": "2026-10-25T22:31:00+00:00"
-    },
-    {
-      "titulo": "Omar Aziz (PSD) é eleito governador do Amazonas, projeta Datafolha",
-      "fonte": "Folha",
-      "data": "2026-10-25T22:27:00+00:00"
-    },
-    {
-      "titulo": "Celina Leão (PP) é reeleita governadora do Distrito Federal, projeta Datafolha",
-      "fonte": "Folha",
-      "data": "2026-10-25T22:23:00+00:00"
-    },
-    {
-      "titulo": "Centrais dizem que falta de ônibus para eleitores fere democracia",
-      "fonte": "Folha",
-      "data": "2026-10-25T22:18:00+00:00"
+      "data": "2026-10-26T00:37:00+00:00"
     }
   ],
-  "atualizado_em": "2026-10-25T22:47:07.485579+00:00"
+  "atualizado_em": "2026-10-26T00:58:19.056122+00:00"
 }
