@@ -44,8 +44,8 @@
     },
     {
       "simbolo": "MSFT",
-      "preco": 521.125,
-      "variacao": -2.25729
+      "preco": 521.13,
+      "variacao": -2.25635
     },
     {
       "simbolo": "GOOGL",
@@ -68,5 +68,5 @@
       "variacao": 2.91221
     }
   ],
-  "atualizado_em": "2026-11-12T02:25:23.042611+00:00"
+  "atualizado_em": "2026-11-12T10:07:54.712796+00:00"
 }
