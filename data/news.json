@@ -1,105 +1,105 @@
 {
   "itens": [
     {
-      "titulo": "Podcast explica como crise na Nvidia causada por traições impacta indústria de IA",
+      "titulo": "Incêndio atinge fábrica de tintas em Salto (SP) e deixa ao menos 8 feridos",
       "fonte": "Folha",
-      "data": "2026-11-13T08:00:00+00:00"
+      "data": "2026-11-13T16:25:00+00:00"
     },
     {
-      "titulo": "Fim de semana deve ter calor de 28°C e chuva isolada em São Paulo",
+      "titulo": "Assista aos telejornais da TV Liberal",
+      "fonte": "G1",
+      "data": "2026-11-13T16:22:44+00:00"
+    },
+    {
+      "titulo": "Vagas de Zona Azul devem ser ampliadas a partir de segunda (16) na região central de Taubaté; veja os locais",
+      "fonte": "G1",
+      "data": "2026-11-13T16:20:16+00:00"
+    },
+    {
+      "titulo": "Safadão, Ferrugem e Zé Vaqueiro: Confira programação da festa de independência de Itaparica em 2027",
+      "fonte": "G1",
+      "data": "2026-11-13T16:20:08+00:00"
+    },
+    {
+      "titulo": "Livro que venceu o prêmio Booker 2025 vai sair no Brasil no próximo ano",
       "fonte": "Folha",
-      "data": "2026-11-13T08:00:00+00:00"
+      "data": "2026-11-13T16:20:00+00:00"
     },
     {
-      "titulo": "Tosse e falta de ar frequentes podem indicar asma ou pneumonia; entenda",
-      "fonte": "CNN Brasil",
-      "data": "2026-11-13T07:35:01+00:00"
-    },
-    {
-      "titulo": "Flávio Venturini volta a compor com Guarabyra após 50 anos, abre parceria com Zeca Baleiro e assina uma letra no álbum que lançará em meados de 2027",
+      "titulo": "Mulher diz ter sofrido agressões por mais de 3 horas de médico preso no Ceará: 'Queria minha vida de volta'",
       "fonte": "G1",
-      "data": "2026-11-13T07:31:15+00:00"
+      "data": "2026-11-13T16:19:31+00:00"
     },
     {
-      "titulo": "Não haverá um grande ajuste fiscal de uma só vez, diz especialista",
-      "fonte": "CNN Brasil",
-      "data": "2026-11-13T07:30:27+00:00"
+      "titulo": "Polícia Civil investiga guarda municipal suspeito de vazar dados de acesso a 75 mil câmeras do Smart Sampa",
+      "fonte": "G1",
+      "data": "2026-11-13T16:18:51+00:00"
     },
     {
-      "titulo": "Ataques hackers podem gerar prejuízo de R$ 2,9 trilhões ao Brasil em 3 anos",
-      "fonte": "CNN Brasil",
-      "data": "2026-11-13T07:15:26+00:00"
+      "titulo": "Jovem autista que sumiu no RJ e foi liberado em delegacia de SP é encontrado em Curitiba",
+      "fonte": "G1",
+      "data": "2026-11-13T16:18:39+00:00"
     },
     {
-      "titulo": "Ex-PM relata ter sido agredida por coronel após achar lista de mulheres",
+      "titulo": "VÍDEOS: AB1 de sexta-feira, 13 de novembro de 2026",
+      "fonte": "G1",
+      "data": "2026-11-13T16:18:10+00:00"
+    },
+    {
+      "titulo": "Preparação Enem: professora de Matemática explica sobre as unidades de medida",
+      "fonte": "G1",
+      "data": "2026-11-13T16:17:36+00:00"
+    },
+    {
+      "titulo": "Anvisa proíbe venda e fabricação de loção da marca Needs, vendida em redes de farmácias",
       "fonte": "Folha",
-      "data": "2026-11-13T07:15:00+00:00"
+      "data": "2026-11-13T16:16:00+00:00"
     },
     {
-      "titulo": "Sabotage é revivido em EP ao vivo que recupera a participação do artista em show do grupo de rap DMN em 2002",
-      "fonte": "G1",
-      "data": "2026-11-13T07:14:04+00:00"
-    },
-    {
-      "titulo": "U2 revela músicas tocadas no 1º show da banda em escola: “Tive que ceder”",
-      "fonte": "CNN Brasil",
-      "data": "2026-11-13T07:00:29+00:00"
-    },
-    {
-      "titulo": "Holanda x Grécia: horário e onde assistir ao jogo da Nations League",
-      "fonte": "CNN Brasil",
-      "data": "2026-11-13T07:00:07+00:00"
-    },
-    {
-      "titulo": "Sérvia x Alemanha: horário e onde assistir ao jogo da Nations League",
-      "fonte": "CNN Brasil",
-      "data": "2026-11-13T07:00:03+00:00"
-    },
-    {
-      "titulo": "Por que vaca perseguiu motociclista e pulou mata-burro em MG? Veterinário explica",
-      "fonte": "G1",
-      "data": "2026-11-13T07:00:02+00:00"
-    },
-    {
-      "titulo": "Em 'Carnaval de Luz', U2 não reinventa a roda, mas volta a soar como U2",
-      "fonte": "G1",
-      "data": "2026-11-13T07:00:01+00:00"
-    },
-    {
-      "titulo": "Shows de Fábio Jr. e José Augusto, Almério, Tarcísio do Acordeon e Filipe Ret, festival de teatro, feira literária infantil e mais: veja agenda cultural",
-      "fonte": "G1",
-      "data": "2026-11-13T07:00:01+00:00"
-    },
-    {
-      "titulo": "Mortes em intervenções policiais crescem quase 120% desde 2015 em MG e atingem maior número em 11 anos",
-      "fonte": "G1",
-      "data": "2026-11-13T07:00:00+00:00"
-    },
-    {
-      "titulo": "Meninas dedicam quase 4 horas a mais por semana às tarefas domésticas do que meninos, aponta pesquisa em MG",
-      "fonte": "G1",
-      "data": "2026-11-13T07:00:00+00:00"
-    },
-    {
-      "titulo": "Amazonas tem mais de mil vagas de emprego abertas em empresas e no Sine; veja como se candidatar",
-      "fonte": "G1",
-      "data": "2026-11-13T07:00:00+00:00"
-    },
-    {
-      "titulo": "Trump tira seu vice de negociação com Irã e diz que EUA não precisam de acordo",
+      "titulo": "Pré-venda, pré-load e pré-surto: Internet entra em contagem regressiva para 'GTA 6'; veja memes",
       "fonte": "Folha",
-      "data": "2026-11-13T07:00:00+00:00"
+      "data": "2026-11-13T16:15:00+00:00"
     },
     {
-      "titulo": "Globo usou medo de nova reclassificação como desculpa para mudar cena de 'Quem Ama Cuida'",
+      "titulo": "Após bancos privados, Caixa faz as contas para subir taxa de juros do crédito imobiliário",
       "fonte": "Folha",
-      "data": "2026-11-13T07:00:00+00:00"
+      "data": "2026-11-13T16:09:00+00:00"
     },
     {
-      "titulo": "Gilmar Mendes sinaliza que reconhecerá Justiça do Trabalho como competente para julgar ações de pejotização",
+      "titulo": "Globo, Band, XSports e Goat fazem acordo para transmissão do milésimo gol de Cristiano Ronaldo",
       "fonte": "Folha",
-      "data": "2026-11-13T07:00:00+00:00"
+      "data": "2026-11-13T16:04:00+00:00"
+    },
+    {
+      "titulo": "Garantia da MRV ou do fabricante? Quem responde por cada item",
+      "fonte": "CNN Brasil",
+      "data": "2026-11-13T16:00:59+00:00"
+    },
+    {
+      "titulo": "Quais riscos o investidor precisa conhecer antes de investir em criptomoeda",
+      "fonte": "CNN Brasil",
+      "data": "2026-11-13T16:00:47+00:00"
+    },
+    {
+      "titulo": "Em livro de memórias, Stallone se deixa levar por certa mitomania",
+      "fonte": "Folha",
+      "data": "2026-11-13T16:00:00+00:00"
+    },
+    {
+      "titulo": "Peruanos se reúnem para ver o papa na cidade onde ele serviu como bispo",
+      "fonte": "CNN Brasil",
+      "data": "2026-11-13T15:59:54+00:00"
+    },
+    {
+      "titulo": "Incêndio de grandes proporções em indústria de SP deixa ao menos 8 feridos",
+      "fonte": "CNN Brasil",
+      "data": "2026-11-13T15:59:39+00:00"
+    },
+    {
+      "titulo": "Sexta-feira 13: por que a data é associada ao azar e a filmes de terror na crença popular?",
+      "fonte": "CNN Brasil",
+      "data": "2026-11-13T15:56:06+00:00"
     }
   ],
-  "atualizado_em": "2026-11-13T08:06:02.067527+00:00"
+  "atualizado_em": "2026-11-13T16:30:59.006120+00:00"
 }
