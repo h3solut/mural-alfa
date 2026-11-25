@@ -32,6 +32,7 @@ Rodar manualmente:
 
 import json
 import sys
+from collections import Counter
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -45,6 +46,15 @@ DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "youtube-live.json
 # Quantas checagens seguidas sem achar live antes de marcar "ao_vivo": false.
 FALHAS_PARA_OFFLINE = 2
 
+# Quantas entradas da aba Streams ler. ATENÇÃO: a aba lista PRIMEIRO os
+# programas agendados ("Em breve" — o canal agenda uns 3 dias à frente,
+# ~20 entradas, e isso pode crescer) e só DEPOIS as transmissões ao vivo e as
+# passadas. Com um limite pequeno (era 15) as lives ficavam fora da leitura e
+# o robô concluía "sem transmissão" mesmo com o canal no ar (mural preso em
+# "Aguardando" de 23/11 a 25/11/2026). Se o log avisar que a lista atingiu o
+# limite sem achar live, aumente este valor.
+MAX_ENTRADAS = 100
+
 
 def achar_video_ao_vivo():
     """
@@ -56,7 +66,7 @@ def achar_video_ao_vivo():
         "extract_flat": True,
         "quiet": True,
         "no_warnings": True,
-        "playlistend": 15,  # não precisa varrer o canal inteiro
+        "playlistend": MAX_ENTRADAS,
     }
     with yt_dlp.YoutubeDL(opcoes) as ydl:
         info = ydl.extract_info(STREAMS_URL, download=False)
@@ -126,11 +136,19 @@ def main():
     novo, mudou = calcular_novo_estado(atual, video_id, agora_iso)
 
     if video_id:
-        print(f"[ok] video ao vivo: {video_id}")
+        # A posição ajuda a notar cedo se as lives estão chegando perto do limite de leitura.
+        print(f"[ok] video ao vivo: {video_id} (posição {len(debug_info)} na lista da aba Streams)")
     else:
-        print(f"[debug] {len(debug_info)} vídeo(s) verificados, nenhum com live_status == 'is_live':")
+        contagem = Counter(item["live_status"] for item in debug_info)
+        resumo = ", ".join(f"{status}={n}" for status, n in contagem.most_common())
+        print(f"[debug] {len(debug_info)} vídeo(s) verificados ({resumo}), nenhum com live_status == 'is_live':")
         for item in debug_info[:10]:
             print(f"  - videoId={item['videoId']} live_status={item['live_status']} titulo={item['titulo']!r}")
+        if len(debug_info) >= MAX_ENTRADAS:
+            print(
+                f"[aviso] a lista atingiu o limite de {MAX_ENTRADAS} entradas sem achar nenhuma live — "
+                "pode haver live além do limite. Aumente MAX_ENTRADAS em scripts/fetch_live_video.py."
+            )
 
     if mudou:
         DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
