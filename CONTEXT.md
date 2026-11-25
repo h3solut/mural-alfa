@@ -205,6 +205,59 @@ novo, erro de rede, formato antigo, 1ª carga sem JSON). Não foi possível
 testar o yt-dlp real daqui (sem acesso ao YouTube); a detecção real foi
 validada pela execução manual #830.
 
+## Mural preso em "Aguardando a próxima transmissão…": limite de 15 entradas (resolvido em 25/11/2026)
+
+**Sintoma:** em 25/11/2026, às 08h27, o mural estava na tela "Aguardando
+a próxima transmissão…" havia mais de um dia (a página em si estava
+viva: indicadores com "agora", relógio andando). O `youtube-live.json`
+estava com `ao_vivo: false`, `falhas_seguidas: 2` e `atualizado_em`
+2026-11-24T02:15Z (23/11 às 23h15 em Brasília).
+
+**Investigação:**
+- O disparador e o workflow estavam saudáveis: execução #15700 (contra a
+  #837 de 05/10 → ~290 execuções/dia, o esperado a cada 5 min), as 15
+  últimas verdes, e o yt-dlp não dava erro (se desse, a execução ficaria
+  vermelha). O robô simplesmente "não achava live".
+- Abrindo a aba `https://www.youtube.com/@jovempannews/streams` no
+  navegador: ela lista **primeiro os programas agendados ("Em breve")** —
+  eram 19, até 27/11 — e só **depois** as transmissões ao vivo (o
+  "Jornal da Manhã - 2ª edição" e a câmera "Jovem Pan News Av. Paulista |
+  AO VIVO") e as passadas.
+- O script lia só as **15 primeiras entradas** (`playlistend: 15`), todas
+  agendamentos, então nunca chegava às lives. O canal agenda uns 3 dias à
+  frente (7 programas por dia) e a fila passou de 15 entradas por volta de
+  23/11 à noite, que foi quando o mural parou.
+- A ordem que o yt-dlp vê não foi conferida diretamente (sem acesso ao
+  YouTube a partir do ambiente do Claude), só a da página — que deve ser a
+  mesma. O log do robô confirmaria (veria só `is_upcoming`).
+
+**Correção (`scripts/fetch_live_video.py`):**
+- `MAX_ENTRADAS = 100` (antes 15), o que cobre uns 2 semanas de
+  programação agendada.
+- O log agora mostra o resumo de status da lista (ex.:
+  `is_upcoming=19, is_live=1…`) e, quando acha a live, a **posição** dela
+  na lista (`posição 20 na lista da aba Streams`), pra notar cedo se ela
+  está se aproximando do limite.
+- Se a lista vier cheia (≥ `MAX_ENTRADAS`) sem nenhuma live, o log traz um
+  `[aviso]` mandando aumentar o limite.
+- Reproduzido e testado com yt-dlp simulado (que respeita
+  `playlistend`): com 15 e 19 agendados à frente o bug aparece; com 100
+  acha a live; com 50 agendados ainda acha; o aviso de lista cheia
+  funciona; e o JSON preso em `ao_vivo: false` volta a `true` quando a
+  live é achada. A lógica de estado (1ª/2ª falha, ID novo etc.) segue
+  passando.
+
+**Duas lives ao mesmo tempo:** o robô pega a **primeira** `is_live` da
+lista. Hoje é o programa (a câmera da Paulista vem depois). Se algum dia
+só a câmera estiver ao vivo, o mural mostra a câmera em vez da tela de
+espera. Se for preferível ignorá-la, filtrar por título no script.
+
+**Como diagnosticar se voltar a parar:** no log do passo "Rodar o script"
+(precisa estar logado no GitHub), ver a linha `[debug] N vídeo(s)
+verificados (…)`: se for quase tudo `is_upcoming` ou aparecer
+`[aviso] a lista atingiu o limite`, o limite está curto. Comparar também
+com a aba do canal aberta no navegador.
+
 ## Chaves de API necessárias (GitHub Secrets)
 
 Configuradas em Settings → Secrets and variables → Actions:
@@ -320,6 +373,18 @@ se não achar live) escondia o problema: o mural seguia mostrando uma
 live encerrada, reexibida do começo pelo YouTube, sem nenhum aviso. Pra
 dado que "expira" (como uma transmissão ao vivo), gravar um estado
 explícito (`ao_vivo: false`) e deixar a página reagir a ele.
+
+### 12. A aba Streams do YouTube lista os agendados ("Em breve") ANTES das lives
+Ao listar `/@canal/streams` com yt-dlp, as primeiras entradas são os
+programas **agendados** (uns 20 no caso da Jovem Pan, e crescendo conforme
+o canal agenda mais dias à frente); as lives e as transmissões passadas
+vêm depois. Por isso **não limitar a leitura a poucas entradas**
+(`playlistend`): com 15, o robô nunca chegou às lives e o mural ficou
+preso em "Aguardando" por mais de um dia, sem erro nenhum (execuções
+verdes). Regra prática: quando um robô diz "não achei nada" mas a fonte
+tem o dado, **abrir a página da fonte e conferir a olho** antes de mexer
+no código — foi assim que a causa apareceu. E dar ao robô um log que
+explique o "não achei" (resumo dos status, posição, aviso de limite).
 
 ---
 
