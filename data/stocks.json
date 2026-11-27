@@ -2,38 +2,38 @@
   "br": [
     {
       "simbolo": "PETR4",
-      "preco": 42.43,
-      "variacao": 2.59
+      "preco": 43.19,
+      "variacao": 4.42
     },
     {
       "simbolo": "VALE3",
-      "preco": 58.11,
-      "variacao": 2.13
+      "preco": 58.73,
+      "variacao": 3.22
     },
     {
       "simbolo": "ITUB4",
-      "preco": 41.38,
-      "variacao": 3.42
+      "preco": 42.56,
+      "variacao": 6.37
     },
     {
       "simbolo": "BBDC4",
-      "preco": 15.05,
-      "variacao": 6.06
+      "preco": 15.83,
+      "variacao": 11.56
     },
     {
       "simbolo": "ABEV3",
-      "preco": 16.21,
-      "variacao": 2.53
+      "preco": 16.43,
+      "variacao": 3.92
     },
     {
       "simbolo": "B3SA3",
-      "preco": 15.45,
-      "variacao": 5.97
+      "preco": 16.16,
+      "variacao": 10.84
     },
     {
       "simbolo": "IBOVESPA",
-      "preco": 172409.56,
-      "variacao": 3.43
+      "preco": 176799.84,
+      "variacao": 6.07
     }
   ],
   "eua": [
@@ -68,5 +68,5 @@
       "variacao": -1.1802
     }
   ],
-  "atualizado_em": "2026-11-26T18:15:53.053846+00:00"
+  "atualizado_em": "2026-11-27T01:52:46.494672+00:00"
 }
